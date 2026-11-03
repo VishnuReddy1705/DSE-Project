@@ -1,0 +1,1004 @@
+Loan_ID,Customer_ID,Application_Date,Loan_Type,Loan_Purpose,Loan_Amount_INR,Loan_Term_Months,Interest_Rate_Percent,Monthly_Income_INR,Annual_Income_INR,Coapplicant_Income_INR,Monthly_Expenses_INR,Existing_Loan_Amount_INR,Existing_EMI_INR,Outstanding_Debt_INR,Debt_to_Income_Ratio,Previous_Loans,Previous_Defaults,Late_Payments,Delayed_Payment_Days,Loan_Approval_Status,Rejection_Reason_Code,Rejection_Reason
+LN0001,BANK0001,2026-04-12,Business Loan,Personal Expenses,277661,36,11.97,21050,252600,6300,14344,47439,1892,39880,0.167,2,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0002,BANK0002,2024-11-01,Business Loan,Debt Consolidation,182464,36,13.6,24822,297864,9134,9123,71372,5955,29242,0.347,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0003,BANK0003,2024-05-13,Vehicle Loan,Education,190610,12,15.5,17809,213708,0,7446,33847,4422,6144,0.426,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0004,BANK0004,2024-09-15,Home Loan,Education,100152,36,8.3,53946,647352,0,15981,98418,11805,47993,0.363,0,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0005,BANK0005,2025-08-15,Personal Loan,Debt Consolidation,183936,24,9.97,88252,1059024,10785,52899,203765,7477,124127,0.191,1,0,5,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0006,BANK0006,2026-06-29,Vehicle Loan,Business Expansion,123420,120,16.64,39557,474684,0,11323,68990,2381,11762,0.198,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0007,BANK0007,2025-12-08,Personal Loan,Personal Expenses,71745,120,10.86,104237,1250844,0,54325,413839,28513,195714,0.359,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0008,BANK0008,2026-04-01,Personal Loan,Home Purchase,210906,60,13.57,19169,230028,0,11436,11893,1970,6179,0.188,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0009,BANK0009,2026-06-02,Home Loan,Personal Expenses,78095,48,11.48,66328,795936,2990,28493,163536,7068,111494,0.221,2,1,2,15,Rejected,R01,Previous loan default recorded
+LN0010,BANK0010,2025-03-29,Home Loan,Personal Expenses,247148,84,16.86,43661,523932,0,27644,57942,4005,42494,0.243,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0011,BANK0011,2024-08-14,Vehicle Loan,Education,296318,24,13.0,16659,199908,0,6672,42716,3662,16902,0.39,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0012,BANK0012,2024-02-17,Personal Loan,Education,332170,24,12.88,24783,297396,1954,12868,87554,4292,54452,0.313,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0013,BANK0013,2026-02-06,Business Loan,Home Purchase,42502,36,8.44,21641,259692,0,10405,8512,454,2773,0.108,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0014,BANK0014,2025-03-08,Business Loan,Vehicle Purchase,621823,240,13.79,11707,140484,0,7513,31685,1517,19434,0.279,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0015,BANK0015,2025-03-10,Home Loan,Medical,874265,120,17.51,78941,947292,39694,34752,253142,20313,104589,0.327,0,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0016,BANK0016,2026-01-05,Education Loan,Medical,918109,48,9.13,86648,1039776,0,46926,304045,19467,65813,0.375,4,0,4,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0017,BANK0017,2026-01-28,Personal Loan,Home Purchase,616799,120,14.64,51097,613164,0,24240,109407,5870,68908,0.24,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0018,BANK0018,2026-03-07,Personal Loan,Debt Consolidation,306317,36,16.8,45628,547536,0,15889,5513,189,4257,0.133,2,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0019,BANK0019,2025-10-01,Personal Loan,Debt Consolidation,169799,120,16.03,26971,323652,11029,7954,52231,6191,40754,0.379,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0020,BANK0020,2025-09-14,Education Loan,Debt Consolidation,93580,120,14.65,68822,825864,0,45076,276105,16225,222259,0.331,3,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0021,BANK0021,2025-09-16,Vehicle Loan,Business Expansion,542759,120,15.63,16383,196596,0,9887,55344,1927,42918,0.195,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0022,BANK0022,2026-04-06,Business Loan,Business Expansion,113899,180,9.95,73399,880788,0,49754,286578,9576,69836,0.213,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0023,BANK0023,2025-02-22,Business Loan,Personal Expenses,795179,84,16.18,31266,375192,16062,17826,71113,3263,54988,0.254,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0024,BANK0024,2025-10-18,Business Loan,Home Purchase,92541,24,14.25,23180,278160,0,15496,180841,6309,66268,0.422,3,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0025,BANK0025,2024-07-07,Vehicle Loan,Medical,617139,12,14.99,24652,295824,0,10633,26555,1738,13263,0.24,1,0,2,30,Rejected,R03,High proposed debt-to-income ratio
+LN0026,BANK0026,2024-09-06,Personal Loan,Medical,300978,36,16.9,45871,550452,0,18366,17110,698,13490,0.147,1,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0027,BANK0027,2025-07-05,Business Loan,Business Expansion,154169,48,10.4,12978,155736,0,4259,47664,3337,15164,0.328,0,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0028,BANK0028,2024-12-08,Business Loan,Personal Expenses,153767,36,10.73,102313,1227756,0,31670,189547,7043,60138,0.175,2,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0029,BANK0029,2024-06-28,Education Loan,Personal Expenses,479316,84,11.32,64636,775632,18875,33635,6235,336,2236,0.159,2,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0030,BANK0030,2026-01-22,Education Loan,Vehicle Purchase,147861,60,12.48,73783,885396,0,49681,52665,4662,19736,0.191,2,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0031,BANK0031,2026-09-02,Vehicle Loan,Business Expansion,793405,48,14.93,17478,209736,10230,8864,66808,2491,45930,0.254,4,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0032,BANK0032,2024-02-09,Personal Loan,Business Expansion,246269,36,17.77,41198,494376,19151,21525,57818,6298,21965,0.293,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0033,BANK0033,2026-07-28,Vehicle Loan,Business Expansion,633515,240,15.65,44385,532620,0,28830,133285,5924,57585,0.219,2,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0034,BANK0034,2026-03-12,Home Loan,Home Purchase,177354,60,10.01,68945,827340,0,41155,288535,16416,198721,0.392,2,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0035,BANK0035,2026-01-22,Vehicle Loan,Medical,873024,60,10.46,2383,28596,0,1528,1499,142,853,0.16,4,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0036,BANK0036,2024-05-07,Personal Loan,Personal Expenses,58556,24,16.08,1418,17016,0,919,7999,296,2374,0.266,1,0,1,60,Rejected,R05,No current employment income
+LN0037,BANK0037,2025-12-05,Personal Loan,Vehicle Purchase,905440,36,11.92,85798,1029576,0,38389,116826,4214,101089,0.225,0,0,3,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0038,BANK0038,2024-01-18,Education Loan,Education,45741,240,9.31,60314,723768,0,42078,90907,5687,74408,0.206,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0039,BANK0039,2024-01-05,Vehicle Loan,Home Purchase,94913,36,14.2,21810,261720,0,8843,7215,600,5529,0.188,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0040,BANK0040,2024-04-19,Vehicle Loan,Personal Expenses,256288,48,14.96,9843,118116,0,5700,28116,1499,20401,0.243,2,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0041,BANK0041,2025-01-22,Business Loan,Business Expansion,373779,60,12.95,29163,349956,0,17919,52579,2591,34350,0.14,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0042,BANK0042,2025-11-26,Vehicle Loan,Home Purchase,58539,36,17.48,24338,292056,0,15050,17512,1850,15025,0.209,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0043,BANK0043,2024-11-13,Personal Loan,Vehicle Purchase,266018,36,13.28,70871,850452,32401,21347,84887,6257,34430,0.213,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0044,BANK0044,2026-02-07,Education Loan,Education,189963,240,10.82,8451,101412,0,5348,8579,595,3297,0.175,0,1,2,15,Rejected,R01,Previous loan default recorded
+LN0045,BANK0045,2025-09-23,Vehicle Loan,Medical,45888,48,16.12,35583,426996,0,15757,87069,6782,28217,0.337,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0046,BANK0046,2024-01-23,Personal Loan,Education,124639,12,17.08,28246,338952,0,19324,39361,2135,7932,0.148,3,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0047,BANK0047,2025-10-28,Home Loan,Medical,1028516,60,13.19,10465,125580,0,4864,41447,1427,24008,0.292,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0048,BANK0048,2025-11-06,Education Loan,Personal Expenses,1206363,48,8.22,21264,255168,7146,14629,10926,730,1930,0.115,2,0,4,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0049,BANK0049,2026-09-21,Home Loan,Medical,828248,84,12.74,33195,398340,0,20181,71430,4899,45484,0.291,1,0,2,5,Rejected,R03,High proposed debt-to-income ratio
+LN0050,BANK0050,2024-01-21,Vehicle Loan,Vehicle Purchase,146128,240,15.13,78266,939192,0,52336,33971,1540,7422,0.172,2,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0051,BANK0051,2026-05-26,Home Loan,Debt Consolidation,971477,60,8.22,27965,335580,6395,14546,178123,5979,138791,0.326,1,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0052,BANK0052,2024-08-15,Home Loan,Home Purchase,239615,24,13.15,86158,1033896,46202,30747,177312,9422,87227,0.231,1,0,4,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0053,BANK0053,2025-10-10,Home Loan,Personal Expenses,160389,36,11.96,14044,168528,0,9094,50618,2568,19827,0.359,2,0,1,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0054,BANK0054,2025-05-11,Education Loan,Home Purchase,56326,24,12.45,116335,1396020,48657,44013,698197,29860,230467,0.397,0,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0055,BANK0055,2026-07-17,Vehicle Loan,Home Purchase,136939,180,10.04,30891,370692,19953,15174,95869,4327,39615,0.198,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0056,BANK0056,2025-04-29,Home Loan,Debt Consolidation,556667,36,12.49,34255,411060,0,21560,57118,7473,42306,0.284,0,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0057,BANK0057,2026-06-22,Business Loan,Education,156764,36,16.69,19205,230460,0,7212,11746,413,4158,0.153,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0058,BANK0058,2024-10-03,Business Loan,Personal Expenses,172325,24,15.03,30698,368376,0,14877,51538,1995,15274,0.118,1,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0059,BANK0059,2024-10-29,Vehicle Loan,Home Purchase,1076087,120,13.46,28425,341100,17436,9180,41884,2272,26896,0.178,2,0,3,5,Approved,NA,Not Applicable - Loan Approved
+LN0060,BANK0060,2024-03-21,Home Loan,Debt Consolidation,174510,60,10.23,82660,991920,0,57001,220476,13485,112327,0.225,3,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0061,BANK0061,2026-03-14,Home Loan,Education,876175,84,12.74,51111,613332,27370,29737,104534,7979,24901,0.263,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0062,BANK0062,2025-10-29,Personal Loan,Education,82808,48,14.24,66776,801312,0,41902,8139,1263,7220,0.187,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0063,BANK0063,2025-03-17,Vehicle Loan,Education,59950,24,17.97,40762,489144,7862,21405,1463,57,784,0.138,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0064,BANK0064,2025-04-03,Personal Loan,Personal Expenses,100025,120,8.77,118290,1419480,69077,58257,569493,23911,419050,0.345,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0065,BANK0065,2026-08-25,Home Loan,Debt Consolidation,77140,60,16.21,13913,166956,0,3859,22428,1274,10703,0.271,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0066,BANK0066,2026-06-23,Business Loan,Vehicle Purchase,166720,84,9.29,25266,303192,14610,7239,36863,1593,16753,0.222,0,2,0,0,Rejected,R01,Previous loan default recorded
+LN0067,BANK0067,2025-09-08,Education Loan,Medical,85695,48,15.79,64092,769104,0,36386,154040,6564,70107,0.162,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0068,BANK0068,2025-07-01,Personal Loan,Debt Consolidation,1198568,120,11.57,15201,182412,1649,7704,16660,737,12156,0.207,1,0,3,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0069,BANK0069,2026-07-07,Home Loan,Business Expansion,339134,12,16.75,23858,286296,0,8762,126097,4251,61213,0.252,3,0,5,5,Rejected,R03,High proposed debt-to-income ratio
+LN0070,BANK0070,2024-10-08,Home Loan,Business Expansion,545831,24,17.92,52811,633732,289,28373,18430,922,14624,0.183,1,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0071,BANK0071,2025-12-19,Business Loan,Medical,277868,36,14.55,73318,879816,44257,37698,86116,13554,65258,0.29,1,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0072,BANK0072,2025-07-09,Personal Loan,Personal Expenses,191221,60,14.59,59669,716028,0,36518,199013,12770,108246,0.361,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0073,BANK0073,2026-03-06,Home Loan,Medical,124749,36,15.41,39243,470916,7865,26611,125858,8243,71372,0.266,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0074,BANK0074,2024-05-18,Education Loan,Business Expansion,316217,36,13.46,21949,263388,0,8783,33955,2896,17171,0.293,2,0,1,5,Rejected,R03,High proposed debt-to-income ratio
+LN0075,BANK0075,2024-09-19,Business Loan,Personal Expenses,234435,12,13.32,68219,818628,32027,42709,187665,11832,34629,0.339,1,2,0,0,Rejected,R01,Previous loan default recorded
+LN0076,BANK0076,2025-08-03,Home Loan,Business Expansion,87813,120,8.52,24957,299484,0,7984,21779,918,9190,0.2,3,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0077,BANK0077,2024-03-23,Vehicle Loan,Vehicle Purchase,407364,84,11.07,25537,306444,6234,15324,63039,6733,46237,0.38,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0078,BANK0078,2024-11-07,Personal Loan,Vehicle Purchase,212455,36,17.97,91622,1099464,19234,38906,40651,2413,29787,0.116,3,0,5,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0079,BANK0079,2025-08-12,Education Loan,Personal Expenses,262193,60,14.17,69090,829080,0,23460,36081,4646,10719,0.144,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0080,BANK0080,2026-08-03,Personal Loan,Education,208716,48,13.38,34656,415872,0,22518,261397,9081,72667,0.386,3,1,0,0,Rejected,R01,Previous loan default recorded
+LN0081,BANK0081,2024-06-27,Personal Loan,Vehicle Purchase,80169,180,8.36,53100,637200,0,24498,131467,8169,114690,0.305,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0082,BANK0082,2026-02-07,Education Loan,Debt Consolidation,669340,240,13.14,36427,437124,0,23332,10039,1624,8516,0.146,1,0,4,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0083,BANK0083,2025-05-15,Home Loan,Debt Consolidation,360258,60,15.34,99590,1195080,0,50508,219955,10593,110546,0.18,1,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN0084,BANK0084,2024-07-24,Business Loan,Business Expansion,319063,36,10.19,24652,295824,0,9694,21025,706,16482,0.112,0,1,1,15,Rejected,R01,Previous loan default recorded
+LN0085,BANK0085,2024-03-28,Home Loan,Personal Expenses,61229,240,13.64,67166,805992,0,46843,91357,13172,52418,0.269,1,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0086,BANK0086,2025-12-07,Vehicle Loan,Education,1076193,240,13.87,17500,210000,0,5037,60650,2894,48742,0.243,2,0,4,30,Rejected,R03,High proposed debt-to-income ratio
+LN0087,BANK0087,2026-03-05,Education Loan,Debt Consolidation,567398,12,14.42,73803,885636,0,37712,31839,3583,7678,0.108,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0088,BANK0088,2025-06-10,Vehicle Loan,Personal Expenses,265307,24,9.3,79557,954684,45247,38438,112638,6512,54964,0.224,0,1,2,5,Rejected,R01,Previous loan default recorded
+LN0089,BANK0089,2025-12-07,Home Loan,Vehicle Purchase,242957,36,12.11,56273,675276,0,17157,212094,10193,49425,0.262,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0090,BANK0090,2026-04-29,Home Loan,Education,617111,60,13.89,10504,126048,0,6281,47117,2632,42381,0.311,2,0,1,15,Rejected,R02,Insufficient monthly income
+LN0091,BANK0091,2025-07-05,Personal Loan,Debt Consolidation,40671,36,13.9,28606,343272,0,11392,158631,5477,106119,0.304,0,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0092,BANK0092,2025-03-12,Business Loan,Vehicle Purchase,178389,240,9.88,55632,667584,0,24163,147854,15017,82057,0.421,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0093,BANK0093,2024-11-02,Education Loan,Education,136399,60,13.2,3079,36948,0,1086,2990,147,2599,0.21,1,0,0,0,Rejected,R05,No current employment income
+LN0094,BANK0094,2024-07-12,Education Loan,Medical,101538,120,14.69,57454,689448,0,23689,86863,3423,25953,0.174,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0095,BANK0095,2026-04-07,Vehicle Loan,Business Expansion,43396,48,11.24,89288,1071456,0,48767,354330,18874,86113,0.383,1,0,3,5,Approved,NA,Not Applicable - Loan Approved
+LN0096,BANK0096,2024-03-06,Vehicle Loan,Personal Expenses,100188,24,15.24,41928,503136,19948,18708,98486,5225,43096,0.259,2,0,3,5,Approved,NA,Not Applicable - Loan Approved
+LN0097,BANK0097,2024-11-26,Business Loan,Vehicle Purchase,111681,36,11.03,47387,568644,0,16663,124210,4626,43914,0.194,1,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0098,BANK0098,2024-08-12,Education Loan,Education,674484,120,8.25,60856,730272,0,19912,90323,9376,47900,0.255,0,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0099,BANK0099,2024-10-14,Home Loan,Business Expansion,92979,180,13.42,62977,755724,0,26261,190146,13461,60987,0.275,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0100,BANK0100,2024-10-13,Vehicle Loan,Education,460421,12,13.59,21258,255096,0,8776,98724,3881,53144,0.241,1,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0101,BANK0101,2024-07-09,Personal Loan,Home Purchase,98643,120,8.75,52636,631632,10944,24183,141561,14187,83531,0.366,1,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0102,BANK0102,2024-02-13,Home Loan,Home Purchase,159738,84,12.61,6883,82596,0,2384,17930,1217,13641,0.27,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0103,BANK0103,2024-05-28,Education Loan,Vehicle Purchase,194958,24,8.97,18507,222084,0,12051,9346,316,2509,0.165,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0104,BANK0104,2026-08-02,Personal Loan,Vehicle Purchase,54594,120,8.25,79132,949584,0,48685,490914,17434,176208,0.286,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0105,BANK0105,2024-02-18,Personal Loan,Education,74008,36,15.67,64992,779904,0,30183,78600,9955,57918,0.33,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0106,BANK0106,2024-10-06,Business Loan,Business Expansion,47119,60,16.34,63444,761328,0,17609,68978,4373,23167,0.16,1,0,3,5,Approved,NA,Not Applicable - Loan Approved
+LN0107,BANK0107,2026-05-03,Education Loan,Debt Consolidation,179952,48,13.1,54124,649488,0,27007,138122,5917,30260,0.286,3,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0108,BANK0108,2026-07-15,Home Loan,Debt Consolidation,485890,180,8.92,89594,1075128,0,28183,199740,10242,148929,0.205,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0109,BANK0109,2024-11-05,Vehicle Loan,Vehicle Purchase,42417,36,8.84,70781,849372,33392,22949,78355,6868,24183,0.266,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0110,BANK0110,2025-04-15,Business Loan,Home Purchase,61970,48,9.19,43851,526212,0,29432,112260,6403,91179,0.246,1,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0111,BANK0111,2024-06-02,Business Loan,Medical,256782,48,16.6,26290,315480,0,7142,11976,410,1832,0.109,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0112,BANK0112,2025-09-08,Education Loan,Home Purchase,387892,36,17.69,38207,458484,11674,18702,25569,943,15393,0.152,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0113,BANK0113,2024-11-21,Vehicle Loan,Home Purchase,273214,60,12.83,17801,213612,0,7420,33146,1256,5100,0.216,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0114,BANK0114,2026-03-23,Personal Loan,Education,73201,36,10.61,70004,840048,0,35828,12505,424,9936,0.179,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0115,BANK0115,2026-09-10,Personal Loan,Vehicle Purchase,105967,36,15.16,91029,1092348,23282,58201,266314,19130,63535,0.328,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0116,BANK0116,2024-04-05,Home Loan,Home Purchase,926881,60,17.8,213601,2563212,36722,123525,695766,23227,591003,0.249,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0117,BANK0117,2025-07-16,Business Loan,Vehicle Purchase,900167,12,11.62,22073,264876,2972,14659,45316,2676,31215,0.189,2,0,3,5,Rejected,R03,High proposed debt-to-income ratio
+LN0118,BANK0118,2024-01-15,Home Loan,Education,105071,36,12.63,69275,831300,0,36940,177262,15651,80719,0.371,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0119,BANK0119,2024-06-12,Vehicle Loan,Home Purchase,95009,240,8.2,24476,293712,15342,11375,53396,5759,28291,0.408,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0120,BANK0120,2024-12-24,Vehicle Loan,Home Purchase,159582,48,15.81,42367,508404,0,21681,136960,9146,71883,0.319,1,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0121,BANK0121,2025-03-03,Business Loan,Vehicle Purchase,938320,12,17.09,37525,450300,0,10173,35403,4446,22191,0.188,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0122,BANK0122,2025-08-29,Personal Loan,Vehicle Purchase,93659,24,10.36,46484,557808,6325,32102,142317,5852,78647,0.293,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0123,BANK0123,2025-02-22,Home Loan,Business Expansion,137742,36,13.96,622,7464,0,404,1193,57,649,0.182,0,0,0,0,Rejected,R05,No current employment income
+LN0124,BANK0124,2024-05-24,Business Loan,Vehicle Purchase,50460,60,14.03,77541,930492,0,46746,42740,1537,22432,0.117,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0125,BANK0125,2026-03-25,Personal Loan,Business Expansion,82416,60,9.83,17013,204156,1281,9395,24926,1126,7900,0.165,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0126,BANK0126,2026-08-10,Personal Loan,Vehicle Purchase,77884,24,14.96,105363,1264356,41854,73212,56911,1989,44618,0.17,1,0,4,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0127,BANK0127,2025-04-28,Business Loan,Education,104997,36,14.56,38020,456240,9403,16006,218712,10307,92873,0.401,4,0,4,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0128,BANK0128,2025-05-27,Personal Loan,Debt Consolidation,347508,36,13.5,27430,329160,10629,6857,10715,747,3053,0.117,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0129,BANK0129,2026-02-22,Vehicle Loan,Debt Consolidation,543873,24,8.85,39557,474684,0,24396,27501,4091,12818,0.282,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0130,BANK0130,2026-09-27,Home Loan,Personal Expenses,330070,180,9.06,29992,359904,19106,18757,190010,7801,53601,0.355,2,0,5,60,Approved,NA,Not Applicable - Loan Approved
+LN0131,BANK0131,2024-09-06,Business Loan,Personal Expenses,818500,36,16.29,23623,283476,0,12990,2199,145,1202,0.074,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0132,BANK0132,2025-12-01,Business Loan,Vehicle Purchase,88689,48,8.87,40623,487476,23478,26895,180994,9154,103832,0.349,2,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN0133,BANK0133,2025-02-05,Personal Loan,Education,152185,60,14.9,42204,506448,0,11951,13808,1996,12370,0.178,1,0,5,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0134,BANK0134,2025-10-01,Education Loan,Vehicle Purchase,60121,36,9.94,85950,1031400,0,44644,77139,4287,63427,0.113,2,1,2,5,Rejected,R01,Previous loan default recorded
+LN0135,BANK0135,2026-09-03,Vehicle Loan,Education,525969,240,11.95,30181,362172,4721,19582,118831,8112,59605,0.422,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0136,BANK0136,2026-03-08,Business Loan,Business Expansion,1187421,84,11.93,32808,393696,369,8218,3243,284,898,0.128,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0137,BANK0137,2026-01-08,Vehicle Loan,Business Expansion,250957,60,13.71,11448,137376,0,2907,49692,2869,32158,0.327,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0138,BANK0138,2024-09-28,Education Loan,Business Expansion,52595,60,12.44,104616,1255392,0,42423,543463,26247,204978,0.31,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0139,BANK0139,2026-04-24,Education Loan,Medical,52032,60,16.69,13504,162048,6175,9369,13339,546,2354,0.124,1,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0140,BANK0140,2025-07-30,Vehicle Loan,Home Purchase,769905,120,8.11,56817,681804,26227,22466,330024,14499,292086,0.319,3,0,5,90,Approved,NA,Not Applicable - Loan Approved
+LN0141,BANK0141,2025-02-19,Education Loan,Debt Consolidation,48604,120,9.01,14735,176820,0,9201,107416,3677,86220,0.364,2,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0142,BANK0142,2024-09-07,Personal Loan,Business Expansion,427843,24,17.19,30670,368040,0,18802,36237,3729,31341,0.243,1,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0143,BANK0143,2025-11-17,Business Loan,Business Expansion,597331,12,9.94,39695,476340,0,18551,297759,10525,154536,0.386,3,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0144,BANK0144,2024-11-10,Home Loan,Business Expansion,170652,48,12.35,165210,1982520,0,82512,320346,23089,188453,0.257,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0145,BANK0145,2025-06-02,Education Loan,Education,177591,84,12.65,29966,359592,15136,14617,17625,663,9369,0.18,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0146,BANK0146,2026-04-26,Business Loan,Home Purchase,557414,60,10.14,3622,43464,0,1654,16575,691,5137,0.33,2,0,0,0,Rejected,R05,No current employment income
+LN0147,BANK0147,2026-06-02,Personal Loan,Personal Expenses,1014010,12,9.2,29539,354468,0,13888,56909,3296,44345,0.242,1,0,2,15,Rejected,R03,High proposed debt-to-income ratio
+LN0148,BANK0148,2025-05-27,Education Loan,Business Expansion,917448,36,12.39,45085,541020,0,15993,184529,11354,121652,0.318,3,2,0,0,Rejected,R01,Previous loan default recorded
+LN0149,BANK0149,2024-02-15,Business Loan,Debt Consolidation,126528,180,9.96,21010,252120,0,14556,44651,3181,27771,0.314,3,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0150,BANK0150,2024-10-10,Education Loan,Home Purchase,80977,36,13.56,45997,551964,0,29136,209253,11044,86613,0.348,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0151,BANK0151,2025-04-29,Home Loan,Vehicle Purchase,183136,60,9.83,31300,375600,0,14030,54677,2018,21106,0.186,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0152,BANK0152,2026-07-06,Vehicle Loan,Medical,81682,60,8.73,459,5508,106,246,297,40,255,0.167,0,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0153,BANK0153,2024-03-15,Vehicle Loan,Business Expansion,62060,60,14.22,68712,824544,5716,26207,302597,10356,64077,0.318,1,0,3,60,Approved,NA,Not Applicable - Loan Approved
+LN0154,BANK0154,2024-04-24,Education Loan,Business Expansion,582358,12,11.43,5188,62256,0,2946,15894,864,13096,0.283,0,0,2,60,Rejected,R05,No current employment income
+LN0155,BANK0155,2026-09-18,Home Loan,Personal Expenses,349677,12,17.39,94060,1128720,20479,46464,570763,19988,499287,0.341,2,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0156,BANK0156,2025-08-15,Vehicle Loan,Personal Expenses,89501,180,11.91,62312,747744,0,32443,50852,4631,24285,0.24,1,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0157,BANK0157,2024-04-07,Personal Loan,Personal Expenses,73585,12,17.39,57754,693048,0,36119,445049,15858,361857,0.452,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0158,BANK0158,2024-04-10,Home Loan,Vehicle Purchase,378489,60,13.25,50526,606312,0,31449,151273,5264,73886,0.23,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0159,BANK0159,2026-06-13,Education Loan,Home Purchase,70052,120,8.34,65401,784812,0,17306,164159,12131,85385,0.328,3,0,2,60,Approved,NA,Not Applicable - Loan Approved
+LN0160,BANK0160,2026-09-09,Personal Loan,Business Expansion,60029,48,8.19,44443,533316,0,23462,29490,4352,8428,0.216,3,2,1,5,Rejected,R01,Previous loan default recorded
+LN0161,BANK0161,2025-09-10,Vehicle Loan,Home Purchase,77291,84,10.66,62875,754500,13888,25949,220820,15230,160963,0.335,1,2,0,0,Rejected,R01,Previous loan default recorded
+LN0162,BANK0162,2025-11-21,Personal Loan,Medical,166301,24,12.05,68292,819504,0,27921,46697,5976,33002,0.263,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0163,BANK0163,2026-09-23,Personal Loan,Vehicle Purchase,710303,36,11.28,24719,296628,15242,15129,142402,4961,112098,0.364,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0164,BANK0164,2024-02-06,Personal Loan,Home Purchase,672163,12,13.97,25528,306336,4378,9491,60356,3402,24369,0.24,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0165,BANK0165,2025-02-09,Personal Loan,Medical,380478,48,11.74,9330,111960,5406,3428,9664,544,4343,0.166,0,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0166,BANK0166,2025-01-15,Home Loan,Education,1206460,84,13.46,24718,296616,165,15779,72289,4744,49426,0.279,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0167,BANK0167,2024-11-06,Education Loan,Debt Consolidation,178978,120,10.23,10630,127560,0,3948,14020,509,5141,0.18,1,1,1,15,Rejected,R01,Previous loan default recorded
+LN0168,BANK0168,2026-01-26,Home Loan,Debt Consolidation,572216,24,13.47,26934,323208,0,16246,158156,5508,126896,0.28,2,0,2,30,Rejected,R03,High proposed debt-to-income ratio
+LN0169,BANK0169,2025-08-15,Home Loan,Debt Consolidation,308880,12,10.27,23772,285264,0,9026,39341,4706,17398,0.291,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0170,BANK0170,2025-09-02,Business Loan,Vehicle Purchase,966662,120,8.65,59513,714156,23032,40389,70810,5579,62359,0.24,2,0,4,5,Approved,NA,Not Applicable - Loan Approved
+LN0171,BANK0171,2025-06-10,Business Loan,Business Expansion,132660,180,13.72,26870,322440,4876,7071,30498,4776,21166,0.311,2,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0172,BANK0172,2024-07-30,Home Loan,Personal Expenses,854247,120,14.31,56754,681048,0,14727,40387,1925,19632,0.165,2,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0173,BANK0173,2025-01-02,Personal Loan,Business Expansion,65048,12,13.07,129397,1552764,15037,46963,91707,10270,38909,0.139,0,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0174,BANK0174,2025-02-27,Business Loan,Home Purchase,1054117,48,8.55,24275,291300,0,13304,96378,4151,41742,0.235,4,0,1,30,Rejected,R03,High proposed debt-to-income ratio
+LN0175,BANK0175,2025-07-30,Home Loan,Vehicle Purchase,165683,120,13.76,76193,914316,0,52921,60225,9850,40815,0.3,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0176,BANK0176,2026-04-21,Education Loan,Education,436166,36,10.36,62612,751344,25676,31711,142254,12168,70365,0.327,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0177,BANK0177,2026-08-25,Business Loan,Business Expansion,304066,24,9.4,40217,482604,20118,23283,44570,2697,27531,0.135,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0178,BANK0178,2024-07-12,Home Loan,Vehicle Purchase,81746,48,16.48,66900,802800,0,38362,130991,15608,104630,0.336,4,1,3,30,Rejected,R01,Previous loan default recorded
+LN0179,BANK0179,2024-12-20,Personal Loan,Personal Expenses,289846,120,8.6,51612,619344,20408,20834,296536,10220,206933,0.361,1,0,3,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0180,BANK0180,2026-08-16,Education Loan,Business Expansion,43215,84,10.53,18023,216276,0,8568,84930,4962,36961,0.346,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0181,BANK0181,2024-03-19,Personal Loan,Personal Expenses,691510,36,14.03,57760,693120,0,20580,317630,13599,265300,0.292,1,0,2,5,Rejected,R03,High proposed debt-to-income ratio
+LN0182,BANK0182,2024-08-27,Business Loan,Home Purchase,800760,180,15.1,23611,283332,0,8905,31058,1894,24097,0.227,0,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0183,BANK0183,2025-07-03,Vehicle Loan,Debt Consolidation,91222,36,9.84,166827,2001924,0,76409,566758,33616,323733,0.321,1,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN0184,BANK0184,2026-09-30,Home Loan,Debt Consolidation,138156,60,17.75,27395,328740,0,13141,103447,5550,54552,0.292,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0185,BANK0185,2026-07-17,Education Loan,Education,60049,36,13.43,65246,782952,0,39307,237246,11007,152174,0.278,0,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0186,BANK0186,2025-03-05,Education Loan,Home Purchase,826032,24,16.53,62592,751104,39677,30553,224612,10938,71915,0.319,1,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0187,BANK0187,2026-06-01,Vehicle Loan,Business Expansion,57297,12,14.25,8239,98868,453,5072,8850,405,5948,0.106,3,0,0,0,Rejected,R05,No current employment income
+LN0188,BANK0188,2026-07-11,Business Loan,Debt Consolidation,272247,48,8.2,32565,390780,0,13437,4284,443,1568,0.111,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0189,BANK0189,2024-06-07,Education Loan,Business Expansion,87896,84,16.21,1757,21084,628,998,7683,314,6841,0.352,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0190,BANK0190,2026-08-09,Personal Loan,Debt Consolidation,701229,240,15.23,27413,328956,0,13374,46713,1781,27038,0.183,3,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0191,BANK0191,2025-02-15,Vehicle Loan,Business Expansion,494785,36,17.58,16999,203988,0,4345,24579,1424,6418,0.158,1,1,1,5,Rejected,R01,Previous loan default recorded
+LN0192,BANK0192,2025-09-05,Education Loan,Home Purchase,102617,24,11.59,23643,283716,0,7486,166074,5768,54016,0.4,0,0,4,90,Approved,NA,Not Applicable - Loan Approved
+LN0193,BANK0193,2024-10-03,Vehicle Loan,Home Purchase,492967,48,15.42,36947,443364,0,16408,180498,9946,122250,0.361,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0194,BANK0194,2024-12-15,Personal Loan,Debt Consolidation,101393,60,11.75,7240,86880,286,4391,19898,949,3631,0.189,1,1,2,5,Rejected,R01,Previous loan default recorded
+LN0195,BANK0195,2026-01-08,Business Loan,Medical,193754,48,11.73,106141,1273692,0,72448,398961,23309,148866,0.373,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0196,BANK0196,2026-08-16,Education Loan,Personal Expenses,931230,24,10.16,15854,190248,8138,9149,26133,2195,19476,0.253,2,0,3,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0197,BANK0197,2026-02-17,Education Loan,Debt Consolidation,225785,12,14.88,35815,429780,0,24295,3913,268,1584,0.179,0,0,3,15,Rejected,R03,High proposed debt-to-income ratio
+LN0198,BANK0198,2025-05-09,Business Loan,Medical,614110,120,17.01,19570,234840,0,9144,104507,3634,67034,0.363,0,0,3,90,Rejected,R03,High proposed debt-to-income ratio
+LN0199,BANK0199,2024-03-06,Home Loan,Personal Expenses,68375,84,9.41,94756,1137072,0,49169,235010,20091,95751,0.303,1,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0200,BANK0200,2024-12-22,Home Loan,Debt Consolidation,578938,84,14.06,41275,495300,24755,10345,46611,1576,27457,0.187,3,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0201,BANK0201,2024-03-11,Home Loan,Home Purchase,364372,36,8.35,28289,339468,0,11393,133762,6579,55985,0.314,2,1,1,5,Rejected,R01,Previous loan default recorded
+LN0202,BANK0202,2026-07-23,Home Loan,Education,568878,60,12.63,24559,294708,0,10059,25929,3129,19106,0.261,0,0,2,60,Rejected,R03,High proposed debt-to-income ratio
+LN0203,BANK0203,2026-01-23,Vehicle Loan,Personal Expenses,121273,48,17.37,25521,306252,0,9536,116927,5358,55878,0.318,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0204,BANK0204,2026-09-10,Business Loan,Business Expansion,439576,180,12.34,19264,231168,320,8990,62418,2533,54868,0.283,4,0,1,90,Approved,NA,Not Applicable - Loan Approved
+LN0205,BANK0205,2024-10-14,Home Loan,Vehicle Purchase,58162,84,10.56,19518,234216,0,5774,48930,1887,38457,0.222,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0206,BANK0206,2025-10-21,Personal Loan,Debt Consolidation,82535,60,8.94,18415,220980,0,8370,43191,3335,36064,0.284,1,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0207,BANK0207,2025-08-22,Vehicle Loan,Home Purchase,632736,84,11.84,39968,479616,0,19458,54579,6629,42773,0.324,0,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0208,BANK0208,2024-01-27,Education Loan,Debt Consolidation,58838,120,9.84,53424,641088,16757,22804,151106,5671,44793,0.163,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0209,BANK0209,2024-08-03,Business Loan,Education,164038,60,8.4,62980,755760,23626,24729,338617,15238,289377,0.311,4,0,4,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0210,BANK0210,2024-02-11,Personal Loan,Debt Consolidation,997534,84,13.93,52379,628548,0,15384,50488,1972,12556,0.106,2,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0211,BANK0211,2026-10-20,Business Loan,Business Expansion,453529,60,17.13,62426,749112,0,43233,102728,4153,42587,0.167,3,1,3,30,Rejected,R01,Previous loan default recorded
+LN0212,BANK0212,2026-02-02,Education Loan,Business Expansion,52938,24,12.77,18459,221508,0,7687,93345,3631,70755,0.331,0,1,1,60,Rejected,R01,Previous loan default recorded
+LN0213,BANK0213,2025-01-18,Education Loan,Business Expansion,201500,84,8.5,23317,279804,0,15547,5447,272,2039,0.123,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0214,BANK0214,2026-06-05,Vehicle Loan,Personal Expenses,238733,24,11.89,33103,397236,0,14413,193477,7302,61054,0.274,2,0,2,5,Rejected,R03,High proposed debt-to-income ratio
+LN0215,BANK0215,2025-09-19,Vehicle Loan,Education,1088780,24,10.66,42745,512940,0,21170,17913,2322,15871,0.146,2,0,1,30,Rejected,R03,High proposed debt-to-income ratio
+LN0216,BANK0216,2026-01-28,Business Loan,Business Expansion,139747,240,10.39,31533,378396,0,12855,89189,3962,73666,0.219,3,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0217,BANK0217,2025-04-21,Business Loan,Medical,48886,60,12.19,50394,604728,18452,31345,99752,13507,88203,0.357,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0218,BANK0218,2024-03-26,Business Loan,Personal Expenses,59785,84,15.67,46372,556464,20704,12567,64218,4641,13747,0.227,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0219,BANK0219,2026-07-29,Personal Loan,Business Expansion,99844,180,14.73,58082,696984,0,32852,25287,4090,18045,0.17,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0220,BANK0220,2025-04-09,Education Loan,Home Purchase,124938,60,12.04,38267,459204,0,22217,229897,8475,39102,0.272,4,0,3,5,Approved,NA,Not Applicable - Loan Approved
+LN0221,BANK0221,2024-05-29,Education Loan,Debt Consolidation,90549,240,8.79,19552,234624,0,5953,105665,5163,49197,0.412,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0222,BANK0222,2025-03-18,Home Loan,Personal Expenses,117468,48,16.58,28988,347856,0,11172,46598,1720,7701,0.184,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0223,BANK0223,2026-05-18,Education Loan,Business Expansion,817659,84,11.05,96859,1162308,0,29736,589668,23081,360720,0.354,1,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0224,BANK0224,2024-03-04,Vehicle Loan,Vehicle Purchase,238610,180,11.12,18659,223908,10890,11818,45657,3438,17139,0.361,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0225,BANK0225,2024-10-31,Home Loan,Education,66879,36,10.61,34663,415956,0,19054,146957,5004,71131,0.203,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0226,BANK0226,2024-04-08,Business Loan,Home Purchase,85458,84,13.94,44533,534396,0,22241,183123,6529,39150,0.244,1,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0227,BANK0227,2024-06-05,Home Loan,Business Expansion,792691,12,8.88,36035,432420,0,18826,84169,5343,58211,0.288,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0228,BANK0228,2024-02-15,Personal Loan,Business Expansion,78243,48,9.42,81050,972600,0,42632,8607,1422,1992,0.151,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0229,BANK0229,2025-08-13,Education Loan,Vehicle Purchase,213002,48,17.76,38403,460836,0,22827,51631,7866,32622,0.3,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0230,BANK0230,2025-12-26,Business Loan,Medical,55397,120,9.62,56224,674688,0,30768,47054,6126,28409,0.278,3,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0231,BANK0231,2024-12-23,Vehicle Loan,Debt Consolidation,638869,48,12.63,655,7860,0,353,320,18,168,0.109,0,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0232,BANK0232,2025-05-29,Business Loan,Medical,921763,36,13.2,9781,117372,0,6189,16676,1729,11835,0.235,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0233,BANK0233,2025-05-15,Vehicle Loan,Education,180602,60,15.74,18294,219528,0,10100,105308,4551,76028,0.318,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0234,BANK0234,2025-04-26,Education Loan,Debt Consolidation,795206,84,10.17,27446,329352,13649,13521,166250,6055,58976,0.395,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0235,BANK0235,2025-09-21,Business Loan,Debt Consolidation,188371,84,13.88,50282,603384,0,18354,284463,11783,210316,0.352,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0236,BANK0236,2024-10-17,Vehicle Loan,Business Expansion,151219,180,13.7,8780,105360,0,4768,11770,584,4570,0.14,1,0,0,0,Rejected,R05,No current employment income
+LN0237,BANK0237,2024-08-23,Personal Loan,Debt Consolidation,94590,12,16.97,48309,579708,0,20090,107920,7444,63699,0.305,0,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0238,BANK0238,2026-04-17,Business Loan,Medical,887904,48,8.88,38417,461004,0,26060,244025,10483,63472,0.361,3,0,2,15,Rejected,R03,High proposed debt-to-income ratio
+LN0239,BANK0239,2024-02-06,Vehicle Loan,Education,50468,36,15.86,65770,789240,0,24167,23944,3394,15380,0.144,2,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0240,BANK0240,2026-04-23,Vehicle Loan,Personal Expenses,175466,120,10.22,11497,137964,0,3208,81710,2832,53094,0.364,0,0,0,0,Rejected,R02,Insufficient monthly income
+LN0241,BANK0241,2026-06-12,Business Loan,Home Purchase,83174,48,14.22,57193,686316,0,37845,149555,7438,130323,0.202,1,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0242,BANK0242,2025-11-25,Home Loan,Personal Expenses,80443,24,17.84,40798,489576,8651,17849,137186,5482,112574,0.288,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0243,BANK0243,2025-10-29,Business Loan,Vehicle Purchase,49128,36,17.63,38699,464388,0,14681,63480,2384,13210,0.116,1,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0244,BANK0244,2025-09-18,Home Loan,Personal Expenses,147236,60,14.91,30932,371184,0,19374,22305,911,12338,0.127,1,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0245,BANK0245,2025-05-19,Business Loan,Home Purchase,370218,48,9.26,91634,1099608,47488,32023,288883,21035,219740,0.352,1,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0246,BANK0246,2025-10-20,Education Loan,Medical,917487,36,10.52,1874,22488,0,1129,7664,451,5742,0.326,1,0,1,30,Rejected,R05,No current employment income
+LN0247,BANK0247,2024-07-14,Home Loan,Debt Consolidation,603235,180,8.9,37231,446772,17768,19639,86718,7691,50817,0.317,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0248,BANK0248,2025-01-04,Home Loan,Vehicle Purchase,906541,48,12.99,13358,160296,5983,5769,22417,854,5979,0.173,3,0,2,30,Rejected,R03,High proposed debt-to-income ratio
+LN0249,BANK0249,2026-03-22,Personal Loan,Vehicle Purchase,76085,48,17.2,24426,293112,0,16604,45997,3287,17676,0.201,3,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0250,BANK0250,2024-10-16,Home Loan,Education,237114,36,12.06,82292,987504,0,42856,212514,9651,51572,0.284,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0251,BANK0251,2024-12-14,Education Loan,Vehicle Purchase,176452,120,12.29,24640,295680,0,14419,84707,3128,50598,0.19,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0252,BANK0252,2025-02-27,Business Loan,Home Purchase,85914,84,16.19,31117,373404,3497,10931,115057,7618,79722,0.381,1,2,2,30,Rejected,R01,Previous loan default recorded
+LN0253,BANK0253,2025-01-24,Business Loan,Home Purchase,734380,180,8.63,23803,285636,0,10899,155225,5498,57902,0.409,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0254,BANK0254,2025-09-16,Vehicle Loan,Vehicle Purchase,733172,24,10.88,51273,615276,0,16740,15298,1811,7149,0.182,4,0,5,30,Rejected,R03,High proposed debt-to-income ratio
+LN0255,BANK0255,2024-12-06,Business Loan,Home Purchase,357472,24,16.62,29080,348960,0,20221,66030,2768,49876,0.208,2,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0256,BANK0256,2025-05-07,Education Loan,Home Purchase,96723,36,12.36,58802,705624,25970,23497,102247,4416,20602,0.206,1,1,1,30,Rejected,R01,Previous loan default recorded
+LN0257,BANK0257,2026-01-11,Education Loan,Business Expansion,107676,48,11.68,23832,285984,0,12831,43523,4182,30446,0.226,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0258,BANK0258,2026-08-12,Home Loan,Vehicle Purchase,561870,120,14.91,28311,339732,0,14773,6114,265,2299,0.14,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0259,BANK0259,2024-01-18,Personal Loan,Business Expansion,87850,120,9.97,51198,614376,0,18217,45105,6246,10551,0.24,1,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0260,BANK0260,2026-06-07,Vehicle Loan,Medical,248619,36,14.36,41,492,0,24,0,0,0,0.06,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0261,BANK0261,2025-07-28,Vehicle Loan,Education,104588,84,13.26,76233,914796,24206,36755,66109,3009,52606,0.112,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0262,BANK0262,2025-11-17,Education Loan,Medical,119726,84,16.2,39088,469056,17316,11502,15354,1957,5694,0.154,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0263,BANK0263,2025-05-12,Personal Loan,Personal Expenses,255045,84,13.2,17964,215568,8335,5749,83737,4215,45674,0.379,2,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0264,BANK0264,2026-05-16,Home Loan,Home Purchase,814316,48,11.86,30303,363636,2819,13358,164606,6569,49321,0.301,4,0,2,5,Rejected,R03,High proposed debt-to-income ratio
+LN0265,BANK0265,2025-05-10,Personal Loan,Vehicle Purchase,342465,180,8.59,146440,1757280,50703,101328,143426,7755,89999,0.113,2,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0266,BANK0266,2024-06-01,Business Loan,Debt Consolidation,75686,240,15.98,48652,583824,0,31701,39693,3281,26251,0.247,4,1,1,60,Rejected,R01,Previous loan default recorded
+LN0267,BANK0267,2026-09-10,Education Loan,Debt Consolidation,80961,24,11.79,36259,435108,0,23278,33743,1170,17611,0.185,1,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0268,BANK0268,2024-02-12,Personal Loan,Business Expansion,124366,60,8.84,54329,651948,0,25963,104262,7914,64166,0.27,1,0,1,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0269,BANK0269,2026-04-02,Personal Loan,Vehicle Purchase,75073,180,9.36,16757,201084,5238,9664,80510,3892,49757,0.324,3,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0270,BANK0270,2026-05-22,Vehicle Loan,Business Expansion,905904,48,13.88,36811,441732,0,15515,37817,1524,32445,0.213,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0271,BANK0271,2026-06-19,Business Loan,Debt Consolidation,872066,84,10.25,119769,1437228,0,61217,272584,10906,196257,0.26,3,1,0,0,Rejected,R01,Previous loan default recorded
+LN0272,BANK0272,2025-11-07,Education Loan,Medical,270923,120,14.13,28795,345540,0,19246,181571,7112,135383,0.418,1,0,4,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0273,BANK0273,2024-02-09,Personal Loan,Business Expansion,49763,180,8.27,66148,793776,0,35612,162244,8165,109793,0.231,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0274,BANK0274,2026-09-07,Business Loan,Medical,57992,180,14.86,29701,356412,0,15507,81584,4295,17858,0.223,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0275,BANK0275,2024-08-11,Home Loan,Personal Expenses,319890,120,13.52,29006,348072,0,7930,100066,7363,71379,0.389,3,2,0,0,Rejected,R01,Previous loan default recorded
+LN0276,BANK0276,2026-04-02,Education Loan,Education,458786,84,9.57,52587,631044,0,15401,44797,4729,36429,0.202,1,2,2,5,Rejected,R01,Previous loan default recorded
+LN0277,BANK0277,2025-01-18,Education Loan,Business Expansion,67328,24,15.2,24592,295104,0,7210,139655,6358,112413,0.401,1,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0278,BANK0278,2025-01-16,Personal Loan,Home Purchase,185359,48,9.91,243510,2922120,95647,81495,804834,43739,721582,0.23,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0279,BANK0279,2026-07-15,Business Loan,Home Purchase,86613,60,9.37,61402,736824,34053,28245,258041,11691,148355,0.331,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0280,BANK0280,2025-11-26,Education Loan,Business Expansion,248649,60,17.45,17233,206796,0,8447,71756,4180,61631,0.414,0,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0281,BANK0281,2025-10-04,Home Loan,Personal Expenses,229772,60,10.21,21459,257508,0,11935,39029,1862,30572,0.248,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0282,BANK0282,2025-04-20,Personal Loan,Education,680457,240,13.12,30841,370092,0,18459,121017,6843,88125,0.278,3,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0283,BANK0283,2024-04-30,Vehicle Loan,Education,174536,24,16.66,52781,633372,0,20491,91678,9320,49924,0.336,2,0,4,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0284,BANK0284,2024-12-17,Business Loan,Vehicle Purchase,372625,36,14.47,7173,86076,0,2616,3673,159,2369,0.147,1,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0285,BANK0285,2026-01-12,Business Loan,Debt Consolidation,376471,48,8.74,9492,113904,0,4476,1106,51,246,0.159,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0286,BANK0286,2024-07-26,Education Loan,Vehicle Purchase,663572,120,8.07,90687,1088244,0,45888,82877,12802,25542,0.292,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0287,BANK0287,2024-10-03,Business Loan,Home Purchase,735695,60,10.13,84163,1009956,0,48074,112501,5812,98402,0.158,1,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0288,BANK0288,2025-07-02,Business Loan,Medical,343541,36,9.68,49505,594060,0,16543,32563,2423,7258,0.116,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0289,BANK0289,2024-05-30,Education Loan,Business Expansion,299505,180,10.82,62170,746040,0,40071,66241,4832,51169,0.133,1,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0290,BANK0290,2025-12-27,Business Loan,Medical,71948,180,9.62,50597,607164,0,24710,34922,3277,22511,0.148,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0291,BANK0291,2024-09-18,Home Loan,Home Purchase,136802,36,17.07,20613,247356,3177,9818,133617,4696,67854,0.306,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0292,BANK0292,2025-03-14,Personal Loan,Business Expansion,66270,12,16.75,77308,927696,0,39517,196144,8744,66536,0.277,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0293,BANK0293,2024-05-15,Personal Loan,Personal Expenses,139349,180,10.19,31853,382236,0,16740,101101,4920,28975,0.228,3,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0294,BANK0294,2025-06-21,Business Loan,Vehicle Purchase,64612,60,16.64,38364,460368,0,14381,111573,3812,37010,0.176,0,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN0295,BANK0295,2024-12-08,Business Loan,Vehicle Purchase,770934,36,12.65,112429,1349148,18952,75158,196047,6747,152438,0.174,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0296,BANK0296,2024-12-17,Business Loan,Education,160139,12,9.99,10287,123444,4980,2965,428,36,79,0.091,0,0,2,15,Rejected,R05,No current employment income
+LN0297,BANK0297,2024-01-19,Business Loan,Vehicle Purchase,459432,36,14.44,200439,2405268,0,98022,447719,21870,111186,0.243,1,1,1,15,Rejected,R01,Previous loan default recorded
+LN0298,BANK0298,2025-10-26,Education Loan,Medical,37740,48,13.01,40149,481788,0,27281,4599,245,1562,0.138,2,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0299,BANK0299,2025-07-18,Business Loan,Medical,56512,180,9.03,13715,164580,0,7967,32413,2875,28525,0.273,1,0,4,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0300,BANK0300,2026-01-18,Vehicle Loan,Business Expansion,779370,180,17.3,18452,221424,0,12222,46358,2473,15925,0.274,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0301,BANK0301,2025-02-24,Business Loan,Business Expansion,796087,120,12.11,15269,183228,0,7998,59865,2313,24863,0.269,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0302,BANK0302,2026-09-24,Education Loan,Debt Consolidation,105506,36,9.72,39768,477216,0,13418,50101,5341,8127,0.298,1,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0303,BANK0303,2024-10-14,Home Loan,Debt Consolidation,126217,36,17.81,24051,288612,0,9244,85065,3844,73149,0.312,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0304,BANK0304,2024-10-21,Personal Loan,Medical,243266,36,15.63,24791,297492,0,13843,7694,479,6791,0.138,3,0,5,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0305,BANK0305,2024-05-21,Personal Loan,Business Expansion,132788,60,11.25,8432,101184,0,3951,4888,472,4223,0.212,0,0,0,0,Rejected,R05,No current employment income
+LN0306,BANK0306,2024-02-01,Home Loan,Education,64921,36,16.71,450,5400,210,300,941,37,410,0.227,3,0,0,0,Rejected,R05,No current employment income
+LN0307,BANK0307,2024-03-19,Personal Loan,Debt Consolidation,97129,120,8.14,27416,328992,0,12820,66011,2538,47450,0.231,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0308,BANK0308,2026-01-23,Vehicle Loan,Home Purchase,83296,48,10.66,95943,1151316,0,24954,145216,5362,53525,0.223,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0309,BANK0309,2024-05-16,Business Loan,Vehicle Purchase,91441,60,9.49,38193,458316,0,24192,70203,4098,10611,0.19,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0310,BANK0310,2025-08-25,Business Loan,Education,58361,24,11.16,7771,93252,0,5019,13974,717,3463,0.176,0,0,3,15,Rejected,R05,No current employment income
+LN0311,BANK0311,2025-12-31,Personal Loan,Personal Expenses,1131129,120,17.48,29086,349032,0,15079,14207,1187,2984,0.117,4,0,3,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0312,BANK0312,2025-02-05,Vehicle Loan,Debt Consolidation,903996,84,8.54,35343,424116,0,12551,19800,2650,10839,0.17,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0313,BANK0313,2024-10-31,Business Loan,Personal Expenses,159694,36,12.6,16700,200400,0,7637,27328,1687,17022,0.259,2,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0314,BANK0314,2024-05-20,Education Loan,Medical,820164,12,16.98,27696,332352,16268,7717,33796,4571,22336,0.235,0,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0315,BANK0315,2026-01-16,Vehicle Loan,Business Expansion,196558,240,8.18,1803,21636,0,902,6628,491,3439,0.422,1,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0316,BANK0316,2026-09-01,Business Loan,Medical,246823,60,11.21,52015,624180,6867,22134,109119,11044,63425,0.357,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0317,BANK0317,2026-04-22,Education Loan,Business Expansion,567779,60,8.5,78073,936876,0,30005,312821,13078,148683,0.221,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0318,BANK0318,2024-09-03,Home Loan,Debt Consolidation,950827,48,12.19,10653,127836,0,5466,11446,823,6605,0.162,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0319,BANK0319,2026-02-04,Home Loan,Personal Expenses,86429,24,12.0,54328,651936,0,17349,203711,6807,167216,0.275,2,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0320,BANK0320,2025-07-20,Vehicle Loan,Personal Expenses,157573,36,17.48,38086,457032,21296,22124,31175,1432,12598,0.159,0,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0321,BANK0321,2025-03-26,Personal Loan,Education,37976,36,14.1,47373,568476,0,23158,6591,492,3359,0.117,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0322,BANK0322,2024-08-16,Education Loan,Vehicle Purchase,927673,36,16.85,17660,211920,0,4446,50030,4140,24330,0.33,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0323,BANK0323,2025-07-11,Business Loan,Debt Consolidation,47128,60,10.92,7363,88356,1433,2272,5644,322,4703,0.138,0,0,0,0,Rejected,R05,No current employment income
+LN0324,BANK0324,2026-03-11,Vehicle Loan,Education,39571,36,9.32,13733,164796,0,4276,50472,2194,37461,0.324,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0325,BANK0325,2025-07-24,Education Loan,Debt Consolidation,746943,60,9.02,28708,344496,0,10461,24450,1318,14431,0.192,0,0,3,5,Rejected,R03,High proposed debt-to-income ratio
+LN0326,BANK0326,2025-07-17,Business Loan,Personal Expenses,42391,60,9.21,35166,421992,0,11436,47710,4497,18493,0.295,1,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0327,BANK0327,2025-03-12,Business Loan,Vehicle Purchase,185686,48,16.2,106175,1274100,0,55269,204520,26047,60229,0.392,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0328,BANK0328,2026-04-24,Business Loan,Education,104065,60,8.93,79714,956568,0,20441,343204,14469,186945,0.241,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0329,BANK0329,2024-03-06,Business Loan,Personal Expenses,50821,240,17.84,33888,406656,0,19101,84340,3546,57925,0.166,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0330,BANK0330,2024-10-18,Vehicle Loan,Debt Consolidation,1144256,12,17.3,24730,296760,0,7221,22740,927,13097,0.209,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0331,BANK0331,2025-04-21,Education Loan,Personal Expenses,46647,84,9.07,59470,713640,0,33582,183918,13736,83532,0.323,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0332,BANK0332,2026-02-11,Business Loan,Education,236164,60,17.31,61864,742368,0,31917,353386,12011,69292,0.338,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0333,BANK0333,2024-06-19,Vehicle Loan,Home Purchase,137565,48,9.59,18664,223968,0,11443,22703,1087,11015,0.188,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0334,BANK0334,2024-02-02,Vehicle Loan,Personal Expenses,111088,12,8.03,41376,496512,1371,25630,37411,1824,32053,0.194,3,0,4,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0335,BANK0335,2026-07-24,Business Loan,Personal Expenses,59229,120,8.79,29772,357264,0,20837,61970,7697,19646,0.356,4,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0336,BANK0336,2026-08-04,Vehicle Loan,Home Purchase,49104,36,9.83,24954,299448,8008,14448,90858,3687,23841,0.324,3,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0337,BANK0337,2024-12-07,Personal Loan,Debt Consolidation,817795,12,17.47,32485,389820,12942,17086,191396,7973,153223,0.318,2,0,3,15,Rejected,R03,High proposed debt-to-income ratio
+LN0338,BANK0338,2026-03-09,Business Loan,Personal Expenses,184521,120,13.96,47624,571488,0,31849,21715,3448,12802,0.244,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0339,BANK0339,2024-09-12,Home Loan,Medical,1088043,240,8.54,24515,294180,0,16823,103886,5356,83927,0.28,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0340,BANK0340,2026-05-22,Vehicle Loan,Personal Expenses,40454,12,14.1,44880,538560,0,20644,132332,11746,49518,0.349,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0341,BANK0341,2025-12-03,Personal Loan,Home Purchase,483021,24,16.26,29789,357468,0,12266,126481,7189,109938,0.407,0,0,4,30,Rejected,R03,High proposed debt-to-income ratio
+LN0342,BANK0342,2025-12-23,Business Loan,Personal Expenses,151157,84,9.53,98700,1184400,0,48433,98983,15455,36749,0.31,1,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0343,BANK0343,2025-04-27,Personal Loan,Business Expansion,82342,180,11.44,57239,686868,0,23249,155813,10496,80256,0.272,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0344,BANK0344,2024-03-05,Vehicle Loan,Vehicle Purchase,94678,36,13.21,44708,536496,9050,14151,27774,3779,8361,0.207,2,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0345,BANK0345,2025-07-01,Business Loan,Personal Expenses,287978,60,17.59,63071,756852,0,20288,40678,2494,10277,0.15,2,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0346,BANK0346,2025-02-18,Home Loan,Medical,39936,36,15.44,36072,432864,0,19269,71662,2854,18388,0.137,1,2,0,0,Rejected,R01,Previous loan default recorded
+LN0347,BANK0347,2026-05-04,Home Loan,Vehicle Purchase,357485,120,16.02,17969,215628,0,10601,1661,79,588,0.113,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0348,BANK0348,2025-07-03,Education Loan,Debt Consolidation,212801,60,17.57,37714,452568,0,15582,135246,5366,48313,0.255,3,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0349,BANK0349,2025-09-23,Vehicle Loan,Debt Consolidation,717615,48,16.01,69244,830928,0,26296,67593,3831,49523,0.226,1,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0350,BANK0350,2026-06-14,Business Loan,Personal Expenses,58499,60,8.18,13241,158892,0,7987,15295,2315,3541,0.291,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0351,BANK0351,2025-05-23,Business Loan,Business Expansion,254809,24,17.2,27367,328404,0,18660,122932,5505,22499,0.351,0,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0352,BANK0352,2025-03-15,Personal Loan,Medical,79681,48,17.03,52921,635052,29973,19620,32813,5243,9701,0.209,3,1,0,0,Rejected,R01,Previous loan default recorded
+LN0353,BANK0353,2024-08-19,Business Loan,Vehicle Purchase,106024,36,9.08,107834,1294008,0,41596,116576,7811,97539,0.126,2,0,2,60,Approved,NA,Not Applicable - Loan Approved
+LN0354,BANK0354,2026-06-28,Home Loan,Education,85181,84,9.3,27883,334596,0,8249,107351,6935,83449,0.425,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0355,BANK0355,2026-01-13,Vehicle Loan,Debt Consolidation,965752,36,16.96,23966,287592,8572,8747,40998,3157,32416,0.215,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0356,BANK0356,2026-01-13,Home Loan,Personal Expenses,662957,60,8.74,69409,832908,0,47659,177586,11496,45960,0.253,1,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0357,BANK0357,2026-10-08,Business Loan,Vehicle Purchase,400111,240,15.84,20192,242304,0,11367,28599,3278,7364,0.252,4,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0358,BANK0358,2025-05-20,Vehicle Loan,Education,226422,36,12.83,10510,126120,0,4282,16096,1084,13558,0.274,3,0,2,30,Rejected,R05,No current employment income
+LN0359,BANK0359,2025-08-24,Education Loan,Medical,48106,84,14.81,6304,75648,0,1589,36157,1589,6173,0.305,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0360,BANK0360,2025-05-24,Personal Loan,Vehicle Purchase,169590,36,12.21,50394,604728,0,13059,322146,12083,110149,0.343,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0361,BANK0361,2025-07-27,Education Loan,Medical,59338,48,8.55,88489,1061868,0,39266,79134,7389,16401,0.15,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0362,BANK0362,2025-03-19,Vehicle Loan,Medical,883643,36,9.56,35784,429408,0,12965,44377,2881,32256,0.219,2,0,4,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0363,BANK0363,2025-07-12,Home Loan,Personal Expenses,607358,60,9.17,29910,358920,0,18486,39452,5098,12131,0.297,0,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0364,BANK0364,2026-06-03,Business Loan,Home Purchase,169747,24,11.73,25879,310548,0,14069,60260,2176,27185,0.213,2,0,2,60,Approved,NA,Not Applicable - Loan Approved
+LN0365,BANK0365,2025-12-11,Vehicle Loan,Debt Consolidation,830855,84,16.89,163239,1958868,85581,50622,148183,21485,81845,0.187,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0366,BANK0366,2024-04-29,Vehicle Loan,Medical,796598,240,11.72,24782,297384,0,12692,139040,5009,98037,0.265,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0367,BANK0367,2026-04-14,Business Loan,Personal Expenses,478660,180,17.25,41256,495072,0,26000,228783,10151,148017,0.359,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0368,BANK0368,2025-12-24,Home Loan,Business Expansion,67672,84,8.52,55798,669576,22888,31539,154737,8309,66670,0.328,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0369,BANK0369,2025-03-21,Personal Loan,Education,49008,48,17.25,8488,101856,0,4633,30834,2142,19522,0.34,1,1,1,15,Rejected,R01,Previous loan default recorded
+LN0370,BANK0370,2025-02-02,Home Loan,Medical,39095,48,12.72,76446,917352,0,34220,85988,8238,38623,0.223,3,1,4,60,Rejected,R01,Previous loan default recorded
+LN0371,BANK0371,2025-01-18,Vehicle Loan,Home Purchase,356869,36,13.66,31614,379368,0,11036,26294,1100,17834,0.181,2,0,3,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0372,BANK0372,2025-07-28,Business Loan,Personal Expenses,534724,48,12.19,29052,348624,0,12448,71595,5680,50309,0.295,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0373,BANK0373,2025-03-24,Vehicle Loan,Business Expansion,418804,48,14.18,62372,748464,0,32206,258534,9329,133682,0.256,1,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0374,BANK0374,2024-01-11,Home Loan,Debt Consolidation,247365,60,9.79,38115,457380,0,13327,215635,9925,71936,0.419,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0375,BANK0375,2024-12-26,Business Loan,Vehicle Purchase,837592,60,15.68,64116,769392,0,40072,125603,5208,50926,0.247,1,1,2,15,Rejected,R01,Previous loan default recorded
+LN0376,BANK0376,2024-06-19,Business Loan,Personal Expenses,246246,48,17.0,29816,357792,6694,13451,46753,2162,34542,0.139,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0377,BANK0377,2026-04-18,Education Loan,Education,298006,48,8.39,41802,501624,0,21720,30966,3717,19628,0.224,2,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0378,BANK0378,2025-03-16,Education Loan,Vehicle Purchase,1029573,60,11.15,58929,707148,0,38859,143174,4983,26754,0.251,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0379,BANK0379,2024-09-08,Business Loan,Debt Consolidation,60920,12,8.74,25078,300936,0,7767,5558,207,3987,0.137,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0380,BANK0380,2026-09-20,Vehicle Loan,Home Purchase,507847,60,12.21,42876,514512,12073,19072,32419,1765,13267,0.218,2,0,4,5,Approved,NA,Not Applicable - Loan Approved
+LN0381,BANK0381,2024-05-06,Education Loan,Personal Expenses,42053,24,12.82,24459,293508,0,12100,44026,2973,10142,0.269,0,1,1,15,Rejected,R01,Previous loan default recorded
+LN0382,BANK0382,2026-09-21,Personal Loan,Business Expansion,82359,24,17.77,20771,249252,0,11446,89643,4572,29581,0.327,1,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0383,BANK0383,2025-09-18,Vehicle Loan,Medical,209865,60,10.65,33235,398820,0,18867,23571,1309,17168,0.1,2,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0384,BANK0384,2024-03-01,Personal Loan,Vehicle Purchase,806245,36,14.15,1095,13140,0,626,2349,268,1237,0.409,3,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0385,BANK0385,2024-10-26,Education Loan,Personal Expenses,1017296,36,13.53,52285,627420,0,19445,94519,11727,63971,0.331,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0386,BANK0386,2024-12-14,Home Loan,Debt Consolidation,302459,36,11.63,34459,413508,0,9467,19512,3163,16736,0.229,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0387,BANK0387,2024-06-20,Education Loan,Business Expansion,57597,60,17.19,16427,197124,3825,4392,99967,3402,39238,0.348,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0388,BANK0388,2024-09-12,Personal Loan,Vehicle Purchase,800467,24,13.63,73870,886440,0,36868,364816,13212,157962,0.351,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0389,BANK0389,2025-01-13,Home Loan,Medical,96615,84,12.23,44803,537636,0,20068,107984,8993,64504,0.324,4,1,4,15,Rejected,R01,Previous loan default recorded
+LN0390,BANK0390,2025-01-17,Business Loan,Medical,38093,48,9.99,28365,340380,0,12017,41152,4707,13208,0.226,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0391,BANK0391,2025-05-11,Personal Loan,Education,63012,48,11.23,27621,331452,0,10384,43184,5599,6905,0.274,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0392,BANK0392,2026-07-03,Education Loan,Education,1242829,48,16.08,18651,223812,6853,11798,81626,3741,70410,0.314,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0393,BANK0393,2025-07-25,Vehicle Loan,Personal Expenses,112521,36,14.49,8885,106620,0,4608,64096,2254,17797,0.412,1,0,0,0,Rejected,R05,No current employment income
+LN0394,BANK0394,2025-08-12,Vehicle Loan,Personal Expenses,56618,120,10.0,72659,871908,11229,31613,229393,15278,124130,0.35,1,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0395,BANK0395,2024-12-10,Business Loan,Education,839625,60,13.8,106988,1283856,0,67900,58857,5902,51163,0.148,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0396,BANK0396,2024-02-14,Personal Loan,Education,222120,60,13.94,80068,960816,0,50861,523309,20765,256660,0.426,1,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0397,BANK0397,2024-04-09,Vehicle Loan,Medical,286155,36,14.74,32055,384660,1203,15866,233427,8520,178487,0.426,1,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0398,BANK0398,2026-04-18,Personal Loan,Debt Consolidation,185568,36,14.17,44308,531696,0,14281,39736,3437,34786,0.206,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0399,BANK0399,2025-04-11,Education Loan,Medical,747468,24,9.05,75514,906168,2536,33896,133609,16420,32535,0.284,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0400,BANK0400,2025-02-11,Education Loan,Medical,602601,60,10.43,99075,1188900,0,59223,409561,20073,360457,0.271,2,1,3,30,Rejected,R01,Previous loan default recorded
+LN0401,BANK0401,2024-11-22,Personal Loan,Home Purchase,131002,48,14.0,83506,1002072,0,56632,13040,1618,7108,0.173,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0402,BANK0402,2024-08-11,Education Loan,Medical,249909,180,8.67,32506,390072,0,10476,237926,8762,43001,0.372,3,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0403,BANK0403,2024-11-30,Education Loan,Medical,71477,60,10.09,34002,408024,3703,22122,40660,3094,15023,0.192,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0404,BANK0404,2024-09-17,Business Loan,Debt Consolidation,620658,60,13.36,52677,632124,0,31092,269647,14240,110267,0.441,0,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0405,BANK0405,2024-04-21,Vehicle Loan,Business Expansion,168404,60,11.1,26577,318924,0,10177,73545,5148,38622,0.332,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0406,BANK0406,2025-03-14,Personal Loan,Education,990642,48,14.19,69370,832440,25658,33965,102667,4481,34877,0.186,0,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0407,BANK0407,2025-09-21,Personal Loan,Debt Consolidation,84089,84,13.69,103440,1241280,0,34693,279585,22889,58205,0.326,3,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0408,BANK0408,2024-06-23,Education Loan,Vehicle Purchase,48659,12,9.22,40356,484272,0,23133,281741,10400,132636,0.318,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0409,BANK0409,2025-01-15,Business Loan,Personal Expenses,597279,12,13.94,37771,453252,23420,16975,190939,7952,51282,0.326,0,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0410,BANK0410,2024-10-16,Business Loan,Business Expansion,92935,120,10.47,25074,300888,0,15259,80629,6406,52834,0.312,0,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0411,BANK0411,2024-05-25,Vehicle Loan,Home Purchase,116899,12,14.83,6362,76344,0,4061,11590,406,7246,0.184,3,0,1,60,Rejected,R05,No current employment income
+LN0412,BANK0412,2026-06-08,Personal Loan,Business Expansion,186781,180,10.69,38842,466104,13979,13058,91685,6257,56941,0.316,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0413,BANK0413,2025-06-03,Personal Loan,Medical,157794,36,11.68,29853,358236,0,9685,78380,4986,39872,0.263,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0414,BANK0414,2025-02-21,Education Loan,Debt Consolidation,575761,60,16.63,59435,713220,0,41059,252486,14258,152081,0.365,2,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0415,BANK0415,2024-02-03,Vehicle Loan,Debt Consolidation,155400,36,12.5,21300,255600,0,6378,68165,3005,29427,0.251,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0416,BANK0416,2025-09-20,Business Loan,Medical,101620,240,10.08,21136,253632,0,10842,687,46,169,0.115,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0417,BANK0417,2024-02-27,Home Loan,Education,844248,84,11.9,43948,527376,0,29657,236965,8251,103703,0.323,2,2,3,60,Rejected,R01,Previous loan default recorded
+LN0418,BANK0418,2026-05-19,Education Loan,Home Purchase,84882,48,10.88,16153,193836,0,6231,107625,4386,40889,0.384,4,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0419,BANK0419,2025-09-21,Personal Loan,Personal Expenses,980849,84,11.79,73252,879024,25376,37663,100400,6779,66804,0.177,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0420,BANK0420,2024-03-20,Vehicle Loan,Vehicle Purchase,52467,12,16.71,19716,236592,0,5437,47563,2574,31650,0.309,3,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0421,BANK0421,2024-03-01,Vehicle Loan,Debt Consolidation,45958,48,11.39,30302,363624,5549,12572,102180,3699,49508,0.283,2,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0422,BANK0422,2025-12-06,Vehicle Loan,Education,175583,84,12.76,61524,738288,0,31310,6802,901,5476,0.082,3,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0423,BANK0423,2025-01-12,Business Loan,Personal Expenses,475093,84,17.81,8978,107736,0,4536,10721,498,8226,0.118,0,0,1,60,Rejected,R05,No current employment income
+LN0424,BANK0424,2026-01-02,Business Loan,Medical,155737,180,8.27,49657,595884,2213,28962,124210,7536,110440,0.231,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0425,BANK0425,2024-03-24,Business Loan,Personal Expenses,617490,48,13.01,52155,625860,0,23425,18668,696,4264,0.193,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0426,BANK0426,2024-12-29,Education Loan,Home Purchase,1036758,84,16.59,2894,34728,0,1689,3781,412,958,0.227,0,1,1,15,Rejected,R01,Previous loan default recorded
+LN0427,BANK0427,2024-11-28,Personal Loan,Business Expansion,810949,84,13.16,40625,487500,0,26601,167969,5996,104795,0.245,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0428,BANK0428,2025-03-12,Vehicle Loan,Debt Consolidation,98187,180,10.06,31015,372180,0,17862,108722,6061,97030,0.359,4,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0429,BANK0429,2026-04-28,Vehicle Loan,Personal Expenses,646775,120,13.16,54996,659952,0,32349,290202,14118,237789,0.386,3,0,4,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0430,BANK0430,2026-05-26,Business Loan,Personal Expenses,399212,36,17.67,69666,835992,32189,20306,241644,9628,141494,0.317,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0431,BANK0431,2024-04-02,Personal Loan,Personal Expenses,449209,84,16.99,132909,1594908,0,91250,97183,8238,78324,0.216,1,1,1,15,Rejected,R01,Previous loan default recorded
+LN0432,BANK0432,2025-03-28,Vehicle Loan,Debt Consolidation,149517,48,16.08,80144,961728,0,32560,175564,18431,71811,0.37,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0433,BANK0433,2024-10-22,Home Loan,Debt Consolidation,922113,60,12.06,49664,595968,0,16440,103560,13628,84354,0.389,3,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0434,BANK0434,2025-12-12,Personal Loan,Personal Expenses,127385,60,10.35,31153,373836,6271,18444,112304,8242,37261,0.437,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0435,BANK0435,2026-08-01,Business Loan,Vehicle Purchase,50005,60,10.12,45148,541776,15165,22074,147493,5945,68853,0.184,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0436,BANK0436,2025-07-26,Vehicle Loan,Education,198125,84,9.2,39158,469896,14961,20022,153892,5432,35748,0.314,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0437,BANK0437,2026-03-28,Home Loan,Personal Expenses,241191,84,15.14,15996,191952,4605,10734,68961,2490,35074,0.278,3,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN0438,BANK0438,2026-06-07,Home Loan,Personal Expenses,37848,48,10.15,31644,379728,0,15911,10088,461,3435,0.089,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0439,BANK0439,2026-01-04,Personal Loan,Business Expansion,40744,12,12.23,70390,844680,0,36584,119386,6501,53028,0.24,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0440,BANK0440,2024-05-05,Vehicle Loan,Medical,915561,60,13.38,43237,518844,23429,25740,166040,9306,71136,0.29,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0441,BANK0441,2024-10-13,Personal Loan,Personal Expenses,124104,60,8.4,44454,533448,0,14069,25786,1759,9028,0.112,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0442,BANK0442,2026-03-01,Vehicle Loan,Medical,593732,48,15.14,66006,792072,7093,40235,157375,16980,123435,0.393,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0443,BANK0443,2025-05-17,Home Loan,Education,85262,240,12.69,30729,368748,0,19358,161309,8198,44153,0.359,2,0,3,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0444,BANK0444,2024-11-06,Personal Loan,Medical,63343,36,13.28,17592,211104,0,10225,51465,3459,22926,0.293,3,1,0,0,Rejected,R01,Previous loan default recorded
+LN0445,BANK0445,2024-01-07,Education Loan,Business Expansion,159719,120,11.32,26883,322596,0,6961,99720,3585,31588,0.3,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0446,BANK0446,2026-06-12,Home Loan,Vehicle Purchase,62326,24,14.98,20849,250188,0,5639,83014,3484,44845,0.318,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0447,BANK0447,2026-07-31,Vehicle Loan,Debt Consolidation,56064,60,11.17,33130,397560,0,9195,26115,1222,21168,0.156,2,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0448,BANK0448,2026-09-18,Education Loan,Medical,115189,24,13.73,29516,354192,0,9451,31319,1260,15554,0.142,3,0,5,15,Approved,NA,Not Applicable - Loan Approved
+LN0449,BANK0449,2026-10-25,Personal Loan,Medical,76277,24,13.09,78628,943536,0,47352,302338,12461,78477,0.21,0,0,4,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0450,BANK0450,2026-07-15,Personal Loan,Personal Expenses,85559,12,11.67,31555,378660,0,11655,103270,5278,64643,0.308,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0451,BANK0451,2025-09-23,Vehicle Loan,Education,1159964,180,9.6,152424,1829088,0,73339,412668,38070,134375,0.35,4,1,0,0,Rejected,R01,Previous loan default recorded
+LN0452,BANK0452,2025-08-24,Personal Loan,Home Purchase,766643,120,15.09,121912,1462944,0,42832,110715,4124,63828,0.19,2,0,5,15,Approved,NA,Not Applicable - Loan Approved
+LN0453,BANK0453,2025-10-24,Vehicle Loan,Vehicle Purchase,231234,180,13.23,55736,668832,0,36263,73626,3063,37035,0.12,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0454,BANK0454,2024-04-02,Personal Loan,Debt Consolidation,328266,84,10.15,39311,471732,0,26215,85815,9669,76580,0.406,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0455,BANK0455,2026-03-25,Personal Loan,Business Expansion,621068,36,9.16,9050,108600,0,4549,45068,1677,22970,0.354,0,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0456,BANK0456,2025-01-08,Business Loan,Home Purchase,548599,60,13.11,68590,823080,42550,44222,115141,13439,81401,0.348,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0457,BANK0457,2024-05-15,Vehicle Loan,Medical,63820,12,14.0,36597,439164,0,20956,274325,9651,229131,0.404,2,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0458,BANK0458,2025-07-02,Vehicle Loan,Education,80156,240,11.75,39613,475356,0,13900,123313,9983,20920,0.305,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0459,BANK0459,2024-08-04,Business Loan,Home Purchase,112641,48,14.26,4884,58608,26,2324,689,33,304,0.114,0,0,1,5,Rejected,R05,No current employment income
+LN0460,BANK0460,2024-01-19,Vehicle Loan,Medical,108599,240,16.7,10373,124476,0,4475,913,109,501,0.153,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0461,BANK0461,2024-03-25,Education Loan,Home Purchase,349537,240,11.08,46279,555348,0,26595,308820,11102,210045,0.373,2,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0462,BANK0462,2024-04-15,Personal Loan,Personal Expenses,81790,24,12.57,18616,223392,0,12074,7838,759,5867,0.14,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0463,BANK0463,2025-07-09,Business Loan,Vehicle Purchase,376288,60,8.59,20824,249888,7538,9947,39836,2684,9137,0.264,1,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0464,BANK0464,2026-01-25,Home Loan,Medical,55158,36,14.32,78874,946488,0,45833,387939,13573,255862,0.343,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0465,BANK0465,2026-03-02,Education Loan,Education,349560,48,12.6,2538,30456,0,1530,9621,524,1751,0.288,1,0,0,0,Rejected,R05,No current employment income
+LN0466,BANK0466,2024-08-29,Personal Loan,Business Expansion,624366,48,8.06,57658,691896,0,37627,197203,11364,75109,0.272,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0467,BANK0467,2025-02-19,Personal Loan,Business Expansion,61874,36,12.73,41167,494004,0,27490,14163,1416,2552,0.15,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0468,BANK0468,2024-03-24,Vehicle Loan,Medical,997752,84,10.31,38175,458100,18316,15864,49741,7824,34084,0.345,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0469,BANK0469,2024-05-06,Home Loan,Vehicle Purchase,91707,12,9.4,36311,435732,0,13248,78225,6767,16411,0.285,2,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0470,BANK0470,2026-07-28,Personal Loan,Medical,77577,48,8.09,72943,875316,0,50922,387525,15464,292577,0.348,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0471,BANK0471,2026-03-17,Personal Loan,Vehicle Purchase,130331,60,9.94,66363,796356,26623,41612,31268,1076,5180,0.156,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0472,BANK0472,2026-09-25,Home Loan,Business Expansion,78189,84,10.05,29805,357660,0,19652,5836,258,3618,0.099,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0473,BANK0473,2024-12-06,Education Loan,Personal Expenses,83856,24,16.18,19267,231204,0,5047,17488,2594,8206,0.254,2,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0474,BANK0474,2024-01-25,Business Loan,Medical,42437,24,15.93,121254,1455048,0,67229,183504,18470,100535,0.318,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0475,BANK0475,2026-08-06,Home Loan,Debt Consolidation,88917,12,8.69,59085,709020,0,22473,43287,1993,11072,0.12,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0476,BANK0476,2024-08-16,Education Loan,Business Expansion,286879,12,15.35,45649,547788,19904,18133,72311,6534,13832,0.265,4,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0477,BANK0477,2025-11-20,Personal Loan,Medical,192176,120,9.72,26851,322212,0,8944,17708,1198,14864,0.112,2,0,3,5,Approved,NA,Not Applicable - Loan Approved
+LN0478,BANK0478,2024-12-15,Education Loan,Home Purchase,859533,120,12.69,44298,531576,26156,14457,3367,296,671,0.16,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0479,BANK0479,2024-06-18,Personal Loan,Vehicle Purchase,148129,180,8.66,34852,418224,0,12035,83912,3835,70771,0.278,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0480,BANK0480,2026-01-01,Business Loan,Home Purchase,89805,48,14.7,35473,425676,0,22568,18383,1327,12101,0.209,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0481,BANK0481,2026-08-30,Home Loan,Personal Expenses,772918,60,17.45,49226,590712,0,19255,86637,12826,77067,0.422,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0482,BANK0482,2024-03-09,Home Loan,Business Expansion,80886,36,8.35,22075,264900,0,6473,10272,711,6303,0.202,1,0,2,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0483,BANK0483,2024-03-04,Business Loan,Education,684459,120,13.8,183289,2199468,63045,45854,122305,18497,29369,0.231,3,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0484,BANK0484,2026-09-18,Personal Loan,Home Purchase,288951,84,11.68,83805,1005660,0,53988,213715,9396,114364,0.264,3,0,4,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0485,BANK0485,2026-09-09,Home Loan,Home Purchase,158703,180,9.13,55143,661716,31259,23526,184930,6991,150291,0.306,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0486,BANK0486,2024-07-22,Home Loan,Education,578921,60,12.44,47880,574560,0,17109,238479,11955,171119,0.381,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0487,BANK0487,2026-08-14,Education Loan,Medical,89714,60,11.99,10161,121932,0,3203,2536,152,1041,0.163,1,0,0,0,Rejected,R02,Insufficient monthly income
+LN0488,BANK0488,2024-03-27,Education Loan,Education,122894,60,10.28,40761,489132,0,11637,16061,597,5996,0.095,1,0,3,60,Approved,NA,Not Applicable - Loan Approved
+LN0489,BANK0489,2026-03-12,Personal Loan,Debt Consolidation,156863,36,13.87,26577,318924,0,9392,40110,2764,21041,0.216,1,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0490,BANK0490,2024-07-18,Personal Loan,Debt Consolidation,84544,48,12.11,48405,580860,0,31825,8178,302,4899,0.099,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0491,BANK0491,2025-12-19,Vehicle Loan,Home Purchase,987346,48,15.32,28244,338928,0,9003,19419,3042,15306,0.276,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0492,BANK0492,2025-11-17,Business Loan,Personal Expenses,253024,120,11.47,50384,604608,0,21078,126526,8867,47760,0.352,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0493,BANK0493,2025-02-28,Education Loan,Education,68273,84,9.51,5659,67908,0,3449,36853,1583,17433,0.415,3,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0494,BANK0494,2024-10-04,Education Loan,Home Purchase,415072,84,8.22,54093,649116,0,15684,277505,11035,191013,0.357,3,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0495,BANK0495,2026-01-27,Education Loan,Debt Consolidation,420376,60,10.81,51140,613680,0,33687,2603,213,984,0.063,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0496,BANK0496,2025-05-26,Education Loan,Business Expansion,87712,60,11.56,109232,1310784,0,42021,345420,15432,163424,0.2,0,0,5,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0497,BANK0497,2026-01-07,Personal Loan,Medical,229672,24,10.59,34295,411540,0,9475,206218,9015,150032,0.433,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0498,BANK0498,2025-02-17,Home Loan,Education,302009,36,16.29,7555,90660,0,4228,13036,523,10519,0.126,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0499,BANK0499,2025-06-15,Education Loan,Personal Expenses,119818,180,14.43,10028,120336,0,2547,29074,1310,15030,0.278,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0500,BANK0500,2025-07-10,Home Loan,Education,113554,120,9.72,26755,321060,0,8013,137724,6251,118327,0.328,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0501,BANK0501,2025-07-27,Vehicle Loan,Personal Expenses,360265,60,15.84,54759,657108,0,18155,93239,12726,20998,0.293,1,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0502,BANK0502,2024-01-13,Home Loan,Home Purchase,61606,24,9.5,3355,40260,0,923,6050,244,4341,0.196,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0503,BANK0503,2025-09-10,Vehicle Loan,Debt Consolidation,245660,48,17.04,50139,601668,0,34684,44515,3272,10741,0.168,0,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0504,BANK0504,2026-03-31,Vehicle Loan,Medical,711386,84,13.69,46528,558336,27334,31646,28096,1233,23089,0.18,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0505,BANK0505,2026-02-20,Education Loan,Personal Expenses,49227,60,11.84,126023,1512276,0,33121,104228,7495,32022,0.128,3,0,5,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0506,BANK0506,2025-11-02,Vehicle Loan,Personal Expenses,44202,48,17.34,3993,47916,0,1035,8228,281,3444,0.132,0,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0507,BANK0507,2025-10-27,Education Loan,Education,926240,60,8.42,24977,299724,0,15211,86980,6919,49545,0.435,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0508,BANK0508,2024-06-12,Education Loan,Personal Expenses,198423,240,13.55,44763,537156,0,13319,25326,1183,10650,0.175,3,0,4,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0509,BANK0509,2026-04-26,Education Loan,Vehicle Purchase,57757,36,13.74,55093,661116,6557,14951,106757,13576,26583,0.299,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0510,BANK0510,2026-08-27,Vehicle Loan,Home Purchase,117124,36,16.47,19392,232704,9271,7958,31517,1599,24109,0.222,3,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0511,BANK0511,2024-03-08,Education Loan,Medical,469085,36,11.1,32685,392220,0,8208,80088,5610,44976,0.243,0,0,1,5,Rejected,R03,High proposed debt-to-income ratio
+LN0512,BANK0512,2025-02-05,Home Loan,Debt Consolidation,57818,24,10.21,10510,126120,1043,3813,5471,773,1572,0.197,3,0,0,0,Rejected,R05,No current employment income
+LN0513,BANK0513,2025-12-23,Home Loan,Vehicle Purchase,38739,36,10.45,51220,614640,0,24064,358326,12085,70009,0.337,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0514,BANK0514,2024-05-08,Personal Loan,Business Expansion,77859,60,11.4,56511,678132,0,23521,20501,860,12278,0.088,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0515,BANK0515,2026-02-28,Education Loan,Vehicle Purchase,168023,120,11.56,25924,311088,0,16918,86592,6540,21637,0.384,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0516,BANK0516,2025-04-28,Home Loan,Home Purchase,155243,36,15.53,19050,228600,796,13138,54494,1917,8225,0.233,4,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0517,BANK0517,2024-10-25,Home Loan,Education,397303,60,17.28,53441,641292,0,16027,94279,4202,84622,0.208,1,0,5,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0518,BANK0518,2026-02-24,Vehicle Loan,Vehicle Purchase,43803,120,13.43,36142,433704,7621,17297,1330,132,301,0.12,0,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0519,BANK0519,2024-01-17,Home Loan,Vehicle Purchase,1203065,24,14.41,139904,1678848,65913,84222,729278,30048,339799,0.311,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0520,BANK0520,2025-06-14,Vehicle Loan,Home Purchase,1078140,60,10.03,22104,265248,6488,9864,86446,3106,37366,0.285,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0521,BANK0521,2026-06-25,Business Loan,Debt Consolidation,226190,60,16.0,11040,132480,0,7376,24408,1591,11359,0.214,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0522,BANK0522,2026-10-07,Vehicle Loan,Medical,84940,180,15.58,40590,487080,11155,26501,71067,2882,62691,0.168,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0523,BANK0523,2024-07-26,Home Loan,Vehicle Purchase,335428,36,16.53,24735,296820,0,8167,99164,6401,19839,0.348,2,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0524,BANK0524,2024-02-08,Business Loan,Debt Consolidation,201031,60,13.99,63775,765300,0,29009,219368,13843,86079,0.35,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0525,BANK0525,2025-02-18,Home Loan,Debt Consolidation,161981,12,11.78,50664,607968,0,27435,58924,3035,28842,0.199,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0526,BANK0526,2025-01-29,Personal Loan,Home Purchase,933995,60,9.27,70212,842544,0,17720,260617,10559,88787,0.267,1,0,1,90,Approved,NA,Not Applicable - Loan Approved
+LN0527,BANK0527,2024-02-20,Home Loan,Education,42304,60,16.76,39159,469908,0,15598,24131,2339,19666,0.205,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0528,BANK0528,2025-03-19,Education Loan,Medical,75887,120,15.92,67465,809580,0,34427,140852,13487,77742,0.297,0,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0529,BANK0529,2026-10-10,Personal Loan,Home Purchase,278803,120,9.24,55973,671676,0,37155,175571,15021,140298,0.333,0,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0530,BANK0530,2026-04-15,Business Loan,Personal Expenses,277194,60,10.17,45689,548268,0,22250,110259,5182,84706,0.197,0,0,5,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0531,BANK0531,2025-07-25,Business Loan,Debt Consolidation,184903,24,16.26,21199,254388,0,12298,69547,4871,41348,0.367,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0532,BANK0532,2025-07-04,Vehicle Loan,Business Expansion,179153,48,16.23,86814,1041768,0,54146,319757,14378,134253,0.251,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0533,BANK0533,2026-06-13,Business Loan,Business Expansion,1154959,60,11.49,11831,141972,0,5054,49884,2434,39501,0.364,0,1,1,15,Rejected,R01,Previous loan default recorded
+LN0534,BANK0534,2025-04-28,Home Loan,Education,819814,60,13.72,85224,1022688,0,25330,59027,5372,14902,0.17,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0535,BANK0535,2025-08-11,Business Loan,Education,122592,60,14.93,3819,45828,0,1761,23873,836,4601,0.395,3,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0536,BANK0536,2025-10-20,Vehicle Loan,Home Purchase,420201,180,15.18,22106,265272,10031,14006,120022,4165,27228,0.271,1,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0537,BANK0537,2026-02-28,Personal Loan,Medical,40131,60,12.5,22034,264408,1964,14316,49854,3772,30535,0.261,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0538,BANK0538,2024-09-01,Business Loan,Vehicle Purchase,566641,60,12.06,65230,782760,0,43241,211371,13514,141122,0.372,1,1,1,15,Rejected,R01,Previous loan default recorded
+LN0539,BANK0539,2024-02-02,Personal Loan,Personal Expenses,140058,24,12.26,27437,329244,16796,10036,40107,3177,21036,0.278,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0540,BANK0540,2026-09-22,Home Loan,Vehicle Purchase,592071,12,15.09,8210,98520,0,3432,10364,1394,5496,0.35,3,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0541,BANK0541,2024-03-18,Business Loan,Business Expansion,298659,24,16.88,27741,332892,8224,8807,7156,488,4767,0.186,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0542,BANK0542,2026-06-01,Home Loan,Medical,253112,240,8.78,60411,724932,0,21575,173670,14839,62192,0.356,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0543,BANK0543,2024-09-23,Personal Loan,Business Expansion,54477,48,15.64,44481,533772,27265,14295,12236,1265,4485,0.17,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0544,BANK0544,2026-06-12,Vehicle Loan,Vehicle Purchase,184982,60,9.37,60002,720024,0,22126,45985,2392,37031,0.098,2,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0545,BANK0545,2025-03-09,Vehicle Loan,Debt Consolidation,632242,60,10.62,59077,708924,0,27522,473012,16334,213088,0.453,3,0,2,60,Approved,NA,Not Applicable - Loan Approved
+LN0546,BANK0546,2025-05-18,Education Loan,Medical,52918,60,13.51,59508,714096,0,19616,164276,12363,85959,0.334,2,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0547,BANK0547,2025-05-20,Business Loan,Business Expansion,562776,24,17.5,95156,1141872,8506,49111,239359,13810,58827,0.297,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0548,BANK0548,2025-10-04,Personal Loan,Business Expansion,444455,48,9.97,20634,247608,0,14058,121981,4454,66991,0.375,0,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0549,BANK0549,2024-09-07,Personal Loan,Medical,474381,12,15.34,20203,242436,0,5750,91933,5158,34151,0.365,3,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0550,BANK0550,2025-02-02,Personal Loan,Education,57946,48,13.1,66526,798312,0,41769,104917,13868,40631,0.338,0,1,1,15,Rejected,R01,Previous loan default recorded
+LN0551,BANK0551,2024-01-25,Vehicle Loan,Education,160941,36,13.43,51371,616452,0,14566,60895,2205,21656,0.147,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0552,BANK0552,2026-09-08,Vehicle Loan,Vehicle Purchase,159138,120,16.04,28145,337740,0,19344,57625,6641,16786,0.31,4,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0553,BANK0553,2024-11-19,Education Loan,Personal Expenses,278289,84,8.49,21244,254928,4811,6717,79097,2890,21382,0.189,1,0,1,90,Approved,NA,Not Applicable - Loan Approved
+LN0554,BANK0554,2024-10-30,Personal Loan,Education,52247,60,13.94,3795,45540,0,1023,6507,223,1655,0.161,4,0,4,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0555,BANK0555,2024-06-06,Home Loan,Home Purchase,766360,12,14.68,39227,470724,0,25159,145461,6900,109862,0.345,1,0,3,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0556,BANK0556,2025-06-04,Education Loan,Business Expansion,88196,48,17.54,38148,457776,0,14331,186401,10441,108166,0.361,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0557,BANK0557,2026-08-05,Vehicle Loan,Vehicle Purchase,655000,36,9.2,84647,1015764,0,35100,149513,12205,89855,0.245,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0558,BANK0558,2026-07-26,Personal Loan,Vehicle Purchase,191018,48,9.08,39762,477144,0,22893,80705,5101,63637,0.189,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0559,BANK0559,2024-02-28,Personal Loan,Personal Expenses,971417,120,8.69,30233,362796,0,10270,30597,1095,20611,0.103,3,0,5,30,Approved,NA,Not Applicable - Loan Approved
+LN0560,BANK0560,2026-08-18,Business Loan,Education,164812,84,8.24,21850,262200,0,12861,156726,5924,95885,0.448,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0561,BANK0561,2026-08-05,Business Loan,Home Purchase,60997,48,10.13,57950,695400,0,25543,248131,11902,165121,0.366,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0562,BANK0562,2025-12-06,Vehicle Loan,Business Expansion,519470,60,13.47,48407,580884,0,31934,184005,9696,31778,0.278,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0563,BANK0563,2025-11-13,Home Loan,Home Purchase,747320,84,13.65,62894,754728,0,29624,237993,10473,200848,0.261,0,2,2,5,Rejected,R01,Previous loan default recorded
+LN0564,BANK0564,2025-06-16,Vehicle Loan,Personal Expenses,135246,60,12.46,30012,360144,0,17624,11658,539,4451,0.193,2,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0565,BANK0565,2024-05-18,Personal Loan,Personal Expenses,110591,48,14.43,32525,390300,13149,13976,22276,1851,12267,0.182,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0566,BANK0566,2024-03-19,Business Loan,Business Expansion,307139,36,8.27,42246,506952,23304,21620,58307,5223,24126,0.263,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0567,BANK0567,2024-02-13,Home Loan,Business Expansion,417302,240,11.8,40538,486456,4811,22767,55211,8809,43649,0.303,2,0,3,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0568,BANK0568,2024-06-18,Vehicle Loan,Education,57387,36,13.5,118366,1420392,4156,47134,245153,10793,187246,0.24,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0569,BANK0569,2026-03-17,Education Loan,Vehicle Purchase,39723,48,10.15,34667,416004,0,13201,129042,9012,86196,0.397,1,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0570,BANK0570,2025-05-12,Vehicle Loan,Home Purchase,68953,240,14.7,12091,145092,6571,6483,60345,3243,43604,0.414,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0571,BANK0571,2024-06-18,Personal Loan,Medical,40527,12,14.9,33960,407520,0,19318,117388,5807,74371,0.324,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0572,BANK0572,2025-07-26,Home Loan,Medical,97213,12,14.84,1152,13824,0,568,2114,80,1122,0.224,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0573,BANK0573,2024-05-10,Business Loan,Education,220523,180,16.16,34616,415392,4193,11352,91090,7022,45411,0.34,2,0,4,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0574,BANK0574,2025-12-15,Business Loan,Home Purchase,1026989,180,9.38,10032,120384,0,4880,9286,1059,2922,0.221,1,0,3,30,Rejected,R02,Insufficient monthly income
+LN0575,BANK0575,2024-08-28,Business Loan,Medical,49149,60,10.38,16699,200388,0,10657,59234,3529,27247,0.37,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0576,BANK0576,2026-08-21,Business Loan,Education,1124377,84,12.54,42001,504012,0,20400,6699,333,5878,0.063,0,0,2,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0577,BANK0577,2024-10-10,Business Loan,Home Purchase,116929,48,13.23,22885,274620,14786,6813,2065,164,753,0.17,2,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0578,BANK0578,2025-10-10,Business Loan,Personal Expenses,294469,180,10.91,56282,675384,0,24820,198108,14211,94318,0.406,0,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0579,BANK0579,2026-09-11,Education Loan,Vehicle Purchase,174945,180,14.93,108546,1302552,0,41814,102057,16650,65715,0.308,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0580,BANK0580,2025-03-08,Education Loan,Vehicle Purchase,332993,60,9.28,58307,699684,0,28728,70672,6287,21997,0.191,4,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0581,BANK0581,2024-10-26,Home Loan,Vehicle Purchase,243005,60,10.8,103565,1242780,62191,29767,43528,5115,31362,0.186,2,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0582,BANK0582,2026-07-14,Business Loan,Debt Consolidation,121855,36,10.65,1432,17184,633,429,2071,281,1188,0.368,1,0,3,5,Rejected,R05,No current employment income
+LN0583,BANK0583,2025-06-17,Vehicle Loan,Debt Consolidation,1079282,84,16.21,23261,279132,0,8214,83710,4983,26942,0.268,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0584,BANK0584,2025-11-05,Personal Loan,Personal Expenses,47831,84,15.65,55534,666408,14858,24811,83860,6539,66313,0.211,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0585,BANK0585,2026-09-07,Home Loan,Home Purchase,71103,36,8.41,41931,503172,0,19021,100124,3552,79413,0.219,4,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0586,BANK0586,2024-10-15,Education Loan,Medical,1203550,36,8.69,36021,432252,15658,17397,43362,7079,8094,0.328,1,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0587,BANK0587,2024-01-18,Home Loan,Debt Consolidation,153752,180,13.54,9000,108000,0,2858,19638,1327,9726,0.21,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0588,BANK0588,2026-02-05,Business Loan,Medical,1161612,120,16.06,28482,341784,0,9052,100336,4145,26857,0.25,1,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0589,BANK0589,2024-09-01,Education Loan,Business Expansion,191384,48,13.45,28163,337956,0,18884,77214,3409,27548,0.281,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0590,BANK0590,2026-08-24,Vehicle Loan,Debt Consolidation,189819,240,12.82,2038,24456,0,1059,7671,387,3728,0.343,2,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0591,BANK0591,2024-12-15,Business Loan,Debt Consolidation,46569,12,8.73,32563,390756,0,11277,27646,2677,14891,0.24,1,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0592,BANK0592,2025-06-05,Education Loan,Debt Consolidation,217196,36,8.94,58601,703212,10687,18132,192742,7315,163942,0.178,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0593,BANK0593,2025-01-07,Education Loan,Home Purchase,566114,84,17.68,44667,536004,0,27631,278832,11345,229430,0.416,0,1,4,30,Rejected,R01,Previous loan default recorded
+LN0594,BANK0594,2025-05-05,Business Loan,Business Expansion,470202,240,10.65,43032,516384,620,20817,63998,4004,25982,0.174,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0595,BANK0595,2026-08-21,Business Loan,Education,56554,180,10.81,45481,545772,0,20983,295165,12234,257268,0.427,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0596,BANK0596,2026-04-21,Home Loan,Personal Expenses,511414,84,10.81,20521,246252,0,6396,66762,5176,44548,0.346,1,0,4,15,Rejected,R03,High proposed debt-to-income ratio
+LN0597,BANK0597,2025-01-01,Personal Loan,Education,45418,24,15.5,23028,276336,0,16099,168126,6426,114961,0.416,3,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0598,BANK0598,2024-11-11,Business Loan,Education,81976,12,14.51,58399,700788,0,18386,127517,12576,103900,0.373,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0599,BANK0599,2026-10-24,Home Loan,Vehicle Purchase,80031,36,8.86,26937,323244,10874,12579,50167,4935,36020,0.356,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0600,BANK0600,2024-07-31,Education Loan,Personal Expenses,80853,60,17.62,30049,360588,0,19534,36890,1264,11936,0.112,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0601,BANK0601,2026-01-16,Vehicle Loan,Education,38236,60,16.35,50616,607392,0,34889,205776,6912,179635,0.25,1,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0602,BANK0602,2026-03-18,Vehicle Loan,Education,92584,180,16.61,33851,406212,0,10193,54098,4626,38536,0.199,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0603,BANK0603,2025-11-03,Home Loan,Vehicle Purchase,107876,12,14.75,32300,387600,0,17173,58213,3373,29184,0.238,0,1,5,90,Rejected,R01,Previous loan default recorded
+LN0604,BANK0604,2024-12-12,Education Loan,Debt Consolidation,90857,180,10.31,32161,385932,0,8449,30503,3597,16537,0.228,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0605,BANK0605,2024-02-19,Education Loan,Vehicle Purchase,186503,60,9.05,61683,740196,33360,36496,119609,6662,103389,0.257,2,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0606,BANK0606,2024-11-05,Personal Loan,Medical,254867,120,8.19,7031,84372,2248,3570,15027,761,10159,0.164,4,0,0,0,Rejected,R05,No current employment income
+LN0607,BANK0607,2024-02-24,Vehicle Loan,Vehicle Purchase,540751,180,9.47,30586,367032,0,10882,104136,6163,81862,0.254,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0608,BANK0608,2024-09-20,Home Loan,Vehicle Purchase,87981,12,8.17,26428,317136,0,18136,102489,5642,83945,0.277,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0609,BANK0609,2025-02-24,Business Loan,Medical,869094,120,9.26,10634,127608,4500,2991,7898,1229,1283,0.292,0,0,2,60,Rejected,R05,No current employment income
+LN0610,BANK0610,2024-03-17,Vehicle Loan,Medical,355884,60,13.46,132320,1587840,0,65505,461562,15815,410696,0.234,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0611,BANK0611,2024-11-24,Business Loan,Home Purchase,991800,60,8.78,29368,352416,0,20481,43056,2814,30598,0.269,0,0,1,5,Rejected,R03,High proposed debt-to-income ratio
+LN0612,BANK0612,2024-02-09,Personal Loan,Business Expansion,204849,36,16.77,185790,2229480,0,72799,1178595,44154,567652,0.398,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0613,BANK0613,2026-03-18,Education Loan,Debt Consolidation,168820,120,9.46,100886,1210632,0,64985,5686,273,4915,0.125,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0614,BANK0614,2025-08-28,Personal Loan,Personal Expenses,681979,24,13.94,62145,745740,13512,24270,253821,12522,78416,0.277,2,0,2,30,Rejected,R03,High proposed debt-to-income ratio
+LN0615,BANK0615,2025-11-24,Home Loan,Debt Consolidation,87759,36,15.24,13845,166140,4254,8120,45976,1625,24050,0.173,0,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0616,BANK0616,2025-05-28,Vehicle Loan,Home Purchase,129829,84,16.0,19070,228840,0,5056,53823,5322,35065,0.43,1,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0617,BANK0617,2026-09-19,Personal Loan,Business Expansion,79560,60,17.52,49725,596700,16115,29809,117096,8203,85778,0.307,3,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0618,BANK0618,2025-12-13,Business Loan,Medical,388049,36,10.0,48398,580776,0,14000,77672,6344,28637,0.257,4,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0619,BANK0619,2024-06-21,Education Loan,Medical,586830,36,15.45,44937,539244,20029,25050,6136,731,2303,0.098,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0620,BANK0620,2025-05-11,Business Loan,Business Expansion,291972,12,13.72,46239,554868,0,11823,178330,9066,107225,0.339,3,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0621,BANK0621,2025-06-16,Home Loan,Home Purchase,238693,120,9.67,26957,323484,0,18706,94389,4756,70817,0.299,1,0,4,30,Approved,NA,Not Applicable - Loan Approved
+LN0622,BANK0622,2025-10-10,Personal Loan,Medical,76127,60,15.26,32726,392712,0,19852,30312,1287,12376,0.204,0,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0623,BANK0623,2024-07-08,Personal Loan,Debt Consolidation,280929,240,10.09,78480,941760,44485,49470,101060,8819,40591,0.239,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0624,BANK0624,2026-06-20,Business Loan,Home Purchase,577090,84,16.92,52946,635352,0,33058,62161,5014,42778,0.186,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0625,BANK0625,2024-04-22,Personal Loan,Personal Expenses,299943,24,17.84,35426,425112,0,12143,265761,9067,69487,0.401,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0626,BANK0626,2024-11-10,Business Loan,Personal Expenses,39133,180,8.83,19157,229884,0,6323,51866,1754,45641,0.242,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0627,BANK0627,2026-09-06,Personal Loan,Vehicle Purchase,116283,24,10.62,63828,765936,4550,23188,425755,15502,88776,0.321,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0628,BANK0628,2024-02-09,Personal Loan,Business Expansion,579353,120,12.2,62741,752892,0,29520,42832,3380,28410,0.155,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0629,BANK0629,2025-02-09,Education Loan,Vehicle Purchase,435273,36,9.18,40483,485796,0,19023,326053,11067,258187,0.344,0,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0630,BANK0630,2025-11-29,Vehicle Loan,Education,58273,60,11.95,17008,204096,0,8508,75935,2760,47465,0.246,2,1,5,15,Rejected,R01,Previous loan default recorded
+LN0631,BANK0631,2025-11-20,Education Loan,Personal Expenses,149301,120,9.21,35651,427812,11074,20664,80846,6013,24433,0.292,1,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0632,BANK0632,2024-01-05,Vehicle Loan,Personal Expenses,87305,60,10.0,25397,304764,470,10888,151377,5739,112227,0.355,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0633,BANK0633,2025-04-18,Vehicle Loan,Personal Expenses,357098,240,11.9,102931,1235172,0,49060,25393,1704,21828,0.147,1,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0634,BANK0634,2024-06-27,Personal Loan,Education,1003504,36,12.43,23179,278148,924,14404,33455,1244,18921,0.129,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0635,BANK0635,2026-02-25,Personal Loan,Medical,337697,120,8.29,80995,971940,40765,27502,56957,4181,12170,0.184,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0636,BANK0636,2026-08-13,Business Loan,Home Purchase,66024,24,12.51,28006,336072,15078,17778,89524,7723,71976,0.401,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0637,BANK0637,2026-02-14,Education Loan,Education,541758,84,15.33,55372,664464,0,21780,88276,7914,20876,0.314,0,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0638,BANK0638,2025-10-16,Home Loan,Personal Expenses,38308,36,11.8,118685,1424220,0,57877,355342,23507,226043,0.305,1,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0639,BANK0639,2025-03-14,Education Loan,Personal Expenses,849800,36,13.65,35163,421956,0,22172,203249,9840,46226,0.346,1,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0640,BANK0640,2024-05-17,Personal Loan,Home Purchase,237559,24,10.26,65066,780792,0,45330,25415,1011,20666,0.092,0,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0641,BANK0641,2026-06-01,Home Loan,Home Purchase,1008357,12,17.92,33640,403680,0,11548,2319,274,913,0.07,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0642,BANK0642,2025-08-23,Personal Loan,Medical,57466,48,15.36,31951,383412,9104,19592,4921,268,3059,0.165,2,0,4,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0643,BANK0643,2026-08-25,Business Loan,Vehicle Purchase,58816,84,15.63,47937,575244,0,20842,68859,5489,11032,0.217,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0644,BANK0644,2026-03-01,Vehicle Loan,Medical,107685,24,11.34,45252,543024,16982,11957,4919,290,2958,0.062,2,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0645,BANK0645,2025-08-19,Business Loan,Medical,243813,36,12.9,36860,442320,14784,11798,24651,3144,16285,0.163,2,2,0,0,Rejected,R01,Previous loan default recorded
+LN0646,BANK0646,2025-09-18,Home Loan,Business Expansion,96851,60,12.5,68752,825024,0,35955,175876,18797,114124,0.328,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0647,BANK0647,2024-08-30,Vehicle Loan,Personal Expenses,82975,120,13.33,51525,618300,0,19135,291384,13344,60287,0.322,1,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0648,BANK0648,2026-03-26,Business Loan,Education,84074,36,17.59,4641,55692,0,1261,16924,644,9469,0.2,1,0,0,0,Rejected,R05,No current employment income
+LN0649,BANK0649,2024-04-05,Vehicle Loan,Business Expansion,699361,60,16.31,5008,60096,0,3164,6854,891,5785,0.309,2,0,0,0,Rejected,R05,No current employment income
+LN0650,BANK0650,2024-04-07,Personal Loan,Debt Consolidation,54900,36,13.07,11718,140616,0,3380,13107,838,10755,0.196,4,0,2,5,Rejected,R05,No current employment income
+LN0651,BANK0651,2025-10-28,Vehicle Loan,Personal Expenses,60893,48,15.91,36749,440988,0,20822,68741,4503,37904,0.185,0,1,1,5,Rejected,R01,Previous loan default recorded
+LN0652,BANK0652,2024-12-24,Vehicle Loan,Home Purchase,608709,120,11.92,48118,577416,16710,23277,155813,7995,84790,0.305,2,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0653,BANK0653,2024-12-19,Vehicle Loan,Medical,620054,36,11.11,33043,396516,0,22372,10774,774,9623,0.173,0,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0654,BANK0654,2025-12-28,Vehicle Loan,Home Purchase,937245,48,14.15,31782,381384,0,11342,98390,4213,52991,0.305,0,0,1,15,Rejected,R03,High proposed debt-to-income ratio
+LN0655,BANK0655,2024-01-24,Personal Loan,Business Expansion,762685,48,15.14,35616,427392,0,11358,10342,1355,4116,0.172,1,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0656,BANK0656,2025-01-05,Vehicle Loan,Personal Expenses,60678,36,14.25,83643,1003716,0,40725,285358,11598,63130,0.253,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0657,BANK0657,2024-02-13,Education Loan,Vehicle Purchase,212133,120,15.84,41741,500892,26482,19592,90766,4153,47049,0.236,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0658,BANK0658,2025-07-01,Education Loan,Vehicle Purchase,220661,180,9.64,51558,618696,0,27274,31250,2926,25761,0.134,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0659,BANK0659,2024-02-10,Education Loan,Medical,577113,36,10.77,78617,943404,14624,23902,193333,8354,124275,0.205,0,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN0660,BANK0660,2026-08-17,Business Loan,Home Purchase,374883,120,16.84,49400,592800,0,16100,26473,991,10544,0.139,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0661,BANK0661,2026-10-07,Education Loan,Vehicle Purchase,37970,36,13.74,70796,849552,0,41990,78260,6866,44558,0.154,3,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0662,BANK0662,2025-11-05,Personal Loan,Debt Consolidation,347949,240,11.08,19204,230448,0,5358,45672,2675,28728,0.217,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0663,BANK0663,2025-05-09,Home Loan,Debt Consolidation,845557,120,9.47,9827,117924,0,4984,9711,1114,8600,0.264,1,0,2,5,Rejected,R05,No current employment income
+LN0664,BANK0664,2026-01-27,Education Loan,Personal Expenses,588361,84,13.81,33883,406596,19038,20990,121820,8484,54073,0.355,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0665,BANK0665,2026-06-15,Personal Loan,Medical,823069,12,15.14,67405,808860,37979,27121,113582,8218,61492,0.248,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0666,BANK0666,2024-03-05,Personal Loan,Vehicle Purchase,814207,60,15.01,36741,440892,0,10168,224311,8055,125125,0.329,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0667,BANK0667,2025-11-11,Vehicle Loan,Medical,271334,36,15.69,2628,31536,0,937,792,37,210,0.133,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0668,BANK0668,2024-09-14,Education Loan,Vehicle Purchase,845035,24,17.18,18915,226980,0,6144,66171,4660,56447,0.314,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0669,BANK0669,2024-05-20,Personal Loan,Vehicle Purchase,157496,48,17.08,1311,15732,0,765,831,84,336,0.226,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0670,BANK0670,2026-03-02,Education Loan,Home Purchase,155787,48,12.6,46659,559908,0,16188,28834,2366,19879,0.19,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0671,BANK0671,2026-03-23,Personal Loan,Education,869077,24,9.88,31653,379836,0,12343,45630,3396,10233,0.245,0,0,2,5,Rejected,R03,High proposed debt-to-income ratio
+LN0672,BANK0672,2025-06-23,Education Loan,Home Purchase,86059,84,11.26,22760,273120,5920,6996,114419,4545,84278,0.272,1,1,3,15,Rejected,R01,Previous loan default recorded
+LN0673,BANK0673,2025-12-02,Vehicle Loan,Home Purchase,248371,84,9.62,47718,572616,10227,28513,241978,10397,129731,0.289,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0674,BANK0674,2024-10-14,Vehicle Loan,Medical,366251,60,9.44,45283,543396,0,30722,65070,2854,10402,0.178,0,0,3,60,Approved,NA,Not Applicable - Loan Approved
+LN0675,BANK0675,2024-03-03,Business Loan,Business Expansion,209372,36,17.53,56272,675264,0,33436,8829,545,3364,0.163,0,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0676,BANK0676,2026-08-13,Personal Loan,Vehicle Purchase,662557,36,13.01,73454,881448,23646,36048,22209,2262,9490,0.121,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0677,BANK0677,2024-12-01,Education Loan,Debt Consolidation,585961,48,15.95,17843,214116,0,4611,34520,1967,10065,0.206,3,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0678,BANK0678,2026-05-14,Home Loan,Education,46372,240,12.51,1914,22968,0,1147,3816,195,2271,0.212,3,0,1,15,Rejected,R05,No current employment income
+LN0679,BANK0679,2024-05-22,Home Loan,Personal Expenses,113486,24,9.32,44262,531144,27909,16627,14965,705,3109,0.138,3,1,2,30,Rejected,R01,Previous loan default recorded
+LN0680,BANK0680,2026-09-29,Home Loan,Education,789350,36,11.5,23392,280704,0,7006,69022,5615,32740,0.304,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0681,BANK0681,2025-08-06,Personal Loan,Vehicle Purchase,505220,24,10.03,25276,303312,0,16505,181264,6693,134704,0.414,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0682,BANK0682,2025-08-28,Vehicle Loan,Home Purchase,564912,60,14.64,48369,580428,11587,23843,86443,9318,40133,0.265,1,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0683,BANK0683,2025-01-04,Vehicle Loan,Personal Expenses,241981,36,16.86,25440,305280,0,15082,90202,5299,31273,0.376,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0684,BANK0684,2026-02-26,Home Loan,Home Purchase,188607,60,12.73,72785,873420,0,45475,244566,18015,112437,0.354,2,1,2,30,Rejected,R01,Previous loan default recorded
+LN0685,BANK0685,2025-07-28,Education Loan,Home Purchase,41924,36,11.65,78027,936324,9400,25508,327052,18329,67315,0.343,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0686,BANK0686,2026-10-09,Business Loan,Education,152185,36,17.6,22676,272112,0,11856,108486,4904,26516,0.358,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0687,BANK0687,2025-12-09,Business Loan,Education,41712,48,11.79,81589,979068,0,53266,129590,12567,30868,0.307,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0688,BANK0688,2025-06-18,Business Loan,Personal Expenses,59028,60,9.7,59174,710088,20048,21642,53939,3316,8582,0.127,0,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0689,BANK0689,2025-12-26,Vehicle Loan,Education,294927,36,11.48,37406,448872,7021,14023,23338,1141,4028,0.115,2,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0690,BANK0690,2026-06-22,Business Loan,Business Expansion,444478,60,12.98,89087,1069044,0,24361,179975,10276,98006,0.197,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0691,BANK0691,2024-01-14,Education Loan,Home Purchase,1198123,120,9.04,16106,193272,0,10702,24767,871,13163,0.161,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0692,BANK0692,2026-06-05,Business Loan,Home Purchase,141011,60,15.74,40526,486312,0,24486,71536,5262,17528,0.308,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0693,BANK0693,2026-02-27,Business Loan,Business Expansion,375623,36,16.99,15510,186120,0,4413,53777,2948,15361,0.256,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0694,BANK0694,2026-09-27,Personal Loan,Vehicle Purchase,44533,36,9.96,52561,630732,0,15352,105383,14184,37572,0.343,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0695,BANK0695,2026-02-16,Education Loan,Medical,62320,60,14.4,37640,451680,0,14871,121988,10413,96853,0.417,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0696,BANK0696,2024-07-09,Personal Loan,Education,903072,60,13.4,46937,563244,23788,24161,241165,8514,205688,0.353,1,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0697,BANK0697,2025-08-21,Education Loan,Education,492791,120,14.42,29670,356040,0,9430,26762,2281,5712,0.171,0,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0698,BANK0698,2024-05-31,Education Loan,Business Expansion,1126307,24,14.29,69609,835308,0,30947,61715,6875,13907,0.277,1,1,1,15,Rejected,R01,Previous loan default recorded
+LN0699,BANK0699,2024-03-21,Personal Loan,Education,1088980,12,10.27,124486,1493832,20361,43039,109767,7477,52530,0.12,3,0,4,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0700,BANK0700,2024-11-14,Vehicle Loan,Debt Consolidation,755978,84,13.11,24035,288420,2011,11313,65126,2905,35722,0.263,0,0,3,30,Rejected,R03,High proposed debt-to-income ratio
+LN0701,BANK0701,2025-10-25,Business Loan,Education,286513,36,17.95,10254,123048,6183,5621,31389,2576,9934,0.315,1,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0702,BANK0702,2024-03-07,Business Loan,Personal Expenses,54468,12,12.95,11052,132624,6567,7136,69975,2504,35292,0.313,1,0,2,30,Rejected,R02,Insufficient monthly income
+LN0703,BANK0703,2026-09-19,Business Loan,Business Expansion,90596,60,8.01,25631,307572,0,11966,64905,2585,25205,0.233,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0704,BANK0704,2026-09-29,Business Loan,Medical,83144,84,11.24,47249,566988,0,29561,84974,12575,51532,0.381,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0705,BANK0705,2026-05-12,Personal Loan,Medical,106107,24,13.1,27644,331728,0,16078,118957,4133,75614,0.258,4,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0706,BANK0706,2025-01-24,Vehicle Loan,Debt Consolidation,62771,180,14.09,33537,402444,0,16640,66961,5677,38527,0.224,0,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0707,BANK0707,2024-03-12,Education Loan,Education,49919,60,9.42,40910,490920,15170,27333,116651,3921,28705,0.184,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0708,BANK0708,2025-10-28,Home Loan,Education,67851,60,14.99,172883,2074596,0,113129,772028,44125,603775,0.311,0,0,5,5,Approved,NA,Not Applicable - Loan Approved
+LN0709,BANK0709,2025-07-23,Personal Loan,Medical,309637,12,14.37,2705,32460,0,866,12142,406,6483,0.203,1,0,0,0,Rejected,R05,No current employment income
+LN0710,BANK0710,2026-10-06,Vehicle Loan,Debt Consolidation,723399,60,8.71,29968,359616,17905,8169,163156,8144,25876,0.37,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0711,BANK0711,2026-10-24,Personal Loan,Vehicle Purchase,133930,60,14.37,71545,858540,31114,39446,68905,8367,61439,0.169,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0712,BANK0712,2025-09-19,Home Loan,Medical,86981,84,14.05,25502,306024,8555,13944,20860,2120,16496,0.191,1,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0713,BANK0713,2026-02-21,Vehicle Loan,Vehicle Purchase,89216,36,15.23,50357,604284,0,18862,127791,5867,56296,0.213,2,0,2,60,Approved,NA,Not Applicable - Loan Approved
+LN0714,BANK0714,2025-09-23,Business Loan,Vehicle Purchase,177718,84,14.46,112848,1354176,53863,41350,243261,10640,120753,0.195,2,1,1,60,Rejected,R01,Previous loan default recorded
+LN0715,BANK0715,2026-04-18,Business Loan,Debt Consolidation,89580,36,11.1,49111,589332,0,13768,96752,10082,62474,0.259,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0716,BANK0716,2025-08-10,Vehicle Loan,Debt Consolidation,175020,60,12.52,33926,407112,0,9274,165506,8011,142215,0.403,1,0,5,5,Approved,NA,Not Applicable - Loan Approved
+LN0717,BANK0717,2026-08-26,Business Loan,Business Expansion,43003,60,11.84,15146,181752,1131,8466,13185,1136,2715,0.243,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0718,BANK0718,2025-09-18,Vehicle Loan,Home Purchase,720444,84,10.0,23717,284604,0,7611,44287,4778,32077,0.38,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0719,BANK0719,2025-12-21,Personal Loan,Business Expansion,1145128,60,14.28,41064,492768,10048,11776,23162,830,15959,0.141,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0720,BANK0720,2025-08-24,Personal Loan,Business Expansion,234978,24,16.35,68095,817140,0,19104,243031,11991,166643,0.29,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0721,BANK0721,2026-05-21,Home Loan,Vehicle Purchase,42382,12,17.66,40853,490236,0,17526,271390,10269,214555,0.342,1,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0722,BANK0722,2026-08-16,Education Loan,Home Purchase,169665,36,16.86,22216,266592,0,10300,48194,1927,19889,0.213,0,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0723,BANK0723,2026-10-24,Vehicle Loan,Home Purchase,858785,12,17.93,32208,386496,0,12448,87363,8606,63179,0.439,3,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0724,BANK0724,2024-04-21,Education Loan,Personal Expenses,289984,84,14.32,42678,512136,0,15798,101611,3452,74466,0.175,1,0,4,15,Approved,NA,Not Applicable - Loan Approved
+LN0725,BANK0725,2025-08-14,Education Loan,Home Purchase,587241,24,16.02,30504,366048,0,16376,26915,3651,21089,0.276,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0726,BANK0726,2025-04-18,Business Loan,Vehicle Purchase,114850,60,13.81,36696,440352,0,11935,41596,1915,21714,0.113,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0727,BANK0727,2024-04-10,Business Loan,Personal Expenses,624638,36,16.88,25718,308616,0,12867,28758,3074,13608,0.233,1,0,5,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0728,BANK0728,2025-10-11,Personal Loan,Education,137725,60,8.49,24290,291480,0,9984,41656,4738,31159,0.323,0,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0729,BANK0729,2025-04-28,Home Loan,Education,125097,36,15.97,25584,307008,0,10761,173293,6890,89302,0.337,2,0,2,90,Approved,NA,Not Applicable - Loan Approved
+LN0730,BANK0730,2025-02-05,Education Loan,Vehicle Purchase,106362,24,16.21,24914,298968,7682,11726,56635,4961,30385,0.319,0,0,5,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0731,BANK0731,2024-07-18,Vehicle Loan,Personal Expenses,105981,48,9.37,93732,1124784,0,50724,306472,13853,205886,0.222,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0732,BANK0732,2026-08-11,Vehicle Loan,Education,171637,12,14.6,3103,37236,0,1150,11134,642,8088,0.34,0,0,0,0,Rejected,R05,No current employment income
+LN0733,BANK0733,2024-02-08,Home Loan,Business Expansion,731322,180,11.46,23423,281076,0,11817,16973,2612,13741,0.244,1,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0734,BANK0734,2026-09-25,Education Loan,Vehicle Purchase,159418,60,11.7,104215,1250580,0,41233,298633,13280,219801,0.252,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0735,BANK0735,2026-07-15,Education Loan,Medical,93449,12,16.97,25477,305724,8455,9252,45906,6053,24831,0.408,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0736,BANK0736,2024-10-16,Education Loan,Medical,345699,36,16.14,41188,494256,0,15036,54276,3451,37256,0.148,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0737,BANK0737,2024-09-05,Personal Loan,Education,59078,60,9.42,32050,384600,0,18776,94042,4358,33461,0.25,1,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0738,BANK0738,2025-01-14,Vehicle Loan,Business Expansion,1078992,60,9.67,14714,176568,0,6483,30105,2917,19669,0.261,3,1,0,0,Rejected,R01,Previous loan default recorded
+LN0739,BANK0739,2025-07-14,Education Loan,Home Purchase,289963,12,16.51,65269,783228,0,41720,30082,1303,11414,0.165,0,0,5,15,Approved,NA,Not Applicable - Loan Approved
+LN0740,BANK0740,2024-01-03,Vehicle Loan,Medical,140040,36,12.34,109098,1309176,0,74574,338978,25305,106994,0.299,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0741,BANK0741,2026-02-12,Vehicle Loan,Home Purchase,375798,36,13.57,96358,1156296,0,40595,350239,23729,221359,0.384,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0742,BANK0742,2024-07-22,Home Loan,Home Purchase,749828,48,8.52,57726,692712,0,18192,81581,3395,20627,0.151,2,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0743,BANK0743,2026-05-07,Personal Loan,Personal Expenses,783736,48,12.74,42111,505332,0,17675,15935,1005,3512,0.129,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0744,BANK0744,2026-06-27,Vehicle Loan,Debt Consolidation,127629,36,17.48,115722,1388664,0,69600,284319,12859,73014,0.278,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0745,BANK0745,2026-08-19,Home Loan,Business Expansion,64027,24,11.4,76820,921840,0,29357,188853,13723,35242,0.322,4,1,0,0,Rejected,R01,Previous loan default recorded
+LN0746,BANK0746,2025-08-20,Home Loan,Debt Consolidation,606473,180,16.93,44824,537888,5488,31169,142733,5724,124497,0.237,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0747,BANK0747,2025-02-04,Education Loan,Personal Expenses,362392,60,15.59,38894,466728,0,19032,116811,9878,71482,0.373,2,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0748,BANK0748,2024-05-30,Education Loan,Home Purchase,484041,36,13.12,53776,645312,0,35317,47195,1932,36168,0.201,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0749,BANK0749,2026-04-24,Vehicle Loan,Debt Consolidation,115702,180,15.0,101694,1220328,0,47319,175714,11550,101437,0.294,2,0,5,5,Approved,NA,Not Applicable - Loan Approved
+LN0750,BANK0750,2024-12-19,Education Loan,Personal Expenses,177237,36,17.46,25443,305316,0,15030,81738,6353,12757,0.371,0,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0751,BANK0751,2024-08-01,Education Loan,Debt Consolidation,210445,60,10.92,115847,1390164,0,52176,103386,12397,44998,0.23,0,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0752,BANK0752,2025-10-15,Vehicle Loan,Business Expansion,75064,120,10.39,4028,48336,0,1167,1928,223,527,0.165,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0753,BANK0753,2024-04-14,Personal Loan,Vehicle Purchase,122601,36,9.94,35607,427284,0,21350,46281,1905,22535,0.144,0,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0754,BANK0754,2025-10-16,Vehicle Loan,Home Purchase,550096,60,11.37,34412,412944,0,23001,99267,6456,21176,0.335,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0755,BANK0755,2025-08-20,Vehicle Loan,Medical,269773,36,9.92,77087,925044,18986,46171,204283,12362,154155,0.33,0,1,3,15,Rejected,R01,Previous loan default recorded
+LN0756,BANK0756,2026-08-08,Personal Loan,Medical,73708,12,13.88,18967,227604,0,13088,57346,2308,32027,0.25,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0757,BANK0757,2025-12-03,Education Loan,Vehicle Purchase,84694,84,11.58,1352,16224,0,366,7861,339,6703,0.394,2,2,2,5,Rejected,R01,Previous loan default recorded
+LN0758,BANK0758,2024-12-19,Home Loan,Home Purchase,249898,60,12.66,22310,267720,218,11440,50718,6117,39123,0.351,0,0,5,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0759,BANK0759,2026-03-21,Home Loan,Personal Expenses,878091,84,12.25,87096,1045152,0,41802,23056,1102,9257,0.108,0,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0760,BANK0760,2026-02-02,Business Loan,Education,457935,24,16.26,42581,510972,1541,14617,40954,6385,9370,0.316,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0761,BANK0761,2025-11-05,Vehicle Loan,Business Expansion,233014,84,8.16,23936,287232,0,15769,22967,1377,16336,0.18,2,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0762,BANK0762,2025-09-18,Home Loan,Debt Consolidation,151633,12,13.24,18762,225144,0,11036,6339,445,2336,0.183,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0763,BANK0763,2024-11-15,Personal Loan,Medical,58276,36,9.58,8879,106548,0,4410,12702,1499,9030,0.226,2,0,1,15,Rejected,R05,No current employment income
+LN0764,BANK0764,2026-05-15,Education Loan,Home Purchase,141186,48,14.49,25150,301800,0,15235,11687,464,6505,0.13,2,0,1,30,Approved,NA,Not Applicable - Loan Approved
+LN0765,BANK0765,2025-07-08,Home Loan,Debt Consolidation,115789,180,16.52,14151,169812,0,6547,8615,439,1322,0.181,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0766,BANK0766,2024-01-03,Education Loan,Debt Consolidation,218869,120,11.84,34673,416076,6045,20365,103149,9333,53961,0.362,3,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0767,BANK0767,2025-02-27,Personal Loan,Business Expansion,79555,36,15.69,29494,353928,0,9164,22397,1176,7240,0.125,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0768,BANK0768,2025-06-04,Education Loan,Debt Consolidation,147062,36,11.22,5255,63060,0,2754,10527,815,3168,0.316,1,0,1,5,Rejected,R05,No current employment income
+LN0769,BANK0769,2025-08-24,Personal Loan,Education,53271,48,9.24,95091,1141092,0,65008,270891,20362,177080,0.335,0,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0770,BANK0770,2026-05-13,Home Loan,Business Expansion,107958,36,17.4,42677,512124,0,12290,10394,405,7841,0.089,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0771,BANK0771,2026-07-04,Vehicle Loan,Medical,662034,36,12.38,43003,516036,24567,24044,107424,3733,60811,0.187,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0772,BANK0772,2025-03-16,Home Loan,Home Purchase,234729,36,15.1,66028,792336,0,41943,392787,17176,327820,0.336,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0773,BANK0773,2024-07-01,Business Loan,Debt Consolidation,965714,120,9.54,76135,913620,0,32347,236167,9349,65768,0.256,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0774,BANK0774,2026-06-07,Personal Loan,Education,83176,12,15.3,760,9120,324,213,1999,90,526,0.18,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0775,BANK0775,2026-06-22,Vehicle Loan,Personal Expenses,127656,36,13.77,16780,201360,0,11190,2466,274,1854,0.082,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0776,BANK0776,2026-06-06,Home Loan,Debt Consolidation,578502,36,11.32,42115,505380,5096,18175,9210,449,6867,0.137,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0777,BANK0777,2026-04-26,Education Loan,Medical,581029,60,11.49,21985,263820,0,10380,43315,2399,7543,0.184,1,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0778,BANK0778,2025-05-07,Education Loan,Business Expansion,917021,60,11.39,83313,999756,0,21290,189674,16983,120649,0.354,2,0,3,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0779,BANK0779,2024-03-26,Personal Loan,Education,113740,120,8.19,9173,110076,0,5486,4923,812,4088,0.173,0,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0780,BANK0780,2025-03-19,Education Loan,Medical,339797,48,14.96,183864,2206368,0,57958,712454,39347,327591,0.356,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0781,BANK0781,2026-08-22,Vehicle Loan,Vehicle Purchase,59683,48,10.51,25855,310260,0,13772,102043,3471,43610,0.291,3,1,0,0,Rejected,R01,Previous loan default recorded
+LN0782,BANK0782,2025-07-26,Home Loan,Business Expansion,781450,240,8.26,39162,469944,0,14677,86732,4515,33093,0.193,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0783,BANK0783,2025-10-31,Vehicle Loan,Business Expansion,54512,12,14.87,70783,849396,0,42882,309766,12172,58770,0.268,0,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0784,BANK0784,2026-08-17,Education Loan,Home Purchase,82662,60,16.4,33072,396864,664,9653,21265,1496,11374,0.203,2,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0785,BANK0785,2026-08-08,Business Loan,Debt Consolidation,623932,36,12.97,32365,388380,0,14950,5740,712,1892,0.129,0,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0786,BANK0786,2025-09-01,Business Loan,Education,46434,12,12.45,54999,659988,0,30355,66719,2498,57889,0.208,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0787,BANK0787,2024-05-04,Education Loan,Business Expansion,327470,12,12.33,20979,251748,7240,10169,29154,4368,4852,0.269,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0788,BANK0788,2025-05-12,Vehicle Loan,Debt Consolidation,60594,60,12.74,47537,570444,0,13932,72668,9973,32658,0.353,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0789,BANK0789,2026-01-29,Vehicle Loan,Vehicle Purchase,573074,120,14.25,11887,142644,0,8065,61971,2225,27237,0.315,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0790,BANK0790,2024-04-17,Business Loan,Medical,115892,60,10.4,38447,461364,23636,14967,35970,1972,29485,0.168,3,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0791,BANK0791,2025-08-01,Vehicle Loan,Education,981950,12,8.53,41741,500892,0,13553,122835,9925,48908,0.302,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0792,BANK0792,2025-10-11,Home Loan,Business Expansion,756348,60,17.54,50923,611076,0,28834,65602,2475,16363,0.14,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0793,BANK0793,2026-02-06,Home Loan,Medical,81746,240,17.49,32606,391272,3826,9153,27306,930,20151,0.188,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0794,BANK0794,2026-02-11,Personal Loan,Medical,224222,60,13.8,44046,528552,6820,15043,135838,5295,73880,0.245,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0795,BANK0795,2026-04-12,Education Loan,Business Expansion,911802,180,8.13,54292,651504,0,20297,84562,3392,72147,0.161,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0796,BANK0796,2024-11-03,Home Loan,Debt Consolidation,225803,120,11.69,47721,572652,4942,27171,211964,9518,182544,0.343,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0797,BANK0797,2025-09-13,Home Loan,Medical,810800,60,15.71,37320,447840,0,17269,140994,7145,93661,0.256,3,0,1,30,Rejected,R03,High proposed debt-to-income ratio
+LN0798,BANK0798,2026-02-10,Education Loan,Personal Expenses,43207,180,15.17,53216,638592,23908,21066,243072,13255,127051,0.316,0,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0799,BANK0799,2024-04-24,Home Loan,Business Expansion,84396,12,8.74,40377,484524,1367,19099,146649,7583,34341,0.343,3,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0800,BANK0800,2026-02-22,Home Loan,Vehicle Purchase,710730,84,12.92,42572,510864,0,12359,39716,3681,23770,0.201,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0801,BANK0801,2026-08-19,Personal Loan,Education,396575,84,8.26,21109,253308,0,6766,24867,984,18040,0.143,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0802,BANK0802,2025-08-15,Education Loan,Debt Consolidation,363981,60,8.17,50007,600084,0,21906,194275,12239,158254,0.327,3,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0803,BANK0803,2026-05-19,Education Loan,Business Expansion,198768,84,16.77,84570,1014840,0,21153,78809,8298,59786,0.198,0,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0804,BANK0804,2025-04-03,Education Loan,Vehicle Purchase,325163,84,8.84,43048,516576,3250,15290,76026,3834,61927,0.258,3,0,1,90,Approved,NA,Not Applicable - Loan Approved
+LN0805,BANK0805,2025-08-26,Business Loan,Business Expansion,402883,84,13.96,48050,576600,0,16359,112990,9364,52506,0.317,2,1,1,90,Rejected,R01,Previous loan default recorded
+LN0806,BANK0806,2025-11-19,Home Loan,Home Purchase,156125,60,15.02,15808,189696,6488,5733,48275,3282,23514,0.261,2,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0807,BANK0807,2025-10-12,Education Loan,Business Expansion,151563,48,16.34,64808,777696,0,28513,110173,6304,57803,0.23,2,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0808,BANK0808,2026-03-11,Vehicle Loan,Education,160824,12,12.39,22980,275760,0,16061,34653,2523,12753,0.233,1,0,2,15,Rejected,R03,High proposed debt-to-income ratio
+LN0809,BANK0809,2024-03-02,Vehicle Loan,Medical,85443,240,14.89,44776,537312,854,12498,127461,7133,54666,0.27,1,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0810,BANK0810,2025-07-25,Personal Loan,Medical,87423,84,8.88,82317,987804,25317,43344,154129,10268,130613,0.21,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0811,BANK0811,2025-03-12,Home Loan,Debt Consolidation,56911,48,16.31,26753,321036,0,13425,140049,5687,90121,0.282,1,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0812,BANK0812,2026-10-18,Home Loan,Business Expansion,879878,84,12.26,14692,176304,0,4023,40915,2207,34637,0.287,3,0,1,60,Rejected,R03,High proposed debt-to-income ratio
+LN0813,BANK0813,2024-06-16,Education Loan,Home Purchase,80281,180,13.35,21678,260136,5290,13842,61244,4533,47706,0.264,2,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0814,BANK0814,2024-08-19,Vehicle Loan,Business Expansion,180612,48,10.8,32412,388944,0,10754,92478,3563,31076,0.255,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0815,BANK0815,2025-05-28,Home Loan,Personal Expenses,80611,120,12.85,52721,632652,0,21260,67988,6023,36954,0.294,0,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0816,BANK0816,2024-04-12,Vehicle Loan,Vehicle Purchase,56004,180,16.66,28378,340536,7241,10211,142559,6850,32032,0.373,1,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0817,BANK0817,2025-02-24,Home Loan,Personal Expenses,310105,84,14.61,193185,2318220,0,55653,122047,10692,88589,0.115,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0818,BANK0818,2026-09-14,Business Loan,Vehicle Purchase,753542,36,10.85,56262,675144,0,38318,88073,4781,17484,0.227,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0819,BANK0819,2025-12-10,Vehicle Loan,Personal Expenses,311742,120,12.05,44908,538896,0,24638,99282,3651,71686,0.19,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0820,BANK0820,2025-03-05,Business Loan,Home Purchase,607450,60,10.46,63197,758364,14177,32050,5626,709,4445,0.103,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0821,BANK0821,2025-02-02,Home Loan,Personal Expenses,81172,180,11.77,49518,594216,0,23818,232136,9155,97462,0.298,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0822,BANK0822,2025-08-03,Vehicle Loan,Debt Consolidation,75699,12,13.09,43389,520668,22987,22710,36190,5236,14431,0.171,1,1,3,5,Rejected,R01,Previous loan default recorded
+LN0823,BANK0823,2026-09-16,Vehicle Loan,Medical,56216,24,16.8,33805,405660,0,22460,50129,7460,42873,0.285,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0824,BANK0824,2025-02-24,Vehicle Loan,Vehicle Purchase,58654,240,12.43,70238,842856,0,27062,155853,5647,92732,0.188,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0825,BANK0825,2025-02-25,Vehicle Loan,Home Purchase,405658,180,8.75,66051,792612,0,35444,68502,8732,44978,0.274,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0826,BANK0826,2026-08-24,Business Loan,Medical,871286,12,16.35,85872,1030464,42415,47588,279021,11479,51940,0.264,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0827,BANK0827,2025-11-22,Education Loan,Vehicle Purchase,125992,36,10.91,18671,224052,0,12044,22673,1058,17387,0.205,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0828,BANK0828,2024-02-04,Business Loan,Medical,153343,60,8.63,35510,426120,0,9097,133712,4681,65230,0.297,3,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0829,BANK0829,2026-08-06,Personal Loan,Education,355516,24,13.9,11655,139860,0,5308,10668,1562,1890,0.187,1,0,2,5,Rejected,R05,No current employment income
+LN0830,BANK0830,2025-02-25,Vehicle Loan,Vehicle Purchase,53702,60,15.54,120475,1445700,0,83422,380139,28967,281233,0.3,0,0,3,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0831,BANK0831,2026-08-15,Home Loan,Business Expansion,81864,36,10.58,39617,475404,0,13577,91753,3639,80455,0.178,0,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0832,BANK0832,2024-07-20,Education Loan,Vehicle Purchase,56463,24,17.53,43768,525216,0,28260,114097,8392,31906,0.32,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0833,BANK0833,2024-04-08,Business Loan,Personal Expenses,179478,60,12.55,34729,416748,0,22224,86667,6809,46595,0.308,0,0,2,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0834,BANK0834,2025-01-27,Home Loan,Personal Expenses,618107,36,16.09,83924,1007088,0,21098,227892,12651,177195,0.212,1,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0835,BANK0835,2024-11-08,Business Loan,Education,434202,240,13.36,36344,436128,8956,20563,208645,8989,168285,0.343,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0836,BANK0836,2024-06-15,Business Loan,Medical,166911,120,13.29,30959,371508,7013,11547,78564,3023,44525,0.148,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0837,BANK0837,2025-03-01,Vehicle Loan,Medical,379115,12,13.99,33113,397356,0,21759,92549,7180,76022,0.275,3,0,1,30,Rejected,R03,High proposed debt-to-income ratio
+LN0838,BANK0838,2024-08-09,Business Loan,Home Purchase,174157,60,15.05,33350,400200,5475,15554,79900,6284,60818,0.352,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0839,BANK0839,2026-01-14,Education Loan,Home Purchase,86463,84,8.9,44713,536556,11371,21795,109193,11611,89890,0.353,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0840,BANK0840,2024-03-30,Personal Loan,Debt Consolidation,41123,48,8.47,1037,12444,0,589,2555,162,912,0.263,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0841,BANK0841,2026-08-07,Business Loan,Debt Consolidation,436814,24,12.32,36494,437928,0,12129,67416,4463,26950,0.291,2,1,0,0,Rejected,R01,Previous loan default recorded
+LN0842,BANK0842,2025-06-29,Business Loan,Business Expansion,116294,120,11.59,7806,93672,2114,3271,58462,2074,35938,0.399,4,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0843,BANK0843,2024-03-24,Education Loan,Vehicle Purchase,432769,120,11.17,81717,980604,0,26614,245590,9890,178586,0.208,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0844,BANK0844,2025-08-26,Business Loan,Personal Expenses,292747,36,9.68,11284,135408,0,6367,59421,2156,10207,0.294,2,0,0,0,Rejected,R02,Insufficient monthly income
+LN0845,BANK0845,2026-04-21,Home Loan,Business Expansion,836038,60,10.51,24024,288288,0,7548,57297,2798,33141,0.191,1,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0846,BANK0846,2026-03-23,Vehicle Loan,Home Purchase,257656,48,9.07,105480,1265760,0,51120,317570,14863,127877,0.262,3,0,4,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0847,BANK0847,2026-07-11,Education Loan,Business Expansion,1243339,60,10.75,31241,374892,0,19861,130523,5284,91325,0.227,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0848,BANK0848,2024-05-21,Business Loan,Personal Expenses,304979,120,8.6,16507,198084,0,11441,61108,4533,54862,0.416,1,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0849,BANK0849,2024-03-07,Home Loan,Home Purchase,414737,12,11.0,48503,582036,9971,15239,334407,13302,156774,0.355,1,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0850,BANK0850,2024-06-14,Personal Loan,Vehicle Purchase,190711,48,15.58,28299,339588,1095,8573,128528,6459,77703,0.294,3,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0851,BANK0851,2025-04-01,Business Loan,Business Expansion,98070,60,13.27,63151,757812,0,28751,46559,5994,26285,0.171,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0852,BANK0852,2024-05-09,Vehicle Loan,Education,203948,84,16.74,19425,233100,11121,9229,80393,3084,66244,0.245,0,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0853,BANK0853,2026-09-21,Vehicle Loan,Vehicle Purchase,533499,60,16.16,40171,482052,0,26001,113625,8000,25024,0.3,2,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0854,BANK0854,2025-08-15,Business Loan,Vehicle Purchase,330736,12,11.08,39518,474216,24391,18691,93836,7383,69176,0.269,0,1,2,30,Rejected,R01,Previous loan default recorded
+LN0855,BANK0855,2026-02-01,Vehicle Loan,Debt Consolidation,647205,60,12.52,26904,322848,3946,14306,164289,6918,108351,0.318,1,0,3,30,Rejected,R03,High proposed debt-to-income ratio
+LN0856,BANK0856,2024-05-22,Business Loan,Business Expansion,419219,36,10.39,49834,598008,0,19728,78652,6523,20213,0.242,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0857,BANK0857,2025-07-30,Business Loan,Education,341515,12,12.81,98802,1185624,0,27069,423669,22437,217815,0.322,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0858,BANK0858,2024-02-05,Education Loan,Business Expansion,177700,36,8.05,11227,134724,684,4877,63248,2862,34494,0.429,2,0,1,5,Rejected,R02,Insufficient monthly income
+LN0859,BANK0859,2024-10-03,Business Loan,Home Purchase,55084,60,13.04,23940,287280,11205,14082,58309,5198,28686,0.271,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0860,BANK0860,2025-01-26,Education Loan,Medical,119406,36,11.06,43398,520776,0,25375,73374,8774,20138,0.253,2,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0861,BANK0861,2024-11-28,Business Loan,Vehicle Purchase,421668,60,12.07,26846,322152,0,15184,101377,5093,43472,0.319,2,0,4,90,Approved,NA,Not Applicable - Loan Approved
+LN0862,BANK0862,2024-07-18,Education Loan,Personal Expenses,900298,24,15.06,175824,2109888,0,85589,1017935,47653,526718,0.447,4,1,1,15,Rejected,R01,Previous loan default recorded
+LN0863,BANK0863,2025-01-17,Business Loan,Education,79009,84,15.67,49876,598512,0,33876,128199,9796,78918,0.305,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0864,BANK0864,2026-01-30,Personal Loan,Debt Consolidation,84112,120,14.82,19293,231516,0,7128,27635,1061,10778,0.232,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0865,BANK0865,2025-12-31,Education Loan,Personal Expenses,60159,48,8.26,16876,202512,0,9109,719,37,469,0.074,0,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0866,BANK0866,2026-04-05,Personal Loan,Education,1129791,60,17.08,49157,589884,0,25865,37316,1466,27659,0.156,1,0,1,30,Rejected,R03,High proposed debt-to-income ratio
+LN0867,BANK0867,2026-10-14,Education Loan,Medical,125688,48,10.24,56982,683784,31962,27041,3518,353,2845,0.065,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0868,BANK0868,2025-03-11,Home Loan,Personal Expenses,68600,84,9.73,16773,201276,0,8210,6652,1012,1943,0.202,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0869,BANK0869,2024-01-30,Home Loan,Vehicle Purchase,55751,24,15.11,28657,343884,14112,10035,49135,2315,27177,0.162,3,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0870,BANK0870,2024-05-29,Vehicle Loan,Vehicle Purchase,53822,48,9.75,51821,621852,0,26957,30018,1821,7297,0.096,2,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0871,BANK0871,2026-04-06,Business Loan,Business Expansion,756493,84,13.22,35173,422076,1492,11576,165122,9002,25894,0.363,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0872,BANK0872,2025-01-29,Business Loan,Education,779498,48,10.67,49746,596952,0,18223,46971,2294,37592,0.196,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0873,BANK0873,2024-10-22,Business Loan,Medical,118675,84,13.73,35531,426372,0,15236,198849,6771,170892,0.251,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0874,BANK0874,2025-11-15,Personal Loan,Vehicle Purchase,90909,48,17.66,24271,291252,0,13509,14604,1374,8059,0.122,1,0,4,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0875,BANK0875,2024-02-04,Home Loan,Home Purchase,172420,36,9.68,73131,877572,0,36181,87398,3185,44729,0.191,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0876,BANK0876,2024-04-18,Business Loan,Education,919033,24,9.92,54118,649416,0,21322,19859,1822,17713,0.152,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0877,BANK0877,2024-11-07,Education Loan,Personal Expenses,1179373,60,16.33,11167,134004,0,4991,23370,1679,10506,0.291,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0878,BANK0878,2025-12-28,Education Loan,Education,59867,36,11.75,63141,757692,0,32934,329020,14978,145041,0.399,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0879,BANK0879,2024-07-21,Business Loan,Vehicle Purchase,48779,120,16.62,56209,674508,0,25663,249962,11008,143249,0.321,1,1,3,90,Rejected,R01,Previous loan default recorded
+LN0880,BANK0880,2025-04-26,Personal Loan,Home Purchase,59556,24,11.61,16888,202656,10824,11434,80689,3714,22919,0.318,1,0,5,15,Approved,NA,Not Applicable - Loan Approved
+LN0881,BANK0881,2026-01-27,Business Loan,Medical,268570,12,13.5,50653,607836,0,25432,11188,582,8096,0.139,3,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0882,BANK0882,2026-09-05,Home Loan,Vehicle Purchase,94271,60,11.36,10122,121464,0,6125,18444,1876,5281,0.291,0,0,0,0,Rejected,R02,Insufficient monthly income
+LN0883,BANK0883,2024-01-26,Vehicle Loan,Medical,241706,60,17.71,23917,287004,0,14827,166382,6530,34973,0.396,3,0,5,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0884,BANK0884,2025-05-27,Home Loan,Business Expansion,1238204,24,11.56,30911,370932,12209,17093,14176,1240,9548,0.095,0,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0885,BANK0885,2025-06-19,Education Loan,Home Purchase,838796,240,11.02,32931,395172,0,20292,132191,8662,72964,0.372,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0886,BANK0886,2025-07-02,Vehicle Loan,Debt Consolidation,146370,60,13.4,69460,833520,0,24995,46103,3674,32031,0.106,3,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0887,BANK0887,2025-11-25,Home Loan,Vehicle Purchase,248961,120,8.92,83439,1001268,0,42681,202399,15426,130469,0.258,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0888,BANK0888,2026-09-28,Personal Loan,Education,58203,120,9.98,29229,350748,5877,11129,63218,3806,37034,0.31,2,0,2,5,Approved,NA,Not Applicable - Loan Approved
+LN0889,BANK0889,2024-10-18,Education Loan,Education,367181,240,16.02,41723,500676,0,17188,35228,2771,14064,0.188,3,2,2,60,Rejected,R01,Previous loan default recorded
+LN0890,BANK0890,2024-11-26,Business Loan,Vehicle Purchase,178706,36,9.45,2429,29148,0,1677,6102,360,4108,0.205,1,0,2,30,Rejected,R05,No current employment income
+LN0891,BANK0891,2024-01-03,Home Loan,Home Purchase,476245,120,10.25,21152,253824,0,13261,23827,1089,3657,0.187,2,1,1,60,Rejected,R01,Previous loan default recorded
+LN0892,BANK0892,2026-04-27,Home Loan,Business Expansion,898756,24,10.48,92101,1105212,0,44495,41972,5018,14046,0.126,1,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0893,BANK0893,2024-04-09,Education Loan,Home Purchase,387979,84,17.74,20350,244200,0,6847,30103,4164,4971,0.281,3,0,1,15,Rejected,R03,High proposed debt-to-income ratio
+LN0894,BANK0894,2026-07-21,Home Loan,Business Expansion,794003,36,12.4,55672,668064,0,23169,161569,7638,132253,0.276,2,0,4,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0895,BANK0895,2026-05-04,Business Loan,Debt Consolidation,461978,24,13.09,2603,31236,0,1075,11984,506,3788,0.276,1,0,1,15,Rejected,R05,No current employment income
+LN0896,BANK0896,2025-03-14,Home Loan,Medical,186078,48,13.43,51700,620400,10963,23210,331583,11865,182310,0.392,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0897,BANK0897,2024-10-17,Home Loan,Medical,848222,240,15.68,22382,268584,3398,7722,15160,1418,9174,0.213,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0898,BANK0898,2026-10-13,Home Loan,Business Expansion,364794,60,12.68,29702,356424,3870,9199,42385,5857,19605,0.362,0,0,2,60,Approved,NA,Not Applicable - Loan Approved
+LN0899,BANK0899,2025-11-10,Vehicle Loan,Vehicle Purchase,48191,36,10.57,110989,1331868,12480,54661,256573,19015,188475,0.343,0,0,5,15,Approved,NA,Not Applicable - Loan Approved
+LN0900,BANK0900,2026-07-13,Business Loan,Education,277754,48,14.22,68495,821940,23584,40812,179037,12493,68955,0.343,4,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0901,BANK0901,2024-05-15,Vehicle Loan,Home Purchase,890009,48,14.48,21097,253164,0,9098,62556,2282,22239,0.223,3,0,1,5,Rejected,R03,High proposed debt-to-income ratio
+LN0902,BANK0902,2026-03-13,Vehicle Loan,Education,124099,180,17.26,14449,173388,0,4355,24250,1752,11896,0.181,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0903,BANK0903,2026-01-14,Home Loan,Business Expansion,142896,24,11.68,27154,325848,13793,14151,32103,4189,5317,0.232,1,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0904,BANK0904,2026-05-14,Business Loan,Business Expansion,154647,48,11.8,35503,426036,0,22879,276633,9713,207480,0.426,1,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0905,BANK0905,2025-09-23,Vehicle Loan,Personal Expenses,176305,12,16.16,41911,502932,0,20799,19,1,12,0.072,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0906,BANK0906,2025-06-15,Business Loan,Debt Consolidation,346263,120,8.14,39110,469320,0,12264,221357,10773,140255,0.399,1,1,4,15,Rejected,R01,Previous loan default recorded
+LN0907,BANK0907,2025-07-15,Business Loan,Debt Consolidation,75231,180,17.58,55289,663468,0,16069,53148,3832,45071,0.231,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0908,BANK0908,2026-01-19,Personal Loan,Business Expansion,724831,120,10.49,60771,729252,0,37526,72352,3261,12943,0.145,2,1,1,30,Rejected,R01,Previous loan default recorded
+LN0909,BANK0909,2026-06-13,Business Loan,Education,112411,84,14.64,86421,1037052,36880,48541,99794,5241,76932,0.175,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0910,BANK0910,2024-12-04,Vehicle Loan,Medical,436212,48,9.72,25760,309120,15846,15942,124452,4200,54841,0.268,1,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0911,BANK0911,2026-06-14,Personal Loan,Debt Consolidation,936754,240,8.96,104951,1259412,6351,57859,667654,27673,165672,0.387,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0912,BANK0912,2024-06-30,Personal Loan,Debt Consolidation,309393,60,9.61,18330,219960,0,8479,55714,4285,26298,0.401,2,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0913,BANK0913,2025-03-19,Business Loan,Vehicle Purchase,136615,120,16.4,101981,1223772,0,40295,229819,13628,125545,0.272,1,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0914,BANK0914,2025-08-24,Home Loan,Business Expansion,763205,12,13.85,37716,452592,0,12238,130709,9904,101878,0.357,0,0,1,5,Rejected,R03,High proposed debt-to-income ratio
+LN0915,BANK0915,2024-12-12,Personal Loan,Education,71024,120,11.05,38857,466284,0,26426,238242,10404,193907,0.324,0,1,0,0,Rejected,R01,Previous loan default recorded
+LN0916,BANK0916,2025-07-12,Education Loan,Vehicle Purchase,994176,12,16.09,21523,258276,12309,6676,21596,1688,11427,0.2,2,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0917,BANK0917,2024-12-14,Home Loan,Vehicle Purchase,430524,24,17.02,13622,163464,0,4815,51431,2595,34606,0.368,4,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0918,BANK0918,2024-10-25,Personal Loan,Debt Consolidation,950525,120,10.2,13758,165096,0,9324,10357,520,1951,0.183,2,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0919,BANK0919,2025-09-07,Home Loan,Debt Consolidation,410024,36,15.04,31018,372216,562,21326,123295,7130,21575,0.407,2,0,5,15,Rejected,R03,High proposed debt-to-income ratio
+LN0920,BANK0920,2025-12-24,Business Loan,Business Expansion,256214,180,14.36,63718,764616,0,41225,139593,10457,31862,0.252,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0921,BANK0921,2024-07-15,Home Loan,Medical,287721,48,12.94,57675,692100,0,35075,189578,9104,103099,0.267,0,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0922,BANK0922,2024-02-21,Education Loan,Home Purchase,179771,60,8.4,99042,1188504,0,24867,208902,10391,54662,0.218,1,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0923,BANK0923,2024-03-04,Education Loan,Debt Consolidation,897228,48,13.95,28157,337884,0,7995,61289,2525,11945,0.189,0,0,1,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0924,BANK0924,2026-08-23,Home Loan,Medical,904207,36,14.9,47148,565776,0,31346,43288,5605,27160,0.277,4,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0925,BANK0925,2025-09-24,Business Loan,Personal Expenses,484647,24,17.18,56495,677940,0,38369,219611,13367,62259,0.35,3,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0926,BANK0926,2024-01-30,Personal Loan,Vehicle Purchase,77082,36,17.07,51530,618360,0,19187,84093,9777,20093,0.353,1,0,3,60,Approved,NA,Not Applicable - Loan Approved
+LN0927,BANK0927,2025-02-07,Education Loan,Vehicle Purchase,829225,36,10.53,51049,612588,0,21034,59072,6325,25355,0.233,0,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0928,BANK0928,2025-06-10,Personal Loan,Vehicle Purchase,51905,60,15.95,22647,271764,0,13793,44353,3349,20563,0.254,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0929,BANK0929,2026-08-26,Education Loan,Vehicle Purchase,77925,48,12.92,44089,529068,0,15394,270442,11130,202258,0.385,3,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0930,BANK0930,2025-09-04,Home Loan,Medical,205131,36,13.27,82621,991452,0,23173,447153,18657,82539,0.314,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0931,BANK0931,2025-12-05,Vehicle Loan,Personal Expenses,983146,60,12.31,154653,1855836,0,74322,446416,20510,88955,0.191,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0932,BANK0932,2024-02-15,Personal Loan,Debt Consolidation,615619,48,9.62,100624,1207488,64321,26411,115386,13456,19188,0.301,1,0,4,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0933,BANK0933,2024-03-23,Education Loan,Debt Consolidation,422517,240,11.89,21564,258768,0,5688,45597,1744,37913,0.201,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0934,BANK0934,2024-10-04,Education Loan,Debt Consolidation,579005,24,16.04,133831,1605972,0,66825,105744,4463,15916,0.211,4,0,1,90,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0935,BANK0935,2024-05-06,Business Loan,Medical,86005,36,17.68,107558,1290696,0,52370,138163,11175,77796,0.239,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0936,BANK0936,2026-02-14,Personal Loan,Home Purchase,161268,24,11.5,32013,384156,12870,10894,47211,2150,19961,0.162,2,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0937,BANK0937,2026-04-30,Education Loan,Business Expansion,39829,180,17.87,33884,406608,0,10668,78701,2817,23992,0.193,0,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0938,BANK0938,2024-04-20,Personal Loan,Vehicle Purchase,215563,84,9.43,75458,905496,0,52255,130776,9106,95734,0.233,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0939,BANK0939,2025-05-13,Home Loan,Medical,362554,36,13.3,24683,296196,0,16845,159353,5677,124603,0.318,1,0,2,5,Rejected,R03,High proposed debt-to-income ratio
+LN0940,BANK0940,2026-06-02,Business Loan,Medical,573137,12,10.74,43976,527712,0,12451,75911,3931,47060,0.208,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0941,BANK0941,2024-08-08,Vehicle Loan,Education,977288,12,8.77,34102,409224,0,13746,110373,3723,94572,0.272,2,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0942,BANK0942,2026-06-19,Personal Loan,Business Expansion,747543,36,9.91,20634,247608,4830,10354,77470,2592,14954,0.28,1,0,4,30,Rejected,R03,High proposed debt-to-income ratio
+LN0943,BANK0943,2026-02-18,Education Loan,Vehicle Purchase,565113,36,15.42,21563,258756,0,14691,75586,5325,25824,0.305,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0944,BANK0944,2024-09-04,Vehicle Loan,Vehicle Purchase,1008893,240,11.2,22673,272076,0,12998,71537,3231,43931,0.215,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0945,BANK0945,2026-06-30,Education Loan,Business Expansion,182640,60,12.93,31544,378528,0,19531,58469,3306,24118,0.165,3,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0946,BANK0946,2024-12-17,Personal Loan,Personal Expenses,698688,48,12.96,99067,1188804,0,56979,604691,23381,307634,0.292,2,0,2,90,Approved,NA,Not Applicable - Loan Approved
+LN0947,BANK0947,2025-11-17,Home Loan,Personal Expenses,601614,240,12.77,41229,494748,0,12135,123014,4774,86437,0.277,1,0,1,60,Approved,NA,Not Applicable - Loan Approved
+LN0948,BANK0948,2025-10-15,Home Loan,Home Purchase,151614,36,9.65,114,1368,0,70,92,9,57,0.157,4,0,0,0,Rejected,R05,No current employment income
+LN0949,BANK0949,2024-08-18,Home Loan,Personal Expenses,438499,24,9.53,86268,1035216,0,26473,49058,5563,44078,0.148,0,0,3,90,Approved,NA,Not Applicable - Loan Approved
+LN0950,BANK0950,2025-05-04,Business Loan,Debt Consolidation,617824,240,8.79,24748,296976,0,12637,52047,3553,25578,0.315,2,0,1,15,Approved,NA,Not Applicable - Loan Approved
+LN0951,BANK0951,2024-08-27,Vehicle Loan,Vehicle Purchase,734963,24,13.13,44942,539304,0,29419,99583,9238,83968,0.308,4,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0952,BANK0952,2024-03-30,Business Loan,Home Purchase,59636,84,8.35,877,10524,152,606,875,101,355,0.248,0,0,0,0,Rejected,R05,No current employment income
+LN0953,BANK0953,2024-10-25,Personal Loan,Home Purchase,180973,36,11.12,55862,670344,0,23223,147629,5906,91380,0.181,2,0,4,30,Approved,NA,Not Applicable - Loan Approved
+LN0954,BANK0954,2026-02-26,Business Loan,Debt Consolidation,423458,120,12.12,79333,951996,866,22058,223525,17608,118477,0.338,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0955,BANK0955,2025-02-22,Personal Loan,Medical,68006,120,12.32,49571,594852,25590,29000,224424,11160,69290,0.4,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0956,BANK0956,2024-11-24,Business Loan,Home Purchase,47450,60,13.21,68987,827844,0,39169,191737,10997,158009,0.271,2,0,2,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0957,BANK0957,2025-09-27,Business Loan,Home Purchase,38016,48,13.49,10687,128244,0,6362,26134,946,18052,0.158,1,0,3,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0958,BANK0958,2026-02-04,Education Loan,Business Expansion,463922,60,17.52,8509,102108,1656,3416,41512,1558,36076,0.349,2,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0959,BANK0959,2024-01-16,Personal Loan,Medical,39198,60,17.48,19430,233160,0,10969,15308,2391,4943,0.176,0,0,1,5,Approved,NA,Not Applicable - Loan Approved
+LN0960,BANK0960,2024-10-29,Home Loan,Education,67296,36,15.2,22605,271260,0,10152,104985,4287,26408,0.246,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0961,BANK0961,2024-01-20,Home Loan,Home Purchase,118427,12,10.35,31199,374388,1257,10272,30173,1400,24453,0.105,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0962,BANK0962,2025-02-11,Home Loan,Education,740919,240,9.4,9000,108000,0,2608,8388,282,5550,0.195,4,0,0,0,Rejected,R02,Insufficient monthly income
+LN0963,BANK0963,2024-02-28,Personal Loan,Debt Consolidation,231122,120,15.13,49934,599208,0,25432,61659,6484,50047,0.257,0,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0964,BANK0964,2024-03-12,Business Loan,Personal Expenses,146936,12,13.27,81033,972396,0,37475,38701,1943,27963,0.184,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0965,BANK0965,2026-10-08,Home Loan,Education,109575,180,12.61,2510,30120,0,1429,2955,129,2485,0.198,0,0,1,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0966,BANK0966,2024-12-20,Education Loan,Vehicle Purchase,188184,120,16.03,44086,529032,18816,17888,294830,11943,159450,0.33,1,2,1,5,Rejected,R01,Previous loan default recorded
+LN0967,BANK0967,2025-10-21,Home Loan,Medical,975041,12,9.83,6728,80736,0,2084,2212,107,1210,0.103,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0968,BANK0968,2026-06-06,Business Loan,Vehicle Purchase,571180,120,16.18,52754,633048,0,21472,53049,7101,45318,0.313,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0969,BANK0969,2024-11-28,Education Loan,Debt Consolidation,233740,36,16.27,6543,78516,3210,3457,21381,952,5340,0.207,2,0,2,15,Rejected,R05,No current employment income
+LN0970,BANK0970,2024-05-20,Vehicle Loan,Medical,56712,48,14.32,7104,85248,0,3198,24963,864,5153,0.259,2,1,2,15,Rejected,R01,Previous loan default recorded
+LN0971,BANK0971,2024-02-03,Personal Loan,Vehicle Purchase,574141,48,10.45,129103,1549236,0,57700,50922,3490,14581,0.083,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0972,BANK0972,2026-10-19,Business Loan,Medical,42726,48,9.11,42415,508980,20796,17259,103145,5332,41403,0.284,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0973,BANK0973,2025-05-02,Business Loan,Education,877250,24,17.38,2828,33936,0,1179,5173,702,4373,0.37,3,0,3,30,Rejected,R05,No current employment income
+LN0974,BANK0974,2024-02-04,Vehicle Loan,Business Expansion,165868,120,11.86,35569,426828,0,24161,141761,7340,117007,0.274,4,0,3,15,Approved,NA,Not Applicable - Loan Approved
+LN0975,BANK0975,2026-03-16,Education Loan,Education,968519,24,16.02,16835,202020,2713,4937,56602,4176,21123,0.33,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0976,BANK0976,2025-11-14,Personal Loan,Home Purchase,1095771,120,12.09,22043,264516,0,7549,56589,4443,25616,0.327,1,0,2,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0977,BANK0977,2026-02-26,Business Loan,Debt Consolidation,349510,60,11.55,42230,506760,18540,24297,17658,1937,5208,0.212,0,0,3,5,Approved,NA,Not Applicable - Loan Approved
+LN0978,BANK0978,2024-04-05,Education Loan,Debt Consolidation,190158,84,9.02,25670,308040,13486,12355,85835,3845,13835,0.226,1,1,0,0,Rejected,R01,Previous loan default recorded
+LN0979,BANK0979,2024-07-17,Business Loan,Education,158817,180,12.08,37068,444816,0,9909,37811,4908,17741,0.186,3,0,2,15,Approved,NA,Not Applicable - Loan Approved
+LN0980,BANK0980,2026-08-20,Business Loan,Vehicle Purchase,56103,60,10.1,45436,545232,18938,15835,136409,9147,100365,0.291,0,0,1,60,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0981,BANK0981,2026-10-25,Education Loan,Personal Expenses,61379,240,16.77,119308,1431696,0,68492,3475,140,2742,0.096,1,0,1,5,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0982,BANK0982,2026-03-10,Home Loan,Business Expansion,232955,120,9.68,38464,461568,0,25598,75074,5464,55503,0.295,4,1,0,0,Rejected,R01,Previous loan default recorded
+LN0983,BANK0983,2026-06-27,Vehicle Loan,Vehicle Purchase,831904,24,15.63,20787,249444,0,11956,103492,4000,49270,0.342,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0984,BANK0984,2026-06-07,Personal Loan,Home Purchase,61756,36,8.48,47471,569652,17927,17777,88622,3175,74373,0.172,1,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0985,BANK0985,2025-10-22,Home Loan,Education,113683,60,13.3,25555,306660,439,10005,60070,5110,51931,0.354,2,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0986,BANK0986,2024-01-03,Home Loan,Business Expansion,359148,120,10.41,119605,1435260,26680,70000,192376,8145,101276,0.118,1,0,3,30,Approved,NA,Not Applicable - Loan Approved
+LN0987,BANK0987,2025-12-08,Home Loan,Vehicle Purchase,487303,36,8.04,20418,245016,6452,6929,26041,1421,4402,0.24,1,0,0,0,Rejected,R03,High proposed debt-to-income ratio
+LN0988,BANK0988,2025-08-08,Education Loan,Medical,165794,84,12.91,1356,16272,0,938,3611,164,1043,0.242,1,0,0,0,Rejected,R05,No current employment income
+LN0989,BANK0989,2025-12-30,Personal Loan,Debt Consolidation,257220,36,9.52,4724,56688,2626,1742,2154,85,1657,0.104,2,0,0,0,Rejected,R05,No current employment income
+LN0990,BANK0990,2026-05-22,Personal Loan,Vehicle Purchase,164891,60,11.43,20235,242820,3872,8715,32766,3544,23243,0.335,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0991,BANK0991,2024-08-04,Education Loan,Medical,1126246,24,17.46,63550,762600,0,33457,305140,15264,171572,0.365,0,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0992,BANK0992,2025-07-08,Business Loan,Debt Consolidation,826541,48,12.38,40238,482856,1271,13564,82977,8353,50279,0.329,2,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0993,BANK0993,2026-10-26,Personal Loan,Business Expansion,343395,48,8.77,42617,511404,12999,12586,40892,4695,10972,0.215,4,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN0994,BANK0994,2024-11-20,Business Loan,Business Expansion,296472,84,17.41,73246,878952,0,49046,157654,7664,69962,0.25,2,0,1,90,Approved,NA,Not Applicable - Loan Approved
+LN0995,BANK0995,2024-10-30,Education Loan,Medical,268461,36,17.6,2464,29568,0,1040,8647,292,1763,0.18,1,0,0,0,Rejected,R05,No current employment income
+LN0996,BANK0996,2025-07-14,Vehicle Loan,Vehicle Purchase,453029,60,14.5,18438,221256,0,11250,44240,4110,12741,0.401,0,0,2,30,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0997,BANK0997,2025-02-24,Business Loan,Home Purchase,61415,12,11.9,43765,525180,0,30134,164214,6466,141159,0.231,1,0,1,15,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0998,BANK0998,2024-07-25,Education Loan,Debt Consolidation,349621,36,14.79,43985,527820,0,25564,215591,8105,92719,0.342,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN0999,BANK0999,2025-12-21,Education Loan,Personal Expenses,287464,36,9.47,35830,429960,0,17464,77486,5408,23096,0.238,3,0,2,30,Approved,NA,Not Applicable - Loan Approved
+LN1000,BANK1000,2024-08-02,Education Loan,Debt Consolidation,77268,48,17.21,67357,808284,0,43166,1785,65,442,0.081,3,0,0,0,Approved,NA,Not Applicable - Loan Approved
+LN1001,BANK1001,2026-11-02,Personal Loan,Home Purchase,500000.0,48,9.5,85000.0,1020000.0,0.0,25000.0,0.0,0.0,50000.0,0.148,1,0,0,0,Approved,,Not Applicable - Loan Approved
+LN1002,BANK1002,2026-11-02,Personal Loan,Personal Expenses,250000.0,36,10.5,45000.0,540000.0,0.0,15000.0,0.0,0.0,0.0,0.181,1,0,0,0,Rejected,R04,Credit score below the minimum eligibility threshold
+LN1003,BANK1003,2026-11-02,Personal Loan,Personal Expenses,250000.0,36,10.5,45000.0,540000.0,0.0,15000.0,0.0,0.0,0.0,0.181,1,0,0,0,Approved,,Not Applicable - Loan Approved

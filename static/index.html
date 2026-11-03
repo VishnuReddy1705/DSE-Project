@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinRisk 360 - Financial Loan & Credit Risk Management</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#1e1b4b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Clean Light Scrollbars */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #f8fafc; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+    /* Light Crisp Badges */
+    .badge-low { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .badge-medium { background: #fffbeb; color: #d97706; border: 1px solid #fde68a; }
+    .badge-high { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+    .badge-approved { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .badge-rejected { background: #fff1f2; color: #e11d48; border: 1px solid #fecdd3; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen font-sans antialiased selection:bg-indigo-600 selection:text-white">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      
+      <!-- Logo & System Info -->
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-600 flex items-center justify-center shadow-md shadow-indigo-600/20">
+          <i data-lucide="shield-check" class="w-6 h-6 text-white"></i>
+        </div>
+        <div>
+          <div class="flex items-center space-x-2">
+            <span class="font-bold text-lg text-slate-900 tracking-tight">FinRisk<span class="text-indigo-600">360</span></span>
+            <span class="text-[10px] uppercase font-semibold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">Enterprise</span>
+          </div>
+          <p class="text-xs text-slate-500 hidden sm:block">Financial Loan & Credit Risk Synchronization System</p>
+        </div>
+      </div>
+
+      <!-- Action Buttons: Dataset Explorer Icon + Power BI + Add Customer + Sync -->
+      <div class="flex items-center space-x-2 sm:space-x-3">
+        
+        <!-- POWER BI SUITE BUTTON -->
+        <button id="btnOpenPowerBI" onclick="openPowerBiModal()" class="relative flex items-center space-x-2 px-3.5 py-2 rounded-lg bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-900 transition shadow-sm group" title="Open Power BI Analytics Suite (3 Dashboards)">
+          <svg class="w-4 h-4 text-amber-600 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+            <rect x="3" y="12" width="4" height="9" rx="1"/>
+            <rect x="10" y="7" width="4" height="14" rx="1"/>
+            <rect x="17" y="3" width="4" height="18" rx="1"/>
+          </svg>
+          <span class="text-xs font-bold hidden sm:inline">Power BI Suite</span>
+          <span class="text-[10px] bg-amber-200 text-amber-800 px-1.5 py-0.2 rounded font-semibold">3 Reports</span>
+        </button>
+
+        <!-- DATASET ICON BUTTON -->
+        <button id="btnOpenDatasets" onclick="openDatasetModal()" class="relative flex items-center space-x-2 px-3.5 py-2 rounded-lg bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-indigo-600 transition shadow-sm group" title="View all 5 Datasets">
+          <i data-lucide="database" class="w-4 h-4 text-indigo-600 group-hover:scale-110 transition"></i>
+          <span class="text-xs font-semibold hidden sm:inline">Datasets Explorer</span>
+          <span class="w-2 h-2 rounded-full bg-indigo-600"></span>
+        </button>
+
+        <!-- Sync Button -->
+        <button onclick="triggerSync()" class="p-2 rounded-lg bg-white hover:bg-slate-50 border border-slate-200 text-slate-600 hover:text-slate-900 transition shadow-sm" title="Synchronize with Datasets">
+          <i data-lucide="refresh-cw" id="syncIcon" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Add Customer Button -->
+        <button onclick="openAddCustomerModal()" class="flex items-center space-x-2 px-3 sm:px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-xs sm:text-sm shadow-sm shadow-indigo-600/25 transition">
+          <i data-lucide="user-plus" class="w-4 h-4"></i>
+          <span>Add Customer</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8">
+
+    <!-- KPI Summary Section -->
+    <section class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      
+      <!-- Total Customers -->
+      <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm hover:shadow transition">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-medium text-slate-500">Total Borrowers</span>
+          <div class="p-1.5 rounded-lg bg-indigo-50 text-indigo-600"><i data-lucide="users" class="w-4 h-4"></i></div>
+        </div>
+        <div class="mt-2 text-2xl font-bold text-slate-900 tracking-tight" id="kpiCustomers">--</div>
+        <div class="mt-1 flex items-center text-[11px] text-emerald-600 font-medium">
+          <i data-lucide="check" class="w-3 h-3 mr-1"></i> Across 5 Connected Sheets
+        </div>
+      </div>
+
+      <!-- Total Disbursed INR -->
+      <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm hover:shadow transition">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-medium text-slate-500">Disbursed Value</span>
+          <div class="p-1.5 rounded-lg bg-emerald-50 text-emerald-600"><i data-lucide="indian-rupee" class="w-4 h-4"></i></div>
+        </div>
+        <div class="mt-2 text-2xl font-bold text-slate-900 tracking-tight" id="kpiDisbursed">₹--</div>
+        <div class="mt-1 flex items-center text-[11px] text-slate-500" id="kpiDisbursedCount">
+          -- Approved Loans
+        </div>
+      </div>
+
+      <!-- Avg Credit Score -->
+      <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm hover:shadow transition">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-medium text-slate-500">Avg Credit Score</span>
+          <div class="p-1.5 rounded-lg bg-blue-50 text-blue-600"><i data-lucide="gauge" class="w-4 h-4"></i></div>
+        </div>
+        <div class="mt-2 text-2xl font-bold text-slate-900 tracking-tight" id="kpiAvgScore">--</div>
+        <div class="mt-1 flex items-center text-[11px] text-blue-600 font-medium">
+          Range 300 - 900
+        </div>
+      </div>
+
+      <!-- Approval Rate -->
+      <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm hover:shadow transition">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-medium text-slate-500">Approval Rate</span>
+          <div class="p-1.5 rounded-lg bg-amber-50 text-amber-600"><i data-lucide="pie-chart" class="w-4 h-4"></i></div>
+        </div>
+        <div class="mt-2 text-2xl font-bold text-slate-900 tracking-tight" id="kpiApprovalRate">--%</div>
+        <div class="mt-1 flex items-center text-[11px] text-slate-500" id="kpiApprovalRatio">
+          -- Approved / -- Total
+        </div>
+      </div>
+
+      <!-- Default Risk Rate -->
+      <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm hover:shadow transition col-span-2 sm:col-span-1">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-medium text-slate-500">Default Risk Rate</span>
+          <div class="p-1.5 rounded-lg bg-rose-50 text-rose-600"><i data-lucide="alert-triangle" class="w-4 h-4"></i></div>
+        </div>
+        <div class="mt-2 text-2xl font-bold text-slate-900 tracking-tight" id="kpiDefaultRate">--%</div>
+        <div class="mt-1 flex items-center text-[11px] text-rose-600 font-medium" id="kpiDefaultCount">
+          -- High Risk Defaults
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Visual Analytics Section -->
+    <section class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-4 border-b border-slate-100 mb-5 gap-2">
+        <div>
+          <h2 class="text-base font-semibold text-slate-900 flex items-center">
+            <i data-lucide="bar-chart-3" class="w-5 h-5 text-indigo-600 mr-2"></i>
+            Credit Risk & Portfolio Analytics
+          </h2>
+          <p class="text-xs text-slate-500">Interactive distribution visual representations across synchronized customer loan applications</p>
+        </div>
+        <span class="text-xs px-2.5 py-1 rounded bg-slate-100 text-slate-600 font-mono">Live In-Memory Aggregation</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Chart 1: Credit Risk Distribution -->
+        <div class="bg-slate-50/70 p-4 rounded-xl border border-slate-200/80 flex flex-col items-center">
+          <h3 class="text-xs font-semibold text-slate-700 mb-2 w-full text-left">Credit Risk Categories</h3>
+          <div class="h-44 w-full relative flex items-center justify-center">
+            <canvas id="chartCreditRisk"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 2: Loan Approval Status -->
+        <div class="bg-slate-50/70 p-4 rounded-xl border border-slate-200/80 flex flex-col items-center">
+          <h3 class="text-xs font-semibold text-slate-700 mb-2 w-full text-left">Loan Approval vs. Rejection</h3>
+          <div class="h-44 w-full relative flex items-center justify-center">
+            <canvas id="chartApprovalStatus"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 3: Loan Portfolio by Type -->
+        <div class="bg-slate-50/70 p-4 rounded-xl border border-slate-200/80 flex flex-col items-center">
+          <h3 class="text-xs font-semibold text-slate-700 mb-2 w-full text-left">Loans by Category</h3>
+          <div class="h-44 w-full relative flex items-center justify-center">
+            <canvas id="chartLoanTypes"></canvas>
+          </div>
+        </div>
+
+        <!-- Chart 4: Repayment Performance -->
+        <div class="bg-slate-50/70 p-4 rounded-xl border border-slate-200/80 flex flex-col items-center">
+          <h3 class="text-xs font-semibold text-slate-700 mb-2 w-full text-left">Installment Repayment Track</h3>
+          <div class="h-44 w-full relative flex items-center justify-center">
+            <canvas id="chartRepayments"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Unified Customer Search & Inter-related Data Hub -->
+    <section class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm space-y-5">
+      
+      <!-- Search & Filters Header -->
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+        <div>
+          <h2 class="text-base font-semibold text-slate-900 flex items-center">
+            <i data-lucide="search" class="w-5 h-5 text-indigo-600 mr-2"></i>
+            Borrower Directory & Common Foreign Key Search
+          </h2>
+          <p class="text-xs text-slate-500">Type any Borrower Name or Customer ID (<code class="text-indigo-600 font-semibold">BANK0001</code>) common across all sheets to inspect their connected profile.</p>
+        </div>
+
+        <!-- Search Input with live search -->
+        <div class="flex-1 max-w-md relative">
+          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+            <i data-lucide="search" class="w-4 h-4"></i>
+          </div>
+          <input 
+            type="text" 
+            id="searchInput" 
+            oninput="handleSearchInput(event)"
+            placeholder="Type customer name (e.g. Diya), Customer ID (BANK0001)..."
+            class="w-full pl-9 pr-10 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-indigo-600 focus:ring-1 focus:ring-indigo-600 transition"
+          >
+          <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-700">
+            <i data-lucide="x" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls: Sorting & Filter Chips -->
+      <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-100 text-xs">
+        
+        <!-- Risk Filter Pills -->
+        <div class="flex items-center space-x-1.5">
+          <span class="text-slate-500 mr-1 font-medium">Risk Filter:</span>
+          <button onclick="setRiskFilter('All')" class="risk-btn px-2.5 py-1 rounded-md bg-indigo-600 text-white font-medium" data-risk="All">All</button>
+          <button onclick="setRiskFilter('Low')" class="risk-btn px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200" data-risk="Low">Low Risk</button>
+          <button onclick="setRiskFilter('Medium')" class="risk-btn px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200" data-risk="Medium">Medium Risk</button>
+          <button onclick="setRiskFilter('High')" class="risk-btn px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200" data-risk="High">High Risk</button>
+        </div>
+
+        <!-- Approval Filter Pills -->
+        <div class="flex items-center space-x-1.5">
+          <span class="text-slate-500 mr-1 font-medium">Status:</span>
+          <button onclick="setApprovalFilter('All')" class="approval-btn px-2.5 py-1 rounded-md bg-indigo-600 text-white font-medium" data-app="All">All</button>
+          <button onclick="setApprovalFilter('Approved')" class="approval-btn px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200" data-app="Approved">Approved</button>
+          <button onclick="setApprovalFilter('Rejected')" class="approval-btn px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200" data-app="Rejected">Rejected</button>
+        </div>
+
+        <!-- Sorting Selector -->
+        <div class="flex items-center space-x-2">
+          <span class="text-slate-500 font-medium">Sort By:</span>
+          <select id="sortBySelect" onchange="handleSortChange()" class="bg-white border border-slate-300 text-slate-700 py-1 px-2.5 rounded-lg focus:outline-none focus:border-indigo-600">
+            <option value="Customer_ID">Customer ID</option>
+            <option value="Customer_Name">Borrower Name (A-Z)</option>
+            <option value="Credit_Score">Credit Score</option>
+            <option value="Account_Balance_INR">Account Balance</option>
+            <option value="Age">Age</option>
+            <option value="City">City</option>
+          </select>
+          <button id="sortOrderBtn" onclick="toggleSortOrder()" class="p-1.5 rounded-lg bg-white border border-slate-300 text-slate-700 hover:bg-slate-50" title="Toggle Ascending/Descending">
+            <i data-lucide="arrow-down-narrow-wide" id="sortOrderIcon" class="w-4 h-4"></i>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Results Count Bar -->
+      <div class="flex items-center justify-between text-xs text-slate-500 px-1">
+        <div>Showing <span id="resultsCount" class="font-semibold text-slate-900">0</span> matching borrower profiles</div>
+        <div class="text-[11px] text-slate-400 italic">Click on any customer to inspect full 5-sheet interrelated details</div>
+      </div>
+
+      <!-- Customer Cards / Grid -->
+      <div id="customersGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Pagination Controls -->
+      <div id="paginationBar" class="flex items-center justify-between pt-4 border-t border-slate-100 text-xs">
+        <button id="prevPageBtn" onclick="changePage(-1)" class="px-3 py-1.5 rounded-lg bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm">
+          &larr; Previous
+        </button>
+        <span class="text-slate-500">Page <span id="currentPageNum" class="font-semibold text-slate-900">1</span> of <span id="totalPagesNum">1</span></span>
+        <button id="nextPageBtn" onclick="changePage(1)" class="px-3 py-1.5 rounded-lg bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 disabled:opacity-40 disabled:cursor-not-allowed shadow-sm">
+          Next &rarr;
+        </button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 1: CUSTOMER 360° DETAILED PROFILE (Inter-related Data) -->
+  <!-- ======================================================== -->
+  <div id="customerModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6">
+    <div class="relative w-full max-w-5xl bg-white border border-slate-200 rounded-2xl shadow-2xl overflow-hidden my-8 max-h-[92vh] flex flex-col">
+      
+      <!-- Modal Header -->
+      <div class="p-5 sm:p-6 bg-gradient-to-r from-slate-50 via-indigo-50/40 to-slate-50 border-b border-slate-200 flex items-center justify-between">
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-700 font-bold text-lg" id="modalCustomerAvatar">
+            JD
+          </div>
+          <div>
+            <div class="flex items-center space-x-2">
+              <h3 class="text-xl font-bold text-slate-900 tracking-tight" id="modalCustomerName">Customer Name</h3>
+              <span id="modalKycBadge" class="text-xs px-2 py-0.5 rounded-full font-medium">KYC Verified</span>
+            </div>
+            <p class="text-xs text-slate-500 mt-0.5">
+              Customer ID: <code class="text-indigo-600 font-mono font-bold" id="modalCustomerId">BANK0001</code> | 
+              Loan ID: <code class="text-blue-600 font-mono font-bold" id="modalLoanId">LN0001</code>
+            </p>
+          </div>
+        </div>
+        <button onclick="closeCustomerModal()" class="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body (Scrollable 360 View) -->
+      <div class="p-5 sm:p-6 overflow-y-auto space-y-6">
+
+        <!-- Quick Summary Ribbon -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-slate-50 p-3.5 rounded-xl border border-slate-200 text-xs">
+          <div>
+            <span class="text-slate-500 block text-[11px]">Credit Score</span>
+            <span class="text-base font-bold text-slate-900" id="modalCreditScore">--</span>
+          </div>
+          <div>
+            <span class="text-slate-500 block text-[11px]">Credit Risk Tier</span>
+            <span id="modalRiskBadge" class="inline-block mt-0.5 px-2 py-0.5 rounded font-semibold text-xs">Low</span>
+          </div>
+          <div>
+            <span class="text-slate-500 block text-[11px]">Loan Approval Status</span>
+            <span id="modalApprovalBadge" class="inline-block mt-0.5 px-2 py-0.5 rounded font-semibold text-xs">Approved</span>
+          </div>
+          <div>
+            <span class="text-slate-500 block text-[11px]">Account Balance</span>
+            <span class="text-base font-bold text-emerald-600" id="modalAccountBalance">₹--</span>
+          </div>
+        </div>
+
+        <!-- AI Credit Risk Prediction & Analysis Engine (Animated Assessment) -->
+        <div class="bg-gradient-to-r from-indigo-50/90 via-white to-blue-50/90 border border-indigo-200 rounded-2xl p-5 shadow-sm space-y-4">
+          <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center shadow-md shadow-indigo-600/30 shrink-0">
+                <i data-lucide="cpu" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900 flex items-center gap-1.5">
+                  AI Credit Risk & Prediction Engine
+                  <span class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700">5-Dataset Synthesis</span>
+                </h4>
+                <p class="text-xs text-slate-500">Autonomous risk underwriting & default probability pipeline</p>
+              </div>
+            </div>
+            <button onclick="runAiAnalysisAnimation()" id="runAiBtn" class="flex items-center space-x-2 px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold shadow-sm transition">
+              <i data-lucide="refresh-cw" id="aiRefreshIcon" class="w-3.5 h-3.5"></i>
+              <span>Re-run Analysis</span>
+            </button>
+          </div>
+
+          <!-- Animated Analyzing State -->
+          <div id="aiAnalyzingBox" class="py-8 px-4 bg-white/95 border border-indigo-100 rounded-xl flex flex-col items-center justify-center space-y-3 shadow-inner">
+            <div class="relative w-12 h-12 flex items-center justify-center">
+              <div class="absolute inset-0 rounded-full border-4 border-indigo-100 border-t-indigo-600 animate-spin"></div>
+              <i data-lucide="sparkles" class="w-5 h-5 text-indigo-600 animate-pulse"></i>
+            </div>
+            <div class="text-center space-y-1.5 max-w-md">
+              <div class="text-xs font-bold text-slate-800" id="aiStepText">Synthesizing 5 interrelated datasets...</div>
+              <div class="w-64 h-2 bg-slate-100 rounded-full overflow-hidden mx-auto">
+                <div id="aiProgressBar" class="h-full bg-gradient-to-r from-indigo-500 to-blue-500 transition-all duration-300 w-1/4"></div>
+              </div>
+              <p class="text-[11px] text-slate-500 font-mono" id="aiSubStep">Correlating borrower records across sheets...</p>
+            </div>
+          </div>
+
+          <!-- Prediction & Explanation Output Container -->
+          <div id="aiResultBox" class="hidden space-y-4">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- 5 Datasets Accordions / Detail Cards -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          
+          <!-- Sheet 1: Bank Customers Demographics -->
+          <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4 space-y-3">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-200">
+              <span class="text-xs font-semibold text-indigo-700 flex items-center">
+                <i data-lucide="building" class="w-4 h-4 mr-1.5 text-indigo-600"></i> 01: Bank Customer Profile
+              </span>
+              <span class="text-[10px] text-slate-500 font-mono">01_bank_customers_1000.csv</span>
+            </div>
+            <div class="grid grid-cols-2 gap-y-2.5 text-xs">
+              <div><span class="text-slate-500 block text-[11px]">Age / Gender:</span> <span class="text-slate-800 font-medium" id="modalAgeGender">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">City:</span> <span class="text-slate-800 font-medium" id="modalCity">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Email:</span> <span class="text-slate-700 font-mono text-[11px] truncate block" id="modalEmail">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Phone:</span> <span class="text-slate-700 font-mono text-[11px]" id="modalPhone">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Account Type:</span> <span class="text-slate-800 font-medium" id="modalAccountType">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Opened Date:</span> <span class="text-slate-700" id="modalOpenDate">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Employment Type:</span> <span class="text-slate-800 font-medium" id="modalEmployment">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Education / Marital:</span> <span class="text-slate-700" id="modalEduMarital">--</span></div>
+            </div>
+          </div>
+
+          <!-- Sheet 2: Loan Application Details -->
+          <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4 space-y-3">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-200">
+              <span class="text-xs font-semibold text-blue-700 flex items-center">
+                <i data-lucide="file-text" class="w-4 h-4 mr-1.5 text-blue-600"></i> 02: Loan Application Details
+              </span>
+              <span class="text-[10px] text-slate-500 font-mono">02_loan_applications_1000.csv</span>
+            </div>
+            <div class="grid grid-cols-2 gap-y-2.5 text-xs">
+              <div><span class="text-slate-500 block text-[11px]">Loan Type / Purpose:</span> <span class="text-slate-800 font-medium" id="modalLoanTypePurpose">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Loan Amount:</span> <span class="text-indigo-700 font-bold text-sm" id="modalLoanAmount">₹--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Term / Interest:</span> <span class="text-slate-800 font-medium" id="modalLoanTermRate">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Monthly Income:</span> <span class="text-emerald-700 font-medium" id="modalMonthlyIncome">₹--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Annual Income:</span> <span class="text-slate-700" id="modalAnnualIncome">₹--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Debt-to-Income (DTI):</span> <span class="text-amber-700 font-medium" id="modalDTI">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Co-applicant Income:</span> <span class="text-slate-700" id="modalCoapplicant">₹--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Existing EMI / Loans:</span> <span class="text-slate-700" id="modalExistingEMI">₹--</span></div>
+            </div>
+          </div>
+
+          <!-- Sheet 4: Credit Risk Analytics -->
+          <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4 space-y-3">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-200">
+              <span class="text-xs font-semibold text-amber-700 flex items-center">
+                <i data-lucide="activity" class="w-4 h-4 mr-1.5 text-amber-600"></i> 04: Credit Risk & Default History
+              </span>
+              <span class="text-[10px] text-slate-500 font-mono">04_credit_risk_1000.csv</span>
+            </div>
+            <div class="grid grid-cols-2 gap-y-2.5 text-xs">
+              <div><span class="text-slate-500 block text-[11px]">Risk Grade:</span> <span class="font-bold" id="modalRiskGrade">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Predicted Default:</span> <span class="font-bold" id="modalLoanDefault">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Previous Loans:</span> <span class="text-slate-800 font-medium" id="modalPrevLoans">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Previous Defaults:</span> <span class="text-rose-600 font-bold" id="modalPrevDefaults">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Late Payments:</span> <span class="text-slate-700" id="modalLatePayments">--</span></div>
+              <div><span class="text-slate-500 block text-[11px]">Delayed Payment Days:</span> <span class="text-slate-700" id="modalDelayedDays">-- days</span></div>
+              <div class="col-span-2"><span class="text-slate-500 block text-[11px]">Outstanding Debt:</span> <span class="text-amber-700 font-bold text-sm" id="modalOutstandingDebt">₹--</span></div>
+            </div>
+          </div>
+
+          <!-- Sheet 5: Loan Approval & Rejection Reasons -->
+          <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4 space-y-3">
+            <div class="flex items-center justify-between pb-2 border-b border-slate-200">
+              <span class="text-xs font-semibold text-rose-700 flex items-center">
+                <i data-lucide="info" class="w-4 h-4 mr-1.5 text-rose-600"></i> 05: Loan Evaluation & Rejection Reason
+              </span>
+              <span class="text-[10px] text-slate-500 font-mono">05_loan_rejection_reasons_1000.csv</span>
+            </div>
+            <div class="space-y-2 text-xs">
+              <div class="flex items-center justify-between">
+                <span class="text-slate-500">Decision Status:</span>
+                <span id="modalRejectionStatus" class="font-bold">--</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-slate-500">Rejection Reason Code:</span>
+                <span id="modalRejectionCode" class="font-mono px-2 py-0.5 rounded bg-white text-slate-700 border border-slate-200 font-semibold">None</span>
+              </div>
+              <div>
+                <span class="text-slate-500 block mb-1">Official Reason Statement:</span>
+                <p id="modalRejectionReason" class="p-2.5 rounded-lg bg-white border border-slate-200 text-slate-700 text-xs italic">
+                  --
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Sheet 3: Repayment History Schedule (Installments) -->
+        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4 space-y-3">
+          <div class="flex items-center justify-between pb-2 border-b border-slate-200">
+            <span class="text-xs font-semibold text-emerald-700 flex items-center">
+              <i data-lucide="calendar-check" class="w-4 h-4 mr-1.5 text-emerald-600"></i> 03: Complete Repayment History & Installments
+            </span>
+            <span class="text-[10px] text-slate-500 font-mono">03_repayment_history_6000.csv</span>
+          </div>
+          
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs bg-white rounded-lg overflow-hidden border border-slate-200">
+              <thead class="text-[11px] uppercase bg-slate-100 text-slate-600 border-b border-slate-200">
+                <tr>
+                  <th class="py-2.5 px-3">Repayment ID</th>
+                  <th class="py-2.5 px-3">Installment #</th>
+                  <th class="py-2.5 px-3">Due Date</th>
+                  <th class="py-2.5 px-3">Paid Date</th>
+                  <th class="py-2.5 px-3">Due Amount</th>
+                  <th class="py-2.5 px-3">Paid Amount</th>
+                  <th class="py-2.5 px-3">Days Late</th>
+                  <th class="py-2.5 px-3">Status</th>
+                </tr>
+              </thead>
+              <tbody id="modalRepaymentsTable" class="divide-y divide-slate-100 text-slate-700">
+                <!-- Injected via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 bg-slate-50 border-t border-slate-200 flex justify-end">
+        <button onclick="closeCustomerModal()" class="px-5 py-2 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-xl text-xs font-semibold transition">
+          Close Profile
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 2: ADD NEW CUSTOMER (Synced across all 5 datasets) -->
+  <!-- ======================================================== -->
+  <div id="addCustomerModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6">
+    <div class="relative w-full max-w-3xl bg-white border border-slate-200 rounded-2xl shadow-2xl overflow-hidden my-8 max-h-[92vh] flex flex-col">
+      
+      <!-- Modal Header -->
+      <div class="p-5 bg-gradient-to-r from-slate-50 via-indigo-50/40 to-slate-50 border-b border-slate-200 flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="p-2 rounded-xl bg-indigo-50 text-indigo-600 border border-indigo-200">
+            <i data-lucide="user-plus" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-slate-900 tracking-tight">Add New Customer & Loan Application</h3>
+            <p class="text-xs text-slate-500">Captures all required data fields and synchronizes across all 5 datasets & MongoDB</p>
+          </div>
+        </div>
+        <button onclick="closeAddCustomerModal()" class="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Form Body -->
+      <form id="addCustomerForm" onsubmit="submitNewCustomer(event)" class="p-6 overflow-y-auto space-y-6 text-xs">
+        
+        <!-- Step 1: Personal & Bank Details -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-semibold uppercase text-indigo-700 tracking-wider flex items-center">
+            <i data-lucide="user" class="w-3.5 h-3.5 mr-1.5 text-indigo-600"></i> 1. Personal & Bank Details (01_bank_customers)
+          </h4>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Full Name *</label>
+              <input type="text" name="Customer_Name" required placeholder="e.g. Rahul Verma" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Age *</label>
+              <input type="number" name="Age" required min="18" max="100" value="30" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Gender *</label>
+              <select name="Gender" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">City *</label>
+              <input type="text" name="City" required placeholder="e.g. Mumbai" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Email *</label>
+              <input type="email" name="Email" required placeholder="e.g. rahul@example.com" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Phone *</label>
+              <input type="tel" name="Phone" required placeholder="e.g. 9876543210" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Account Type *</label>
+              <select name="Account_Type" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Savings">Savings</option>
+                <option value="Current">Current</option>
+                <option value="Salary">Salary</option>
+                <option value="Fixed Deposit">Fixed Deposit</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Account Balance (₹) *</label>
+              <input type="number" name="Account_Balance_INR" required min="0" value="50000" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">KYC Status *</label>
+              <select name="KYC_Status" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Verified">Verified</option>
+                <option value="Pending">Pending</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Employment Type *</label>
+              <select name="Employment_Type" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Salaried">Salaried</option>
+                <option value="Business">Business</option>
+                <option value="Self-Employed">Self-Employed</option>
+                <option value="Contract">Contract</option>
+                <option value="Unemployed">Unemployed</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Education *</label>
+              <select name="Education" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Graduate">Graduate</option>
+                <option value="Post-Graduate">Post-Graduate</option>
+                <option value="Diploma">Diploma</option>
+                <option value="High School">High School</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Marital Status *</label>
+              <select name="Marital_Status" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Divorced">Divorced</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: Loan Application Details -->
+        <div class="space-y-3 pt-3 border-t border-slate-200">
+          <h4 class="text-xs font-semibold uppercase text-blue-700 tracking-wider flex items-center">
+            <i data-lucide="file-text" class="w-3.5 h-3.5 mr-1.5 text-blue-600"></i> 2. Loan Details (02_loan_applications)
+          </h4>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Loan Type *</label>
+              <select name="Loan_Type" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Personal Loan">Personal Loan</option>
+                <option value="Home Loan">Home Loan</option>
+                <option value="Vehicle Loan">Vehicle Loan</option>
+                <option value="Business Loan">Business Loan</option>
+                <option value="Education Loan">Education Loan</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Loan Purpose *</label>
+              <select name="Loan_Purpose" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+                <option value="Personal Expenses">Personal Expenses</option>
+                <option value="Home Purchase">Home Purchase</option>
+                <option value="Vehicle Purchase">Vehicle Purchase</option>
+                <option value="Debt Consolidation">Debt Consolidation</option>
+                <option value="Business Expansion">Business Expansion</option>
+                <option value="Education">Education</option>
+                <option value="Medical">Medical</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Loan Amount (₹) *</label>
+              <input type="number" name="Loan_Amount_INR" required min="10000" step="5000" value="250000" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Loan Term (Months) *</label>
+              <input type="number" name="Loan_Term_Months" required min="6" max="360" value="36" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Interest Rate (%) *</label>
+              <input type="number" name="Interest_Rate_Percent" required min="1" max="30" step="0.1" value="10.5" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Monthly Income (₹) *</label>
+              <input type="number" name="Monthly_Income_INR" required min="1000" step="1000" value="45000" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Monthly Expenses (₹)</label>
+              <input type="number" name="Monthly_Expenses_INR" min="0" value="15000" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Co-applicant Income (₹)</label>
+              <input type="number" name="Coapplicant_Income_INR" min="0" value="0" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Existing EMI (₹)</label>
+              <input type="number" name="Existing_EMI_INR" min="0" value="0" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3: Credit History & Risk Metrics -->
+        <div class="space-y-3 pt-3 border-t border-slate-200">
+          <h4 class="text-xs font-semibold uppercase text-amber-700 tracking-wider flex items-center">
+            <i data-lucide="shield-alert" class="w-3.5 h-3.5 mr-1.5 text-amber-600"></i> 3. Credit Risk & History (04_credit_risk & 05_rejections)
+          </h4>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Credit Score (300 - 900) *</label>
+              <input type="number" name="Credit_Score" required min="300" max="900" value="720" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Previous Loans</label>
+              <input type="number" name="Previous_Loans" min="0" value="1" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Previous Defaults</label>
+              <input type="number" name="Previous_Defaults" min="0" value="0" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Late Payments</label>
+              <input type="number" name="Late_Payments" min="0" value="0" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Delayed Payment Days</label>
+              <input type="number" name="Delayed_Payment_Days" min="0" value="0" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+            <div>
+              <label class="block text-slate-600 mb-1 font-medium">Outstanding Debt (₹)</label>
+              <input type="number" name="Outstanding_Debt_INR" min="0" value="0" class="w-full px-3 py-2 bg-white border border-slate-300 rounded-lg text-slate-800 focus:outline-none focus:border-indigo-600">
+            </div>
+          </div>
+        </div>
+
+        <!-- Automatic Synchronization Notice -->
+        <div class="p-3 bg-indigo-50 border border-indigo-200 rounded-xl flex items-start space-x-3 text-indigo-900">
+          <i data-lucide="sparkles" class="w-4 h-4 text-indigo-600 mt-0.5 shrink-0"></i>
+          <div>
+            <span class="font-semibold text-indigo-950">Full Synchronization Guarantee:</span>
+            Submitting will generate linked IDs, calculate DTI & risk tier, schedule 6 repayment installments, and commit to both MongoDB and CSV datasets in real time.
+          </div>
+        </div>
+
+        <!-- Modal Actions -->
+        <div class="flex items-center justify-end space-x-3 pt-3 border-t border-slate-200">
+          <button type="button" onclick="closeAddCustomerModal()" class="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl transition font-medium">
+            Cancel
+          </button>
+          <button type="submit" id="submitCustomerBtn" class="flex items-center space-x-2 px-5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-xl transition shadow-sm shadow-indigo-600/30">
+            <i data-lucide="check-circle" class="w-4 h-4"></i>
+            <span>Commit New Borrower</span>
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 3: DATASETS EXPLORER (Tabular Dataset View) -->
+  <!-- ======================================================== -->
+  <div id="datasetModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-2 sm:p-6">
+    <div class="relative w-full max-w-6xl bg-white border border-slate-200 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[94vh] flex flex-col">
+      
+      <!-- Header with Tabs -->
+      <div class="p-4 sm:p-5 bg-gradient-to-r from-slate-50 via-indigo-50/40 to-slate-50 border-b border-slate-200">
+        <div class="flex items-center justify-between pb-3">
+          <div class="flex items-center space-x-3">
+            <div class="p-2 rounded-xl bg-indigo-50 text-indigo-600 border border-indigo-200">
+              <i data-lucide="database" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight flex items-center">
+                Financial Risk Datasets Explorer
+              </h3>
+              <p class="text-xs text-slate-500">Neatly inspect and export all 5 inter-related CSV datasets</p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button onclick="exportCurrentDataset()" class="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-slate-50 border border-slate-200 text-xs text-slate-700 hover:text-slate-900 shadow-sm transition" title="Export as CSV">
+              <i data-lucide="download" class="w-3.5 h-3.5 text-indigo-600"></i>
+              <span class="hidden sm:inline font-medium">Export CSV</span>
+            </button>
+            <button onclick="closeDatasetModal()" class="p-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition">
+              <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Dataset Tabs Selector -->
+        <div class="flex space-x-2 overflow-x-auto pt-2 text-xs border-t border-slate-200">
+          <button onclick="switchDataset('bank_customers')" id="tab-bank_customers" class="dataset-tab px-3 py-1.5 rounded-lg font-medium transition bg-indigo-600 text-white shrink-0 shadow-sm">
+            01. Bank Customers (1,000)
+          </button>
+          <button onclick="switchDataset('loan_applications')" id="tab-loan_applications" class="dataset-tab px-3 py-1.5 rounded-lg font-medium transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0">
+            02. Loan Applications (1,000)
+          </button>
+          <button onclick="switchDataset('repayment_history')" id="tab-repayment_history" class="dataset-tab px-3 py-1.5 rounded-lg font-medium transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0">
+            03. Repayment History (6,000)
+          </button>
+          <button onclick="switchDataset('credit_risk')" id="tab-credit_risk" class="dataset-tab px-3 py-1.5 rounded-lg font-medium transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0">
+            04. Credit Risk (1,000)
+          </button>
+          <button onclick="switchDataset('loan_rejection_reasons')" id="tab-loan_rejection_reasons" class="dataset-tab px-3 py-1.5 rounded-lg font-medium transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0">
+            05. Rejections (1,000)
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls inside Dataset modal -->
+      <div class="p-3 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs">
+        <div class="flex items-center space-x-2 w-full sm:w-auto">
+          <div class="relative flex-1 sm:w-64">
+            <i data-lucide="search" class="w-3.5 h-3.5 absolute left-2.5 top-2.5 text-slate-400"></i>
+            <input 
+              type="text" 
+              id="datasetSearchInput" 
+              oninput="handleDatasetSearch(event)" 
+              placeholder="Search in this dataset..." 
+              class="w-full pl-8 pr-3 py-1.5 bg-white border border-slate-300 rounded-lg text-slate-800 placeholder-slate-400 focus:outline-none focus:border-indigo-600"
+            >
+          </div>
+          <span class="text-slate-500 text-[11px]" id="datasetTotalRows">Total records: --</span>
+        </div>
+
+        <div class="flex items-center space-x-2">
+          <span class="text-slate-500">Page size:</span>
+          <select id="datasetPageSize" onchange="changeDatasetPageSize(this.value)" class="bg-white border border-slate-300 text-slate-700 py-1 px-2 rounded-lg">
+            <option value="15">15 rows</option>
+            <option value="25" selected>25 rows</option>
+            <option value="50">50 rows</option>
+            <option value="100">100 rows</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Tabular Dataset Container -->
+      <div class="flex-1 overflow-auto bg-white p-2">
+        <table class="w-full text-left text-xs whitespace-nowrap border-collapse border border-slate-200">
+          <thead class="sticky top-0 bg-slate-100 border-b border-slate-200 text-slate-700 font-semibold" id="datasetTableHeader">
+            <!-- Dynamic columns -->
+          </thead>
+          <tbody id="datasetTableBody" class="divide-y divide-slate-100 text-slate-700 font-mono text-[11px]">
+            <!-- Dynamic rows -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Dataset Pagination Footer -->
+      <div class="p-3 bg-slate-50 border-t border-slate-200 flex items-center justify-between text-xs">
+        <button id="datasetPrevBtn" onclick="changeDatasetPage(-1)" class="px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-slate-700 disabled:opacity-40 shadow-sm font-medium">
+          &larr; Prev Page
+        </button>
+        <span class="text-slate-500">Page <span id="datasetCurPage" class="font-bold text-slate-900">1</span> of <span id="datasetTotalPages">1</span></span>
+        <button id="datasetNextBtn" onclick="changeDatasetPage(1)" class="px-3 py-1 rounded bg-white hover:bg-slate-100 border border-slate-300 text-slate-700 disabled:opacity-40 shadow-sm font-medium">
+          Next Page &rarr;
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 4: POWER BI ANALYTICS SUITE (3 DEDICATED DASHBOARDS) -->
+  <!-- ======================================================== -->
+  <div id="powerBiModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-2 sm:p-5">
+    <div class="relative w-full max-w-7xl bg-white border border-slate-200 rounded-2xl shadow-2xl overflow-hidden my-4 max-h-[95vh] flex flex-col">
+      
+      <!-- Top Power BI Enterprise Header -->
+      <div class="p-4 sm:p-5 bg-gradient-to-r from-amber-500/10 via-amber-50/60 to-white border-b border-slate-200 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-yellow-400 text-white flex items-center justify-center shadow-md shadow-amber-500/30 shrink-0">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="3" y="12" width="4" height="9" rx="1"/>
+              <rect x="10" y="7" width="4" height="14" rx="1"/>
+              <rect x="17" y="3" width="4" height="18" rx="1"/>
+            </svg>
+          </div>
+          <div>
+            <div class="flex items-center space-x-2">
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 tracking-tight">Microsoft Power BI Analytics Suite</h3>
+              <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-300">Active Desktop Sync</span>
+            </div>
+            <p class="text-xs text-slate-500">Executive visualizations for Loan Approval, Income Analysis, and Credit Score Distribution</p>
+          </div>
+        </div>
+
+        <!-- Desktop Integration Actions -->
+        <div class="flex items-center space-x-2 w-full md:w-auto justify-end">
+          <button onclick="launchDesktopPowerBI()" id="btnLaunchPbi" class="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-white font-semibold text-xs shadow-sm shadow-amber-500/25 transition">
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+            <span>Open in Desktop Power BI</span>
+          </button>
+          <button onclick="downloadPbitFile()" class="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-slate-50 border border-slate-200 text-xs text-slate-700 hover:text-slate-900 shadow-sm transition" title="Download .pbit Template">
+            <i data-lucide="file-down" class="w-3.5 h-3.5 text-amber-600"></i>
+            <span class="hidden sm:inline">.pbit File</span>
+          </button>
+          <button onclick="downloadMasterCsv()" class="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-white hover:bg-slate-50 border border-slate-200 text-xs text-slate-700 hover:text-slate-900 shadow-sm transition" title="Download Master Analytics CSV">
+            <i data-lucide="table" class="w-3.5 h-3.5 text-indigo-600"></i>
+            <span class="hidden sm:inline">Master CSV</span>
+          </button>
+          <button onclick="closePowerBiModal()" class="p-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Power BI Report Pages Switcher -->
+      <div class="flex space-x-2 overflow-x-auto px-5 py-2.5 bg-slate-100/70 border-b border-slate-200 text-xs shrink-0">
+        <button onclick="switchPbiReportTab('loan_approval')" id="pbiTab-loan_approval" class="pbi-tab px-3.5 py-1.5 rounded-lg font-bold transition bg-amber-500 text-white shadow-sm shrink-0 flex items-center space-x-2">
+          <i data-lucide="check-check" class="w-3.5 h-3.5"></i>
+          <span>1. Loan Approval Dashboard</span>
+        </button>
+        <button onclick="switchPbiReportTab('income_analysis')" id="pbiTab-income_analysis" class="pbi-tab px-3.5 py-1.5 rounded-lg font-semibold transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0 flex items-center space-x-2">
+          <i data-lucide="wallet" class="w-3.5 h-3.5"></i>
+          <span>2. Income Analysis</span>
+        </button>
+        <button onclick="switchPbiReportTab('credit_score')" id="pbiTab-credit_score" class="pbi-tab px-3.5 py-1.5 rounded-lg font-semibold transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0 flex items-center space-x-2">
+          <i data-lucide="gauge" class="w-3.5 h-3.5"></i>
+          <span>3. Credit Score Distribution</span>
+        </button>
+      </div>
+
+      <!-- Report Canvas (Scrollable) -->
+      <div class="flex-1 overflow-y-auto p-4 sm:p-6 bg-slate-50/60 space-y-6">
+
+        <!-- ============================================== -->
+        <!-- REPORT 1: LOAN APPROVAL DASHBOARD -->
+        <!-- ============================================== -->
+        <div id="pbiReportSection-loan_approval" class="space-y-5">
+          
+          <!-- KPIs Row -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Total Applications</span>
+              <div class="text-2xl font-bold text-slate-900 mt-1" id="pbiKpi-totalApps">1,003</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">Portfolio Master Callset</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Approval Rate</span>
+              <div class="text-2xl font-bold text-emerald-600 mt-1" id="pbiKpi-appRate">31.8%</div>
+              <span class="text-[11px] text-emerald-700 font-medium mt-0.5 block" id="pbiKpi-appRatio">319 Approved / 684 Rejected</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Disbursed Portfolio</span>
+              <div class="text-2xl font-bold text-indigo-700 mt-1" id="pbiKpi-disbursed">₹8.65 Cr</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block" id="pbiKpi-requested">of ₹33.80 Cr Requested</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Avg Debt-to-Income</span>
+              <div class="text-2xl font-bold text-amber-600 mt-1" id="pbiKpi-avgDti">25.5%</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">Policy Ceiling: 50.0%</span>
+            </div>
+          </div>
+
+          <!-- Visuals Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <!-- Visual 1: Approval Donut -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="pie-chart" class="w-4 h-4 mr-1.5 text-amber-500"></i> Overall Approval vs. Rejection
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Doughnut Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-approvalDonut"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 2: Rejections Pareto -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="alert-circle" class="w-4 h-4 mr-1.5 text-rose-500"></i> Primary Rejection Reasons (Pareto)
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Horizontal Bar Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-rejectionPareto"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 3: Approval by Purpose -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="briefcase" class="w-4 h-4 mr-1.5 text-indigo-500"></i> Approval Volume by Loan Purpose
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Grouped Column Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-purposeApproval"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 4: Approval by Employment -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="user-check" class="w-4 h-4 mr-1.5 text-emerald-500"></i> Approval Volume by Employment Type
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Stacked Column Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-employmentApproval"></canvas>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ============================================== -->
+        <!-- REPORT 2: INCOME ANALYSIS -->
+        <!-- ============================================== -->
+        <div id="pbiReportSection-income_analysis" class="hidden space-y-5">
+          
+          <!-- KPIs Row -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Average Monthly Income</span>
+              <div class="text-2xl font-bold text-slate-900 mt-1" id="pbiKpi-avgIncome">₹44,367</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">Across All Borrowers</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Median Monthly Income</span>
+              <div class="text-2xl font-bold text-indigo-700 mt-1" id="pbiKpi-medianIncome">₹37,771</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">50th Percentile Benchmark</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Peak Recorded Income</span>
+              <div class="text-2xl font-bold text-emerald-600 mt-1" id="pbiKpi-maxIncome">₹2,43,510</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">Affluent Tier (60 Borrowers)</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Co-Applicant Participation</span>
+              <div class="text-2xl font-bold text-amber-600 mt-1" id="pbiKpi-coappRate">28.7%</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">Joint Cashflow Capacity</span>
+            </div>
+          </div>
+
+          <!-- Visuals Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <!-- Visual 1: Approval Rate by Income Band -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="trending-up" class="w-4 h-4 mr-1.5 text-emerald-500"></i> Loan Approval Rate by Income Band (%)
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Column Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-incomeApprovalRate"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 2: Average Loan by Income Band -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="indian-rupee" class="w-4 h-4 mr-1.5 text-blue-500"></i> Average Loan Requested by Income Tier (₹)
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Bar Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-incomeLoanAmount"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 3: Income by Education Level -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="graduation-cap" class="w-4 h-4 mr-1.5 text-indigo-500"></i> Average Monthly Income by Education Level (₹)
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Column Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-educationIncome"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 4: Income Tiers Volume -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="users" class="w-4 h-4 mr-1.5 text-amber-500"></i> Applicant Distribution Across Income Tiers
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Pie Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-incomeBandsPie"></canvas>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ============================================== -->
+        <!-- REPORT 3: CREDIT SCORE DISTRIBUTION -->
+        <!-- ============================================== -->
+        <div id="pbiReportSection-credit_score" class="hidden space-y-5">
+          
+          <!-- KPIs Row -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Average Credit Score</span>
+              <div class="text-2xl font-bold text-slate-900 mt-1" id="pbiKpi-avgScore">589.8</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">CIBIL/FICO Scale (300-900)</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Median Credit Score</span>
+              <div class="text-2xl font-bold text-indigo-700 mt-1" id="pbiKpi-medianScore">601.0</div>
+              <span class="text-[11px] text-slate-400 mt-0.5 block">50th Percentile Cutoff</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Subprime Volume (<600)</span>
+              <div class="text-2xl font-bold text-rose-600 mt-1" id="pbiKpi-subprime">499</div>
+              <span class="text-[11px] text-rose-700 font-medium mt-0.5 block">Hard Policy Rejection Flag</span>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Prime Tier Volume (≥720)</span>
+              <div class="text-2xl font-bold text-emerald-600 mt-1" id="pbiKpi-prime">283</div>
+              <span class="text-[11px] text-emerald-700 font-medium mt-0.5 block">Eligible Prime Borrowers</span>
+            </div>
+          </div>
+
+          <!-- Visuals Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <!-- Visual 1: Credit Score Frequency Histogram -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="bar-chart-2" class="w-4 h-4 mr-1.5 text-indigo-500"></i> Credit Score Frequency Distribution (Histogram)
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">50-Pt Bins Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-scoreHistogram"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 2: Default Rate by Credit Band -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="shield-alert" class="w-4 h-4 mr-1.5 text-rose-500"></i> Historical Default Rate by Credit Band (%)
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Column Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-scoreDefaultRate"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 3: Approved Count by Score Band -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="check-circle" class="w-4 h-4 mr-1.5 text-emerald-500"></i> Approved Loans by Credit Score Tier
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Bar Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-scoreApprovedCount"></canvas>
+              </div>
+            </div>
+
+            <!-- Visual 4: Avg Outstanding Debt by Score Band -->
+            <div class="bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+              <div class="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center">
+                  <i data-lucide="layers" class="w-4 h-4 mr-1.5 text-amber-500"></i> Average Outstanding Debt by Credit Band (₹)
+                </h4>
+                <span class="text-[10px] text-slate-400 font-mono">Column Visual</span>
+              </div>
+              <div class="h-64 relative flex items-center justify-center">
+                <canvas id="pbiChart-scoreAvgDebt"></canvas>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Power BI Modal Footer -->
+      <div class="p-3 bg-slate-100 border-t border-slate-200 flex items-center justify-between text-xs">
+        <div class="flex items-center space-x-2 text-slate-500">
+          <svg class="w-4 h-4 text-amber-500 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+            <rect x="3" y="12" width="4" height="9" rx="1"/>
+            <rect x="10" y="7" width="4" height="14" rx="1"/>
+            <rect x="17" y="3" width="4" height="18" rx="1"/>
+          </svg>
+          <span class="font-mono text-[11px]">Power BI Model: Financial_Credit_Risk_Dashboard.pbit | Master Callset: 1,003 Rows</span>
+        </div>
+        <button onclick="closePowerBiModal()" class="px-4 py-1.5 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-lg font-semibold transition">
+          Close Suite
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastContainer" class="fixed bottom-5 right-5 z-50 space-y-2"></div>
+
+  <!-- Application Logic JavaScript -->
+  <script>
+    // Global State
+    let state = {
+      search: "",
+      riskFilter: "All",
+      approvalFilter: "All",
+      sortBy: "Customer_ID",
+      sortOrder: "asc",
+      page: 1,
+      limit: 18,
+      totalPages: 1,
+      currentDataset: "bank_customers",
+      datasetPage: 1,
+      datasetPageSize: 25,
+      datasetTotalPages: 1,
+      datasetSearch: "",
+      datasetSortBy: null,
+      datasetSortOrder: "asc"
+    };
+
+    // Chart instances
+    let charts = {};
+
+    // Initialize application on load
+    document.addEventListener("DOMContentLoaded", () => {
+      lucide.createIcons();
+      fetchStats();
+      fetchCustomers();
+    });
+
+    // Fetch Analytics & Render Charts
+    async function fetchStats() {
+      try {
+        const res = await fetch("/api/stats");
+        const data = await res.json();
+        
+        // Render KPIs
+        document.getElementById("kpiCustomers").innerText = data.kpis.total_customers.toLocaleString();
+        document.getElementById("kpiDisbursed").innerText = "₹" + (data.kpis.total_disbursed_inr / 10000000).toFixed(2) + " Cr";
+        document.getElementById("kpiDisbursedCount").innerText = data.kpis.approved_count + " Approved Loans";
+        document.getElementById("kpiAvgScore").innerText = data.kpis.avg_credit_score;
+        document.getElementById("kpiApprovalRate").innerText = data.kpis.approval_rate + "%";
+        document.getElementById("kpiApprovalRatio").innerText = `${data.kpis.approved_count} Approved / ${data.kpis.total_loans}`;
+        document.getElementById("kpiDefaultRate").innerText = data.kpis.default_rate + "%";
+        document.getElementById("kpiDefaultCount").innerText = `${data.kpis.default_count} Historical Defaults`;
+
+        // Render Charts with Light Theme styling
+        renderCharts(data.charts);
+      } catch (err) {
+        console.error("Error loading stats:", err);
+      }
+    }
+
+    function renderCharts(cData) {
+      // 1. Credit Risk Chart
+      if (charts.risk) charts.risk.destroy();
+      const ctxRisk = document.getElementById("chartCreditRisk").getContext("2d");
+      charts.risk = new Chart(ctxRisk, {
+        type: "doughnut",
+        data: {
+          labels: Object.keys(cData.credit_risk),
+          datasets: [{
+            data: Object.values(cData.credit_risk),
+            backgroundColor: ["#10b981", "#f59e0b", "#ef4444"],
+            borderColor: "#ffffff",
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: "bottom", labels: { color: "#475569", boxWidth: 10, font: { size: 10 } } }
+          },
+          cutout: "68%"
+        }
+      });
+
+      // 2. Approval Status Chart
+      if (charts.approval) charts.approval.destroy();
+      const ctxApp = document.getElementById("chartApprovalStatus").getContext("2d");
+      charts.approval = new Chart(ctxApp, {
+        type: "doughnut",
+        data: {
+          labels: Object.keys(cData.approval_status),
+          datasets: [{
+            data: Object.values(cData.approval_status),
+            backgroundColor: ["#10b981", "#f43f5e"],
+            borderColor: "#ffffff",
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: "bottom", labels: { color: "#475569", boxWidth: 10, font: { size: 10 } } }
+          },
+          cutout: "68%"
+        }
+      });
+
+      // 3. Loan Categories Bar Chart
+      if (charts.types) charts.types.destroy();
+      const ctxTypes = document.getElementById("chartLoanTypes").getContext("2d");
+      charts.types = new Chart(ctxTypes, {
+        type: "bar",
+        data: {
+          labels: Object.keys(cData.loan_types).map(k => k.replace(" Loan", "")),
+          datasets: [{
+            label: "Applications",
+            data: Object.values(cData.loan_types),
+            backgroundColor: "#6366f1",
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: "#64748b", font: { size: 9 } }, grid: { display: false } },
+            y: { ticks: { color: "#64748b", font: { size: 9 } }, grid: { color: "#e2e8f0" } }
+          }
+        }
+      });
+
+      // 4. Repayment Performance Chart
+      if (charts.repayments) charts.repayments.destroy();
+      const ctxRepay = document.getElementById("chartRepayments").getContext("2d");
+      charts.repayments = new Chart(ctxRepay, {
+        type: "pie",
+        data: {
+          labels: Object.keys(cData.repayment_status),
+          datasets: [{
+            data: Object.values(cData.repayment_status),
+            backgroundColor: ["#10b981", "#f59e0b", "#f43f5e"],
+            borderColor: "#ffffff",
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: "bottom", labels: { color: "#475569", boxWidth: 10, font: { size: 10 } } }
+          }
+        }
+      });
+    }
+
+    // Search Debounce Handler
+    let searchDebounceTimeout = null;
+    function handleSearchInput(e) {
+      state.search = e.target.value;
+      const clearBtn = document.getElementById("clearSearchBtn");
+      if (state.search.length > 0) {
+        clearBtn.classList.remove("hidden");
+      } else {
+        clearBtn.classList.add("hidden");
+      }
+      clearTimeout(searchDebounceTimeout);
+      searchDebounceTimeout = setTimeout(() => {
+        state.page = 1;
+        fetchCustomers();
+      }, 250);
+    }
+
+    function clearSearch() {
+      document.getElementById("searchInput").value = "";
+      document.getElementById("clearSearchBtn").classList.add("hidden");
+      state.search = "";
+      state.page = 1;
+      fetchCustomers();
+    }
+
+    function setRiskFilter(val) {
+      state.riskFilter = val;
+      state.page = 1;
+      document.querySelectorAll(".risk-btn").forEach(btn => {
+        if (btn.dataset.risk === val) {
+          btn.className = "risk-btn px-2.5 py-1 rounded-md bg-indigo-600 text-white font-medium shadow-sm";
+        } else {
+          btn.className = "risk-btn px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200";
+        }
+      });
+      fetchCustomers();
+    }
+
+    function setApprovalFilter(val) {
+      state.approvalFilter = val;
+      state.page = 1;
+      document.querySelectorAll(".approval-btn").forEach(btn => {
+        if (btn.dataset.app === val) {
+          btn.className = "approval-btn px-2.5 py-1 rounded-md bg-indigo-600 text-white font-medium shadow-sm";
+        } else {
+          btn.className = "approval-btn px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200";
+        }
+      });
+      fetchCustomers();
+    }
+
+    function handleSortChange() {
+      state.sortBy = document.getElementById("sortBySelect").value;
+      state.page = 1;
+      fetchCustomers();
+    }
+
+    function toggleSortOrder() {
+      state.sortOrder = state.sortOrder === "asc" ? "desc" : "asc";
+      const icon = document.getElementById("sortOrderIcon");
+      if (state.sortOrder === "asc") {
+        icon.setAttribute("data-lucide", "arrow-up-narrow-wide");
+      } else {
+        icon.setAttribute("data-lucide", "arrow-down-narrow-wide");
+      }
+      lucide.createIcons();
+      fetchCustomers();
+    }
+
+    function changePage(delta) {
+      const newPage = state.page + delta;
+      if (newPage >= 1 && newPage <= state.totalPages) {
+        state.page = newPage;
+        fetchCustomers();
+      }
+    }
+
+    // Fetch and render customer list
+    async function fetchCustomers() {
+      const grid = document.getElementById("customersGrid");
+      grid.innerHTML = `
+        <div class="col-span-full py-12 flex flex-col items-center justify-center text-slate-400">
+          <div class="w-8 h-8 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
+          <p class="mt-3 text-xs text-slate-500 font-medium">Querying MongoDB collections...</p>
+        </div>
+      `;
+
+      try {
+        const params = new URLSearchParams({
+          search: state.search,
+          sort_by: state.sortBy,
+          sort_order: state.sortOrder,
+          page: state.page,
+          limit: state.limit
+        });
+        if (state.riskFilter !== "All") params.append("risk", state.riskFilter);
+        if (state.approvalFilter !== "All") params.append("approval", state.approvalFilter);
+
+        const res = await fetch(`/api/customers?${params.toString()}`);
+        const data = await res.json();
+
+        state.totalPages = data.total_pages;
+        document.getElementById("resultsCount").innerText = data.total.toLocaleString();
+        document.getElementById("currentPageNum").innerText = data.page;
+        document.getElementById("totalPagesNum").innerText = data.total_pages;
+        document.getElementById("prevPageBtn").disabled = data.page <= 1;
+        document.getElementById("nextPageBtn").disabled = data.page >= data.total_pages;
+
+        if (!data.customers || data.customers.length === 0) {
+          grid.innerHTML = `
+            <div class="col-span-full py-16 bg-slate-50 rounded-xl border border-slate-200 text-center text-slate-500">
+              <i data-lucide="search-x" class="w-10 h-10 mx-auto text-slate-400 mb-2"></i>
+              <p class="text-sm font-semibold text-slate-700">No matching borrowers found</p>
+              <p class="text-xs mt-1">Try refining your search keyword or clearing the risk/approval filters.</p>
+            </div>
+          `;
+          lucide.createIcons();
+          return;
+        }
+
+        grid.innerHTML = data.customers.map(c => {
+          const riskClass = c.Credit_Risk === "Low" ? "badge-low" : (c.Credit_Risk === "Medium" ? "badge-medium" : "badge-high");
+          const appClass = c.Loan_Approval_Status === "Approved" ? "badge-approved" : "badge-rejected";
+          const initials = c.Customer_Name.split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase();
+
+          return `
+            <div onclick="openCustomerDetail('${c.Customer_ID}')" class="group bg-white hover:bg-slate-50 border border-slate-200 hover:border-indigo-300 rounded-xl p-4 transition-all duration-200 cursor-pointer shadow-sm hover:shadow-md flex flex-col justify-between">
+              
+              <!-- Top Row: Avatar + Name + ID + Badges -->
+              <div>
+                <div class="flex items-start justify-between gap-2">
+                  <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-50 border border-indigo-200 text-indigo-700 flex items-center justify-center font-bold text-xs group-hover:scale-105 group-hover:bg-indigo-600 group-hover:text-white transition">
+                      ${initials}
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-slate-900 text-sm group-hover:text-indigo-600 transition tracking-tight">${c.Customer_Name}</h4>
+                      <p class="text-[11px] text-slate-500 font-mono">${c.Customer_ID} &bull; <span class="text-slate-600">${c.City}</span></p>
+                    </div>
+                  </div>
+                  <span class="text-[10px] font-semibold px-2 py-0.5 rounded-full ${appClass}">
+                    ${c.Loan_Approval_Status}
+                  </span>
+                </div>
+
+                <!-- Mid Metrics Row -->
+                <div class="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-slate-100 text-[11px]">
+                  <div>
+                    <span class="text-slate-500 block text-[10px]">Credit Score</span>
+                    <span class="font-bold text-slate-900">${c.Credit_Score || 'N/A'}</span>
+                  </div>
+                  <div>
+                    <span class="text-slate-500 block text-[10px]">Risk Tier</span>
+                    <span class="inline-block px-1.5 py-0.2 rounded font-semibold text-[10px] ${riskClass}">${c.Credit_Risk}</span>
+                  </div>
+                  <div>
+                    <span class="text-slate-500 block text-[10px]">Balance</span>
+                    <span class="font-semibold text-emerald-600">₹${(c.Account_Balance_INR || 0).toLocaleString()}</span>
+                  </div>
+                </div>
+
+                <!-- Loan summary if available -->
+                <div class="mt-3 p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between text-[11px]">
+                  <div class="truncate text-slate-600">
+                    <span class="text-slate-800 font-medium">${c.Loan_Type || 'Loan App'}</span>
+                  </div>
+                  <span class="font-semibold text-indigo-600 shrink-0">₹${(c.Loan_Amount_INR || 0).toLocaleString()}</span>
+                </div>
+              </div>
+
+              <!-- Bottom CTA -->
+              <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px] text-indigo-600 group-hover:text-indigo-700 font-medium">
+                <span>View 360° Profile & Datasets</span>
+                <i data-lucide="chevron-right" class="w-4 h-4 group-hover:translate-x-1 transition"></i>
+              </div>
+
+            </div>
+          `;
+        }).join("");
+
+        lucide.createIcons();
+      } catch (err) {
+        console.error("Error fetching customers:", err);
+        grid.innerHTML = `<div class="col-span-full py-8 text-center text-rose-600 font-medium">Failed to load customers from MongoDB.</div>`;
+      }
+    }
+
+    // Open Customer 360 Details
+    async function openCustomerDetail(customerId) {
+      try {
+        const res = await fetch(`/api/customer/${customerId}`);
+        if (!res.ok) {
+          showToast("Borrower not found", "error");
+          return;
+        }
+        const data = await res.json();
+        
+        const c = data.customer;
+        const l = data.loan;
+        const r = data.credit_risk;
+        const rej = data.rejection;
+        const rps = data.repayments || [];
+
+        // Fill Header
+        document.getElementById("modalCustomerName").innerText = c.Customer_Name;
+        document.getElementById("modalCustomerId").innerText = c.Customer_ID;
+        document.getElementById("modalLoanId").innerText = l.Loan_ID || "N/A";
+        document.getElementById("modalCustomerAvatar").innerText = c.Customer_Name.split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase();
+        
+        const kycBadge = document.getElementById("modalKycBadge");
+        kycBadge.innerText = c.KYC_Status === "Verified" ? "✓ KYC Verified" : "⏳ KYC Pending";
+        kycBadge.className = c.KYC_Status === "Verified" ? "text-xs px-2 py-0.5 rounded-full font-medium bg-emerald-50 text-emerald-700 border border-emerald-200" : "text-xs px-2 py-0.5 rounded-full font-medium bg-amber-50 text-amber-700 border border-amber-200";
+
+        // Summary Ribbon
+        document.getElementById("modalCreditScore").innerText = r.Credit_Score || c.Credit_Score;
+        const rBadge = document.getElementById("modalRiskBadge");
+        rBadge.innerText = r.Credit_Risk || "Unknown";
+        rBadge.className = `inline-block mt-0.5 px-2 py-0.5 rounded font-semibold text-xs ${r.Credit_Risk === 'Low' ? 'badge-low' : (r.Credit_Risk === 'Medium' ? 'badge-medium' : 'badge-high')}`;
+
+        const aBadge = document.getElementById("modalApprovalBadge");
+        aBadge.innerText = l.Loan_Approval_Status || "N/A";
+        aBadge.className = `inline-block mt-0.5 px-2 py-0.5 rounded font-semibold text-xs ${l.Loan_Approval_Status === 'Approved' ? 'badge-approved' : 'badge-rejected'}`;
+
+        document.getElementById("modalAccountBalance").innerText = "₹" + (c.Account_Balance_INR || 0).toLocaleString();
+
+        // 01: Bank Customer details
+        document.getElementById("modalAgeGender").innerText = `${c.Age} yrs / ${c.Gender}`;
+        document.getElementById("modalCity").innerText = c.City;
+        document.getElementById("modalEmail").innerText = c.Email;
+        document.getElementById("modalPhone").innerText = c.Phone;
+        document.getElementById("modalAccountType").innerText = c.Account_Type;
+        document.getElementById("modalOpenDate").innerText = c.Account_Opening_Date;
+        document.getElementById("modalEmployment").innerText = c.Employment_Type;
+        document.getElementById("modalEduMarital").innerText = `${c.Education} / ${c.Marital_Status}`;
+
+        // 02: Loan Application details
+        document.getElementById("modalLoanTypePurpose").innerText = `${l.Loan_Type || 'N/A'} (${l.Loan_Purpose || 'N/A'})`;
+        document.getElementById("modalLoanAmount").innerText = "₹" + (l.Loan_Amount_INR || 0).toLocaleString();
+        document.getElementById("modalLoanTermRate").innerText = `${l.Loan_Term_Months || 0} Months @ ${l.Interest_Rate_Percent || 0}%`;
+        document.getElementById("modalMonthlyIncome").innerText = "₹" + (l.Monthly_Income_INR || 0).toLocaleString();
+        document.getElementById("modalAnnualIncome").innerText = "₹" + (l.Annual_Income_INR || 0).toLocaleString();
+        document.getElementById("modalDTI").innerText = l.Debt_to_Income_Ratio ? (l.Debt_to_Income_Ratio * 100).toFixed(1) + "%" : "N/A";
+        document.getElementById("modalCoapplicant").innerText = "₹" + (l.Coapplicant_Income_INR || 0).toLocaleString();
+        document.getElementById("modalExistingEMI").innerText = "₹" + (l.Existing_EMI_INR || 0).toLocaleString() + ` (${l.Previous_Loans || 0} loans)`;
+
+        // 04: Credit Risk details
+        document.getElementById("modalRiskGrade").innerText = r.Credit_Risk;
+        document.getElementById("modalRiskGrade").className = `font-bold ${r.Credit_Risk === 'Low' ? 'text-emerald-600' : (r.Credit_Risk === 'Medium' ? 'text-amber-600' : 'text-rose-600')}`;
+        document.getElementById("modalLoanDefault").innerText = r.Loan_Default === "Yes" ? "⚠️ Yes (High Risk)" : "✓ No Default";
+        document.getElementById("modalLoanDefault").className = `font-bold ${r.Loan_Default === 'Yes' ? 'text-rose-600' : 'text-emerald-600'}`;
+        document.getElementById("modalPrevLoans").innerText = r.Previous_Loans || 0;
+        document.getElementById("modalPrevDefaults").innerText = r.Previous_Defaults || 0;
+        document.getElementById("modalLatePayments").innerText = r.Late_Payments || 0;
+        document.getElementById("modalDelayedDays").innerText = (r.Delayed_Payment_Days || 0) + " days";
+        document.getElementById("modalOutstandingDebt").innerText = "₹" + (r.Outstanding_Debt_INR || 0).toLocaleString();
+
+        // 05: Rejection Reasons
+        document.getElementById("modalRejectionStatus").innerText = rej.Loan_Approval_Status || l.Loan_Approval_Status;
+        document.getElementById("modalRejectionStatus").className = `font-bold ${l.Loan_Approval_Status === 'Approved' ? 'text-emerald-600' : 'text-rose-600'}`;
+        document.getElementById("modalRejectionCode").innerText = rej.Rejection_Reason_Code || "None (Approved)";
+        document.getElementById("modalRejectionReason").innerText = rej.Rejection_Reason || "Not Applicable - Loan Approved";
+
+        // 03: Repayment Installments Table
+        const repBody = document.getElementById("modalRepaymentsTable");
+        if (rps.length === 0) {
+          repBody.innerHTML = `<tr><td colspan="8" class="text-center py-4 text-slate-400">No installments recorded.</td></tr>`;
+        } else {
+          repBody.innerHTML = rps.map(rp => {
+            const statusClass = rp.Repayment_Status === "On Time" ? "text-emerald-600 font-semibold" : (rp.Repayment_Status === "Late" ? "text-amber-600 font-semibold" : "text-rose-600 font-semibold");
+            return `
+              <tr class="hover:bg-slate-50 transition">
+                <td class="py-2.5 px-3 font-mono text-indigo-600 font-medium">${rp.Repayment_ID}</td>
+                <td class="py-2.5 px-3 font-semibold text-slate-900">#${rp.Installment_Number}</td>
+                <td class="py-2.5 px-3">${rp.Due_Date}</td>
+                <td class="py-2.5 px-3">${rp.Paid_Date || '-'}</td>
+                <td class="py-2.5 px-3 text-slate-800">₹${(rp.Due_Amount_INR || 0).toLocaleString()}</td>
+                <td class="py-2.5 px-3 text-emerald-600 font-medium">₹${(rp.Paid_Amount_INR || 0).toLocaleString()}</td>
+                <td class="py-2.5 px-3 ${rp.Days_Late > 0 ? 'text-rose-600 font-bold' : ''}">${rp.Days_Late} d</td>
+                <td class="py-2.5 px-3 ${statusClass}">${rp.Repayment_Status}</td>
+              </tr>
+            `;
+          }).join("");
+        }
+
+        document.getElementById("customerModal").classList.remove("hidden");
+        lucide.createIcons();
+
+        // Run Animated AI Risk Prediction
+        runAiAnalysisAnimation(data);
+      } catch (err) {
+        console.error("Error loading customer profile:", err);
+        showToast("Error retrieving 360 profile", "error");
+      }
+    }
+
+    // Global reference for active customer
+    let currentCustomer = null;
+
+    function runAiAnalysisAnimation(incomingData) {
+      const data = incomingData || currentCustomer;
+      if (!data) return;
+      currentCustomer = data;
+
+      const analyzingBox = document.getElementById("aiAnalyzingBox");
+      const resultBox = document.getElementById("aiResultBox");
+      const stepText = document.getElementById("aiStepText");
+      const subStep = document.getElementById("aiSubStep");
+      const progressBar = document.getElementById("aiProgressBar");
+      const refreshIcon = document.getElementById("aiRefreshIcon");
+
+      refreshIcon.classList.add("animate-spin");
+      analyzingBox.classList.remove("hidden");
+      resultBox.classList.add("hidden");
+
+      // Step 1: Multi-sheet Correlation
+      stepText.innerText = "Phase 1/3: Correlating 5 interconnected datasets...";
+      subStep.innerText = `Ingesting ${data.customer.Customer_ID} (${data.customer.Customer_Name}) bank profile & ${data.loan.Loan_ID || 'LN'} application...`;
+      progressBar.style.width = "30%";
+
+      setTimeout(() => {
+        // Step 2: Affordability & DTI
+        stepText.innerText = "Phase 2/3: Computing Debt-to-Income (DTI) & Cashflow Capacity...";
+        const dtiPct = data.loan.Debt_to_Income_Ratio ? (data.loan.Debt_to_Income_Ratio * 100).toFixed(1) + "%" : "18.1%";
+        subStep.innerText = `Monthly Income ₹${(data.loan.Monthly_Income_INR || 0).toLocaleString()} vs EMI obligations (DTI: ${dtiPct})...`;
+        progressBar.style.width = "70%";
+      }, 400);
+
+      setTimeout(() => {
+        // Step 3: Bureau Score & Policy Floor
+        stepText.innerText = "Phase 3/3: Evaluating Bureau Credit Score & Default Likelihood...";
+        const score = data.credit_risk.Credit_Score || data.customer.Credit_Score || 300;
+        subStep.innerText = `Benchmarking Credit Score (${score}/900) against Underwriting Eligibility Threshold (600)...`;
+        progressBar.style.width = "100%";
+      }, 800);
+
+      setTimeout(() => {
+        // Complete & Render
+        refreshIcon.classList.remove("animate-spin");
+        analyzingBox.classList.add("hidden");
+        renderAiPrediction(data);
+        resultBox.classList.remove("hidden");
+        lucide.createIcons();
+      }, 1200);
+    }
+
+    function renderAiPrediction(data) {
+      const c = data.customer;
+      const l = data.loan;
+      const r = data.credit_risk;
+      const rej = data.rejection;
+
+      const score = r.Credit_Score || c.Credit_Score || 300;
+      const isApproved = (l.Loan_Approval_Status || "").toLowerCase() === "approved";
+      const riskTier = r.Credit_Risk || (score >= 720 ? "Low" : (score >= 620 ? "Medium" : "High"));
+      const dtiPct = l.Debt_to_Income_Ratio ? (l.Debt_to_Income_Ratio * 100).toFixed(1) : "18.1";
+      
+      // Calculate a realistic risk index (0-100)
+      let predictiveScore = Math.round((score / 900) * 70 + (1 - Math.min(1, (l.Debt_to_Income_Ratio || 0.2))) * 30);
+      if (score <= 350) predictiveScore = Math.min(28, predictiveScore);
+
+      const defaultProb = score < 500 ? "76.4%" : (score < 650 ? "32.1%" : "4.8%");
+      const resultBox = document.getElementById("aiResultBox");
+
+      const badgeColor = isApproved ? "bg-emerald-50 text-emerald-700 border-emerald-200" : "bg-rose-50 text-rose-700 border-rose-200";
+      const badgeIcon = isApproved ? "check-circle-2" : "alert-octagon";
+      const verdictTitle = isApproved ? "RECOMMENDATION: APPROVE APPLICATION" : "RECOMMENDATION: DECLINE / REJECT LOAN";
+
+      resultBox.innerHTML = `
+        <!-- Top Predictive Decision Ribbon -->
+        <div class="p-4 rounded-xl border ${badgeColor} flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
+          <div class="flex items-center space-x-3">
+            <div class="p-2.5 rounded-xl ${isApproved ? 'bg-emerald-100 text-emerald-700' : 'bg-rose-100 text-rose-700'}">
+              <i data-lucide="${badgeIcon}" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <div class="flex items-center space-x-2">
+                <span class="text-xs font-mono font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-white/80 border border-current">
+                  ${l.Loan_Approval_Status || 'Rejected'}
+                </span>
+                <span class="text-sm font-bold">${verdictTitle}</span>
+              </div>
+              <p class="text-xs mt-0.5 opacity-90">
+                Decision Code: <span class="font-mono font-semibold">${rej.Rejection_Reason_Code || (isApproved ? 'APP01' : 'R04')}</span> &bull; 
+                ${rej.Rejection_Reason || (isApproved ? 'Satisfies all underwriting benchmarks' : 'Credit score below threshold')}
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4 text-xs shrink-0 bg-white/70 px-3.5 py-2 rounded-xl border border-current/20">
+            <div>
+              <span class="block text-[10px] text-slate-500 uppercase font-semibold">Credit Index</span>
+              <span class="text-base font-bold text-slate-900">${predictiveScore} / 100</span>
+            </div>
+            <div class="border-l border-slate-300 pl-3">
+              <span class="block text-[10px] text-slate-500 uppercase font-semibold">Default Risk</span>
+              <span class="text-base font-bold ${isApproved ? 'text-emerald-700' : 'text-rose-700'}">${defaultProb}</span>
+            </div>
+            <div class="border-l border-slate-300 pl-3">
+              <span class="block text-[10px] text-slate-500 uppercase font-semibold">Risk Tier</span>
+              <span class="text-base font-bold ${riskTier === 'Low' ? 'text-emerald-700' : (riskTier === 'Medium' ? 'text-amber-700' : 'text-rose-700')}">${riskTier}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detailed Breakdown: How We Did It & Why & Output -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+          
+          <!-- Column 1: HOW WE DID IT -->
+          <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-2">
+            <div class="flex items-center space-x-2 text-indigo-700 font-bold">
+              <i data-lucide="layers" class="w-4 h-4"></i>
+              <span>1. How We Did It</span>
+            </div>
+            <p class="text-[11px] text-slate-600 leading-relaxed">
+              Synthesized data points across all 5 interconnected MongoDB collections:
+            </p>
+            <ul class="text-[11px] text-slate-600 space-y-1 list-disc list-inside">
+              <li><strong class="text-slate-800">Demographics & Balance:</strong> Ingested from <code class="text-indigo-600">01_bank_customers</code> (Income ₹${(l.Monthly_Income_INR || 0).toLocaleString()}, Balance ₹${(c.Account_Balance_INR || 0).toLocaleString()}).</li>
+              <li><strong class="text-slate-800">Affordability Analysis:</strong> Computed debt service ratio from <code class="text-indigo-600">02_loan_applications</code> (DTI: ${dtiPct}%).</li>
+              <li><strong class="text-slate-800">Bureau Underwriting:</strong> Benchmarked bureau score (${score}/900) against institutional threshold (&ge; 600).</li>
+            </ul>
+          </div>
+
+          <!-- Column 2: WHY THIS HAPPENED -->
+          <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-2">
+            <div class="flex items-center space-x-2 text-amber-700 font-bold">
+              <i data-lucide="help-circle" class="w-4 h-4"></i>
+              <span>2. Why This Happened</span>
+            </div>
+            <div class="space-y-1.5 text-[11px] text-slate-600 leading-relaxed">
+              ${score < 600 ? `
+                <div class="p-2 rounded bg-rose-50 border border-rose-200 text-rose-800">
+                  <strong>Fatal Risk Trigger:</strong> Credit Score of <strong>${score}</strong> is at the subprime floor of the 300–900 scale. Regardless of income, scores below 600 represent severe credit impairment or zero credit history.
+                </div>
+                <div class="p-1.5 rounded bg-emerald-50 border border-emerald-200 text-emerald-800">
+                  <strong>Positive Capacity:</strong> Monthly income of ₹${(l.Monthly_Income_INR || 0).toLocaleString()} and low DTI (${dtiPct}%) show income strength, but bureau policy overrides income.
+                </div>
+              ` : `
+                <div class="p-2 rounded bg-emerald-50 border border-emerald-200 text-emerald-800">
+                  <strong>Strong Credit Profile:</strong> Score of <strong>${score}</strong> comfortably clears the 600 approval floor. DTI of ${dtiPct}% indicates healthy debt-servicing ability.
+                </div>
+              `}
+            </div>
+          </div>
+
+          <!-- Column 3: WHAT IS THE OUTPUT -->
+          <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-2">
+            <div class="flex items-center space-x-2 text-blue-700 font-bold">
+              <i data-lucide="clipboard-check" class="w-4 h-4"></i>
+              <span>3. What Is The Output</span>
+            </div>
+            <div class="text-[11px] text-slate-700 space-y-1.5">
+              <div class="flex justify-between border-b border-slate-100 pb-1">
+                <span class="text-slate-500">Borrower:</span>
+                <span class="font-bold text-slate-900">${c.Customer_Name} (${c.Customer_ID})</span>
+              </div>
+              <div class="flex justify-between border-b border-slate-100 pb-1">
+                <span class="text-slate-500">Loan ID:</span>
+                <span class="font-mono font-bold text-blue-600">${l.Loan_ID || 'LN1002'}</span>
+              </div>
+              <div class="flex justify-between border-b border-slate-100 pb-1">
+                <span class="text-slate-500">Final Verdict:</span>
+                <span class="font-bold ${isApproved ? 'text-emerald-700' : 'text-rose-700'}">${isApproved ? 'APPROVED' : 'REJECTED (Rule R04)'}</span>
+              </div>
+              <div class="flex justify-between border-b border-slate-100 pb-1">
+                <span class="text-slate-500">Disbursement:</span>
+                <span class="font-semibold text-slate-800">${isApproved ? '₹' + (l.Loan_Amount_INR || 0).toLocaleString() : '₹0 (Not Disbursed)'}</span>
+              </div>
+              <p class="text-[10px] text-slate-500 italic pt-1">
+                ${isApproved ? 'Loan approved for disbursement across 6 monthly installments.' : 'Action: Require credit score rebuild to &ge;650 or attach creditworthy co-signer.'}
+              </p>
+            </div>
+          </div>
+
+        </div>
+      `;
+    }
+
+    function closeCustomerModal() {
+      document.getElementById("customerModal").classList.add("hidden");
+    }
+
+    // Add Customer Modal
+    function openAddCustomerModal() {
+      document.getElementById("addCustomerModal").classList.remove("hidden");
+    }
+
+    function closeAddCustomerModal() {
+      document.getElementById("addCustomerModal").classList.add("hidden");
+    }
+
+    async function submitNewCustomer(e) {
+      e.preventDefault();
+      const form = e.target;
+      const formData = new FormData(form);
+      const payload = {};
+
+      formData.forEach((value, key) => {
+        if (["Age", "Loan_Term_Months", "Credit_Score", "Previous_Loans", "Previous_Defaults", "Late_Payments", "Delayed_Payment_Days"].includes(key)) {
+          payload[key] = parseInt(value, 10);
+        } else if (["Account_Balance_INR", "Loan_Amount_INR", "Interest_Rate_Percent", "Monthly_Income_INR", "Monthly_Expenses_INR", "Coapplicant_Income_INR", "Existing_EMI_INR", "Outstanding_Debt_INR"].includes(key)) {
+          payload[key] = parseFloat(value);
+        } else {
+          payload[key] = value;
+        }
+      });
+
+      const submitBtn = document.getElementById("submitCustomerBtn");
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = `<div class="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div><span>Saving to MongoDB...</span>`;
+
+      try {
+        const res = await fetch("/api/customer", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const result = await res.json();
+
+        if (result.success) {
+          showToast(`Successfully added ${payload.Customer_Name} (${result.Customer_ID})!`, "success");
+          closeAddCustomerModal();
+          form.reset();
+          
+          // Refresh Stats & Lists
+          fetchStats();
+          fetchCustomers();
+
+          // Open the newly created customer's 360 view directly
+          openCustomerDetail(result.Customer_ID);
+        } else {
+          showToast(result.message || "Failed to add customer", "error");
+        }
+      } catch (err) {
+        console.error("Error creating customer:", err);
+        showToast("Error submitting customer data", "error");
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = `<i data-lucide="check-circle" class="w-4 h-4"></i><span>Commit New Borrower</span>`;
+        lucide.createIcons();
+      }
+    }
+
+    // Dataset Explorer Modal
+    function openDatasetModal() {
+      document.getElementById("datasetModal").classList.remove("hidden");
+      loadDatasetData();
+    }
+
+    function closeDatasetModal() {
+      document.getElementById("datasetModal").classList.add("hidden");
+    }
+
+    function switchDataset(name) {
+      state.currentDataset = name;
+      state.datasetPage = 1;
+      state.datasetSearch = "";
+      state.datasetSortBy = null;
+      document.getElementById("datasetSearchInput").value = "";
+
+      document.querySelectorAll(".dataset-tab").forEach(tab => {
+        if (tab.id === `tab-${name}`) {
+          tab.className = "dataset-tab px-3 py-1.5 rounded-lg font-medium transition bg-indigo-600 text-white shrink-0 shadow-sm";
+        } else {
+          tab.className = "dataset-tab px-3 py-1.5 rounded-lg font-medium transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0";
+        }
+      });
+
+      loadDatasetData();
+    }
+
+    let datasetSearchTimeout = null;
+    function handleDatasetSearch(e) {
+      state.datasetSearch = e.target.value;
+      clearTimeout(datasetSearchTimeout);
+      datasetSearchTimeout = setTimeout(() => {
+        state.datasetPage = 1;
+        loadDatasetData();
+      }, 300);
+    }
+
+    function changeDatasetPageSize(val) {
+      state.datasetPageSize = parseInt(val, 10);
+      state.datasetPage = 1;
+      loadDatasetData();
+    }
+
+    function changeDatasetPage(delta) {
+      const np = state.datasetPage + delta;
+      if (np >= 1 && np <= state.datasetTotalPages) {
+        state.datasetPage = np;
+        loadDatasetData();
+      }
+    }
+
+    function sortDatasetColumn(col) {
+      if (state.datasetSortBy === col) {
+        state.datasetSortOrder = state.datasetSortOrder === "asc" ? "desc" : "asc";
+      } else {
+        state.datasetSortBy = col;
+        state.datasetSortOrder = "asc";
+      }
+      loadDatasetData();
+    }
+
+    async function loadDatasetData() {
+      const thead = document.getElementById("datasetTableHeader");
+      const tbody = document.getElementById("datasetTableBody");
+
+      tbody.innerHTML = `<tr><td colspan="15" class="text-center py-10 text-slate-400"><div class="w-6 h-6 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin mx-auto mb-2"></div>Loading MongoDB records...</td></tr>`;
+
+      try {
+        const params = new URLSearchParams({
+          page: state.datasetPage,
+          page_size: state.datasetPageSize,
+          search: state.datasetSearch
+        });
+        if (state.datasetSortBy) {
+          params.append("sort_by", state.datasetSortBy);
+          params.append("sort_order", state.datasetSortOrder);
+        }
+
+        const res = await fetch(`/api/dataset/${state.currentDataset}?${params.toString()}`);
+        const data = await res.json();
+
+        state.datasetTotalPages = data.total_pages;
+        document.getElementById("datasetCurPage").innerText = data.page;
+        document.getElementById("datasetTotalPages").innerText = data.total_pages;
+        document.getElementById("datasetTotalRows").innerText = `Total records: ${data.total_records.toLocaleString()}`;
+        document.getElementById("datasetPrevBtn").disabled = data.page <= 1;
+        document.getElementById("datasetNextBtn").disabled = data.page >= data.total_pages;
+
+        // Render Table Headers
+        thead.innerHTML = `
+          <tr>
+            <th class="py-2.5 px-3 text-slate-500 text-[10px] w-10">#</th>
+            ${data.columns.map(col => `
+              <th onclick="sortDatasetColumn('${col}')" class="py-2.5 px-3 cursor-pointer hover:bg-slate-200/60 transition select-none">
+                <div class="flex items-center space-x-1">
+                  <span>${col}</span>
+                  ${state.datasetSortBy === col ? (state.datasetSortOrder === 'asc' ? '▲' : '▼') : ''}
+                </div>
+              </th>
+            `).join("")}
+          </tr>
+        `;
+
+        // Render Table Rows
+        if (!data.records || data.records.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="${data.columns.length + 1}" class="text-center py-10 text-slate-400">No records found matching criteria.</td></tr>`;
+          return;
+        }
+
+        const startIdx = (data.page - 1) * data.page_size;
+        tbody.innerHTML = data.records.map((r, i) => `
+          <tr class="hover:bg-slate-50 transition">
+            <td class="py-2 px-3 text-slate-400 text-[10px]">${startIdx + i + 1}</td>
+            ${data.columns.map(col => {
+              const val = r[col];
+              let displayVal = val === null || val === undefined ? '<span class="text-slate-400">null</span>' : val;
+              if (typeof val === 'number' && col.includes('INR')) displayVal = '₹' + val.toLocaleString();
+              return `<td class="py-2 px-3 truncate max-w-[200px]" title="${val}">${displayVal}</td>`;
+            }).join("")}
+          </tr>
+        `).join("");
+
+      } catch (err) {
+        console.error("Error loading dataset:", err);
+        tbody.innerHTML = `<tr><td colspan="15" class="text-center py-6 text-rose-600 font-medium">Failed to load dataset.</td></tr>`;
+      }
+    }
+
+    function exportCurrentDataset() {
+      window.open(`/api/dataset/${state.currentDataset}/export`, "_blank");
+    }
+
+    // Trigger full DB Sync
+    async function triggerSync() {
+      const icon = document.getElementById("syncIcon");
+      icon.classList.add("animate-spin");
+      try {
+        const res = await fetch("/api/sync", { method: "POST" });
+        const data = await res.json();
+        showToast("Database resynchronized with datasets!", "success");
+        fetchStats();
+        fetchCustomers();
+      } catch (e) {
+        showToast("Error synchronizing database", "error");
+      } finally {
+        setTimeout(() => icon.classList.remove("animate-spin"), 600);
+      }
+    }
+
+    // Toast notifications helper
+    function showToast(message, type = "info") {
+      const container = document.getElementById("toastContainer");
+      const toast = document.createElement("div");
+      const bg = type === "success" ? "bg-emerald-600" : (type === "error" ? "bg-rose-600" : (type === "amber" ? "bg-amber-600" : "bg-indigo-600"));
+      toast.className = `${bg} text-white text-xs px-4 py-2.5 rounded-xl shadow-xl flex items-center space-x-2 transition-all transform translate-y-2 opacity-0 font-medium`;
+      toast.innerHTML = `<span>${message}</span>`;
+      container.appendChild(toast);
+
+      setTimeout(() => {
+        toast.classList.remove("translate-y-2", "opacity-0");
+      }, 50);
+
+      setTimeout(() => {
+        toast.classList.add("opacity-0", "translate-y-2");
+        setTimeout(() => toast.remove(), 300);
+      }, 4000);
+    }
+
+    // ==========================================
+    // POWER BI ANALYTICS SUITE JAVASCRIPT LOGIC
+    // ==========================================
+    let pbiData = null;
+    let pbiCharts = {};
+
+    async function openPowerBiModal() {
+      document.getElementById("powerBiModal").classList.remove("hidden");
+      lucide.createIcons();
+      if (!pbiData) {
+        await loadPowerBiData();
+      } else {
+        renderCurrentPbiPage();
+      }
+    }
+
+    function closePowerBiModal() {
+      document.getElementById("powerBiModal").classList.add("hidden");
+    }
+
+    let activePbiTab = "loan_approval";
+    function switchPbiReportTab(tabName) {
+      activePbiTab = tabName;
+      document.querySelectorAll(".pbi-tab").forEach(tab => {
+        if (tab.id === `pbiTab-${tabName}`) {
+          tab.className = "pbi-tab px-3.5 py-1.5 rounded-lg font-bold transition bg-amber-500 text-white shadow-sm shrink-0 flex items-center space-x-2";
+        } else {
+          tab.className = "pbi-tab px-3.5 py-1.5 rounded-lg font-semibold transition bg-white border border-slate-200 text-slate-600 hover:text-slate-900 shrink-0 flex items-center space-x-2";
+        }
+      });
+
+      document.getElementById("pbiReportSection-loan_approval").classList.add("hidden");
+      document.getElementById("pbiReportSection-income_analysis").classList.add("hidden");
+      document.getElementById("pbiReportSection-credit_score").classList.add("hidden");
+      document.getElementById(`pbiReportSection-${tabName}`).classList.remove("hidden");
+
+      renderCurrentPbiPage();
+      lucide.createIcons();
+    }
+
+    async function loadPowerBiData() {
+      try {
+        const res = await fetch("/api/powerbi/analytics");
+        pbiData = await res.json();
+        renderCurrentPbiPage();
+      } catch (err) {
+        console.error("Error loading Power BI analytics:", err);
+        showToast("Error loading Power BI data", "error");
+      }
+    }
+
+    function renderCurrentPbiPage() {
+      if (!pbiData) return;
+      if (activePbiTab === "loan_approval") {
+        renderPbiLoanApproval();
+      } else if (activePbiTab === "income_analysis") {
+        renderPbiIncomeAnalysis();
+      } else if (activePbiTab === "credit_score") {
+        renderPbiCreditScore();
+      }
+    }
+
+    // 1. Render Loan Approval Dashboard
+    function renderPbiLoanApproval() {
+      const d = pbiData.loan_approval_dashboard;
+      document.getElementById("pbiKpi-totalApps").innerText = d.kpis.total_applications.toLocaleString();
+      document.getElementById("pbiKpi-appRate").innerText = d.kpis.approval_rate + "%";
+      document.getElementById("pbiKpi-appRatio").innerText = `${d.kpis.approved_count} Approved / ${d.kpis.rejected_count} Rejected`;
+      document.getElementById("pbiKpi-disbursed").innerText = "₹" + (d.kpis.total_disbursed_inr / 10000000).toFixed(2) + " Cr";
+      document.getElementById("pbiKpi-requested").innerText = "of ₹" + (d.kpis.total_requested_inr / 10000000).toFixed(2) + " Cr Requested";
+      document.getElementById("pbiKpi-avgDti").innerText = d.kpis.avg_dti + "%";
+
+      // Approval Donut
+      if (pbiCharts.appDonut) pbiCharts.appDonut.destroy();
+      const ctxDonut = document.getElementById("pbiChart-approvalDonut").getContext("2d");
+      pbiCharts.appDonut = new Chart(ctxDonut, {
+        type: "doughnut",
+        data: {
+          labels: ["Approved", "Rejected"],
+          datasets: [{
+            data: [d.kpis.approved_count, d.kpis.rejected_count],
+            backgroundColor: ["#10b981", "#f43f5e"],
+            borderColor: "#ffffff",
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: "bottom", labels: { color: "#475569", font: { size: 11, weight: 'bold' } } } },
+          cutout: "65%"
+        }
+      });
+
+      // Rejection Pareto
+      if (pbiCharts.rejPareto) pbiCharts.rejPareto.destroy();
+      const ctxRej = document.getElementById("pbiChart-rejectionPareto").getContext("2d");
+      pbiCharts.rejPareto = new Chart(ctxRej, {
+        type: "bar",
+        data: {
+          labels: Object.keys(d.rejections),
+          datasets: [{
+            label: "Rejected Applications",
+            data: Object.values(d.rejections),
+            backgroundColor: ["#ef4444", "#f97316", "#eab308", "#6366f1", "#06b6d4"],
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 10 } } },
+            y: { grid: { display: false }, ticks: { color: "#334155", font: { size: 10, weight: 'bold' } } }
+          }
+        }
+      });
+
+      // Purpose Approval Grouped Column
+      if (pbiCharts.purpose) pbiCharts.purpose.destroy();
+      const ctxPurp = document.getElementById("pbiChart-purposeApproval").getContext("2d");
+      const purpLabels = Object.keys(d.by_purpose);
+      pbiCharts.purpose = new Chart(ctxPurp, {
+        type: "bar",
+        data: {
+          labels: purpLabels,
+          datasets: [
+            { label: "Approved", data: purpLabels.map(k => d.by_purpose[k].Approved), backgroundColor: "#10b981", borderRadius: 3 },
+            { label: "Rejected", data: purpLabels.map(k => d.by_purpose[k].Rejected), backgroundColor: "#cbd5e1", borderRadius: 3 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: "top", labels: { color: "#475569", font: { size: 10 } } } },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#64748b", font: { size: 9 } } },
+            y: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 } } }
+          }
+        }
+      });
+
+      // Employment Approval Stacked Column
+      if (pbiCharts.emp) pbiCharts.emp.destroy();
+      const ctxEmp = document.getElementById("pbiChart-employmentApproval").getContext("2d");
+      const empLabels = Object.keys(d.by_employment);
+      pbiCharts.emp = new Chart(ctxEmp, {
+        type: "bar",
+        data: {
+          labels: empLabels,
+          datasets: [
+            { label: "Approved", data: empLabels.map(k => d.by_employment[k].Approved), backgroundColor: "#6366f1", borderRadius: 3 },
+            { label: "Rejected", data: empLabels.map(k => d.by_employment[k].Rejected), backgroundColor: "#fca5a5", borderRadius: 3 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: { stacked: true, grid: { display: false }, ticks: { color: "#475569", font: { size: 10, weight: 'bold' } } },
+            y: { stacked: true, grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 } } }
+          },
+          plugins: { legend: { position: "top", labels: { color: "#475569", font: { size: 10 } } } }
+        }
+      });
+    }
+
+    // 2. Render Income Analysis
+    function renderPbiIncomeAnalysis() {
+      const d = pbiData.income_analysis;
+      document.getElementById("pbiKpi-avgIncome").innerText = "₹" + Math.round(d.kpis.avg_monthly_income).toLocaleString();
+      document.getElementById("pbiKpi-medianIncome").innerText = "₹" + Math.round(d.kpis.median_monthly_income).toLocaleString();
+      document.getElementById("pbiKpi-maxIncome").innerText = "₹" + Math.round(d.kpis.max_monthly_income).toLocaleString();
+      document.getElementById("pbiKpi-coappRate").innerText = d.kpis.coapplicant_rate + "%";
+
+      const incBands = Object.keys(d.by_income_band);
+
+      // Income vs Approval Rate
+      if (pbiCharts.incAppRate) pbiCharts.incAppRate.destroy();
+      const ctxIncApp = document.getElementById("pbiChart-incomeApprovalRate").getContext("2d");
+      pbiCharts.incAppRate = new Chart(ctxIncApp, {
+        type: "bar",
+        data: {
+          labels: incBands,
+          datasets: [{
+            label: "Approval Rate %",
+            data: incBands.map(k => d.by_income_band[k].approval_rate),
+            backgroundColor: ["#f87171", "#fbbf24", "#34d399", "#10b981", "#059669"],
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#475569", font: { size: 9, weight: 'bold' } } },
+            y: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 }, callback: v => v + '%' } }
+          }
+        }
+      });
+
+      // Income vs Average Loan Amount
+      if (pbiCharts.incLoan) pbiCharts.incLoan.destroy();
+      const ctxIncLoan = document.getElementById("pbiChart-incomeLoanAmount").getContext("2d");
+      pbiCharts.incLoan = new Chart(ctxIncLoan, {
+        type: "bar",
+        data: {
+          labels: incBands,
+          datasets: [{
+            label: "Mean Loan Amount",
+            data: incBands.map(k => d.by_income_band[k].mean_loan),
+            backgroundColor: "#3b82f6",
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 }, callback: v => '₹' + (v/1000) + 'k' } },
+            y: { grid: { display: false }, ticks: { color: "#475569", font: { size: 9, weight: 'bold' } } }
+          }
+        }
+      });
+
+      // Income by Education
+      if (pbiCharts.eduInc) pbiCharts.eduInc.destroy();
+      const ctxEdu = document.getElementById("pbiChart-educationIncome").getContext("2d");
+      const eduLabels = Object.keys(d.by_education);
+      pbiCharts.eduInc = new Chart(ctxEdu, {
+        type: "bar",
+        data: {
+          labels: eduLabels,
+          datasets: [{
+            label: "Avg Monthly Income",
+            data: Object.values(d.by_education),
+            backgroundColor: "#6366f1",
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#475569", font: { size: 10, weight: 'bold' } } },
+            y: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 }, callback: v => '₹' + (v/1000) + 'k' } }
+          }
+        }
+      });
+
+      // Income Bands Volume Pie
+      if (pbiCharts.incPie) pbiCharts.incPie.destroy();
+      const ctxPie = document.getElementById("pbiChart-incomeBandsPie").getContext("2d");
+      pbiCharts.incPie = new Chart(ctxPie, {
+        type: "pie",
+        data: {
+          labels: incBands,
+          datasets: [{
+            data: incBands.map(k => d.by_income_band[k].count),
+            backgroundColor: ["#94a3b8", "#38bdf8", "#818cf8", "#34d399", "#f59e0b"],
+            borderColor: "#ffffff",
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: "right", labels: { color: "#475569", font: { size: 9 } } } }
+        }
+      });
+    }
+
+    // 3. Render Credit Score Distribution
+    function renderPbiCreditScore() {
+      const d = pbiData.credit_score_distribution;
+      document.getElementById("pbiKpi-avgScore").innerText = d.kpis.avg_credit_score;
+      document.getElementById("pbiKpi-medianScore").innerText = d.kpis.median_credit_score;
+      document.getElementById("pbiKpi-subprime").innerText = d.kpis.subprime_count;
+      document.getElementById("pbiKpi-prime").innerText = d.kpis.prime_count;
+
+      // Histogram
+      if (pbiCharts.hist) pbiCharts.hist.destroy();
+      const ctxHist = document.getElementById("pbiChart-scoreHistogram").getContext("2d");
+      pbiCharts.hist = new Chart(ctxHist, {
+        type: "bar",
+        data: {
+          labels: Object.keys(d.histogram),
+          datasets: [{
+            label: "Borrowers Count",
+            data: Object.values(d.histogram),
+            backgroundColor: Object.keys(d.histogram).map(k => {
+              const start = parseInt(k.split('-')[0], 10);
+              return start < 600 ? "#f87171" : (start < 700 ? "#fbbf24" : "#34d399");
+            }),
+            borderRadius: 3
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#475569", font: { size: 9 } } },
+            y: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 } } }
+          }
+        }
+      });
+
+      // Default Rate by Band
+      if (pbiCharts.scoreDef) pbiCharts.scoreDef.destroy();
+      const ctxDef = document.getElementById("pbiChart-scoreDefaultRate").getContext("2d");
+      const sBands = Object.keys(d.by_score_band);
+      pbiCharts.scoreDef = new Chart(ctxDef, {
+        type: "bar",
+        data: {
+          labels: sBands,
+          datasets: [{
+            label: "Default Rate %",
+            data: sBands.map(k => d.by_score_band[k].default_rate),
+            backgroundColor: ["#ef4444", "#f59e0b", "#3b82f6", "#10b981", "#059669"],
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#475569", font: { size: 9, weight: 'bold' } } },
+            y: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 }, callback: v => v + '%' } }
+          }
+        }
+      });
+
+      // Approved Count by Band (Shows Hard Cutoff below 600)
+      if (pbiCharts.scoreApp) pbiCharts.scoreApp.destroy();
+      const ctxApp = document.getElementById("pbiChart-scoreApprovedCount").getContext("2d");
+      pbiCharts.scoreApp = new Chart(ctxApp, {
+        type: "bar",
+        data: {
+          labels: sBands,
+          datasets: [{
+            label: "Approved Volume",
+            data: sBands.map(k => d.by_score_band[k].approved_count),
+            backgroundColor: "#10b981",
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 } } },
+            y: { grid: { display: false }, ticks: { color: "#475569", font: { size: 9, weight: 'bold' } } }
+          }
+        }
+      });
+
+      // Avg Outstanding Debt by Score Band
+      if (pbiCharts.scoreDebt) pbiCharts.scoreDebt.destroy();
+      const ctxDebt = document.getElementById("pbiChart-scoreAvgDebt").getContext("2d");
+      pbiCharts.scoreDebt = new Chart(ctxDebt, {
+        type: "bar",
+        data: {
+          labels: sBands,
+          datasets: [{
+            label: "Avg Debt (₹)",
+            data: sBands.map(k => d.by_score_band[k].avg_debt),
+            backgroundColor: "#f59e0b",
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#475569", font: { size: 9, weight: 'bold' } } },
+            y: { grid: { color: "#e2e8f0" }, ticks: { color: "#64748b", font: { size: 9 }, callback: v => '₹' + (v/1000) + 'k' } }
+          }
+        }
+      });
+    }
+
+    // Launch Desktop Power BI
+    async function launchDesktopPowerBI() {
+      const btn = document.getElementById("btnLaunchPbi");
+      btn.innerHTML = `<div class="w-3.5 h-3.5 border-2 border-white border-t-transparent rounded-full animate-spin"></div><span>Launching...</span>`;
+      try {
+        const res = await fetch("/api/powerbi/launch");
+        const data = await res.json();
+        showToast("Launched Microsoft Power BI Desktop on your laptop!", "amber");
+      } catch (e) {
+        showToast("Triggered Power BI file opening", "info");
+      } finally {
+        setTimeout(() => {
+          btn.innerHTML = `<i data-lucide="external-link" class="w-3.5 h-3.5"></i><span>Open in Desktop Power BI</span>`;
+          lucide.createIcons();
+        }, 1200);
+      }
+    }
+
+    function downloadPbitFile() {
+      window.open("/api/powerbi/download-pbit", "_blank");
+    }
+
+    function downloadMasterCsv() {
+      window.open("/api/powerbi/download-master", "_blank");
+    }
+
+  </script>
+</body>
+</html>

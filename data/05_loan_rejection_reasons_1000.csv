@@ -1,0 +1,1004 @@
+Loan_ID,Customer_ID,Loan_Approval_Status,Rejection_Reason_Code,Rejection_Reason
+LN0001,BANK0001,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0002,BANK0002,Approved,NA,Not Applicable - Loan Approved
+LN0003,BANK0003,Rejected,R03,High proposed debt-to-income ratio
+LN0004,BANK0004,Approved,NA,Not Applicable - Loan Approved
+LN0005,BANK0005,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0006,BANK0006,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0007,BANK0007,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0008,BANK0008,Approved,NA,Not Applicable - Loan Approved
+LN0009,BANK0009,Rejected,R01,Previous loan default recorded
+LN0010,BANK0010,Approved,NA,Not Applicable - Loan Approved
+LN0011,BANK0011,Rejected,R03,High proposed debt-to-income ratio
+LN0012,BANK0012,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0013,BANK0013,Approved,NA,Not Applicable - Loan Approved
+LN0014,BANK0014,Rejected,R01,Previous loan default recorded
+LN0015,BANK0015,Approved,NA,Not Applicable - Loan Approved
+LN0016,BANK0016,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0017,BANK0017,Approved,NA,Not Applicable - Loan Approved
+LN0018,BANK0018,Approved,NA,Not Applicable - Loan Approved
+LN0019,BANK0019,Approved,NA,Not Applicable - Loan Approved
+LN0020,BANK0020,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0021,BANK0021,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0022,BANK0022,Rejected,R01,Previous loan default recorded
+LN0023,BANK0023,Approved,NA,Not Applicable - Loan Approved
+LN0024,BANK0024,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0025,BANK0025,Rejected,R03,High proposed debt-to-income ratio
+LN0026,BANK0026,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0027,BANK0027,Rejected,R03,High proposed debt-to-income ratio
+LN0028,BANK0028,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0029,BANK0029,Approved,NA,Not Applicable - Loan Approved
+LN0030,BANK0030,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0031,BANK0031,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0032,BANK0032,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0033,BANK0033,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0034,BANK0034,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0035,BANK0035,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0036,BANK0036,Rejected,R05,No current employment income
+LN0037,BANK0037,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0038,BANK0038,Approved,NA,Not Applicable - Loan Approved
+LN0039,BANK0039,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0040,BANK0040,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0041,BANK0041,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0042,BANK0042,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0043,BANK0043,Rejected,R01,Previous loan default recorded
+LN0044,BANK0044,Rejected,R01,Previous loan default recorded
+LN0045,BANK0045,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0046,BANK0046,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0047,BANK0047,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0048,BANK0048,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0049,BANK0049,Rejected,R03,High proposed debt-to-income ratio
+LN0050,BANK0050,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0051,BANK0051,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0052,BANK0052,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0053,BANK0053,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0054,BANK0054,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0055,BANK0055,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0056,BANK0056,Rejected,R03,High proposed debt-to-income ratio
+LN0057,BANK0057,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0058,BANK0058,Approved,NA,Not Applicable - Loan Approved
+LN0059,BANK0059,Approved,NA,Not Applicable - Loan Approved
+LN0060,BANK0060,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0061,BANK0061,Approved,NA,Not Applicable - Loan Approved
+LN0062,BANK0062,Approved,NA,Not Applicable - Loan Approved
+LN0063,BANK0063,Rejected,R01,Previous loan default recorded
+LN0064,BANK0064,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0065,BANK0065,Approved,NA,Not Applicable - Loan Approved
+LN0066,BANK0066,Rejected,R01,Previous loan default recorded
+LN0067,BANK0067,Approved,NA,Not Applicable - Loan Approved
+LN0068,BANK0068,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0069,BANK0069,Rejected,R03,High proposed debt-to-income ratio
+LN0070,BANK0070,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0071,BANK0071,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0072,BANK0072,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0073,BANK0073,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0074,BANK0074,Rejected,R03,High proposed debt-to-income ratio
+LN0075,BANK0075,Rejected,R01,Previous loan default recorded
+LN0076,BANK0076,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0077,BANK0077,Rejected,R01,Previous loan default recorded
+LN0078,BANK0078,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0079,BANK0079,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0080,BANK0080,Rejected,R01,Previous loan default recorded
+LN0081,BANK0081,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0082,BANK0082,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0083,BANK0083,Approved,NA,Not Applicable - Loan Approved
+LN0084,BANK0084,Rejected,R01,Previous loan default recorded
+LN0085,BANK0085,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0086,BANK0086,Rejected,R03,High proposed debt-to-income ratio
+LN0087,BANK0087,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0088,BANK0088,Rejected,R01,Previous loan default recorded
+LN0089,BANK0089,Rejected,R01,Previous loan default recorded
+LN0090,BANK0090,Rejected,R02,Insufficient monthly income
+LN0091,BANK0091,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0092,BANK0092,Approved,NA,Not Applicable - Loan Approved
+LN0093,BANK0093,Rejected,R05,No current employment income
+LN0094,BANK0094,Approved,NA,Not Applicable - Loan Approved
+LN0095,BANK0095,Approved,NA,Not Applicable - Loan Approved
+LN0096,BANK0096,Approved,NA,Not Applicable - Loan Approved
+LN0097,BANK0097,Approved,NA,Not Applicable - Loan Approved
+LN0098,BANK0098,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0099,BANK0099,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0100,BANK0100,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0101,BANK0101,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0102,BANK0102,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0103,BANK0103,Approved,NA,Not Applicable - Loan Approved
+LN0104,BANK0104,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0105,BANK0105,Approved,NA,Not Applicable - Loan Approved
+LN0106,BANK0106,Approved,NA,Not Applicable - Loan Approved
+LN0107,BANK0107,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0108,BANK0108,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0109,BANK0109,Approved,NA,Not Applicable - Loan Approved
+LN0110,BANK0110,Approved,NA,Not Applicable - Loan Approved
+LN0111,BANK0111,Approved,NA,Not Applicable - Loan Approved
+LN0112,BANK0112,Approved,NA,Not Applicable - Loan Approved
+LN0113,BANK0113,Approved,NA,Not Applicable - Loan Approved
+LN0114,BANK0114,Approved,NA,Not Applicable - Loan Approved
+LN0115,BANK0115,Approved,NA,Not Applicable - Loan Approved
+LN0116,BANK0116,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0117,BANK0117,Rejected,R03,High proposed debt-to-income ratio
+LN0118,BANK0118,Approved,NA,Not Applicable - Loan Approved
+LN0119,BANK0119,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0120,BANK0120,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0121,BANK0121,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0122,BANK0122,Approved,NA,Not Applicable - Loan Approved
+LN0123,BANK0123,Rejected,R05,No current employment income
+LN0124,BANK0124,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0125,BANK0125,Approved,NA,Not Applicable - Loan Approved
+LN0126,BANK0126,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0127,BANK0127,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0128,BANK0128,Rejected,R01,Previous loan default recorded
+LN0129,BANK0129,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0130,BANK0130,Approved,NA,Not Applicable - Loan Approved
+LN0131,BANK0131,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0132,BANK0132,Approved,NA,Not Applicable - Loan Approved
+LN0133,BANK0133,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0134,BANK0134,Rejected,R01,Previous loan default recorded
+LN0135,BANK0135,Approved,NA,Not Applicable - Loan Approved
+LN0136,BANK0136,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0137,BANK0137,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0138,BANK0138,Approved,NA,Not Applicable - Loan Approved
+LN0139,BANK0139,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0140,BANK0140,Approved,NA,Not Applicable - Loan Approved
+LN0141,BANK0141,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0142,BANK0142,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0143,BANK0143,Rejected,R03,High proposed debt-to-income ratio
+LN0144,BANK0144,Approved,NA,Not Applicable - Loan Approved
+LN0145,BANK0145,Rejected,R01,Previous loan default recorded
+LN0146,BANK0146,Rejected,R05,No current employment income
+LN0147,BANK0147,Rejected,R03,High proposed debt-to-income ratio
+LN0148,BANK0148,Rejected,R01,Previous loan default recorded
+LN0149,BANK0149,Approved,NA,Not Applicable - Loan Approved
+LN0150,BANK0150,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0151,BANK0151,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0152,BANK0152,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0153,BANK0153,Approved,NA,Not Applicable - Loan Approved
+LN0154,BANK0154,Rejected,R05,No current employment income
+LN0155,BANK0155,Approved,NA,Not Applicable - Loan Approved
+LN0156,BANK0156,Approved,NA,Not Applicable - Loan Approved
+LN0157,BANK0157,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0158,BANK0158,Approved,NA,Not Applicable - Loan Approved
+LN0159,BANK0159,Approved,NA,Not Applicable - Loan Approved
+LN0160,BANK0160,Rejected,R01,Previous loan default recorded
+LN0161,BANK0161,Rejected,R01,Previous loan default recorded
+LN0162,BANK0162,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0163,BANK0163,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0164,BANK0164,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0165,BANK0165,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0166,BANK0166,Rejected,R03,High proposed debt-to-income ratio
+LN0167,BANK0167,Rejected,R01,Previous loan default recorded
+LN0168,BANK0168,Rejected,R03,High proposed debt-to-income ratio
+LN0169,BANK0169,Rejected,R03,High proposed debt-to-income ratio
+LN0170,BANK0170,Approved,NA,Not Applicable - Loan Approved
+LN0171,BANK0171,Approved,NA,Not Applicable - Loan Approved
+LN0172,BANK0172,Approved,NA,Not Applicable - Loan Approved
+LN0173,BANK0173,Approved,NA,Not Applicable - Loan Approved
+LN0174,BANK0174,Rejected,R03,High proposed debt-to-income ratio
+LN0175,BANK0175,Approved,NA,Not Applicable - Loan Approved
+LN0176,BANK0176,Approved,NA,Not Applicable - Loan Approved
+LN0177,BANK0177,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0178,BANK0178,Rejected,R01,Previous loan default recorded
+LN0179,BANK0179,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0180,BANK0180,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0181,BANK0181,Rejected,R03,High proposed debt-to-income ratio
+LN0182,BANK0182,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0183,BANK0183,Approved,NA,Not Applicable - Loan Approved
+LN0184,BANK0184,Approved,NA,Not Applicable - Loan Approved
+LN0185,BANK0185,Approved,NA,Not Applicable - Loan Approved
+LN0186,BANK0186,Approved,NA,Not Applicable - Loan Approved
+LN0187,BANK0187,Rejected,R05,No current employment income
+LN0188,BANK0188,Approved,NA,Not Applicable - Loan Approved
+LN0189,BANK0189,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0190,BANK0190,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0191,BANK0191,Rejected,R01,Previous loan default recorded
+LN0192,BANK0192,Approved,NA,Not Applicable - Loan Approved
+LN0193,BANK0193,Rejected,R03,High proposed debt-to-income ratio
+LN0194,BANK0194,Rejected,R01,Previous loan default recorded
+LN0195,BANK0195,Approved,NA,Not Applicable - Loan Approved
+LN0196,BANK0196,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0197,BANK0197,Rejected,R03,High proposed debt-to-income ratio
+LN0198,BANK0198,Rejected,R03,High proposed debt-to-income ratio
+LN0199,BANK0199,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0200,BANK0200,Approved,NA,Not Applicable - Loan Approved
+LN0201,BANK0201,Rejected,R01,Previous loan default recorded
+LN0202,BANK0202,Rejected,R03,High proposed debt-to-income ratio
+LN0203,BANK0203,Approved,NA,Not Applicable - Loan Approved
+LN0204,BANK0204,Approved,NA,Not Applicable - Loan Approved
+LN0205,BANK0205,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0206,BANK0206,Approved,NA,Not Applicable - Loan Approved
+LN0207,BANK0207,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0208,BANK0208,Rejected,R01,Previous loan default recorded
+LN0209,BANK0209,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0210,BANK0210,Approved,NA,Not Applicable - Loan Approved
+LN0211,BANK0211,Rejected,R01,Previous loan default recorded
+LN0212,BANK0212,Rejected,R01,Previous loan default recorded
+LN0213,BANK0213,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0214,BANK0214,Rejected,R03,High proposed debt-to-income ratio
+LN0215,BANK0215,Rejected,R03,High proposed debt-to-income ratio
+LN0216,BANK0216,Approved,NA,Not Applicable - Loan Approved
+LN0217,BANK0217,Approved,NA,Not Applicable - Loan Approved
+LN0218,BANK0218,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0219,BANK0219,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0220,BANK0220,Approved,NA,Not Applicable - Loan Approved
+LN0221,BANK0221,Approved,NA,Not Applicable - Loan Approved
+LN0222,BANK0222,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0223,BANK0223,Approved,NA,Not Applicable - Loan Approved
+LN0224,BANK0224,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0225,BANK0225,Approved,NA,Not Applicable - Loan Approved
+LN0226,BANK0226,Approved,NA,Not Applicable - Loan Approved
+LN0227,BANK0227,Rejected,R03,High proposed debt-to-income ratio
+LN0228,BANK0228,Approved,NA,Not Applicable - Loan Approved
+LN0229,BANK0229,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0230,BANK0230,Approved,NA,Not Applicable - Loan Approved
+LN0231,BANK0231,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0232,BANK0232,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0233,BANK0233,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0234,BANK0234,Approved,NA,Not Applicable - Loan Approved
+LN0235,BANK0235,Approved,NA,Not Applicable - Loan Approved
+LN0236,BANK0236,Rejected,R05,No current employment income
+LN0237,BANK0237,Approved,NA,Not Applicable - Loan Approved
+LN0238,BANK0238,Rejected,R03,High proposed debt-to-income ratio
+LN0239,BANK0239,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0240,BANK0240,Rejected,R02,Insufficient monthly income
+LN0241,BANK0241,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0242,BANK0242,Approved,NA,Not Applicable - Loan Approved
+LN0243,BANK0243,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0244,BANK0244,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0245,BANK0245,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0246,BANK0246,Rejected,R05,No current employment income
+LN0247,BANK0247,Approved,NA,Not Applicable - Loan Approved
+LN0248,BANK0248,Rejected,R03,High proposed debt-to-income ratio
+LN0249,BANK0249,Approved,NA,Not Applicable - Loan Approved
+LN0250,BANK0250,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0251,BANK0251,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0252,BANK0252,Rejected,R01,Previous loan default recorded
+LN0253,BANK0253,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0254,BANK0254,Rejected,R03,High proposed debt-to-income ratio
+LN0255,BANK0255,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0256,BANK0256,Rejected,R01,Previous loan default recorded
+LN0257,BANK0257,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0258,BANK0258,Rejected,R01,Previous loan default recorded
+LN0259,BANK0259,Approved,NA,Not Applicable - Loan Approved
+LN0260,BANK0260,Rejected,R01,Previous loan default recorded
+LN0261,BANK0261,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0262,BANK0262,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0263,BANK0263,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0264,BANK0264,Rejected,R03,High proposed debt-to-income ratio
+LN0265,BANK0265,Approved,NA,Not Applicable - Loan Approved
+LN0266,BANK0266,Rejected,R01,Previous loan default recorded
+LN0267,BANK0267,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0268,BANK0268,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0269,BANK0269,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0270,BANK0270,Rejected,R03,High proposed debt-to-income ratio
+LN0271,BANK0271,Rejected,R01,Previous loan default recorded
+LN0272,BANK0272,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0273,BANK0273,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0274,BANK0274,Approved,NA,Not Applicable - Loan Approved
+LN0275,BANK0275,Rejected,R01,Previous loan default recorded
+LN0276,BANK0276,Rejected,R01,Previous loan default recorded
+LN0277,BANK0277,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0278,BANK0278,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0279,BANK0279,Approved,NA,Not Applicable - Loan Approved
+LN0280,BANK0280,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0281,BANK0281,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0282,BANK0282,Approved,NA,Not Applicable - Loan Approved
+LN0283,BANK0283,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0284,BANK0284,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0285,BANK0285,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0286,BANK0286,Approved,NA,Not Applicable - Loan Approved
+LN0287,BANK0287,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0288,BANK0288,Rejected,R01,Previous loan default recorded
+LN0289,BANK0289,Approved,NA,Not Applicable - Loan Approved
+LN0290,BANK0290,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0291,BANK0291,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0292,BANK0292,Approved,NA,Not Applicable - Loan Approved
+LN0293,BANK0293,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0294,BANK0294,Approved,NA,Not Applicable - Loan Approved
+LN0295,BANK0295,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0296,BANK0296,Rejected,R05,No current employment income
+LN0297,BANK0297,Rejected,R01,Previous loan default recorded
+LN0298,BANK0298,Approved,NA,Not Applicable - Loan Approved
+LN0299,BANK0299,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0300,BANK0300,Rejected,R01,Previous loan default recorded
+LN0301,BANK0301,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0302,BANK0302,Approved,NA,Not Applicable - Loan Approved
+LN0303,BANK0303,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0304,BANK0304,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0305,BANK0305,Rejected,R05,No current employment income
+LN0306,BANK0306,Rejected,R05,No current employment income
+LN0307,BANK0307,Approved,NA,Not Applicable - Loan Approved
+LN0308,BANK0308,Approved,NA,Not Applicable - Loan Approved
+LN0309,BANK0309,Approved,NA,Not Applicable - Loan Approved
+LN0310,BANK0310,Rejected,R05,No current employment income
+LN0311,BANK0311,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0312,BANK0312,Approved,NA,Not Applicable - Loan Approved
+LN0313,BANK0313,Approved,NA,Not Applicable - Loan Approved
+LN0314,BANK0314,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0315,BANK0315,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0316,BANK0316,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0317,BANK0317,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0318,BANK0318,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0319,BANK0319,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0320,BANK0320,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0321,BANK0321,Approved,NA,Not Applicable - Loan Approved
+LN0322,BANK0322,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0323,BANK0323,Rejected,R05,No current employment income
+LN0324,BANK0324,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0325,BANK0325,Rejected,R03,High proposed debt-to-income ratio
+LN0326,BANK0326,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0327,BANK0327,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0328,BANK0328,Approved,NA,Not Applicable - Loan Approved
+LN0329,BANK0329,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0330,BANK0330,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0331,BANK0331,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0332,BANK0332,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0333,BANK0333,Approved,NA,Not Applicable - Loan Approved
+LN0334,BANK0334,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0335,BANK0335,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0336,BANK0336,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0337,BANK0337,Rejected,R03,High proposed debt-to-income ratio
+LN0338,BANK0338,Rejected,R01,Previous loan default recorded
+LN0339,BANK0339,Rejected,R03,High proposed debt-to-income ratio
+LN0340,BANK0340,Rejected,R01,Previous loan default recorded
+LN0341,BANK0341,Rejected,R03,High proposed debt-to-income ratio
+LN0342,BANK0342,Approved,NA,Not Applicable - Loan Approved
+LN0343,BANK0343,Approved,NA,Not Applicable - Loan Approved
+LN0344,BANK0344,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0345,BANK0345,Approved,NA,Not Applicable - Loan Approved
+LN0346,BANK0346,Rejected,R01,Previous loan default recorded
+LN0347,BANK0347,Approved,NA,Not Applicable - Loan Approved
+LN0348,BANK0348,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0349,BANK0349,Approved,NA,Not Applicable - Loan Approved
+LN0350,BANK0350,Approved,NA,Not Applicable - Loan Approved
+LN0351,BANK0351,Rejected,R03,High proposed debt-to-income ratio
+LN0352,BANK0352,Rejected,R01,Previous loan default recorded
+LN0353,BANK0353,Approved,NA,Not Applicable - Loan Approved
+LN0354,BANK0354,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0355,BANK0355,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0356,BANK0356,Approved,NA,Not Applicable - Loan Approved
+LN0357,BANK0357,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0358,BANK0358,Rejected,R05,No current employment income
+LN0359,BANK0359,Rejected,R01,Previous loan default recorded
+LN0360,BANK0360,Rejected,R01,Previous loan default recorded
+LN0361,BANK0361,Approved,NA,Not Applicable - Loan Approved
+LN0362,BANK0362,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0363,BANK0363,Rejected,R03,High proposed debt-to-income ratio
+LN0364,BANK0364,Approved,NA,Not Applicable - Loan Approved
+LN0365,BANK0365,Approved,NA,Not Applicable - Loan Approved
+LN0366,BANK0366,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0367,BANK0367,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0368,BANK0368,Approved,NA,Not Applicable - Loan Approved
+LN0369,BANK0369,Rejected,R01,Previous loan default recorded
+LN0370,BANK0370,Rejected,R01,Previous loan default recorded
+LN0371,BANK0371,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0372,BANK0372,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0373,BANK0373,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0374,BANK0374,Approved,NA,Not Applicable - Loan Approved
+LN0375,BANK0375,Rejected,R01,Previous loan default recorded
+LN0376,BANK0376,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0377,BANK0377,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0378,BANK0378,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0379,BANK0379,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0380,BANK0380,Approved,NA,Not Applicable - Loan Approved
+LN0381,BANK0381,Rejected,R01,Previous loan default recorded
+LN0382,BANK0382,Approved,NA,Not Applicable - Loan Approved
+LN0383,BANK0383,Approved,NA,Not Applicable - Loan Approved
+LN0384,BANK0384,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0385,BANK0385,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0386,BANK0386,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0387,BANK0387,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0388,BANK0388,Rejected,R03,High proposed debt-to-income ratio
+LN0389,BANK0389,Rejected,R01,Previous loan default recorded
+LN0390,BANK0390,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0391,BANK0391,Approved,NA,Not Applicable - Loan Approved
+LN0392,BANK0392,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0393,BANK0393,Rejected,R05,No current employment income
+LN0394,BANK0394,Approved,NA,Not Applicable - Loan Approved
+LN0395,BANK0395,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0396,BANK0396,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0397,BANK0397,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0398,BANK0398,Approved,NA,Not Applicable - Loan Approved
+LN0399,BANK0399,Rejected,R03,High proposed debt-to-income ratio
+LN0400,BANK0400,Rejected,R01,Previous loan default recorded
+LN0401,BANK0401,Approved,NA,Not Applicable - Loan Approved
+LN0402,BANK0402,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0403,BANK0403,Rejected,R01,Previous loan default recorded
+LN0404,BANK0404,Approved,NA,Not Applicable - Loan Approved
+LN0405,BANK0405,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0406,BANK0406,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0407,BANK0407,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0408,BANK0408,Rejected,R01,Previous loan default recorded
+LN0409,BANK0409,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0410,BANK0410,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0411,BANK0411,Rejected,R05,No current employment income
+LN0412,BANK0412,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0413,BANK0413,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0414,BANK0414,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0415,BANK0415,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0416,BANK0416,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0417,BANK0417,Rejected,R01,Previous loan default recorded
+LN0418,BANK0418,Approved,NA,Not Applicable - Loan Approved
+LN0419,BANK0419,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0420,BANK0420,Approved,NA,Not Applicable - Loan Approved
+LN0421,BANK0421,Approved,NA,Not Applicable - Loan Approved
+LN0422,BANK0422,Approved,NA,Not Applicable - Loan Approved
+LN0423,BANK0423,Rejected,R05,No current employment income
+LN0424,BANK0424,Rejected,R01,Previous loan default recorded
+LN0425,BANK0425,Approved,NA,Not Applicable - Loan Approved
+LN0426,BANK0426,Rejected,R01,Previous loan default recorded
+LN0427,BANK0427,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0428,BANK0428,Approved,NA,Not Applicable - Loan Approved
+LN0429,BANK0429,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0430,BANK0430,Rejected,R01,Previous loan default recorded
+LN0431,BANK0431,Rejected,R01,Previous loan default recorded
+LN0432,BANK0432,Rejected,R01,Previous loan default recorded
+LN0433,BANK0433,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0434,BANK0434,Approved,NA,Not Applicable - Loan Approved
+LN0435,BANK0435,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0436,BANK0436,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0437,BANK0437,Approved,NA,Not Applicable - Loan Approved
+LN0438,BANK0438,Approved,NA,Not Applicable - Loan Approved
+LN0439,BANK0439,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0440,BANK0440,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0441,BANK0441,Rejected,R01,Previous loan default recorded
+LN0442,BANK0442,Approved,NA,Not Applicable - Loan Approved
+LN0443,BANK0443,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0444,BANK0444,Rejected,R01,Previous loan default recorded
+LN0445,BANK0445,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0446,BANK0446,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0447,BANK0447,Approved,NA,Not Applicable - Loan Approved
+LN0448,BANK0448,Approved,NA,Not Applicable - Loan Approved
+LN0449,BANK0449,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0450,BANK0450,Approved,NA,Not Applicable - Loan Approved
+LN0451,BANK0451,Rejected,R01,Previous loan default recorded
+LN0452,BANK0452,Approved,NA,Not Applicable - Loan Approved
+LN0453,BANK0453,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0454,BANK0454,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0455,BANK0455,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0456,BANK0456,Approved,NA,Not Applicable - Loan Approved
+LN0457,BANK0457,Approved,NA,Not Applicable - Loan Approved
+LN0458,BANK0458,Approved,NA,Not Applicable - Loan Approved
+LN0459,BANK0459,Rejected,R05,No current employment income
+LN0460,BANK0460,Rejected,R01,Previous loan default recorded
+LN0461,BANK0461,Approved,NA,Not Applicable - Loan Approved
+LN0462,BANK0462,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0463,BANK0463,Approved,NA,Not Applicable - Loan Approved
+LN0464,BANK0464,Approved,NA,Not Applicable - Loan Approved
+LN0465,BANK0465,Rejected,R05,No current employment income
+LN0466,BANK0466,Rejected,R01,Previous loan default recorded
+LN0467,BANK0467,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0468,BANK0468,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0469,BANK0469,Approved,NA,Not Applicable - Loan Approved
+LN0470,BANK0470,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0471,BANK0471,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0472,BANK0472,Approved,NA,Not Applicable - Loan Approved
+LN0473,BANK0473,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0474,BANK0474,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0475,BANK0475,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0476,BANK0476,Approved,NA,Not Applicable - Loan Approved
+LN0477,BANK0477,Approved,NA,Not Applicable - Loan Approved
+LN0478,BANK0478,Approved,NA,Not Applicable - Loan Approved
+LN0479,BANK0479,Approved,NA,Not Applicable - Loan Approved
+LN0480,BANK0480,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0481,BANK0481,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0482,BANK0482,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0483,BANK0483,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0484,BANK0484,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0485,BANK0485,Approved,NA,Not Applicable - Loan Approved
+LN0486,BANK0486,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0487,BANK0487,Rejected,R02,Insufficient monthly income
+LN0488,BANK0488,Approved,NA,Not Applicable - Loan Approved
+LN0489,BANK0489,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0490,BANK0490,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0491,BANK0491,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0492,BANK0492,Approved,NA,Not Applicable - Loan Approved
+LN0493,BANK0493,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0494,BANK0494,Approved,NA,Not Applicable - Loan Approved
+LN0495,BANK0495,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0496,BANK0496,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0497,BANK0497,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0498,BANK0498,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0499,BANK0499,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0500,BANK0500,Rejected,R01,Previous loan default recorded
+LN0501,BANK0501,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0502,BANK0502,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0503,BANK0503,Approved,NA,Not Applicable - Loan Approved
+LN0504,BANK0504,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0505,BANK0505,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0506,BANK0506,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0507,BANK0507,Rejected,R03,High proposed debt-to-income ratio
+LN0508,BANK0508,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0509,BANK0509,Approved,NA,Not Applicable - Loan Approved
+LN0510,BANK0510,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0511,BANK0511,Rejected,R03,High proposed debt-to-income ratio
+LN0512,BANK0512,Rejected,R05,No current employment income
+LN0513,BANK0513,Approved,NA,Not Applicable - Loan Approved
+LN0514,BANK0514,Approved,NA,Not Applicable - Loan Approved
+LN0515,BANK0515,Approved,NA,Not Applicable - Loan Approved
+LN0516,BANK0516,Approved,NA,Not Applicable - Loan Approved
+LN0517,BANK0517,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0518,BANK0518,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0519,BANK0519,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0520,BANK0520,Rejected,R01,Previous loan default recorded
+LN0521,BANK0521,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0522,BANK0522,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0523,BANK0523,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0524,BANK0524,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0525,BANK0525,Approved,NA,Not Applicable - Loan Approved
+LN0526,BANK0526,Approved,NA,Not Applicable - Loan Approved
+LN0527,BANK0527,Approved,NA,Not Applicable - Loan Approved
+LN0528,BANK0528,Approved,NA,Not Applicable - Loan Approved
+LN0529,BANK0529,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0530,BANK0530,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0531,BANK0531,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0532,BANK0532,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0533,BANK0533,Rejected,R01,Previous loan default recorded
+LN0534,BANK0534,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0535,BANK0535,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0536,BANK0536,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0537,BANK0537,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0538,BANK0538,Rejected,R01,Previous loan default recorded
+LN0539,BANK0539,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0540,BANK0540,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0541,BANK0541,Approved,NA,Not Applicable - Loan Approved
+LN0542,BANK0542,Approved,NA,Not Applicable - Loan Approved
+LN0543,BANK0543,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0544,BANK0544,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0545,BANK0545,Approved,NA,Not Applicable - Loan Approved
+LN0546,BANK0546,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0547,BANK0547,Approved,NA,Not Applicable - Loan Approved
+LN0548,BANK0548,Rejected,R03,High proposed debt-to-income ratio
+LN0549,BANK0549,Rejected,R03,High proposed debt-to-income ratio
+LN0550,BANK0550,Rejected,R01,Previous loan default recorded
+LN0551,BANK0551,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0552,BANK0552,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0553,BANK0553,Approved,NA,Not Applicable - Loan Approved
+LN0554,BANK0554,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0555,BANK0555,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0556,BANK0556,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0557,BANK0557,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0558,BANK0558,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0559,BANK0559,Approved,NA,Not Applicable - Loan Approved
+LN0560,BANK0560,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0561,BANK0561,Approved,NA,Not Applicable - Loan Approved
+LN0562,BANK0562,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0563,BANK0563,Rejected,R01,Previous loan default recorded
+LN0564,BANK0564,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0565,BANK0565,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0566,BANK0566,Approved,NA,Not Applicable - Loan Approved
+LN0567,BANK0567,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0568,BANK0568,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0569,BANK0569,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0570,BANK0570,Approved,NA,Not Applicable - Loan Approved
+LN0571,BANK0571,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0572,BANK0572,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0573,BANK0573,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0574,BANK0574,Rejected,R02,Insufficient monthly income
+LN0575,BANK0575,Approved,NA,Not Applicable - Loan Approved
+LN0576,BANK0576,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0577,BANK0577,Approved,NA,Not Applicable - Loan Approved
+LN0578,BANK0578,Approved,NA,Not Applicable - Loan Approved
+LN0579,BANK0579,Approved,NA,Not Applicable - Loan Approved
+LN0580,BANK0580,Approved,NA,Not Applicable - Loan Approved
+LN0581,BANK0581,Approved,NA,Not Applicable - Loan Approved
+LN0582,BANK0582,Rejected,R05,No current employment income
+LN0583,BANK0583,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0584,BANK0584,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0585,BANK0585,Approved,NA,Not Applicable - Loan Approved
+LN0586,BANK0586,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0587,BANK0587,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0588,BANK0588,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0589,BANK0589,Approved,NA,Not Applicable - Loan Approved
+LN0590,BANK0590,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0591,BANK0591,Approved,NA,Not Applicable - Loan Approved
+LN0592,BANK0592,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0593,BANK0593,Rejected,R01,Previous loan default recorded
+LN0594,BANK0594,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0595,BANK0595,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0596,BANK0596,Rejected,R03,High proposed debt-to-income ratio
+LN0597,BANK0597,Approved,NA,Not Applicable - Loan Approved
+LN0598,BANK0598,Approved,NA,Not Applicable - Loan Approved
+LN0599,BANK0599,Rejected,R01,Previous loan default recorded
+LN0600,BANK0600,Approved,NA,Not Applicable - Loan Approved
+LN0601,BANK0601,Approved,NA,Not Applicable - Loan Approved
+LN0602,BANK0602,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0603,BANK0603,Rejected,R01,Previous loan default recorded
+LN0604,BANK0604,Approved,NA,Not Applicable - Loan Approved
+LN0605,BANK0605,Approved,NA,Not Applicable - Loan Approved
+LN0606,BANK0606,Rejected,R05,No current employment income
+LN0607,BANK0607,Approved,NA,Not Applicable - Loan Approved
+LN0608,BANK0608,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0609,BANK0609,Rejected,R05,No current employment income
+LN0610,BANK0610,Approved,NA,Not Applicable - Loan Approved
+LN0611,BANK0611,Rejected,R03,High proposed debt-to-income ratio
+LN0612,BANK0612,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0613,BANK0613,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0614,BANK0614,Rejected,R03,High proposed debt-to-income ratio
+LN0615,BANK0615,Approved,NA,Not Applicable - Loan Approved
+LN0616,BANK0616,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0617,BANK0617,Approved,NA,Not Applicable - Loan Approved
+LN0618,BANK0618,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0619,BANK0619,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0620,BANK0620,Rejected,R03,High proposed debt-to-income ratio
+LN0621,BANK0621,Approved,NA,Not Applicable - Loan Approved
+LN0622,BANK0622,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0623,BANK0623,Approved,NA,Not Applicable - Loan Approved
+LN0624,BANK0624,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0625,BANK0625,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0626,BANK0626,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0627,BANK0627,Approved,NA,Not Applicable - Loan Approved
+LN0628,BANK0628,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0629,BANK0629,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0630,BANK0630,Rejected,R01,Previous loan default recorded
+LN0631,BANK0631,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0632,BANK0632,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0633,BANK0633,Approved,NA,Not Applicable - Loan Approved
+LN0634,BANK0634,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0635,BANK0635,Approved,NA,Not Applicable - Loan Approved
+LN0636,BANK0636,Approved,NA,Not Applicable - Loan Approved
+LN0637,BANK0637,Approved,NA,Not Applicable - Loan Approved
+LN0638,BANK0638,Approved,NA,Not Applicable - Loan Approved
+LN0639,BANK0639,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0640,BANK0640,Approved,NA,Not Applicable - Loan Approved
+LN0641,BANK0641,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0642,BANK0642,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0643,BANK0643,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0644,BANK0644,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0645,BANK0645,Rejected,R01,Previous loan default recorded
+LN0646,BANK0646,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0647,BANK0647,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0648,BANK0648,Rejected,R05,No current employment income
+LN0649,BANK0649,Rejected,R05,No current employment income
+LN0650,BANK0650,Rejected,R05,No current employment income
+LN0651,BANK0651,Rejected,R01,Previous loan default recorded
+LN0652,BANK0652,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0653,BANK0653,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0654,BANK0654,Rejected,R03,High proposed debt-to-income ratio
+LN0655,BANK0655,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0656,BANK0656,Approved,NA,Not Applicable - Loan Approved
+LN0657,BANK0657,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0658,BANK0658,Approved,NA,Not Applicable - Loan Approved
+LN0659,BANK0659,Approved,NA,Not Applicable - Loan Approved
+LN0660,BANK0660,Approved,NA,Not Applicable - Loan Approved
+LN0661,BANK0661,Approved,NA,Not Applicable - Loan Approved
+LN0662,BANK0662,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0663,BANK0663,Rejected,R05,No current employment income
+LN0664,BANK0664,Approved,NA,Not Applicable - Loan Approved
+LN0665,BANK0665,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0666,BANK0666,Rejected,R01,Previous loan default recorded
+LN0667,BANK0667,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0668,BANK0668,Rejected,R03,High proposed debt-to-income ratio
+LN0669,BANK0669,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0670,BANK0670,Approved,NA,Not Applicable - Loan Approved
+LN0671,BANK0671,Rejected,R03,High proposed debt-to-income ratio
+LN0672,BANK0672,Rejected,R01,Previous loan default recorded
+LN0673,BANK0673,Approved,NA,Not Applicable - Loan Approved
+LN0674,BANK0674,Approved,NA,Not Applicable - Loan Approved
+LN0675,BANK0675,Approved,NA,Not Applicable - Loan Approved
+LN0676,BANK0676,Approved,NA,Not Applicable - Loan Approved
+LN0677,BANK0677,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0678,BANK0678,Rejected,R05,No current employment income
+LN0679,BANK0679,Rejected,R01,Previous loan default recorded
+LN0680,BANK0680,Rejected,R03,High proposed debt-to-income ratio
+LN0681,BANK0681,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0682,BANK0682,Approved,NA,Not Applicable - Loan Approved
+LN0683,BANK0683,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0684,BANK0684,Rejected,R01,Previous loan default recorded
+LN0685,BANK0685,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0686,BANK0686,Approved,NA,Not Applicable - Loan Approved
+LN0687,BANK0687,Approved,NA,Not Applicable - Loan Approved
+LN0688,BANK0688,Approved,NA,Not Applicable - Loan Approved
+LN0689,BANK0689,Approved,NA,Not Applicable - Loan Approved
+LN0690,BANK0690,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0691,BANK0691,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0692,BANK0692,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0693,BANK0693,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0694,BANK0694,Approved,NA,Not Applicable - Loan Approved
+LN0695,BANK0695,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0696,BANK0696,Approved,NA,Not Applicable - Loan Approved
+LN0697,BANK0697,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0698,BANK0698,Rejected,R01,Previous loan default recorded
+LN0699,BANK0699,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0700,BANK0700,Rejected,R03,High proposed debt-to-income ratio
+LN0701,BANK0701,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0702,BANK0702,Rejected,R02,Insufficient monthly income
+LN0703,BANK0703,Approved,NA,Not Applicable - Loan Approved
+LN0704,BANK0704,Approved,NA,Not Applicable - Loan Approved
+LN0705,BANK0705,Approved,NA,Not Applicable - Loan Approved
+LN0706,BANK0706,Approved,NA,Not Applicable - Loan Approved
+LN0707,BANK0707,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0708,BANK0708,Approved,NA,Not Applicable - Loan Approved
+LN0709,BANK0709,Rejected,R05,No current employment income
+LN0710,BANK0710,Approved,NA,Not Applicable - Loan Approved
+LN0711,BANK0711,Approved,NA,Not Applicable - Loan Approved
+LN0712,BANK0712,Approved,NA,Not Applicable - Loan Approved
+LN0713,BANK0713,Approved,NA,Not Applicable - Loan Approved
+LN0714,BANK0714,Rejected,R01,Previous loan default recorded
+LN0715,BANK0715,Rejected,R01,Previous loan default recorded
+LN0716,BANK0716,Approved,NA,Not Applicable - Loan Approved
+LN0717,BANK0717,Rejected,R01,Previous loan default recorded
+LN0718,BANK0718,Rejected,R03,High proposed debt-to-income ratio
+LN0719,BANK0719,Approved,NA,Not Applicable - Loan Approved
+LN0720,BANK0720,Approved,NA,Not Applicable - Loan Approved
+LN0721,BANK0721,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0722,BANK0722,Approved,NA,Not Applicable - Loan Approved
+LN0723,BANK0723,Rejected,R03,High proposed debt-to-income ratio
+LN0724,BANK0724,Approved,NA,Not Applicable - Loan Approved
+LN0725,BANK0725,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0726,BANK0726,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0727,BANK0727,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0728,BANK0728,Approved,NA,Not Applicable - Loan Approved
+LN0729,BANK0729,Approved,NA,Not Applicable - Loan Approved
+LN0730,BANK0730,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0731,BANK0731,Approved,NA,Not Applicable - Loan Approved
+LN0732,BANK0732,Rejected,R05,No current employment income
+LN0733,BANK0733,Approved,NA,Not Applicable - Loan Approved
+LN0734,BANK0734,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0735,BANK0735,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0736,BANK0736,Approved,NA,Not Applicable - Loan Approved
+LN0737,BANK0737,Approved,NA,Not Applicable - Loan Approved
+LN0738,BANK0738,Rejected,R01,Previous loan default recorded
+LN0739,BANK0739,Approved,NA,Not Applicable - Loan Approved
+LN0740,BANK0740,Approved,NA,Not Applicable - Loan Approved
+LN0741,BANK0741,Approved,NA,Not Applicable - Loan Approved
+LN0742,BANK0742,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0743,BANK0743,Approved,NA,Not Applicable - Loan Approved
+LN0744,BANK0744,Approved,NA,Not Applicable - Loan Approved
+LN0745,BANK0745,Rejected,R01,Previous loan default recorded
+LN0746,BANK0746,Approved,NA,Not Applicable - Loan Approved
+LN0747,BANK0747,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0748,BANK0748,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0749,BANK0749,Approved,NA,Not Applicable - Loan Approved
+LN0750,BANK0750,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0751,BANK0751,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0752,BANK0752,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0753,BANK0753,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0754,BANK0754,Approved,NA,Not Applicable - Loan Approved
+LN0755,BANK0755,Rejected,R01,Previous loan default recorded
+LN0756,BANK0756,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0757,BANK0757,Rejected,R01,Previous loan default recorded
+LN0758,BANK0758,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0759,BANK0759,Approved,NA,Not Applicable - Loan Approved
+LN0760,BANK0760,Rejected,R03,High proposed debt-to-income ratio
+LN0761,BANK0761,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0762,BANK0762,Rejected,R03,High proposed debt-to-income ratio
+LN0763,BANK0763,Rejected,R05,No current employment income
+LN0764,BANK0764,Approved,NA,Not Applicable - Loan Approved
+LN0765,BANK0765,Rejected,R01,Previous loan default recorded
+LN0766,BANK0766,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0767,BANK0767,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0768,BANK0768,Rejected,R05,No current employment income
+LN0769,BANK0769,Approved,NA,Not Applicable - Loan Approved
+LN0770,BANK0770,Approved,NA,Not Applicable - Loan Approved
+LN0771,BANK0771,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0772,BANK0772,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0773,BANK0773,Approved,NA,Not Applicable - Loan Approved
+LN0774,BANK0774,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0775,BANK0775,Approved,NA,Not Applicable - Loan Approved
+LN0776,BANK0776,Approved,NA,Not Applicable - Loan Approved
+LN0777,BANK0777,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0778,BANK0778,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0779,BANK0779,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0780,BANK0780,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0781,BANK0781,Rejected,R01,Previous loan default recorded
+LN0782,BANK0782,Approved,NA,Not Applicable - Loan Approved
+LN0783,BANK0783,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0784,BANK0784,Approved,NA,Not Applicable - Loan Approved
+LN0785,BANK0785,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0786,BANK0786,Approved,NA,Not Applicable - Loan Approved
+LN0787,BANK0787,Rejected,R01,Previous loan default recorded
+LN0788,BANK0788,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0789,BANK0789,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0790,BANK0790,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0791,BANK0791,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0792,BANK0792,Approved,NA,Not Applicable - Loan Approved
+LN0793,BANK0793,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0794,BANK0794,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0795,BANK0795,Approved,NA,Not Applicable - Loan Approved
+LN0796,BANK0796,Rejected,R01,Previous loan default recorded
+LN0797,BANK0797,Rejected,R03,High proposed debt-to-income ratio
+LN0798,BANK0798,Approved,NA,Not Applicable - Loan Approved
+LN0799,BANK0799,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0800,BANK0800,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0801,BANK0801,Approved,NA,Not Applicable - Loan Approved
+LN0802,BANK0802,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0803,BANK0803,Approved,NA,Not Applicable - Loan Approved
+LN0804,BANK0804,Approved,NA,Not Applicable - Loan Approved
+LN0805,BANK0805,Rejected,R01,Previous loan default recorded
+LN0806,BANK0806,Approved,NA,Not Applicable - Loan Approved
+LN0807,BANK0807,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0808,BANK0808,Rejected,R03,High proposed debt-to-income ratio
+LN0809,BANK0809,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0810,BANK0810,Approved,NA,Not Applicable - Loan Approved
+LN0811,BANK0811,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0812,BANK0812,Rejected,R03,High proposed debt-to-income ratio
+LN0813,BANK0813,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0814,BANK0814,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0815,BANK0815,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0816,BANK0816,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0817,BANK0817,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0818,BANK0818,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0819,BANK0819,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0820,BANK0820,Approved,NA,Not Applicable - Loan Approved
+LN0821,BANK0821,Approved,NA,Not Applicable - Loan Approved
+LN0822,BANK0822,Rejected,R01,Previous loan default recorded
+LN0823,BANK0823,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0824,BANK0824,Approved,NA,Not Applicable - Loan Approved
+LN0825,BANK0825,Approved,NA,Not Applicable - Loan Approved
+LN0826,BANK0826,Rejected,R03,High proposed debt-to-income ratio
+LN0827,BANK0827,Approved,NA,Not Applicable - Loan Approved
+LN0828,BANK0828,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0829,BANK0829,Rejected,R05,No current employment income
+LN0830,BANK0830,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0831,BANK0831,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0832,BANK0832,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0833,BANK0833,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0834,BANK0834,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0835,BANK0835,Approved,NA,Not Applicable - Loan Approved
+LN0836,BANK0836,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0837,BANK0837,Rejected,R03,High proposed debt-to-income ratio
+LN0838,BANK0838,Approved,NA,Not Applicable - Loan Approved
+LN0839,BANK0839,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0840,BANK0840,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0841,BANK0841,Rejected,R01,Previous loan default recorded
+LN0842,BANK0842,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0843,BANK0843,Approved,NA,Not Applicable - Loan Approved
+LN0844,BANK0844,Rejected,R02,Insufficient monthly income
+LN0845,BANK0845,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0846,BANK0846,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0847,BANK0847,Rejected,R03,High proposed debt-to-income ratio
+LN0848,BANK0848,Approved,NA,Not Applicable - Loan Approved
+LN0849,BANK0849,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0850,BANK0850,Approved,NA,Not Applicable - Loan Approved
+LN0851,BANK0851,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0852,BANK0852,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0853,BANK0853,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0854,BANK0854,Rejected,R01,Previous loan default recorded
+LN0855,BANK0855,Rejected,R03,High proposed debt-to-income ratio
+LN0856,BANK0856,Approved,NA,Not Applicable - Loan Approved
+LN0857,BANK0857,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0858,BANK0858,Rejected,R02,Insufficient monthly income
+LN0859,BANK0859,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0860,BANK0860,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0861,BANK0861,Approved,NA,Not Applicable - Loan Approved
+LN0862,BANK0862,Rejected,R01,Previous loan default recorded
+LN0863,BANK0863,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0864,BANK0864,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0865,BANK0865,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0866,BANK0866,Rejected,R03,High proposed debt-to-income ratio
+LN0867,BANK0867,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0868,BANK0868,Approved,NA,Not Applicable - Loan Approved
+LN0869,BANK0869,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0870,BANK0870,Approved,NA,Not Applicable - Loan Approved
+LN0871,BANK0871,Rejected,R03,High proposed debt-to-income ratio
+LN0872,BANK0872,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0873,BANK0873,Approved,NA,Not Applicable - Loan Approved
+LN0874,BANK0874,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0875,BANK0875,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0876,BANK0876,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0877,BANK0877,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0878,BANK0878,Approved,NA,Not Applicable - Loan Approved
+LN0879,BANK0879,Rejected,R01,Previous loan default recorded
+LN0880,BANK0880,Approved,NA,Not Applicable - Loan Approved
+LN0881,BANK0881,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0882,BANK0882,Rejected,R02,Insufficient monthly income
+LN0883,BANK0883,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0884,BANK0884,Rejected,R03,High proposed debt-to-income ratio
+LN0885,BANK0885,Approved,NA,Not Applicable - Loan Approved
+LN0886,BANK0886,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0887,BANK0887,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0888,BANK0888,Approved,NA,Not Applicable - Loan Approved
+LN0889,BANK0889,Rejected,R01,Previous loan default recorded
+LN0890,BANK0890,Rejected,R05,No current employment income
+LN0891,BANK0891,Rejected,R01,Previous loan default recorded
+LN0892,BANK0892,Approved,NA,Not Applicable - Loan Approved
+LN0893,BANK0893,Rejected,R03,High proposed debt-to-income ratio
+LN0894,BANK0894,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0895,BANK0895,Rejected,R05,No current employment income
+LN0896,BANK0896,Approved,NA,Not Applicable - Loan Approved
+LN0897,BANK0897,Approved,NA,Not Applicable - Loan Approved
+LN0898,BANK0898,Approved,NA,Not Applicable - Loan Approved
+LN0899,BANK0899,Approved,NA,Not Applicable - Loan Approved
+LN0900,BANK0900,Approved,NA,Not Applicable - Loan Approved
+LN0901,BANK0901,Rejected,R03,High proposed debt-to-income ratio
+LN0902,BANK0902,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0903,BANK0903,Approved,NA,Not Applicable - Loan Approved
+LN0904,BANK0904,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0905,BANK0905,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0906,BANK0906,Rejected,R01,Previous loan default recorded
+LN0907,BANK0907,Approved,NA,Not Applicable - Loan Approved
+LN0908,BANK0908,Rejected,R01,Previous loan default recorded
+LN0909,BANK0909,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0910,BANK0910,Approved,NA,Not Applicable - Loan Approved
+LN0911,BANK0911,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0912,BANK0912,Rejected,R03,High proposed debt-to-income ratio
+LN0913,BANK0913,Approved,NA,Not Applicable - Loan Approved
+LN0914,BANK0914,Rejected,R03,High proposed debt-to-income ratio
+LN0915,BANK0915,Rejected,R01,Previous loan default recorded
+LN0916,BANK0916,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0917,BANK0917,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0918,BANK0918,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0919,BANK0919,Rejected,R03,High proposed debt-to-income ratio
+LN0920,BANK0920,Approved,NA,Not Applicable - Loan Approved
+LN0921,BANK0921,Approved,NA,Not Applicable - Loan Approved
+LN0922,BANK0922,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0923,BANK0923,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0924,BANK0924,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0925,BANK0925,Rejected,R03,High proposed debt-to-income ratio
+LN0926,BANK0926,Approved,NA,Not Applicable - Loan Approved
+LN0927,BANK0927,Rejected,R03,High proposed debt-to-income ratio
+LN0928,BANK0928,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0929,BANK0929,Approved,NA,Not Applicable - Loan Approved
+LN0930,BANK0930,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0931,BANK0931,Approved,NA,Not Applicable - Loan Approved
+LN0932,BANK0932,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0933,BANK0933,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0934,BANK0934,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0935,BANK0935,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0936,BANK0936,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0937,BANK0937,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0938,BANK0938,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0939,BANK0939,Rejected,R03,High proposed debt-to-income ratio
+LN0940,BANK0940,Rejected,R03,High proposed debt-to-income ratio
+LN0941,BANK0941,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0942,BANK0942,Rejected,R03,High proposed debt-to-income ratio
+LN0943,BANK0943,Rejected,R03,High proposed debt-to-income ratio
+LN0944,BANK0944,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0945,BANK0945,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0946,BANK0946,Approved,NA,Not Applicable - Loan Approved
+LN0947,BANK0947,Approved,NA,Not Applicable - Loan Approved
+LN0948,BANK0948,Rejected,R05,No current employment income
+LN0949,BANK0949,Approved,NA,Not Applicable - Loan Approved
+LN0950,BANK0950,Approved,NA,Not Applicable - Loan Approved
+LN0951,BANK0951,Rejected,R03,High proposed debt-to-income ratio
+LN0952,BANK0952,Rejected,R05,No current employment income
+LN0953,BANK0953,Approved,NA,Not Applicable - Loan Approved
+LN0954,BANK0954,Approved,NA,Not Applicable - Loan Approved
+LN0955,BANK0955,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0956,BANK0956,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0957,BANK0957,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0958,BANK0958,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0959,BANK0959,Approved,NA,Not Applicable - Loan Approved
+LN0960,BANK0960,Approved,NA,Not Applicable - Loan Approved
+LN0961,BANK0961,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0962,BANK0962,Rejected,R02,Insufficient monthly income
+LN0963,BANK0963,Approved,NA,Not Applicable - Loan Approved
+LN0964,BANK0964,Rejected,R01,Previous loan default recorded
+LN0965,BANK0965,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0966,BANK0966,Rejected,R01,Previous loan default recorded
+LN0967,BANK0967,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0968,BANK0968,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0969,BANK0969,Rejected,R05,No current employment income
+LN0970,BANK0970,Rejected,R01,Previous loan default recorded
+LN0971,BANK0971,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0972,BANK0972,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0973,BANK0973,Rejected,R05,No current employment income
+LN0974,BANK0974,Approved,NA,Not Applicable - Loan Approved
+LN0975,BANK0975,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0976,BANK0976,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0977,BANK0977,Approved,NA,Not Applicable - Loan Approved
+LN0978,BANK0978,Rejected,R01,Previous loan default recorded
+LN0979,BANK0979,Approved,NA,Not Applicable - Loan Approved
+LN0980,BANK0980,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0981,BANK0981,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0982,BANK0982,Rejected,R01,Previous loan default recorded
+LN0983,BANK0983,Rejected,R03,High proposed debt-to-income ratio
+LN0984,BANK0984,Approved,NA,Not Applicable - Loan Approved
+LN0985,BANK0985,Approved,NA,Not Applicable - Loan Approved
+LN0986,BANK0986,Approved,NA,Not Applicable - Loan Approved
+LN0987,BANK0987,Rejected,R03,High proposed debt-to-income ratio
+LN0988,BANK0988,Rejected,R05,No current employment income
+LN0989,BANK0989,Rejected,R05,No current employment income
+LN0990,BANK0990,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0991,BANK0991,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0992,BANK0992,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0993,BANK0993,Approved,NA,Not Applicable - Loan Approved
+LN0994,BANK0994,Approved,NA,Not Applicable - Loan Approved
+LN0995,BANK0995,Rejected,R05,No current employment income
+LN0996,BANK0996,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0997,BANK0997,Rejected,R04,Credit score below the minimum eligibility threshold
+LN0998,BANK0998,Approved,NA,Not Applicable - Loan Approved
+LN0999,BANK0999,Approved,NA,Not Applicable - Loan Approved
+LN1000,BANK1000,Approved,NA,Not Applicable - Loan Approved
+LN1001,BANK1001,Approved,,Not Applicable - Loan Approved
+LN1002,BANK1002,Rejected,R04,Credit score below the minimum eligibility threshold
+LN1003,BANK1003,Approved,,Not Applicable - Loan Approved

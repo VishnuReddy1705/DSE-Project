@@ -1,0 +1,1004 @@
+Customer_ID,Customer_Name,Age,Gender,City,Email,Phone,Account_Type,Account_Balance_INR,Account_Opening_Date,Credit_Score,Loan_Status,Monthly_Transactions,KYC_Status,Employment_Type,Education,Marital_Status
+BANK0001,Diya Sharma,65,Male,Hyderabad,diya.sharma.bank0001@example.com,9249827706,Savings,338673.04,2021-03-03,389,Overdue,4,Verified,Salaried,Diploma,Married
+BANK0002,Ananya Singh,32,Male,Coimbatore,ananya.singh.bank0002@example.com,9702632297,Current,358293.79,2026-05-02,729,Active,57,Pending,Salaried,Diploma,Married
+BANK0003,Aarav Pillai,69,Female,Delhi,aarav.pillai.bank0003@example.com,9465341213,Salary,78584.27,2018-07-31,644,No Loan,11,Pending,Salaried,Diploma,Married
+BANK0004,Diya Iyer,72,Male,Mumbai,diya.iyer.bank0004@example.com,9966647391,Savings,365136.16,2022-09-18,849,No Loan,118,Pending,Business,Graduate,Single
+BANK0005,Ananya Rao,36,Male,Hyderabad,ananya.rao.bank0005@example.com,9856528252,Savings,23866.37,2023-02-10,533,Closed,10,Verified,Salaried,Graduate,Single
+BANK0006,Diya Nair,35,Female,Pune,diya.nair.bank0006@example.com,9274648506,Salary,178280.08,2025-03-03,573,No Loan,77,Verified,Self-Employed,Postgraduate,Single
+BANK0007,Nisha Thomas,33,Female,Delhi,nisha.thomas.bank0007@example.com,9389854268,Current,342622.51,2018-08-31,357,Active,105,Verified,Self-Employed,Diploma,Married
+BANK0008,Sanjay Nair,35,Male,Trichy,sanjay.nair.bank0008@example.com,9870854579,Salary,107100.65,2016-06-26,811,Overdue,113,Pending,Self-Employed,High School,Married
+BANK0009,Ishaan Reddy,26,Female,Madurai,ishaan.reddy.bank0009@example.com,9678722458,Salary,373759.89,2020-07-13,738,Overdue,46,Verified,Salaried,Graduate,Single
+BANK0010,Ishaan Rao,49,Male,Chennai,ishaan.rao.bank0010@example.com,9264112119,Current,396247.6,2017-01-14,732,No Loan,49,Pending,Salaried,Graduate,Single
+BANK0011,Pooja Gupta,51,Female,Coimbatore,pooja.gupta.bank0011@example.com,9830448745,Savings,341173.47,2020-08-21,849,Closed,98,Pending,Salaried,Postgraduate,Married
+BANK0012,Diya Reddy,45,Female,Coimbatore,diya.reddy.bank0012@example.com,9875340444,Salary,485972.16,2018-07-19,482,No Loan,111,Pending,Self-Employed,High School,Single
+BANK0013,Karthik Das,30,Female,Bengaluru,karthik.das.bank0013@example.com,9679153816,Savings,299873.35,2018-06-06,800,No Loan,14,Pending,Self-Employed,Graduate,Single
+BANK0014,Riya Singh,21,Male,Chennai,riya.singh.bank0014@example.com,9191969690,Fixed Deposit,408195.6,2020-05-27,845,Active,16,Pending,Unemployed,High School,Married
+BANK0015,Nisha Patel,34,Male,Madurai,nisha.patel.bank0015@example.com,9910959828,Current,356761.54,2024-06-28,708,Closed,56,Pending,Salaried,Graduate,Married
+BANK0016,Diya Singh,32,Female,Coimbatore,diya.singh.bank0016@example.com,9731691672,Current,294631.62,2016-06-08,307,No Loan,90,Verified,Contract,Graduate,Single
+BANK0017,Meera Kumar,75,Female,Chennai,meera.kumar.bank0017@example.com,9652070932,Current,139960.15,2015-09-15,797,Active,69,Verified,Salaried,Graduate,Married
+BANK0018,Rohan Das,48,Female,Delhi,rohan.das.bank0018@example.com,9304451095,Savings,49368.48,2020-06-13,741,Closed,54,Pending,Salaried,Postgraduate,Married
+BANK0019,Arjun Verma,64,Male,Salem,arjun.verma.bank0019@example.com,9793830224,Savings,31245.72,2016-03-19,647,No Loan,31,Verified,Contract,Postgraduate,Single
+BANK0020,Krishna Rao,46,Female,Bengaluru,krishna.rao.bank0020@example.com,9399085574,Fixed Deposit,125653.42,2018-02-22,377,Overdue,103,Verified,Self-Employed,High School,Married
+BANK0021,Aditya Joseph,52,Male,Hyderabad,aditya.joseph.bank0021@example.com,9278575192,Fixed Deposit,243334.92,2015-05-01,518,Overdue,115,Verified,Contract,Graduate,Married
+BANK0022,Kavya Nair,18,Female,Kochi,kavya.nair.bank0022@example.com,9406284028,Fixed Deposit,348599.16,2023-10-04,798,Active,24,Pending,Self-Employed,Graduate,Married
+BANK0023,Krishna Sharma,55,Male,Pune,krishna.sharma.bank0023@example.com,9161380746,Savings,292504.62,2016-05-14,814,Active,7,Verified,Contract,Graduate,Single
+BANK0024,Kavya Kumar,56,Male,Hyderabad,kavya.kumar.bank0024@example.com,9533550699,Savings,470856.47,2016-07-10,552,No Loan,79,Verified,Contract,High School,Single
+BANK0025,Priya Joseph,55,Female,Mumbai,priya.joseph.bank0025@example.com,9319321646,Salary,120104.29,2026-09-22,705,Active,85,Pending,Self-Employed,Graduate,Married
+BANK0026,Arjun Iyer,66,Male,Kochi,arjun.iyer.bank0026@example.com,9766964667,Savings,37557.1,2016-08-17,518,Closed,16,Pending,Salaried,High School,Single
+BANK0027,Ananya Mehta,33,Female,Bengaluru,ananya.mehta.bank0027@example.com,9570497096,Salary,306227.21,2023-04-16,841,No Loan,85,Pending,Salaried,Graduate,Married
+BANK0028,Diya Mehta,26,Male,Chennai,diya.mehta.bank0028@example.com,9897163846,Current,136901.76,2020-12-06,515,Closed,26,Pending,Salaried,Graduate,Single
+BANK0029,Karthik Gupta,34,Male,Salem,karthik.gupta.bank0029@example.com,9554811020,Salary,22999.29,2016-02-21,641,Active,81,Pending,Salaried,Postgraduate,Married
+BANK0030,Kavya Thomas,46,Female,Coimbatore,kavya.thomas.bank0030@example.com,9220123666,Savings,472580.42,2024-08-04,452,No Loan,106,Pending,Salaried,Graduate,Married
+BANK0031,Rohan Rao,27,Male,Coimbatore,rohan.rao.bank0031@example.com,9430989881,Salary,449591.76,2024-08-21,340,Closed,26,Verified,Business,Diploma,Married
+BANK0032,Diya Iyer,67,Male,Mysuru,diya.iyer.bank0032@example.com,9265950383,Current,432438.24,2024-02-12,481,Overdue,3,Verified,Business,Diploma,Single
+BANK0033,Sanjay Pillai,44,Female,Bengaluru,sanjay.pillai.bank0033@example.com,9945436943,Savings,191888.32,2020-07-25,339,Overdue,28,Verified,Self-Employed,Diploma,Married
+BANK0034,Arjun Iyer,37,Male,Coimbatore,arjun.iyer.bank0034@example.com,9808705238,Current,199834.52,2020-02-08,585,No Loan,98,Pending,Salaried,Diploma,Married
+BANK0035,Sneha Joseph,50,Female,Madurai,sneha.joseph.bank0035@example.com,9455569462,Savings,58555.53,2023-12-19,567,Active,74,Pending,Unemployed,Postgraduate,Married
+BANK0036,Aditya Kumar,56,Female,Mysuru,aditya.kumar.bank0036@example.com,9944420824,Salary,218760.55,2024-09-29,823,No Loan,49,Verified,Unemployed,Graduate,Married
+BANK0037,Rahul Sharma,63,Male,Madurai,rahul.sharma.bank0037@example.com,9965984448,Current,182746.51,2024-10-12,371,Closed,79,Pending,Business,Graduate,Single
+BANK0038,Diya Thomas,75,Male,Mumbai,diya.thomas.bank0038@example.com,9816070802,Fixed Deposit,163765.27,2021-09-26,602,Active,24,Pending,Contract,Graduate,Single
+BANK0039,Vijay Joseph,65,Female,Trichy,vijay.joseph.bank0039@example.com,9423142470,Fixed Deposit,274420.67,2018-11-26,300,Closed,36,Verified,Salaried,Graduate,Married
+BANK0040,Priya Pillai,55,Female,Kochi,priya.pillai.bank0040@example.com,9574765466,Current,256075.82,2022-03-24,473,No Loan,36,Pending,Self-Employed,Postgraduate,Single
+BANK0041,Ananya Verma,66,Female,Mumbai,ananya.verma.bank0041@example.com,9341206079,Current,74529.63,2020-04-08,347,Active,60,Verified,Self-Employed,Graduate,Married
+BANK0042,Arjun Nair,74,Male,Mysuru,arjun.nair.bank0042@example.com,9512293741,Fixed Deposit,200426.78,2019-05-12,451,No Loan,114,Verified,Salaried,High School,Married
+BANK0043,Priya Singh,29,Female,Coimbatore,priya.singh.bank0043@example.com,9698509918,Current,458817.54,2026-08-14,424,Overdue,17,Pending,Salaried,Postgraduate,Single
+BANK0044,Karthik Rao,56,Female,Trichy,karthik.rao.bank0044@example.com,9975106572,Fixed Deposit,415454.02,2022-02-12,756,Active,95,Pending,Unemployed,Diploma,Single
+BANK0045,Arjun Reddy,66,Female,Mumbai,arjun.reddy.bank0045@example.com,9922286180,Fixed Deposit,313747.47,2020-07-18,581,Overdue,9,Pending,Contract,High School,Single
+BANK0046,Meera Reddy,39,Female,Chennai,meera.reddy.bank0046@example.com,9248578017,Current,116399.48,2022-03-04,456,Active,8,Pending,Salaried,Graduate,Single
+BANK0047,Priya Iyer,52,Female,Coimbatore,priya.iyer.bank0047@example.com,9322086735,Fixed Deposit,195348.93,2025-06-13,320,Overdue,61,Verified,Unemployed,Graduate,Married
+BANK0048,Sneha Reddy,66,Female,Madurai,sneha.reddy.bank0048@example.com,9902638839,Current,244626.51,2023-09-30,579,Overdue,62,Verified,Salaried,Graduate,Married
+BANK0049,Vijay Iyer,60,Female,Bengaluru,vijay.iyer.bank0049@example.com,9601856351,Current,490380.27,2024-01-26,846,No Loan,116,Pending,Business,Postgraduate,Single
+BANK0050,Rohan Das,60,Male,Salem,rohan.das.bank0050@example.com,9560219456,Current,433558.83,2015-08-11,486,No Loan,33,Pending,Contract,High School,Single
+BANK0051,Sanjay Singh,47,Female,Delhi,sanjay.singh.bank0051@example.com,9398775766,Fixed Deposit,126883.49,2022-05-01,383,Overdue,2,Verified,Salaried,Graduate,Married
+BANK0052,Sneha Singh,59,Female,Coimbatore,sneha.singh.bank0052@example.com,9909851739,Savings,474856.25,2016-07-16,504,No Loan,79,Verified,Business,Postgraduate,Single
+BANK0053,Meera Patel,48,Female,Hyderabad,meera.patel.bank0053@example.com,9599326438,Salary,383682.15,2017-07-26,471,No Loan,99,Verified,Salaried,Graduate,Married
+BANK0054,Riya Kumar,55,Female,Trichy,riya.kumar.bank0054@example.com,9827296111,Fixed Deposit,198930.57,2015-07-30,503,No Loan,75,Verified,Salaried,Postgraduate,Single
+BANK0055,Diya Thomas,67,Male,Trichy,diya.thomas.bank0055@example.com,9964929067,Savings,398317.38,2021-10-06,342,Closed,68,Pending,Salaried,High School,Married
+BANK0056,Sneha Kumar,50,Male,Delhi,sneha.kumar.bank0056@example.com,9982971099,Fixed Deposit,53663.9,2022-08-27,670,Overdue,90,Verified,Salaried,Graduate,Married
+BANK0057,Priya Patel,64,Female,Mumbai,priya.patel.bank0057@example.com,9761330848,Fixed Deposit,232972.01,2026-09-14,574,Closed,109,Verified,Salaried,High School,Married
+BANK0058,Ananya Reddy,74,Male,Kochi,ananya.reddy.bank0058@example.com,9711871397,Fixed Deposit,168861.91,2025-02-09,806,Closed,23,Pending,Salaried,Diploma,Married
+BANK0059,Krishna Iyer,69,Female,Mumbai,krishna.iyer.bank0059@example.com,9740116562,Salary,278339.72,2020-10-17,829,Active,10,Verified,Salaried,High School,Single
+BANK0060,Priya Gupta,53,Male,Kochi,priya.gupta.bank0060@example.com,9793532952,Fixed Deposit,224639.1,2020-05-22,317,No Loan,37,Verified,Salaried,Graduate,Single
+BANK0061,Vijay Thomas,33,Female,Trichy,vijay.thomas.bank0061@example.com,9496232693,Fixed Deposit,277183.0,2021-11-13,652,Overdue,95,Pending,Salaried,Postgraduate,Married
+BANK0062,Sneha Thomas,47,Female,Mumbai,sneha.thomas.bank0062@example.com,9347538338,Savings,360920.88,2021-01-28,623,No Loan,95,Verified,Self-Employed,Graduate,Married
+BANK0063,Krishna Singh,65,Female,Mysuru,krishna.singh.bank0063@example.com,9733064117,Salary,490274.8,2025-11-10,498,Closed,29,Pending,Salaried,Graduate,Married
+BANK0064,Kavya Reddy,18,Female,Coimbatore,kavya.reddy.bank0064@example.com,9158546865,Salary,349011.28,2017-11-02,429,Overdue,13,Verified,Self-Employed,Postgraduate,Single
+BANK0065,Rohan Reddy,48,Female,Pune,rohan.reddy.bank0065@example.com,9297958983,Savings,126986.72,2025-09-26,789,No Loan,105,Verified,Self-Employed,Postgraduate,Divorced
+BANK0066,Vijay Gupta,22,Male,Bengaluru,vijay.gupta.bank0066@example.com,9970957171,Salary,43505.27,2016-03-15,554,No Loan,71,Pending,Salaried,Graduate,Married
+BANK0067,Pooja Das,68,Female,Delhi,pooja.das.bank0067@example.com,9583736219,Fixed Deposit,149379.21,2020-01-23,739,Closed,72,Verified,Salaried,Postgraduate,Married
+BANK0068,Pooja Thomas,24,Female,Hyderabad,pooja.thomas.bank0068@example.com,9384161612,Savings,79371.49,2019-08-30,477,No Loan,20,Verified,Contract,Graduate,Married
+BANK0069,Priya Gupta,62,Female,Coimbatore,priya.gupta.bank0069@example.com,9348545713,Salary,353770.96,2025-07-16,764,No Loan,87,Verified,Salaried,Diploma,Married
+BANK0070,Rahul Pillai,68,Female,Chennai,rahul.pillai.bank0070@example.com,9684719405,Current,324169.73,2019-06-09,572,Active,9,Verified,Self-Employed,Graduate,Married
+BANK0071,Kavya Pillai,37,Female,Chennai,kavya.pillai.bank0071@example.com,9603260608,Salary,350167.11,2021-06-22,578,Overdue,56,Verified,Salaried,Postgraduate,Married
+BANK0072,Pooja Sharma,74,Male,Pune,pooja.sharma.bank0072@example.com,9748232591,Salary,13906.58,2024-09-09,534,No Loan,97,Pending,Salaried,Graduate,Single
+BANK0073,Rohan Sharma,66,Female,Madurai,rohan.sharma.bank0073@example.com,9799552991,Fixed Deposit,458120.32,2018-12-06,485,Overdue,81,Pending,Salaried,Graduate,Single
+BANK0074,Ananya Gupta,40,Female,Pune,ananya.gupta.bank0074@example.com,9819550381,Savings,429008.81,2024-02-28,637,Overdue,88,Pending,Salaried,Graduate,Married
+BANK0075,Riya Joseph,43,Female,Chennai,riya.joseph.bank0075@example.com,9437710224,Salary,162313.62,2015-10-28,713,No Loan,84,Pending,Salaried,Diploma,Married
+BANK0076,Priya Sharma,30,Female,Trichy,priya.sharma.bank0076@example.com,9912224654,Fixed Deposit,313078.96,2026-08-18,352,Active,34,Verified,Contract,Postgraduate,Married
+BANK0077,Riya Gupta,74,Male,Coimbatore,riya.gupta.bank0077@example.com,9776481264,Current,355181.63,2025-11-14,618,No Loan,70,Pending,Salaried,Diploma,Divorced
+BANK0078,Ananya Singh,71,Female,Chennai,ananya.singh.bank0078@example.com,9795472980,Current,249689.38,2017-07-18,598,Closed,53,Pending,Salaried,Postgraduate,Married
+BANK0079,Divya Singh,47,Female,Hyderabad,divya.singh.bank0079@example.com,9743576792,Current,432149.44,2018-03-30,582,Overdue,43,Pending,Self-Employed,Graduate,Married
+BANK0080,Aarav Reddy,64,Female,Trichy,aarav.reddy.bank0080@example.com,9808605988,Fixed Deposit,432765.04,2021-09-11,757,Overdue,44,Pending,Salaried,Diploma,Married
+BANK0081,Nisha Pillai,52,Female,Pune,nisha.pillai.bank0081@example.com,9302563940,Current,286327.02,2023-06-18,539,Overdue,5,Pending,Salaried,High School,Married
+BANK0082,Divya Thomas,69,Female,Salem,divya.thomas.bank0082@example.com,9950826208,Current,248169.0,2023-07-21,337,Active,64,Pending,Salaried,High School,Married
+BANK0083,Diya Verma,72,Male,Madurai,diya.verma.bank0083@example.com,9590622789,Savings,361499.47,2024-11-15,719,Active,9,Pending,Salaried,Graduate,Married
+BANK0084,Rahul Iyer,57,Male,Chennai,rahul.iyer.bank0084@example.com,9452794611,Fixed Deposit,477115.66,2023-12-01,799,No Loan,79,Verified,Salaried,Graduate,Married
+BANK0085,Meera Joseph,61,Male,Mysuru,meera.joseph.bank0085@example.com,9197044071,Fixed Deposit,489190.53,2021-06-12,402,Overdue,21,Pending,Contract,Graduate,Married
+BANK0086,Aarav Sharma,38,Female,Pune,aarav.sharma.bank0086@example.com,9502482554,Fixed Deposit,73639.33,2016-04-04,843,Overdue,72,Verified,Salaried,Graduate,Married
+BANK0087,Kavya Patel,23,Female,Salem,kavya.patel.bank0087@example.com,9358589021,Fixed Deposit,456501.68,2023-07-31,446,Active,59,Pending,Business,High School,Married
+BANK0088,Arjun Reddy,60,Female,Mumbai,arjun.reddy.bank0088@example.com,9827579147,Current,37857.09,2015-03-18,653,Closed,81,Pending,Salaried,Postgraduate,Single
+BANK0089,Rahul Gupta,72,Male,Delhi,rahul.gupta.bank0089@example.com,9618840705,Savings,119365.65,2021-10-10,667,Closed,89,Pending,Contract,Graduate,Married
+BANK0090,Aarav Verma,60,Female,Coimbatore,aarav.verma.bank0090@example.com,9707661655,Savings,455397.86,2023-11-17,808,Closed,99,Verified,Salaried,Graduate,Married
+BANK0091,Pooja Pillai,40,Female,Hyderabad,pooja.pillai.bank0091@example.com,9766676815,Salary,339204.46,2019-11-30,440,No Loan,115,Verified,Self-Employed,Postgraduate,Divorced
+BANK0092,Riya Pillai,46,Female,Pune,riya.pillai.bank0092@example.com,9886365312,Current,45976.55,2015-10-01,602,Closed,95,Pending,Salaried,Diploma,Single
+BANK0093,Kavya Singh,26,Female,Madurai,kavya.singh.bank0093@example.com,9392624015,Current,129228.07,2023-03-17,793,Closed,95,Pending,Unemployed,Postgraduate,Married
+BANK0094,Diya Gupta,22,Male,Salem,diya.gupta.bank0094@example.com,9877621770,Fixed Deposit,483667.6,2018-02-27,674,No Loan,101,Pending,Salaried,Postgraduate,Married
+BANK0095,Aarav Reddy,52,Female,Pune,aarav.reddy.bank0095@example.com,9822443971,Salary,292695.49,2017-10-09,680,No Loan,86,Verified,Salaried,High School,Married
+BANK0096,Divya Sharma,57,Male,Hyderabad,divya.sharma.bank0096@example.com,9795411453,Savings,318066.56,2022-05-11,775,Closed,83,Pending,Salaried,Graduate,Married
+BANK0097,Diya Patel,20,Female,Kochi,diya.patel.bank0097@example.com,9224683417,Savings,118165.22,2015-11-01,850,Active,49,Pending,Salaried,Diploma,Single
+BANK0098,Sneha Joseph,65,Female,Mysuru,sneha.joseph.bank0098@example.com,9880179899,Current,442821.48,2024-05-26,401,Overdue,78,Pending,Self-Employed,Diploma,Married
+BANK0099,Rahul Sharma,62,Male,Kochi,rahul.sharma.bank0099@example.com,9577488537,Current,427869.65,2023-04-24,401,Closed,69,Pending,Self-Employed,Graduate,Married
+BANK0100,Aditya Nair,35,Male,Kochi,aditya.nair.bank0100@example.com,9198433586,Current,321210.53,2019-04-04,321,No Loan,100,Pending,Business,Diploma,Married
+BANK0101,Meera Patel,68,Male,Madurai,meera.patel.bank0101@example.com,9322433532,Current,406713.44,2019-08-09,538,Closed,99,Verified,Business,Graduate,Single
+BANK0102,Pooja Sharma,35,Male,Madurai,pooja.sharma.bank0102@example.com,9369137895,Current,55853.25,2018-03-31,326,Active,1,Pending,Unemployed,Postgraduate,Married
+BANK0103,Meera Das,38,Male,Mumbai,meera.das.bank0103@example.com,9156263020,Current,371117.31,2015-05-10,838,No Loan,95,Verified,Salaried,Graduate,Married
+BANK0104,Divya Gupta,67,Female,Trichy,divya.gupta.bank0104@example.com,9217095851,Fixed Deposit,252415.51,2023-02-13,344,Closed,58,Verified,Salaried,High School,Single
+BANK0105,Aditya Gupta,72,Female,Salem,aditya.gupta.bank0105@example.com,9215923129,Fixed Deposit,356488.26,2024-01-04,754,No Loan,115,Verified,Self-Employed,Postgraduate,Married
+BANK0106,Sanjay Das,27,Male,Mumbai,sanjay.das.bank0106@example.com,9770355806,Salary,191071.3,2016-06-22,843,Closed,58,Pending,Salaried,Graduate,Single
+BANK0107,Diya Pillai,62,Male,Salem,diya.pillai.bank0107@example.com,9925667446,Current,215604.9,2017-07-26,533,Overdue,43,Pending,Salaried,Diploma,Married
+BANK0108,Vijay Nair,64,Female,Delhi,vijay.nair.bank0108@example.com,9435569630,Salary,187776.21,2017-02-17,456,Overdue,8,Verified,Business,Postgraduate,Married
+BANK0109,Ananya Kumar,45,Female,Mysuru,ananya.kumar.bank0109@example.com,9500126515,Current,278629.0,2017-03-02,637,No Loan,52,Pending,Self-Employed,Graduate,Married
+BANK0110,Priya Verma,64,Female,Trichy,priya.verma.bank0110@example.com,9435489452,Salary,52696.68,2016-02-26,819,Active,19,Pending,Salaried,Graduate,Single
+BANK0111,Meera Verma,24,Female,Pune,meera.verma.bank0111@example.com,9223357166,Salary,287475.9,2022-11-08,739,No Loan,77,Pending,Self-Employed,Diploma,Married
+BANK0112,Aarav Patel,35,Female,Pune,aarav.patel.bank0112@example.com,9106556040,Current,435061.49,2021-12-06,710,No Loan,18,Verified,Self-Employed,Graduate,Single
+BANK0113,Ananya Thomas,51,Female,Delhi,ananya.thomas.bank0113@example.com,9587098457,Salary,79547.23,2019-10-29,619,Closed,99,Verified,Salaried,Diploma,Married
+BANK0114,Aditya Patel,28,Female,Chennai,aditya.patel.bank0114@example.com,9392168202,Fixed Deposit,331307.41,2016-02-12,797,Overdue,53,Pending,Self-Employed,Graduate,Single
+BANK0115,Krishna Pillai,50,Female,Delhi,krishna.pillai.bank0115@example.com,9219066986,Salary,339430.73,2017-07-21,798,Closed,5,Verified,Business,Graduate,Married
+BANK0116,Vijay Das,21,Male,Mumbai,vijay.das.bank0116@example.com,9326810757,Current,382316.29,2015-03-04,596,Closed,15,Verified,Salaried,Postgraduate,Divorced
+BANK0117,Divya Thomas,45,Male,Delhi,divya.thomas.bank0117@example.com,9671855941,Current,250630.91,2018-12-10,662,No Loan,50,Verified,Salaried,Postgraduate,Single
+BANK0118,Priya Sharma,47,Female,Trichy,priya.sharma.bank0118@example.com,9560940492,Fixed Deposit,355039.98,2016-09-29,727,Closed,14,Pending,Business,High School,Married
+BANK0119,Aarav Iyer,28,Female,Pune,aarav.iyer.bank0119@example.com,9194628740,Fixed Deposit,422397.7,2025-04-27,549,Overdue,75,Pending,Salaried,Postgraduate,Married
+BANK0120,Karthik Kumar,43,Female,Pune,karthik.kumar.bank0120@example.com,9337911187,Salary,389779.82,2021-12-16,378,No Loan,67,Verified,Salaried,Postgraduate,Married
+BANK0121,Sneha Iyer,64,Male,Chennai,sneha.iyer.bank0121@example.com,9257243284,Salary,99438.63,2018-04-24,456,No Loan,22,Pending,Salaried,Postgraduate,Single
+BANK0122,Arjun Pillai,54,Female,Trichy,arjun.pillai.bank0122@example.com,9790407222,Salary,432259.19,2025-01-25,623,Active,56,Verified,Self-Employed,Diploma,Single
+BANK0123,Divya Gupta,58,Female,Trichy,divya.gupta.bank0123@example.com,9160314355,Salary,254161.11,2021-10-16,617,Overdue,57,Verified,Unemployed,Graduate,Divorced
+BANK0124,Aditya Iyer,71,Male,Salem,aditya.iyer.bank0124@example.com,9196955134,Fixed Deposit,231893.12,2021-06-09,342,Overdue,116,Verified,Self-Employed,Diploma,Married
+BANK0125,Sanjay Das,48,Male,Coimbatore,sanjay.das.bank0125@example.com,9583745511,Savings,405672.44,2026-03-31,651,No Loan,64,Verified,Salaried,Graduate,Married
+BANK0126,Aditya Singh,63,Female,Madurai,aditya.singh.bank0126@example.com,9661296425,Current,182585.08,2024-10-26,589,Overdue,52,Pending,Business,Postgraduate,Single
+BANK0127,Pooja Sharma,68,Male,Pune,pooja.sharma.bank0127@example.com,9201474984,Fixed Deposit,142789.34,2022-07-04,453,Closed,10,Verified,Self-Employed,Diploma,Married
+BANK0128,Sneha Reddy,59,Male,Trichy,sneha.reddy.bank0128@example.com,9861104727,Savings,155481.36,2023-10-16,685,Closed,104,Verified,Salaried,Graduate,Divorced
+BANK0129,Karthik Kumar,59,Male,Pune,karthik.kumar.bank0129@example.com,9119574893,Salary,155124.17,2024-06-30,519,Closed,98,Pending,Salaried,Graduate,Married
+BANK0130,Krishna Singh,26,Male,Mumbai,krishna.singh.bank0130@example.com,9946237594,Savings,254337.17,2018-06-23,839,No Loan,84,Pending,Salaried,Graduate,Divorced
+BANK0131,Pooja Patel,56,Male,Bengaluru,pooja.patel.bank0131@example.com,9294181873,Current,360870.32,2023-06-14,344,Overdue,46,Verified,Salaried,Graduate,Married
+BANK0132,Arjun Das,36,Male,Madurai,arjun.das.bank0132@example.com,9356805216,Salary,482832.72,2025-01-25,780,Active,47,Pending,Salaried,Postgraduate,Married
+BANK0133,Arjun Pillai,36,Male,Madurai,arjun.pillai.bank0133@example.com,9549533634,Current,408628.73,2023-07-26,441,Closed,6,Pending,Salaried,High School,Single
+BANK0134,Sneha Rao,24,Male,Mumbai,sneha.rao.bank0134@example.com,9190060226,Current,137122.86,2026-07-28,825,Active,106,Pending,Salaried,Graduate,Single
+BANK0135,Ananya Mehta,32,Female,Coimbatore,ananya.mehta.bank0135@example.com,9545492166,Savings,198830.53,2025-02-12,682,Active,49,Verified,Salaried,Graduate,Married
+BANK0136,Sneha Singh,19,Male,Mysuru,sneha.singh.bank0136@example.com,9797889971,Salary,395898.94,2022-02-23,440,No Loan,36,Pending,Salaried,Diploma,Divorced
+BANK0137,Ishaan Pillai,63,Female,Trichy,ishaan.pillai.bank0137@example.com,9105638424,Savings,10482.94,2025-07-09,520,Active,70,Pending,Unemployed,Graduate,Single
+BANK0138,Diya Pillai,36,Female,Chennai,diya.pillai.bank0138@example.com,9151270577,Current,210492.95,2020-04-30,768,No Loan,14,Pending,Business,High School,Divorced
+BANK0139,Pooja Rao,19,Male,Hyderabad,pooja.rao.bank0139@example.com,9871531100,Current,146344.72,2026-07-23,301,Closed,30,Pending,Self-Employed,Diploma,Single
+BANK0140,Kavya Joseph,60,Male,Pune,kavya.joseph.bank0140@example.com,9172670118,Savings,195836.41,2016-12-02,781,No Loan,81,Pending,Salaried,High School,Married
+BANK0141,Sneha Reddy,65,Female,Chennai,sneha.reddy.bank0141@example.com,9470228863,Current,366737.57,2015-05-14,406,Closed,17,Verified,Self-Employed,High School,Single
+BANK0142,Sneha Rao,39,Male,Kochi,sneha.rao.bank0142@example.com,9846668526,Fixed Deposit,316236.19,2018-12-05,438,No Loan,91,Pending,Contract,Graduate,Married
+BANK0143,Aditya Reddy,30,Male,Coimbatore,aditya.reddy.bank0143@example.com,9438868427,Salary,258176.41,2015-12-25,784,Closed,4,Verified,Contract,Diploma,Single
+BANK0144,Riya Iyer,73,Female,Pune,riya.iyer.bank0144@example.com,9393364102,Savings,399871.86,2016-01-27,747,Overdue,95,Pending,Contract,Graduate,Married
+BANK0145,Vijay Iyer,29,Female,Kochi,vijay.iyer.bank0145@example.com,9494435754,Salary,400772.9,2026-02-16,734,No Loan,55,Verified,Contract,Graduate,Married
+BANK0146,Nisha Reddy,38,Male,Pune,nisha.reddy.bank0146@example.com,9809656613,Salary,153941.43,2017-04-20,736,Active,88,Pending,Unemployed,High School,Single
+BANK0147,Sneha Gupta,20,Male,Delhi,sneha.gupta.bank0147@example.com,9394801573,Savings,38445.54,2022-11-28,715,Closed,65,Verified,Salaried,Diploma,Married
+BANK0148,Aarav Patel,72,Male,Bengaluru,aarav.patel.bank0148@example.com,9172191273,Current,389479.17,2024-10-29,675,Closed,49,Verified,Business,Graduate,Married
+BANK0149,Pooja Patel,61,Female,Pune,pooja.patel.bank0149@example.com,9576676179,Savings,287386.97,2025-02-02,842,Closed,50,Pending,Salaried,High School,Single
+BANK0150,Rahul Singh,25,Female,Bengaluru,rahul.singh.bank0150@example.com,9635844374,Fixed Deposit,456857.71,2015-08-01,420,Closed,99,Pending,Salaried,Diploma,Single
+BANK0151,Arjun Singh,57,Male,Kochi,arjun.singh.bank0151@example.com,9314939857,Savings,68728.48,2021-05-28,375,Overdue,22,Pending,Self-Employed,Postgraduate,Married
+BANK0152,Ananya Pillai,61,Male,Pune,ananya.pillai.bank0152@example.com,9861863296,Savings,275448.58,2022-03-03,597,Closed,108,Verified,Unemployed,High School,Single
+BANK0153,Kavya Pillai,41,Male,Chennai,kavya.pillai.bank0153@example.com,9315801027,Current,119131.36,2026-05-30,805,No Loan,46,Pending,Salaried,High School,Married
+BANK0154,Arjun Pillai,53,Female,Chennai,arjun.pillai.bank0154@example.com,9170596494,Salary,199681.83,2017-11-29,790,Overdue,98,Pending,Unemployed,Graduate,Divorced
+BANK0155,Rohan Kumar,26,Female,Chennai,rohan.kumar.bank0155@example.com,9583156434,Fixed Deposit,340374.39,2022-02-10,652,Active,112,Verified,Self-Employed,Graduate,Married
+BANK0156,Ishaan Nair,50,Male,Madurai,ishaan.nair.bank0156@example.com,9264299106,Salary,83163.88,2016-03-29,630,Active,44,Pending,Salaried,High School,Married
+BANK0157,Ananya Reddy,30,Male,Salem,ananya.reddy.bank0157@example.com,9425155441,Savings,251784.0,2021-02-26,472,Active,21,Pending,Business,Graduate,Married
+BANK0158,Rohan Sharma,70,Male,Coimbatore,rohan.sharma.bank0158@example.com,9788755699,Salary,325913.86,2015-08-21,726,No Loan,63,Pending,Salaried,Postgraduate,Married
+BANK0159,Riya Gupta,33,Female,Kochi,riya.gupta.bank0159@example.com,9178354184,Savings,79882.14,2024-02-09,725,Overdue,59,Verified,Salaried,Postgraduate,Single
+BANK0160,Sanjay Das,27,Female,Pune,sanjay.das.bank0160@example.com,9888340979,Salary,487711.69,2022-01-04,433,Closed,65,Verified,Self-Employed,Graduate,Single
+BANK0161,Sanjay Singh,47,Female,Kochi,sanjay.singh.bank0161@example.com,9366200875,Current,49309.01,2017-09-30,597,Overdue,110,Pending,Salaried,Graduate,Divorced
+BANK0162,Meera Verma,75,Female,Trichy,meera.verma.bank0162@example.com,9874305759,Salary,95727.22,2018-08-01,463,Overdue,65,Pending,Salaried,High School,Married
+BANK0163,Divya Mehta,37,Male,Chennai,divya.mehta.bank0163@example.com,9522240582,Fixed Deposit,483376.63,2026-02-26,520,Closed,6,Verified,Salaried,Postgraduate,Single
+BANK0164,Riya Gupta,56,Female,Madurai,riya.gupta.bank0164@example.com,9108780419,Savings,216032.96,2025-07-22,570,Closed,97,Pending,Salaried,Graduate,Single
+BANK0165,Sneha Sharma,43,Female,Madurai,sneha.sharma.bank0165@example.com,9309009538,Salary,277058.24,2016-02-24,375,Overdue,64,Pending,Contract,Graduate,Married
+BANK0166,Nisha Reddy,70,Male,Chennai,nisha.reddy.bank0166@example.com,9522950895,Salary,397653.72,2017-08-31,647,Closed,96,Verified,Salaried,Postgraduate,Married
+BANK0167,Krishna Das,50,Female,Coimbatore,krishna.das.bank0167@example.com,9148644109,Savings,69381.15,2024-01-02,641,Overdue,66,Pending,Unemployed,Diploma,Single
+BANK0168,Ishaan Das,75,Male,Pune,ishaan.das.bank0168@example.com,9758276886,Salary,82088.52,2026-07-25,606,Closed,64,Pending,Contract,Graduate,Married
+BANK0169,Rohan Reddy,48,Female,Pune,rohan.reddy.bank0169@example.com,9823494111,Savings,489969.12,2015-05-17,615,No Loan,76,Pending,Self-Employed,Graduate,Married
+BANK0170,Rahul Joseph,68,Female,Coimbatore,rahul.joseph.bank0170@example.com,9726553348,Fixed Deposit,86085.52,2020-02-08,689,Active,105,Verified,Self-Employed,Graduate,Single
+BANK0171,Aditya Das,62,Male,Coimbatore,aditya.das.bank0171@example.com,9573561557,Salary,209971.37,2017-06-19,722,Active,52,Pending,Salaried,Graduate,Divorced
+BANK0172,Aditya Thomas,26,Male,Madurai,aditya.thomas.bank0172@example.com,9449019278,Fixed Deposit,263213.1,2026-08-20,621,Active,58,Pending,Business,Graduate,Married
+BANK0173,Nisha Iyer,61,Female,Kochi,nisha.iyer.bank0173@example.com,9306442077,Current,140224.19,2020-12-05,605,Active,120,Pending,Business,High School,Married
+BANK0174,Riya Thomas,31,Female,Kochi,riya.thomas.bank0174@example.com,9474524558,Salary,144606.9,2025-12-19,688,Overdue,104,Pending,Salaried,Diploma,Married
+BANK0175,Ishaan Reddy,20,Female,Chennai,ishaan.reddy.bank0175@example.com,9471904990,Fixed Deposit,328330.05,2021-06-14,790,Active,25,Pending,Business,Diploma,Single
+BANK0176,Nisha Thomas,35,Male,Trichy,nisha.thomas.bank0176@example.com,9895525625,Current,121986.56,2018-01-29,843,Active,81,Verified,Business,Graduate,Married
+BANK0177,Aditya Kumar,44,Male,Kochi,aditya.kumar.bank0177@example.com,9207959268,Current,3585.54,2022-05-29,461,Overdue,83,Pending,Salaried,Graduate,Single
+BANK0178,Divya Joseph,30,Female,Mumbai,divya.joseph.bank0178@example.com,9793527609,Savings,454060.54,2021-06-11,391,Active,68,Verified,Self-Employed,Graduate,Married
+BANK0179,Kavya Nair,74,Male,Delhi,kavya.nair.bank0179@example.com,9946066287,Fixed Deposit,93969.5,2018-12-11,596,No Loan,1,Pending,Salaried,Diploma,Married
+BANK0180,Rohan Das,24,Female,Kochi,rohan.das.bank0180@example.com,9788603957,Fixed Deposit,444740.72,2022-07-07,437,Overdue,34,Verified,Salaried,Diploma,Married
+BANK0181,Diya Iyer,28,Female,Mumbai,diya.iyer.bank0181@example.com,9871588919,Current,8028.01,2025-04-17,645,Closed,72,Verified,Business,Postgraduate,Single
+BANK0182,Kavya Das,72,Female,Madurai,kavya.das.bank0182@example.com,9452108572,Savings,201015.79,2024-02-04,397,Active,17,Pending,Salaried,Graduate,Single
+BANK0183,Sanjay Mehta,33,Female,Delhi,sanjay.mehta.bank0183@example.com,9352889019,Fixed Deposit,377124.57,2015-02-25,637,Closed,74,Verified,Business,Postgraduate,Single
+BANK0184,Rahul Joseph,41,Male,Salem,rahul.joseph.bank0184@example.com,9226942964,Fixed Deposit,154096.36,2020-04-19,715,Closed,88,Verified,Salaried,Diploma,Divorced
+BANK0185,Riya Iyer,57,Male,Bengaluru,riya.iyer.bank0185@example.com,9613443905,Current,228034.36,2019-12-15,682,Overdue,89,Pending,Salaried,High School,Married
+BANK0186,Nisha Pillai,60,Male,Salem,nisha.pillai.bank0186@example.com,9910395417,Savings,263227.82,2019-11-25,840,Closed,9,Verified,Business,Graduate,Single
+BANK0187,Aditya Verma,53,Male,Trichy,aditya.verma.bank0187@example.com,9676234459,Current,83104.04,2026-05-03,832,Overdue,14,Verified,Unemployed,Graduate,Married
+BANK0188,Rohan Gupta,23,Female,Coimbatore,rohan.gupta.bank0188@example.com,9586869229,Current,257110.67,2026-06-12,767,No Loan,71,Pending,Business,Graduate,Single
+BANK0189,Riya Thomas,19,Female,Coimbatore,riya.thomas.bank0189@example.com,9900801470,Current,289577.32,2023-11-18,346,Overdue,44,Verified,Unemployed,Graduate,Married
+BANK0190,Nisha Sharma,75,Female,Coimbatore,nisha.sharma.bank0190@example.com,9408261300,Fixed Deposit,90810.68,2016-07-19,438,Overdue,47,Pending,Salaried,Graduate,Divorced
+BANK0191,Arjun Verma,42,Male,Salem,arjun.verma.bank0191@example.com,9810594320,Current,327113.52,2023-06-05,656,No Loan,22,Pending,Business,High School,Divorced
+BANK0192,Karthik Patel,64,Male,Coimbatore,karthik.patel.bank0192@example.com,9420364823,Fixed Deposit,337076.43,2019-12-30,734,Overdue,105,Verified,Salaried,High School,Single
+BANK0193,Meera Gupta,40,Female,Hyderabad,meera.gupta.bank0193@example.com,9878488534,Savings,17076.44,2018-06-24,729,No Loan,30,Verified,Salaried,Graduate,Married
+BANK0194,Ananya Kumar,56,Female,Trichy,ananya.kumar.bank0194@example.com,9821579885,Savings,123122.34,2015-10-03,345,Overdue,56,Verified,Unemployed,Postgraduate,Single
+BANK0195,Nisha Singh,66,Male,Madurai,nisha.singh.bank0195@example.com,9410594268,Current,408077.34,2016-04-07,626,Closed,30,Pending,Salaried,Graduate,Married
+BANK0196,Ishaan Joseph,51,Female,Mumbai,ishaan.joseph.bank0196@example.com,9395444277,Savings,278802.34,2019-12-16,479,Overdue,71,Pending,Business,Graduate,Married
+BANK0197,Aditya Iyer,59,Female,Pune,aditya.iyer.bank0197@example.com,9847655456,Fixed Deposit,204721.33,2023-07-20,607,Overdue,23,Pending,Salaried,Graduate,Single
+BANK0198,Meera Verma,32,Male,Bengaluru,meera.verma.bank0198@example.com,9965195567,Fixed Deposit,457455.85,2021-09-29,722,Overdue,71,Verified,Contract,Postgraduate,Married
+BANK0199,Vijay Singh,34,Female,Salem,vijay.singh.bank0199@example.com,9184901228,Fixed Deposit,423719.56,2019-07-24,394,Active,6,Pending,Self-Employed,Postgraduate,Single
+BANK0200,Vijay Joseph,56,Male,Hyderabad,vijay.joseph.bank0200@example.com,9963987020,Current,240217.71,2015-11-20,640,Closed,116,Verified,Salaried,Postgraduate,Married
+BANK0201,Krishna Mehta,30,Male,Kochi,krishna.mehta.bank0201@example.com,9360482447,Current,198919.4,2017-08-19,545,Closed,99,Pending,Salaried,Graduate,Single
+BANK0202,Vijay Gupta,52,Female,Mumbai,vijay.gupta.bank0202@example.com,9486165467,Fixed Deposit,233536.03,2023-01-22,780,Closed,117,Verified,Salaried,High School,Single
+BANK0203,Sneha Iyer,44,Male,Hyderabad,sneha.iyer.bank0203@example.com,9895913682,Current,9093.73,2016-01-10,727,Closed,19,Verified,Salaried,Diploma,Single
+BANK0204,Sanjay Singh,42,Female,Madurai,sanjay.singh.bank0204@example.com,9802879944,Salary,129406.05,2020-07-06,800,Overdue,58,Verified,Self-Employed,Graduate,Married
+BANK0205,Sneha Patel,26,Male,Madurai,sneha.patel.bank0205@example.com,9789137659,Savings,262448.26,2025-12-14,376,No Loan,97,Verified,Self-Employed,Postgraduate,Married
+BANK0206,Priya Patel,71,Male,Mysuru,priya.patel.bank0206@example.com,9262166848,Savings,110141.12,2020-03-10,766,Closed,7,Pending,Contract,Graduate,Married
+BANK0207,Divya Sharma,18,Male,Coimbatore,divya.sharma.bank0207@example.com,9668457864,Salary,268333.31,2024-03-23,593,No Loan,64,Pending,Contract,Graduate,Married
+BANK0208,Kavya Kumar,24,Male,Hyderabad,kavya.kumar.bank0208@example.com,9306085476,Salary,407791.98,2026-10-05,573,Overdue,10,Pending,Contract,Graduate,Single
+BANK0209,Vijay Gupta,54,Female,Hyderabad,vijay.gupta.bank0209@example.com,9422095317,Savings,327214.12,2020-06-15,332,No Loan,51,Pending,Self-Employed,Postgraduate,Single
+BANK0210,Vijay Rao,48,Female,Coimbatore,vijay.rao.bank0210@example.com,9854674236,Current,42260.38,2016-04-04,744,Closed,72,Verified,Salaried,Graduate,Married
+BANK0211,Karthik Mehta,20,Male,Mysuru,karthik.mehta.bank0211@example.com,9708579840,Fixed Deposit,136276.43,2020-02-26,376,Closed,115,Verified,Contract,Graduate,Married
+BANK0212,Kavya Mehta,72,Male,Hyderabad,kavya.mehta.bank0212@example.com,9730325223,Current,376374.98,2022-01-20,707,No Loan,38,Verified,Salaried,Graduate,Single
+BANK0213,Rohan Singh,54,Female,Madurai,rohan.singh.bank0213@example.com,9456192204,Fixed Deposit,378049.02,2023-09-23,443,No Loan,64,Pending,Self-Employed,Graduate,Married
+BANK0214,Aditya Kumar,45,Male,Pune,aditya.kumar.bank0214@example.com,9749794986,Fixed Deposit,484491.34,2020-03-16,634,No Loan,81,Pending,Salaried,Diploma,Married
+BANK0215,Arjun Gupta,32,Male,Delhi,arjun.gupta.bank0215@example.com,9563693201,Current,340167.73,2022-12-24,689,No Loan,98,Pending,Salaried,Diploma,Single
+BANK0216,Meera Thomas,22,Female,Bengaluru,meera.thomas.bank0216@example.com,9508021882,Current,370087.99,2016-11-03,624,Closed,13,Verified,Salaried,Diploma,Single
+BANK0217,Aarav Reddy,46,Female,Chennai,aarav.reddy.bank0217@example.com,9242278314,Savings,94508.5,2023-01-27,759,Overdue,13,Verified,Business,Graduate,Married
+BANK0218,Ananya Iyer,53,Female,Trichy,ananya.iyer.bank0218@example.com,9942284665,Salary,431995.37,2017-02-01,312,Closed,52,Pending,Contract,Graduate,Married
+BANK0219,Ananya Thomas,75,Female,Madurai,ananya.thomas.bank0219@example.com,9282088279,Fixed Deposit,85581.37,2020-06-11,575,Closed,34,Pending,Business,High School,Married
+BANK0220,Ishaan Kumar,28,Female,Delhi,ishaan.kumar.bank0220@example.com,9421856529,Fixed Deposit,391550.65,2024-09-30,669,Closed,120,Verified,Salaried,Graduate,Married
+BANK0221,Divya Das,57,Female,Chennai,divya.das.bank0221@example.com,9245480775,Salary,4376.92,2019-05-21,705,Closed,107,Pending,Salaried,High School,Married
+BANK0222,Sanjay Gupta,39,Female,Trichy,sanjay.gupta.bank0222@example.com,9246162540,Salary,161011.91,2024-08-28,505,Overdue,40,Verified,Self-Employed,Graduate,Married
+BANK0223,Vijay Iyer,36,Female,Hyderabad,vijay.iyer.bank0223@example.com,9449917685,Fixed Deposit,140869.77,2026-01-05,702,Closed,14,Verified,Self-Employed,Graduate,Single
+BANK0224,Rohan Rao,29,Female,Kochi,rohan.rao.bank0224@example.com,9860603328,Current,219789.02,2015-08-09,598,No Loan,104,Pending,Salaried,Graduate,Divorced
+BANK0225,Divya Patel,58,Male,Mumbai,divya.patel.bank0225@example.com,9807233980,Current,357902.96,2021-10-16,686,No Loan,57,Pending,Self-Employed,Postgraduate,Married
+BANK0226,Rohan Nair,52,Male,Delhi,rohan.nair.bank0226@example.com,9683734594,Savings,395569.74,2026-05-13,668,No Loan,13,Verified,Salaried,Diploma,Single
+BANK0227,Sneha Patel,59,Female,Salem,sneha.patel.bank0227@example.com,9827429909,Fixed Deposit,483438.76,2015-12-29,639,Overdue,13,Verified,Contract,Graduate,Married
+BANK0228,Diya Reddy,32,Female,Madurai,diya.reddy.bank0228@example.com,9699140867,Current,223443.5,2026-06-15,700,Overdue,98,Verified,Business,Postgraduate,Married
+BANK0229,Sneha Sharma,48,Female,Delhi,sneha.sharma.bank0229@example.com,9192185888,Savings,415827.55,2017-05-06,445,Closed,39,Pending,Salaried,Postgraduate,Married
+BANK0230,Arjun Pillai,31,Female,Pune,arjun.pillai.bank0230@example.com,9611275626,Savings,219644.8,2026-09-08,763,Closed,8,Pending,Salaried,Postgraduate,Married
+BANK0231,Aditya Pillai,63,Male,Pune,aditya.pillai.bank0231@example.com,9795752405,Savings,338892.53,2017-07-31,468,Active,66,Verified,Unemployed,Graduate,Married
+BANK0232,Nisha Patel,39,Female,Hyderabad,nisha.patel.bank0232@example.com,9956583753,Fixed Deposit,315250.4,2024-07-24,490,Overdue,50,Verified,Unemployed,Diploma,Married
+BANK0233,Pooja Mehta,30,Female,Delhi,pooja.mehta.bank0233@example.com,9517509245,Savings,352663.07,2025-01-30,510,Closed,96,Verified,Salaried,Graduate,Married
+BANK0234,Rohan Kumar,69,Female,Pune,rohan.kumar.bank0234@example.com,9311606895,Fixed Deposit,57863.53,2019-03-12,801,Closed,76,Pending,Salaried,High School,Single
+BANK0235,Pooja Nair,55,Female,Pune,pooja.nair.bank0235@example.com,9591624059,Current,407055.39,2017-07-24,604,No Loan,86,Verified,Salaried,Diploma,Married
+BANK0236,Sanjay Kumar,33,Male,Bengaluru,sanjay.kumar.bank0236@example.com,9500834337,Current,255901.61,2021-11-06,728,Active,73,Pending,Unemployed,Graduate,Married
+BANK0237,Priya Patel,49,Male,Bengaluru,priya.patel.bank0237@example.com,9625749126,Salary,71007.97,2018-11-20,622,Overdue,79,Verified,Contract,Postgraduate,Married
+BANK0238,Sneha Sharma,49,Male,Delhi,sneha.sharma.bank0238@example.com,9702994164,Fixed Deposit,205158.04,2018-01-23,803,Overdue,90,Pending,Contract,Diploma,Single
+BANK0239,Divya Patel,23,Male,Mumbai,divya.patel.bank0239@example.com,9135106082,Salary,113196.86,2015-09-10,595,Active,99,Pending,Contract,Graduate,Single
+BANK0240,Rohan Thomas,67,Female,Madurai,rohan.thomas.bank0240@example.com,9221559383,Savings,134676.57,2026-02-09,675,No Loan,97,Pending,Business,Graduate,Single
+BANK0241,Nisha Singh,45,Female,Salem,nisha.singh.bank0241@example.com,9906751081,Current,149556.76,2017-04-18,333,Overdue,33,Pending,Salaried,Graduate,Married
+BANK0242,Ananya Gupta,73,Male,Hyderabad,ananya.gupta.bank0242@example.com,9970485411,Salary,430663.3,2017-08-19,738,Active,78,Verified,Salaried,Graduate,Single
+BANK0243,Krishna Verma,31,Female,Pune,krishna.verma.bank0243@example.com,9671532152,Salary,298831.99,2016-05-01,472,Closed,90,Pending,Salaried,Diploma,Single
+BANK0244,Riya Das,35,Male,Chennai,riya.das.bank0244@example.com,9245587477,Fixed Deposit,459465.59,2026-07-16,583,Active,89,Verified,Self-Employed,Postgraduate,Married
+BANK0245,Meera Patel,63,Male,Salem,meera.patel.bank0245@example.com,9521659217,Fixed Deposit,71943.64,2022-03-23,575,Overdue,48,Pending,Business,Graduate,Married
+BANK0246,Ananya Joseph,68,Female,Madurai,ananya.joseph.bank0246@example.com,9905094179,Salary,347657.1,2017-02-01,677,Overdue,62,Pending,Unemployed,Diploma,Married
+BANK0247,Rohan Sharma,73,Female,Kochi,rohan.sharma.bank0247@example.com,9781654847,Salary,425203.01,2017-02-02,847,Overdue,27,Pending,Contract,Graduate,Married
+BANK0248,Krishna Gupta,35,Female,Pune,krishna.gupta.bank0248@example.com,9687670209,Current,283504.91,2022-03-29,796,Closed,114,Verified,Self-Employed,Graduate,Married
+BANK0249,Aditya Kumar,58,Male,Chennai,aditya.kumar.bank0249@example.com,9269633510,Fixed Deposit,228802.55,2025-04-22,738,Active,88,Verified,Salaried,Postgraduate,Single
+BANK0250,Riya Patel,73,Male,Salem,riya.patel.bank0250@example.com,9487014547,Salary,42127.84,2021-02-22,469,No Loan,50,Pending,Salaried,High School,Married
+BANK0251,Meera Nair,59,Female,Chennai,meera.nair.bank0251@example.com,9101166414,Current,238926.55,2017-01-17,435,Active,66,Pending,Salaried,High School,Married
+BANK0252,Aarav Sharma,62,Male,Delhi,aarav.sharma.bank0252@example.com,9845210115,Current,239372.42,2022-09-15,534,Overdue,11,Verified,Contract,High School,Married
+BANK0253,Diya Iyer,41,Male,Delhi,diya.iyer.bank0253@example.com,9930496866,Current,321146.5,2021-09-17,446,No Loan,67,Verified,Self-Employed,Graduate,Single
+BANK0254,Pooja Joseph,28,Female,Mysuru,pooja.joseph.bank0254@example.com,9328766544,Current,460027.17,2024-11-14,753,Active,11,Verified,Self-Employed,Postgraduate,Married
+BANK0255,Ishaan Pillai,25,Female,Delhi,ishaan.pillai.bank0255@example.com,9437695739,Current,124645.4,2023-08-12,386,Active,70,Pending,Contract,Graduate,Single
+BANK0256,Aarav Verma,72,Male,Madurai,aarav.verma.bank0256@example.com,9751682766,Current,374173.98,2021-10-07,602,No Loan,100,Verified,Salaried,Postgraduate,Single
+BANK0257,Divya Nair,25,Female,Salem,divya.nair.bank0257@example.com,9737727239,Savings,264614.96,2020-05-28,312,Closed,119,Pending,Salaried,High School,Single
+BANK0258,Ishaan Nair,73,Female,Madurai,ishaan.nair.bank0258@example.com,9833303441,Current,381600.24,2024-06-09,374,No Loan,75,Verified,Salaried,Graduate,Single
+BANK0259,Aarav Reddy,31,Male,Delhi,aarav.reddy.bank0259@example.com,9643968992,Salary,314656.78,2015-11-23,813,Overdue,54,Pending,Salaried,Postgraduate,Married
+BANK0260,Ananya Joseph,52,Female,Chennai,ananya.joseph.bank0260@example.com,9432759989,Savings,256141.04,2018-06-04,508,Active,68,Pending,Unemployed,Postgraduate,Married
+BANK0261,Vijay Das,58,Female,Mysuru,vijay.das.bank0261@example.com,9569747059,Current,29895.07,2016-06-25,388,Overdue,14,Pending,Salaried,Graduate,Single
+BANK0262,Pooja Das,21,Male,Mysuru,pooja.das.bank0262@example.com,9806578337,Current,60602.06,2021-12-08,440,No Loan,20,Pending,Salaried,Graduate,Single
+BANK0263,Sneha Rao,51,Male,Pune,sneha.rao.bank0263@example.com,9236290703,Salary,366734.98,2020-10-24,420,No Loan,42,Pending,Self-Employed,Graduate,Married
+BANK0264,Rahul Rao,22,Female,Trichy,rahul.rao.bank0264@example.com,9773808249,Savings,248577.64,2020-11-24,823,Closed,7,Pending,Contract,Graduate,Married
+BANK0265,Rohan Patel,41,Female,Chennai,rohan.patel.bank0265@example.com,9716233644,Savings,114973.81,2018-07-12,821,No Loan,5,Verified,Salaried,Diploma,Single
+BANK0266,Meera Sharma,48,Female,Bengaluru,meera.sharma.bank0266@example.com,9292157835,Savings,276879.53,2023-03-01,729,Active,41,Verified,Contract,Diploma,Married
+BANK0267,Priya Mehta,64,Female,Chennai,priya.mehta.bank0267@example.com,9713682070,Salary,60581.06,2022-03-05,353,Active,28,Verified,Business,Graduate,Married
+BANK0268,Vijay Kumar,74,Female,Mumbai,vijay.kumar.bank0268@example.com,9451436694,Savings,276992.61,2025-06-07,308,Closed,25,Pending,Salaried,High School,Single
+BANK0269,Rohan Pillai,37,Female,Pune,rohan.pillai.bank0269@example.com,9735323297,Fixed Deposit,498895.77,2020-06-10,500,Active,19,Verified,Self-Employed,Diploma,Married
+BANK0270,Priya Sharma,32,Female,Mysuru,priya.sharma.bank0270@example.com,9110302352,Salary,1729.56,2022-10-08,685,Closed,13,Verified,Contract,Graduate,Divorced
+BANK0271,Karthik Singh,44,Male,Bengaluru,karthik.singh.bank0271@example.com,9864131026,Salary,47420.29,2026-01-13,537,Overdue,89,Pending,Salaried,Graduate,Single
+BANK0272,Arjun Thomas,23,Female,Bengaluru,arjun.thomas.bank0272@example.com,9784205125,Fixed Deposit,38340.41,2017-02-21,363,Overdue,84,Verified,Contract,Postgraduate,Married
+BANK0273,Meera Reddy,34,Female,Mysuru,meera.reddy.bank0273@example.com,9993245640,Salary,159710.8,2022-01-24,578,Active,9,Verified,Self-Employed,High School,Married
+BANK0274,Ishaan Pillai,67,Male,Chennai,ishaan.pillai.bank0274@example.com,9276496293,Fixed Deposit,233561.5,2017-06-11,716,No Loan,68,Pending,Salaried,Graduate,Married
+BANK0275,Krishna Gupta,37,Female,Chennai,krishna.gupta.bank0275@example.com,9197088689,Current,403990.86,2025-05-23,611,No Loan,27,Pending,Salaried,Graduate,Divorced
+BANK0276,Ishaan Kumar,63,Female,Delhi,ishaan.kumar.bank0276@example.com,9651323128,Savings,338914.51,2020-07-26,566,Active,3,Pending,Salaried,High School,Married
+BANK0277,Arjun Rao,65,Male,Kochi,arjun.rao.bank0277@example.com,9209422179,Current,61605.17,2020-08-08,363,Active,16,Verified,Salaried,Graduate,Married
+BANK0278,Vijay Iyer,61,Male,Trichy,vijay.iyer.bank0278@example.com,9377906552,Savings,11878.29,2016-11-19,366,Active,115,Pending,Business,Diploma,Married
+BANK0279,Ishaan Kumar,75,Male,Coimbatore,ishaan.kumar.bank0279@example.com,9594989531,Savings,84826.62,2022-06-09,743,Overdue,63,Verified,Self-Employed,Graduate,Married
+BANK0280,Vijay Joseph,45,Female,Hyderabad,vijay.joseph.bank0280@example.com,9300951978,Salary,140647.42,2018-11-16,452,No Loan,78,Verified,Salaried,High School,Married
+BANK0281,Riya Gupta,44,Male,Chennai,riya.gupta.bank0281@example.com,9400407178,Fixed Deposit,69480.77,2025-09-29,504,Active,80,Verified,Contract,Graduate,Single
+BANK0282,Vijay Pillai,63,Female,Madurai,vijay.pillai.bank0282@example.com,9939059557,Fixed Deposit,172673.03,2023-01-20,814,Closed,49,Pending,Salaried,Postgraduate,Single
+BANK0283,Kavya Sharma,38,Male,Mumbai,kavya.sharma.bank0283@example.com,9162911855,Fixed Deposit,265186.71,2019-11-30,538,Active,12,Verified,Salaried,Postgraduate,Single
+BANK0284,Meera Reddy,52,Male,Trichy,meera.reddy.bank0284@example.com,9956191734,Fixed Deposit,178047.51,2016-04-03,477,Active,30,Pending,Unemployed,Graduate,Single
+BANK0285,Sneha Mehta,55,Male,Mysuru,sneha.mehta.bank0285@example.com,9477615830,Current,281991.34,2015-08-20,492,Overdue,69,Pending,Unemployed,High School,Married
+BANK0286,Kavya Gupta,20,Male,Hyderabad,kavya.gupta.bank0286@example.com,9746030501,Current,10944.07,2017-01-09,789,No Loan,42,Verified,Salaried,Postgraduate,Single
+BANK0287,Ishaan Iyer,63,Female,Coimbatore,ishaan.iyer.bank0287@example.com,9123528797,Current,293717.98,2018-12-24,445,No Loan,108,Pending,Business,Graduate,Divorced
+BANK0288,Ananya Iyer,63,Female,Chennai,ananya.iyer.bank0288@example.com,9461379699,Salary,161979.0,2023-11-15,461,Overdue,101,Pending,Self-Employed,Graduate,Single
+BANK0289,Sanjay Patel,63,Male,Salem,sanjay.patel.bank0289@example.com,9732380409,Current,189813.67,2023-01-02,601,Active,22,Verified,Business,Postgraduate,Single
+BANK0290,Rohan Nair,72,Male,Trichy,rohan.nair.bank0290@example.com,9441682804,Current,320183.74,2015-09-23,406,Overdue,18,Pending,Self-Employed,Postgraduate,Single
+BANK0291,Ananya Singh,40,Male,Salem,ananya.singh.bank0291@example.com,9195268824,Salary,223868.34,2022-03-02,571,Active,31,Verified,Self-Employed,Diploma,Single
+BANK0292,Sneha Reddy,68,Male,Coimbatore,sneha.reddy.bank0292@example.com,9151697938,Fixed Deposit,219671.85,2017-06-04,729,Active,113,Pending,Contract,Postgraduate,Divorced
+BANK0293,Divya Mehta,42,Female,Delhi,divya.mehta.bank0293@example.com,9208908082,Fixed Deposit,394576.27,2022-11-17,530,Active,57,Verified,Self-Employed,Graduate,Single
+BANK0294,Aditya Reddy,19,Female,Chennai,aditya.reddy.bank0294@example.com,9179672074,Salary,85882.5,2022-02-23,684,Active,93,Verified,Salaried,Diploma,Married
+BANK0295,Nisha Mehta,23,Male,Trichy,nisha.mehta.bank0295@example.com,9618334675,Savings,216230.34,2022-07-31,468,Overdue,20,Verified,Self-Employed,Diploma,Divorced
+BANK0296,Diya Iyer,31,Female,Mysuru,diya.iyer.bank0296@example.com,9694973692,Salary,330638.35,2019-04-06,604,Active,12,Verified,Unemployed,Postgraduate,Single
+BANK0297,Vijay Das,53,Male,Coimbatore,vijay.das.bank0297@example.com,9487437109,Savings,214375.37,2026-01-04,601,Overdue,25,Verified,Business,Postgraduate,Single
+BANK0298,Aarav Singh,28,Male,Kochi,aarav.singh.bank0298@example.com,9224026766,Salary,392653.41,2021-07-18,782,Overdue,114,Pending,Business,High School,Married
+BANK0299,Ananya Joseph,52,Male,Pune,ananya.joseph.bank0299@example.com,9509573649,Salary,94104.89,2023-09-10,345,Closed,56,Pending,Salaried,Graduate,Married
+BANK0300,Rahul Singh,71,Male,Coimbatore,rahul.singh.bank0300@example.com,9262275325,Savings,43767.95,2021-01-09,652,Overdue,96,Verified,Salaried,Graduate,Married
+BANK0301,Nisha Sharma,71,Male,Delhi,nisha.sharma.bank0301@example.com,9675004218,Fixed Deposit,286784.43,2023-09-07,541,Overdue,38,Verified,Salaried,Diploma,Married
+BANK0302,Vijay Mehta,72,Female,Trichy,vijay.mehta.bank0302@example.com,9654928450,Current,61020.66,2015-10-12,759,Active,21,Verified,Self-Employed,Graduate,Single
+BANK0303,Krishna Patel,20,Male,Salem,krishna.patel.bank0303@example.com,9567499938,Current,498637.34,2024-06-30,451,Closed,40,Verified,Salaried,Postgraduate,Married
+BANK0304,Ananya Nair,53,Male,Pune,ananya.nair.bank0304@example.com,9396568375,Fixed Deposit,458663.79,2023-11-30,312,Overdue,14,Pending,Self-Employed,Diploma,Married
+BANK0305,Ishaan Patel,54,Male,Trichy,ishaan.patel.bank0305@example.com,9937029745,Savings,393087.07,2017-03-31,848,Closed,112,Pending,Unemployed,Graduate,Married
+BANK0306,Rahul Nair,59,Male,Trichy,rahul.nair.bank0306@example.com,9607929943,Savings,86927.66,2025-11-21,712,Active,79,Pending,Unemployed,Diploma,Single
+BANK0307,Aditya Nair,74,Male,Hyderabad,aditya.nair.bank0307@example.com,9152925780,Fixed Deposit,460496.66,2022-06-08,681,No Loan,43,Pending,Salaried,Graduate,Married
+BANK0308,Riya Reddy,71,Male,Salem,riya.reddy.bank0308@example.com,9205460113,Current,68058.37,2026-01-10,753,Closed,34,Pending,Salaried,Graduate,Married
+BANK0309,Pooja Joseph,23,Female,Hyderabad,pooja.joseph.bank0309@example.com,9984730446,Fixed Deposit,370731.45,2019-03-20,828,Closed,105,Verified,Salaried,Diploma,Single
+BANK0310,Karthik Pillai,28,Female,Mysuru,karthik.pillai.bank0310@example.com,9644167285,Fixed Deposit,68689.26,2016-06-21,836,No Loan,22,Verified,Unemployed,Diploma,Single
+BANK0311,Krishna Verma,21,Male,Kochi,krishna.verma.bank0311@example.com,9154287614,Salary,352612.34,2020-08-05,580,Closed,105,Pending,Salaried,Postgraduate,Married
+BANK0312,Karthik Nair,58,Male,Coimbatore,karthik.nair.bank0312@example.com,9359779054,Salary,244904.58,2017-10-11,756,Active,111,Pending,Contract,Postgraduate,Single
+BANK0313,Rohan Rao,40,Male,Mumbai,rohan.rao.bank0313@example.com,9904190892,Savings,143249.62,2022-09-21,695,No Loan,20,Verified,Business,High School,Married
+BANK0314,Meera Joseph,32,Female,Salem,meera.joseph.bank0314@example.com,9539705006,Savings,432450.34,2019-08-21,309,Overdue,116,Verified,Salaried,Graduate,Divorced
+BANK0315,Kavya Das,69,Male,Mumbai,kavya.das.bank0315@example.com,9753204271,Salary,356657.5,2015-03-11,581,Overdue,114,Pending,Unemployed,Diploma,Single
+BANK0316,Sneha Gupta,34,Female,Mumbai,sneha.gupta.bank0316@example.com,9827133833,Fixed Deposit,292659.09,2019-11-23,307,Closed,71,Pending,Business,Graduate,Married
+BANK0317,Riya Joseph,24,Male,Pune,riya.joseph.bank0317@example.com,9396871629,Salary,430884.31,2025-10-21,567,Closed,24,Verified,Business,Graduate,Single
+BANK0318,Karthik Pillai,33,Female,Delhi,karthik.pillai.bank0318@example.com,9809239039,Salary,340697.12,2016-04-10,326,Overdue,37,Pending,Unemployed,Diploma,Married
+BANK0319,Priya Nair,42,Female,Mysuru,priya.nair.bank0319@example.com,9714225883,Current,172240.36,2015-10-17,527,Overdue,116,Pending,Salaried,Postgraduate,Married
+BANK0320,Karthik Reddy,72,Male,Madurai,karthik.reddy.bank0320@example.com,9294493146,Salary,49703.93,2018-10-24,431,Closed,92,Verified,Salaried,High School,Married
+BANK0321,Sanjay Joseph,23,Female,Hyderabad,sanjay.joseph.bank0321@example.com,9899089320,Salary,210815.81,2019-12-26,639,Closed,33,Pending,Salaried,Diploma,Married
+BANK0322,Arjun Verma,25,Male,Salem,arjun.verma.bank0322@example.com,9726608478,Savings,236637.62,2025-07-21,499,No Loan,111,Pending,Contract,Graduate,Married
+BANK0323,Karthik Reddy,44,Male,Bengaluru,karthik.reddy.bank0323@example.com,9315066828,Salary,205186.73,2016-03-18,768,Active,40,Verified,Unemployed,Diploma,Single
+BANK0324,Ananya Gupta,39,Female,Salem,ananya.gupta.bank0324@example.com,9162291621,Savings,226574.56,2018-12-19,514,Active,73,Verified,Salaried,Postgraduate,Married
+BANK0325,Divya Pillai,66,Male,Trichy,divya.pillai.bank0325@example.com,9565694083,Fixed Deposit,202293.35,2016-12-22,788,Overdue,0,Verified,Business,Diploma,Married
+BANK0326,Nisha Singh,64,Male,Pune,nisha.singh.bank0326@example.com,9912659064,Current,9940.15,2023-05-15,304,Active,28,Pending,Salaried,Diploma,Married
+BANK0327,Riya Patel,24,Male,Trichy,riya.patel.bank0327@example.com,9428688580,Current,33578.22,2023-08-09,346,Closed,37,Pending,Self-Employed,Graduate,Single
+BANK0328,Karthik Das,51,Female,Salem,karthik.das.bank0328@example.com,9243655310,Salary,498073.32,2022-07-30,801,Closed,96,Verified,Contract,Diploma,Married
+BANK0329,Kavya Mehta,69,Male,Hyderabad,kavya.mehta.bank0329@example.com,9340863230,Current,106383.92,2024-01-18,322,Active,15,Pending,Contract,Postgraduate,Single
+BANK0330,Aditya Nair,74,Female,Trichy,aditya.nair.bank0330@example.com,9152169850,Savings,331322.99,2020-09-26,320,No Loan,88,Verified,Self-Employed,High School,Married
+BANK0331,Priya Gupta,42,Female,Mumbai,priya.gupta.bank0331@example.com,9609379184,Current,103541.96,2017-10-09,309,Closed,53,Verified,Self-Employed,Diploma,Married
+BANK0332,Karthik Reddy,57,Female,Chennai,karthik.reddy.bank0332@example.com,9649309976,Savings,142070.68,2018-01-28,408,Overdue,25,Verified,Business,Graduate,Single
+BANK0333,Rahul Verma,51,Female,Mysuru,rahul.verma.bank0333@example.com,9539972403,Salary,81026.43,2019-07-11,808,Active,88,Pending,Salaried,Graduate,Single
+BANK0334,Sanjay Singh,18,Male,Chennai,sanjay.singh.bank0334@example.com,9218574293,Fixed Deposit,75423.1,2015-04-15,392,No Loan,92,Verified,Self-Employed,Diploma,Single
+BANK0335,Rahul Joseph,32,Female,Mumbai,rahul.joseph.bank0335@example.com,9598514021,Savings,50804.65,2025-03-30,478,No Loan,109,Pending,Salaried,Diploma,Married
+BANK0336,Sneha Pillai,61,Female,Mysuru,sneha.pillai.bank0336@example.com,9224447810,Savings,425771.7,2022-01-05,346,No Loan,109,Verified,Salaried,Graduate,Married
+BANK0337,Kavya Iyer,40,Male,Mumbai,kavya.iyer.bank0337@example.com,9887125715,Savings,186938.45,2024-10-25,650,Active,14,Pending,Salaried,Graduate,Married
+BANK0338,Vijay Gupta,35,Female,Kochi,vijay.gupta.bank0338@example.com,9958885115,Fixed Deposit,324774.4,2023-08-26,470,No Loan,16,Verified,Self-Employed,Graduate,Single
+BANK0339,Kavya Kumar,44,Male,Salem,kavya.kumar.bank0339@example.com,9570473733,Current,306050.26,2025-10-29,667,No Loan,110,Verified,Self-Employed,Graduate,Married
+BANK0340,Divya Mehta,49,Female,Kochi,divya.mehta.bank0340@example.com,9149362414,Savings,131544.82,2017-07-14,621,No Loan,90,Verified,Salaried,Graduate,Single
+BANK0341,Sanjay Rao,51,Female,Salem,sanjay.rao.bank0341@example.com,9880236611,Current,241482.91,2017-02-19,694,Active,107,Verified,Salaried,High School,Married
+BANK0342,Aarav Joseph,28,Female,Kochi,aarav.joseph.bank0342@example.com,9277601056,Savings,375963.57,2026-05-04,628,Active,42,Pending,Salaried,Postgraduate,Married
+BANK0343,Aditya Rao,32,Female,Hyderabad,aditya.rao.bank0343@example.com,9184643708,Fixed Deposit,222650.25,2023-06-29,758,No Loan,109,Pending,Salaried,Graduate,Single
+BANK0344,Arjun Iyer,25,Female,Salem,arjun.iyer.bank0344@example.com,9119079456,Savings,202316.39,2026-02-26,336,No Loan,105,Verified,Business,Graduate,Single
+BANK0345,Pooja Das,58,Male,Madurai,pooja.das.bank0345@example.com,9322104833,Fixed Deposit,475227.21,2021-10-31,672,No Loan,104,Verified,Salaried,High School,Married
+BANK0346,Arjun Iyer,53,Female,Salem,arjun.iyer.bank0346@example.com,9490084550,Fixed Deposit,57897.66,2025-08-11,527,No Loan,43,Pending,Salaried,Diploma,Married
+BANK0347,Riya Rao,51,Male,Chennai,riya.rao.bank0347@example.com,9149153870,Current,246718.65,2023-05-21,719,No Loan,32,Verified,Business,High School,Single
+BANK0348,Krishna Kumar,72,Male,Kochi,krishna.kumar.bank0348@example.com,9985358270,Current,358677.17,2023-10-24,410,Overdue,5,Verified,Self-Employed,Diploma,Single
+BANK0349,Arjun Gupta,60,Male,Kochi,arjun.gupta.bank0349@example.com,9104657489,Savings,277059.94,2026-04-23,743,Overdue,118,Verified,Salaried,Postgraduate,Married
+BANK0350,Rohan Patel,64,Male,Delhi,rohan.patel.bank0350@example.com,9806008664,Salary,252550.95,2017-11-17,693,Overdue,77,Verified,Salaried,Graduate,Single
+BANK0351,Rahul Nair,39,Female,Bengaluru,rahul.nair.bank0351@example.com,9248369653,Fixed Deposit,301659.7,2021-08-06,824,Closed,107,Pending,Contract,Postgraduate,Married
+BANK0352,Nisha Joseph,31,Male,Trichy,nisha.joseph.bank0352@example.com,9867064555,Salary,343619.04,2019-07-04,435,Active,64,Pending,Salaried,Graduate,Divorced
+BANK0353,Diya Pillai,40,Male,Trichy,diya.pillai.bank0353@example.com,9816354624,Fixed Deposit,337447.5,2025-10-10,846,Closed,112,Pending,Contract,Graduate,Married
+BANK0354,Aarav Rao,24,Female,Bengaluru,aarav.rao.bank0354@example.com,9156978109,Savings,100751.31,2015-07-27,464,Closed,87,Pending,Business,Graduate,Married
+BANK0355,Ishaan Verma,21,Male,Madurai,ishaan.verma.bank0355@example.com,9134688715,Salary,407199.08,2021-08-14,404,Active,95,Pending,Self-Employed,Graduate,Married
+BANK0356,Meera Rao,68,Female,Salem,meera.rao.bank0356@example.com,9150444260,Fixed Deposit,194389.77,2021-06-14,620,No Loan,1,Pending,Self-Employed,Graduate,Married
+BANK0357,Krishna Das,73,Male,Salem,krishna.das.bank0357@example.com,9856589701,Salary,377798.74,2024-12-08,501,Active,37,Pending,Self-Employed,High School,Married
+BANK0358,Kavya Joseph,22,Male,Mysuru,kavya.joseph.bank0358@example.com,9651738859,Savings,189221.92,2019-03-12,738,Closed,71,Pending,Unemployed,Graduate,Single
+BANK0359,Ishaan Patel,55,Male,Pune,ishaan.patel.bank0359@example.com,9600719456,Current,20930.35,2020-09-20,630,No Loan,99,Pending,Unemployed,Graduate,Married
+BANK0360,Divya Pillai,54,Male,Mysuru,divya.pillai.bank0360@example.com,9441298507,Current,478536.87,2023-01-12,833,No Loan,100,Verified,Salaried,Graduate,Married
+BANK0361,Priya Rao,52,Male,Pune,priya.rao.bank0361@example.com,9337509631,Current,332003.9,2024-01-18,639,Closed,37,Verified,Business,Graduate,Single
+BANK0362,Pooja Rao,48,Male,Salem,pooja.rao.bank0362@example.com,9471522500,Fixed Deposit,120933.59,2015-03-14,549,No Loan,87,Pending,Self-Employed,Postgraduate,Single
+BANK0363,Vijay Mehta,68,Female,Mumbai,vijay.mehta.bank0363@example.com,9680075399,Salary,13328.16,2017-07-17,829,Closed,65,Pending,Salaried,Postgraduate,Single
+BANK0364,Divya Sharma,36,Female,Madurai,divya.sharma.bank0364@example.com,9188417749,Savings,84530.01,2019-04-27,850,No Loan,80,Verified,Salaried,Postgraduate,Married
+BANK0365,Krishna Joseph,58,Female,Delhi,krishna.joseph.bank0365@example.com,9997288545,Savings,103584.2,2019-10-13,745,No Loan,95,Verified,Self-Employed,Diploma,Divorced
+BANK0366,Aarav Gupta,63,Male,Chennai,aarav.gupta.bank0366@example.com,9178649475,Savings,89818.09,2022-06-10,557,No Loan,73,Verified,Contract,Postgraduate,Divorced
+BANK0367,Rahul Nair,42,Female,Delhi,rahul.nair.bank0367@example.com,9564957091,Salary,9428.59,2025-02-12,421,No Loan,82,Verified,Self-Employed,Graduate,Single
+BANK0368,Rohan Sharma,62,Female,Madurai,rohan.sharma.bank0368@example.com,9213962171,Salary,393659.06,2016-08-17,608,No Loan,36,Pending,Salaried,Postgraduate,Married
+BANK0369,Vijay Nair,70,Female,Bengaluru,vijay.nair.bank0369@example.com,9672806655,Current,69054.35,2015-09-10,700,Closed,81,Verified,Self-Employed,Graduate,Married
+BANK0370,Riya Joseph,74,Male,Madurai,riya.joseph.bank0370@example.com,9696001601,Current,62494.34,2023-05-15,305,Overdue,68,Verified,Business,High School,Married
+BANK0371,Riya Singh,65,Male,Delhi,riya.singh.bank0371@example.com,9793563667,Current,81316.22,2022-09-17,526,Closed,24,Verified,Salaried,Postgraduate,Single
+BANK0372,Kavya Joseph,69,Male,Kochi,kavya.joseph.bank0372@example.com,9792213989,Savings,146035.68,2016-03-21,368,Closed,12,Verified,Salaried,High School,Divorced
+BANK0373,Rohan Gupta,39,Male,Salem,rohan.gupta.bank0373@example.com,9803808754,Current,50922.48,2023-01-04,371,Active,40,Pending,Business,Graduate,Single
+BANK0374,Arjun Iyer,57,Male,Trichy,arjun.iyer.bank0374@example.com,9263632841,Salary,404042.18,2021-11-09,738,Active,0,Pending,Salaried,Postgraduate,Single
+BANK0375,Meera Pillai,32,Female,Pune,meera.pillai.bank0375@example.com,9244209787,Salary,439065.03,2024-10-12,773,Overdue,45,Pending,Salaried,Graduate,Married
+BANK0376,Divya Rao,24,Female,Trichy,divya.rao.bank0376@example.com,9188018583,Salary,429498.11,2018-12-10,443,Active,33,Verified,Salaried,Diploma,Married
+BANK0377,Ananya Mehta,19,Male,Coimbatore,ananya.mehta.bank0377@example.com,9972568129,Fixed Deposit,384830.93,2026-05-17,517,No Loan,70,Pending,Self-Employed,Postgraduate,Married
+BANK0378,Nisha Mehta,52,Male,Bengaluru,nisha.mehta.bank0378@example.com,9492794766,Fixed Deposit,112430.02,2025-08-03,597,Active,59,Verified,Salaried,High School,Single
+BANK0379,Vijay Iyer,50,Female,Hyderabad,vijay.iyer.bank0379@example.com,9966015789,Current,378845.83,2015-03-28,443,Overdue,20,Verified,Self-Employed,Graduate,Married
+BANK0380,Rohan Das,60,Male,Mysuru,rohan.das.bank0380@example.com,9619157832,Salary,21169.49,2018-04-12,799,Active,8,Pending,Salaried,Diploma,Married
+BANK0381,Sneha Singh,20,Male,Pune,sneha.singh.bank0381@example.com,9516711804,Fixed Deposit,459033.07,2019-08-21,347,No Loan,83,Pending,Self-Employed,High School,Married
+BANK0382,Diya Thomas,51,Female,Mumbai,diya.thomas.bank0382@example.com,9721300772,Current,188953.13,2021-02-18,687,Closed,75,Verified,Self-Employed,Postgraduate,Single
+BANK0383,Karthik Reddy,42,Female,Delhi,karthik.reddy.bank0383@example.com,9478921345,Salary,243943.92,2019-12-31,793,No Loan,64,Verified,Salaried,Postgraduate,Married
+BANK0384,Arjun Patel,32,Male,Salem,arjun.patel.bank0384@example.com,9401516912,Current,75969.96,2016-09-23,461,Closed,77,Verified,Unemployed,Postgraduate,Married
+BANK0385,Meera Nair,69,Male,Chennai,meera.nair.bank0385@example.com,9617024564,Fixed Deposit,240031.56,2022-05-29,465,Overdue,2,Verified,Business,Postgraduate,Married
+BANK0386,Aditya Patel,54,Male,Salem,aditya.patel.bank0386@example.com,9650446037,Savings,445508.04,2018-08-12,450,No Loan,21,Pending,Business,High School,Married
+BANK0387,Kavya Rao,43,Female,Mysuru,kavya.rao.bank0387@example.com,9810543344,Salary,473679.68,2015-06-02,521,Overdue,77,Pending,Salaried,High School,Single
+BANK0388,Divya Patel,32,Female,Bengaluru,divya.patel.bank0388@example.com,9953212504,Current,311982.66,2024-03-19,823,Closed,21,Pending,Contract,Postgraduate,Married
+BANK0389,Arjun Das,55,Male,Delhi,arjun.das.bank0389@example.com,9513886549,Current,55176.49,2016-07-17,507,Overdue,105,Verified,Salaried,Diploma,Married
+BANK0390,Pooja Kumar,29,Female,Trichy,pooja.kumar.bank0390@example.com,9141915191,Savings,47501.79,2025-09-03,433,No Loan,114,Pending,Contract,Graduate,Single
+BANK0391,Karthik Nair,41,Female,Madurai,karthik.nair.bank0391@example.com,9560588284,Current,469272.39,2015-12-22,793,Overdue,44,Verified,Contract,High School,Married
+BANK0392,Priya Patel,34,Male,Chennai,priya.patel.bank0392@example.com,9404155269,Fixed Deposit,129644.68,2025-09-13,305,No Loan,73,Verified,Business,Graduate,Married
+BANK0393,Karthik Sharma,42,Female,Pune,karthik.sharma.bank0393@example.com,9538994061,Salary,54185.03,2019-08-10,736,Closed,33,Pending,Unemployed,Postgraduate,Married
+BANK0394,Rohan Iyer,57,Male,Delhi,rohan.iyer.bank0394@example.com,9910644910,Current,207200.85,2021-03-07,794,Active,47,Pending,Salaried,Diploma,Married
+BANK0395,Rahul Reddy,54,Female,Delhi,rahul.reddy.bank0395@example.com,9890040374,Current,427644.46,2022-09-21,421,Active,57,Verified,Self-Employed,Postgraduate,Divorced
+BANK0396,Diya Singh,50,Female,Madurai,diya.singh.bank0396@example.com,9759304715,Savings,81208.27,2023-12-26,305,No Loan,105,Verified,Self-Employed,High School,Single
+BANK0397,Divya Mehta,56,Male,Chennai,divya.mehta.bank0397@example.com,9382492880,Current,186046.73,2024-10-06,338,Overdue,119,Pending,Salaried,Diploma,Single
+BANK0398,Pooja Joseph,51,Female,Trichy,pooja.joseph.bank0398@example.com,9161700457,Current,320505.37,2021-06-04,749,No Loan,25,Pending,Salaried,High School,Married
+BANK0399,Krishna Sharma,68,Male,Mysuru,krishna.sharma.bank0399@example.com,9348754813,Current,337338.17,2026-06-14,668,Active,83,Verified,Salaried,Graduate,Divorced
+BANK0400,Kavya Kumar,35,Female,Salem,kavya.kumar.bank0400@example.com,9524281692,Fixed Deposit,293454.0,2023-12-17,830,No Loan,94,Verified,Self-Employed,Graduate,Married
+BANK0401,Ananya Rao,36,Female,Mumbai,ananya.rao.bank0401@example.com,9342982954,Current,227924.75,2022-10-22,713,No Loan,33,Verified,Business,Graduate,Single
+BANK0402,Priya Rao,24,Male,Mumbai,priya.rao.bank0402@example.com,9465035599,Savings,401668.18,2016-08-15,563,Closed,88,Pending,Business,Diploma,Single
+BANK0403,Vijay Das,48,Female,Kochi,vijay.das.bank0403@example.com,9831856709,Fixed Deposit,448365.39,2020-06-15,328,Overdue,14,Pending,Salaried,Diploma,Single
+BANK0404,Ananya Nair,58,Male,Mysuru,ananya.nair.bank0404@example.com,9346885603,Salary,206800.56,2019-12-11,661,No Loan,89,Pending,Salaried,High School,Single
+BANK0405,Meera Reddy,23,Female,Mysuru,meera.reddy.bank0405@example.com,9981622236,Salary,38938.38,2023-12-13,482,Overdue,40,Pending,Salaried,Graduate,Married
+BANK0406,Krishna Mehta,54,Male,Mysuru,krishna.mehta.bank0406@example.com,9833480882,Current,250000.67,2021-01-13,504,Active,94,Verified,Business,Graduate,Married
+BANK0407,Rahul Singh,32,Male,Trichy,rahul.singh.bank0407@example.com,9482281482,Current,389690.3,2019-07-20,422,No Loan,86,Pending,Business,Postgraduate,Married
+BANK0408,Pooja Sharma,66,Female,Pune,pooja.sharma.bank0408@example.com,9766436631,Salary,246677.85,2015-12-13,581,Overdue,23,Pending,Contract,Graduate,Married
+BANK0409,Vijay Singh,66,Male,Madurai,vijay.singh.bank0409@example.com,9958209543,Fixed Deposit,239681.72,2017-11-16,333,Closed,50,Verified,Business,Graduate,Single
+BANK0410,Arjun Kumar,62,Female,Pune,arjun.kumar.bank0410@example.com,9840034196,Savings,6898.17,2026-08-16,515,Overdue,74,Verified,Self-Employed,Graduate,Married
+BANK0411,Sanjay Iyer,57,Male,Madurai,sanjay.iyer.bank0411@example.com,9382232003,Current,135434.71,2020-10-28,651,Closed,23,Pending,Unemployed,Graduate,Married
+BANK0412,Priya Singh,44,Female,Delhi,priya.singh.bank0412@example.com,9400249927,Fixed Deposit,90764.73,2023-05-08,434,Active,104,Verified,Self-Employed,Graduate,Single
+BANK0413,Rahul Pillai,33,Female,Hyderabad,rahul.pillai.bank0413@example.com,9256598517,Current,237020.53,2024-09-10,309,Active,53,Pending,Self-Employed,Graduate,Married
+BANK0414,Ishaan Mehta,72,Female,Mysuru,ishaan.mehta.bank0414@example.com,9439009547,Fixed Deposit,150717.06,2026-08-06,348,Overdue,12,Verified,Self-Employed,High School,Married
+BANK0415,Aditya Singh,70,Female,Salem,aditya.singh.bank0415@example.com,9203403365,Fixed Deposit,372552.02,2020-09-14,566,Closed,46,Pending,Business,Diploma,Married
+BANK0416,Sneha Sharma,44,Female,Salem,sneha.sharma.bank0416@example.com,9750232313,Current,288850.02,2017-09-20,478,Closed,45,Pending,Self-Employed,Graduate,Married
+BANK0417,Karthik Gupta,67,Male,Delhi,karthik.gupta.bank0417@example.com,9758916457,Salary,232412.29,2025-01-09,448,Active,81,Pending,Salaried,Graduate,Married
+BANK0418,Priya Joseph,57,Male,Chennai,priya.joseph.bank0418@example.com,9273945628,Salary,114880.75,2024-01-29,624,Closed,90,Pending,Contract,Graduate,Divorced
+BANK0419,Pooja Joseph,43,Female,Pune,pooja.joseph.bank0419@example.com,9903046674,Fixed Deposit,207580.54,2021-01-31,488,No Loan,16,Verified,Contract,High School,Single
+BANK0420,Rahul Thomas,62,Male,Bengaluru,rahul.thomas.bank0420@example.com,9526324454,Savings,48681.31,2016-10-17,784,No Loan,3,Pending,Salaried,Graduate,Married
+BANK0421,Karthik Pillai,23,Female,Trichy,karthik.pillai.bank0421@example.com,9266724578,Savings,327761.51,2017-05-01,699,Closed,29,Verified,Salaried,Graduate,Married
+BANK0422,Riya Gupta,58,Male,Madurai,riya.gupta.bank0422@example.com,9283188932,Savings,18542.34,2017-11-01,665,Closed,110,Pending,Salaried,Postgraduate,Married
+BANK0423,Arjun Verma,52,Female,Kochi,arjun.verma.bank0423@example.com,9245078524,Current,295824.63,2021-02-09,767,Overdue,67,Pending,Unemployed,High School,Single
+BANK0424,Sneha Gupta,52,Male,Kochi,sneha.gupta.bank0424@example.com,9430570947,Salary,206689.7,2020-02-04,459,Closed,1,Verified,Salaried,Diploma,Married
+BANK0425,Karthik Verma,66,Female,Mumbai,karthik.verma.bank0425@example.com,9603797467,Savings,344197.21,2018-01-21,803,Overdue,38,Verified,Salaried,High School,Single
+BANK0426,Priya Pillai,36,Male,Madurai,priya.pillai.bank0426@example.com,9501197060,Current,206456.2,2020-03-09,747,Overdue,31,Verified,Unemployed,Graduate,Married
+BANK0427,Vijay Verma,42,Female,Chennai,vijay.verma.bank0427@example.com,9553376084,Current,258788.42,2019-12-13,578,Closed,83,Pending,Salaried,Graduate,Single
+BANK0428,Priya Singh,72,Male,Bengaluru,priya.singh.bank0428@example.com,9410950586,Savings,318809.46,2016-07-14,763,Closed,89,Pending,Contract,Graduate,Single
+BANK0429,Krishna Iyer,19,Male,Madurai,krishna.iyer.bank0429@example.com,9123762858,Current,486193.97,2018-05-31,588,Closed,16,Pending,Salaried,Postgraduate,Married
+BANK0430,Aarav Singh,23,Male,Kochi,aarav.singh.bank0430@example.com,9333203933,Salary,210701.27,2018-05-19,810,Closed,59,Verified,Salaried,Graduate,Married
+BANK0431,Sanjay Kumar,71,Male,Mumbai,sanjay.kumar.bank0431@example.com,9932850970,Fixed Deposit,36620.96,2018-04-11,781,Active,24,Pending,Business,Diploma,Married
+BANK0432,Vijay Verma,18,Male,Hyderabad,vijay.verma.bank0432@example.com,9513173592,Fixed Deposit,124333.93,2017-09-26,334,Active,58,Verified,Contract,Graduate,Married
+BANK0433,Karthik Joseph,31,Female,Salem,karthik.joseph.bank0433@example.com,9435124877,Salary,80147.11,2025-08-09,343,No Loan,32,Pending,Salaried,Graduate,Single
+BANK0434,Riya Singh,41,Male,Hyderabad,riya.singh.bank0434@example.com,9221256011,Current,316821.57,2016-03-02,632,No Loan,21,Pending,Salaried,Graduate,Single
+BANK0435,Rohan Kumar,43,Male,Coimbatore,rohan.kumar.bank0435@example.com,9723926702,Fixed Deposit,344514.86,2020-06-14,458,Closed,98,Verified,Business,High School,Married
+BANK0436,Meera Patel,49,Female,Trichy,meera.patel.bank0436@example.com,9463377959,Savings,30827.79,2017-01-18,457,No Loan,16,Pending,Salaried,Graduate,Married
+BANK0437,Meera Iyer,53,Female,Mysuru,meera.iyer.bank0437@example.com,9307194917,Savings,344935.74,2022-10-16,666,Active,32,Verified,Salaried,Diploma,Married
+BANK0438,Divya Thomas,46,Male,Mysuru,divya.thomas.bank0438@example.com,9626232278,Current,283784.17,2021-08-11,656,Closed,93,Pending,Salaried,Postgraduate,Single
+BANK0439,Rahul Verma,71,Male,Madurai,rahul.verma.bank0439@example.com,9266457342,Fixed Deposit,148540.66,2018-08-06,569,Closed,58,Verified,Salaried,Graduate,Married
+BANK0440,Karthik Nair,64,Male,Trichy,karthik.nair.bank0440@example.com,9490922764,Current,161026.35,2019-02-28,364,Overdue,24,Pending,Salaried,Graduate,Married
+BANK0441,Nisha Patel,57,Female,Delhi,nisha.patel.bank0441@example.com,9788165352,Salary,56121.6,2021-05-08,835,No Loan,5,Verified,Self-Employed,Postgraduate,Married
+BANK0442,Kavya Verma,20,Male,Kochi,kavya.verma.bank0442@example.com,9305746804,Savings,16876.76,2019-07-14,697,Overdue,67,Pending,Salaried,Diploma,Divorced
+BANK0443,Aditya Iyer,32,Male,Hyderabad,aditya.iyer.bank0443@example.com,9804105516,Fixed Deposit,464273.46,2016-08-03,381,Overdue,102,Verified,Salaried,Graduate,Married
+BANK0444,Sneha Rao,65,Female,Mysuru,sneha.rao.bank0444@example.com,9162599172,Salary,264981.39,2024-04-30,372,Closed,9,Verified,Salaried,Diploma,Single
+BANK0445,Karthik Kumar,24,Male,Delhi,karthik.kumar.bank0445@example.com,9303431575,Current,263569.82,2020-03-07,554,Active,71,Pending,Salaried,Postgraduate,Married
+BANK0446,Diya Pillai,58,Male,Kochi,diya.pillai.bank0446@example.com,9854357762,Fixed Deposit,441529.19,2023-01-11,470,Active,70,Pending,Salaried,Graduate,Divorced
+BANK0447,Karthik Iyer,60,Male,Trichy,karthik.iyer.bank0447@example.com,9575680693,Salary,451340.0,2018-07-19,632,Closed,52,Pending,Salaried,Graduate,Married
+BANK0448,Sanjay Das,33,Female,Madurai,sanjay.das.bank0448@example.com,9899484915,Salary,180644.26,2019-10-19,763,Overdue,50,Verified,Salaried,Graduate,Married
+BANK0449,Aditya Reddy,56,Male,Bengaluru,aditya.reddy.bank0449@example.com,9424100009,Savings,150866.65,2015-05-14,527,Active,109,Pending,Salaried,Graduate,Single
+BANK0450,Aarav Pillai,70,Female,Madurai,aarav.pillai.bank0450@example.com,9697347361,Current,48049.28,2021-03-10,771,Closed,19,Verified,Salaried,High School,Married
+BANK0451,Rahul Iyer,74,Male,Mumbai,rahul.iyer.bank0451@example.com,9970884334,Salary,46860.66,2020-08-08,709,Active,93,Verified,Self-Employed,Postgraduate,Single
+BANK0452,Sanjay Pillai,48,Female,Mysuru,sanjay.pillai.bank0452@example.com,9854677179,Savings,298020.37,2018-11-17,607,No Loan,93,Pending,Self-Employed,Graduate,Married
+BANK0453,Ananya Pillai,21,Female,Delhi,ananya.pillai.bank0453@example.com,9547236783,Savings,435023.47,2022-07-02,532,No Loan,81,Pending,Contract,Graduate,Married
+BANK0454,Aditya Reddy,51,Female,Madurai,aditya.reddy.bank0454@example.com,9706570606,Current,164088.98,2015-12-04,526,Active,6,Pending,Salaried,High School,Single
+BANK0455,Arjun Pillai,56,Male,Hyderabad,arjun.pillai.bank0455@example.com,9563787397,Salary,393397.78,2026-04-27,451,Active,43,Verified,Unemployed,Graduate,Single
+BANK0456,Divya Das,65,Male,Delhi,divya.das.bank0456@example.com,9381919481,Savings,199864.99,2016-02-08,744,Active,97,Verified,Self-Employed,Postgraduate,Single
+BANK0457,Divya Rao,30,Female,Salem,divya.rao.bank0457@example.com,9713461653,Current,281022.64,2025-12-10,836,Active,31,Verified,Self-Employed,High School,Married
+BANK0458,Rahul Pillai,45,Female,Trichy,rahul.pillai.bank0458@example.com,9196201527,Savings,336202.03,2022-04-03,733,Closed,44,Verified,Self-Employed,Diploma,Married
+BANK0459,Sanjay Iyer,56,Female,Bengaluru,sanjay.iyer.bank0459@example.com,9475505122,Fixed Deposit,311967.9,2015-07-18,751,No Loan,118,Verified,Unemployed,Graduate,Married
+BANK0460,Krishna Joseph,41,Male,Chennai,krishna.joseph.bank0460@example.com,9220658235,Savings,122281.11,2018-07-01,451,Closed,1,Pending,Salaried,High School,Single
+BANK0461,Diya Reddy,46,Male,Pune,diya.reddy.bank0461@example.com,9324422284,Current,102696.88,2025-07-26,835,Closed,70,Pending,Salaried,Graduate,Single
+BANK0462,Pooja Thomas,27,Female,Trichy,pooja.thomas.bank0462@example.com,9812458132,Savings,128472.72,2015-05-31,361,Closed,25,Pending,Contract,Graduate,Married
+BANK0463,Aditya Gupta,59,Male,Delhi,aditya.gupta.bank0463@example.com,9809069927,Salary,331827.84,2015-03-10,668,No Loan,2,Pending,Salaried,Graduate,Single
+BANK0464,Vijay Singh,42,Male,Chennai,vijay.singh.bank0464@example.com,9438718269,Fixed Deposit,433519.6,2026-05-28,844,No Loan,23,Verified,Salaried,Graduate,Single
+BANK0465,Karthik Gupta,53,Male,Hyderabad,karthik.gupta.bank0465@example.com,9668455421,Salary,167451.25,2015-06-26,702,Active,2,Pending,Unemployed,High School,Divorced
+BANK0466,Sneha Iyer,58,Male,Madurai,sneha.iyer.bank0466@example.com,9396222040,Savings,313270.39,2021-10-12,696,No Loan,120,Pending,Contract,High School,Married
+BANK0467,Meera Patel,39,Male,Bengaluru,meera.patel.bank0467@example.com,9194269176,Fixed Deposit,260838.2,2023-10-24,532,Overdue,30,Verified,Contract,Diploma,Single
+BANK0468,Priya Reddy,56,Female,Madurai,priya.reddy.bank0468@example.com,9241489248,Current,326583.85,2022-05-21,507,Active,39,Verified,Salaried,High School,Single
+BANK0469,Priya Mehta,67,Male,Trichy,priya.mehta.bank0469@example.com,9269702658,Salary,34839.21,2018-04-04,845,No Loan,23,Pending,Salaried,High School,Single
+BANK0470,Ishaan Thomas,19,Female,Delhi,ishaan.thomas.bank0470@example.com,9425717549,Fixed Deposit,373059.26,2022-02-23,580,Active,99,Verified,Salaried,Diploma,Divorced
+BANK0471,Diya Patel,29,Male,Trichy,diya.patel.bank0471@example.com,9386541544,Current,298583.99,2015-08-03,536,No Loan,45,Verified,Self-Employed,Graduate,Married
+BANK0472,Divya Patel,50,Male,Salem,divya.patel.bank0472@example.com,9501535849,Current,426212.59,2025-07-07,803,Overdue,17,Verified,Self-Employed,Graduate,Single
+BANK0473,Krishna Singh,20,Male,Mumbai,krishna.singh.bank0473@example.com,9543502646,Current,371440.96,2024-03-01,507,Active,8,Verified,Contract,Postgraduate,Single
+BANK0474,Arjun Verma,57,Female,Pune,arjun.verma.bank0474@example.com,9591285126,Current,214350.29,2025-12-27,342,Overdue,92,Pending,Salaried,Diploma,Married
+BANK0475,Vijay Das,65,Female,Chennai,vijay.das.bank0475@example.com,9584912105,Fixed Deposit,413678.04,2015-11-12,343,Active,66,Pending,Self-Employed,Diploma,Married
+BANK0476,Aditya Rao,42,Female,Coimbatore,aditya.rao.bank0476@example.com,9303850254,Salary,220337.38,2026-07-30,611,Closed,59,Verified,Self-Employed,Graduate,Married
+BANK0477,Priya Reddy,57,Female,Madurai,priya.reddy.bank0477@example.com,9252728624,Fixed Deposit,415116.86,2016-03-22,762,No Loan,92,Verified,Salaried,Diploma,Married
+BANK0478,Kavya Pillai,55,Female,Delhi,kavya.pillai.bank0478@example.com,9447313528,Fixed Deposit,13431.14,2018-01-13,764,Active,112,Pending,Salaried,Diploma,Single
+BANK0479,Ananya Reddy,38,Male,Mysuru,ananya.reddy.bank0479@example.com,9232654592,Savings,57968.3,2018-09-05,760,Closed,10,Pending,Contract,Diploma,Single
+BANK0480,Karthik Das,28,Female,Delhi,karthik.das.bank0480@example.com,9147143794,Current,456214.14,2023-06-30,453,Active,111,Verified,Salaried,Graduate,Single
+BANK0481,Kavya Pillai,63,Female,Mumbai,kavya.pillai.bank0481@example.com,9432342748,Fixed Deposit,145101.49,2016-02-25,485,No Loan,115,Verified,Salaried,Postgraduate,Single
+BANK0482,Krishna Sharma,57,Male,Kochi,krishna.sharma.bank0482@example.com,9634323575,Fixed Deposit,272207.08,2020-09-04,305,Overdue,30,Verified,Salaried,Graduate,Single
+BANK0483,Rohan Joseph,48,Female,Kochi,rohan.joseph.bank0483@example.com,9185260383,Savings,123111.87,2025-03-06,584,Active,6,Verified,Salaried,High School,Married
+BANK0484,Ishaan Sharma,59,Male,Bengaluru,ishaan.sharma.bank0484@example.com,9134823688,Salary,166224.43,2022-10-30,389,No Loan,13,Pending,Business,Graduate,Divorced
+BANK0485,Kavya Patel,61,Female,Salem,kavya.patel.bank0485@example.com,9842507091,Current,483180.34,2021-05-18,668,No Loan,11,Pending,Self-Employed,Diploma,Single
+BANK0486,Sanjay Iyer,75,Male,Delhi,sanjay.iyer.bank0486@example.com,9691063829,Savings,147123.52,2023-07-02,437,No Loan,88,Pending,Salaried,Graduate,Married
+BANK0487,Sanjay Rao,44,Male,Mysuru,sanjay.rao.bank0487@example.com,9324466780,Savings,55541.81,2026-10-07,841,No Loan,61,Pending,Salaried,Graduate,Single
+BANK0488,Priya Das,72,Female,Madurai,priya.das.bank0488@example.com,9717554752,Salary,463625.58,2022-02-05,808,Overdue,63,Verified,Salaried,Graduate,Single
+BANK0489,Pooja Singh,63,Male,Coimbatore,pooja.singh.bank0489@example.com,9226923950,Savings,232977.93,2021-07-07,420,Active,102,Pending,Self-Employed,High School,Married
+BANK0490,Priya Sharma,39,Male,Salem,priya.sharma.bank0490@example.com,9327996120,Savings,320668.54,2022-11-04,588,Closed,101,Verified,Business,Graduate,Single
+BANK0491,Riya Reddy,50,Male,Chennai,riya.reddy.bank0491@example.com,9836410568,Salary,171339.43,2022-04-07,329,Active,24,Pending,Contract,High School,Single
+BANK0492,Sanjay Mehta,61,Female,Coimbatore,sanjay.mehta.bank0492@example.com,9793263796,Current,241266.27,2025-09-29,771,Closed,59,Pending,Contract,High School,Married
+BANK0493,Aditya Verma,51,Female,Mysuru,aditya.verma.bank0493@example.com,9828209159,Salary,278033.43,2021-09-18,319,Active,73,Pending,Unemployed,High School,Married
+BANK0494,Sneha Kumar,27,Male,Pune,sneha.kumar.bank0494@example.com,9502911719,Current,285919.84,2021-04-16,698,Active,76,Verified,Business,Postgraduate,Married
+BANK0495,Riya Thomas,72,Male,Coimbatore,riya.thomas.bank0495@example.com,9391518128,Fixed Deposit,44312.09,2022-01-20,543,Closed,57,Pending,Self-Employed,High School,Divorced
+BANK0496,Krishna Rao,37,Male,Pune,krishna.rao.bank0496@example.com,9942827184,Savings,389117.41,2018-12-04,394,Overdue,64,Verified,Business,Diploma,Married
+BANK0497,Divya Mehta,50,Male,Pune,divya.mehta.bank0497@example.com,9619124046,Salary,387991.07,2018-06-16,446,No Loan,105,Verified,Salaried,Postgraduate,Married
+BANK0498,Krishna Thomas,20,Female,Mysuru,krishna.thomas.bank0498@example.com,9660863541,Savings,3050.82,2025-04-21,345,No Loan,42,Pending,Unemployed,Diploma,Married
+BANK0499,Aditya Kumar,51,Male,Trichy,aditya.kumar.bank0499@example.com,9914426538,Salary,319786.58,2022-01-03,514,Closed,25,Verified,Salaried,Postgraduate,Single
+BANK0500,Riya Reddy,52,Female,Salem,riya.reddy.bank0500@example.com,9226326628,Salary,75511.04,2022-02-27,580,No Loan,1,Verified,Salaried,Graduate,Single
+BANK0501,Krishna Rao,40,Female,Bengaluru,krishna.rao.bank0501@example.com,9856294020,Salary,287467.39,2022-02-22,475,No Loan,39,Pending,Salaried,Graduate,Married
+BANK0502,Nisha Gupta,21,Male,Kochi,nisha.gupta.bank0502@example.com,9825308245,Savings,53857.53,2017-12-01,355,No Loan,54,Pending,Unemployed,Graduate,Single
+BANK0503,Kavya Thomas,56,Female,Pune,kavya.thomas.bank0503@example.com,9435480597,Salary,408903.55,2024-12-31,846,No Loan,118,Pending,Self-Employed,Postgraduate,Single
+BANK0504,Rohan Patel,23,Male,Kochi,rohan.patel.bank0504@example.com,9433280534,Fixed Deposit,235802.39,2025-07-03,529,Active,110,Pending,Salaried,Postgraduate,Married
+BANK0505,Sneha Nair,29,Female,Kochi,sneha.nair.bank0505@example.com,9623456368,Savings,33617.23,2022-05-30,415,Closed,61,Pending,Self-Employed,Graduate,Married
+BANK0506,Kavya Reddy,67,Female,Trichy,kavya.reddy.bank0506@example.com,9236788265,Savings,203437.31,2022-10-26,409,Closed,71,Verified,Unemployed,Graduate,Single
+BANK0507,Riya Rao,47,Female,Delhi,riya.rao.bank0507@example.com,9356168265,Current,274426.56,2023-12-28,793,Overdue,8,Pending,Salaried,Postgraduate,Married
+BANK0508,Krishna Verma,62,Female,Trichy,krishna.verma.bank0508@example.com,9945385686,Salary,272718.91,2024-09-01,541,Active,84,Verified,Salaried,Diploma,Married
+BANK0509,Rohan Verma,49,Female,Trichy,rohan.verma.bank0509@example.com,9597044149,Salary,277988.76,2017-07-25,755,Active,39,Pending,Business,High School,Married
+BANK0510,Ananya Das,24,Female,Kochi,ananya.das.bank0510@example.com,9792551787,Savings,46175.97,2023-07-02,442,No Loan,96,Verified,Salaried,High School,Married
+BANK0511,Ishaan Gupta,52,Female,Trichy,ishaan.gupta.bank0511@example.com,9720549135,Fixed Deposit,98637.64,2021-07-15,624,Closed,72,Pending,Salaried,Postgraduate,Married
+BANK0512,Priya Thomas,40,Female,Coimbatore,priya.thomas.bank0512@example.com,9756583196,Fixed Deposit,423970.74,2017-01-01,601,No Loan,47,Verified,Unemployed,Postgraduate,Single
+BANK0513,Aarav Thomas,53,Male,Mumbai,aarav.thomas.bank0513@example.com,9133484360,Current,216426.04,2023-01-21,703,Closed,91,Pending,Self-Employed,Postgraduate,Married
+BANK0514,Vijay Nair,45,Female,Bengaluru,vijay.nair.bank0514@example.com,9609889300,Current,94925.19,2019-09-27,693,Closed,107,Pending,Salaried,High School,Married
+BANK0515,Ishaan Reddy,73,Male,Coimbatore,ishaan.reddy.bank0515@example.com,9177036673,Savings,72853.95,2017-10-25,798,Overdue,17,Verified,Salaried,Postgraduate,Married
+BANK0516,Ishaan Joseph,69,Female,Mysuru,ishaan.joseph.bank0516@example.com,9749001242,Fixed Deposit,312000.99,2024-04-29,765,Overdue,70,Pending,Business,Graduate,Married
+BANK0517,Vijay Iyer,32,Female,Trichy,vijay.iyer.bank0517@example.com,9107977894,Fixed Deposit,423555.14,2019-03-03,542,Closed,52,Pending,Self-Employed,Graduate,Single
+BANK0518,Aditya Sharma,54,Male,Pune,aditya.sharma.bank0518@example.com,9221509314,Fixed Deposit,480907.14,2025-11-02,381,Active,93,Pending,Self-Employed,Postgraduate,Single
+BANK0519,Arjun Rao,23,Female,Chennai,arjun.rao.bank0519@example.com,9363315107,Fixed Deposit,315700.76,2026-09-27,379,Closed,78,Verified,Business,High School,Married
+BANK0520,Sanjay Rao,67,Female,Kochi,sanjay.rao.bank0520@example.com,9650467819,Fixed Deposit,287408.69,2015-03-30,639,Overdue,45,Pending,Salaried,Graduate,Single
+BANK0521,Riya Patel,20,Female,Trichy,riya.patel.bank0521@example.com,9379648695,Savings,315020.73,2021-10-26,473,No Loan,84,Pending,Unemployed,Postgraduate,Single
+BANK0522,Pooja Sharma,36,Male,Bengaluru,pooja.sharma.bank0522@example.com,9642879692,Savings,425871.18,2025-11-15,584,Closed,16,Pending,Business,Diploma,Single
+BANK0523,Rahul Verma,34,Female,Chennai,rahul.verma.bank0523@example.com,9748348443,Current,455155.61,2015-04-27,454,Overdue,47,Verified,Business,High School,Single
+BANK0524,Rahul Pillai,62,Female,Bengaluru,rahul.pillai.bank0524@example.com,9958319153,Savings,172081.15,2020-04-18,386,Active,76,Verified,Salaried,Graduate,Single
+BANK0525,Divya Pillai,44,Male,Salem,divya.pillai.bank0525@example.com,9572645050,Current,106217.52,2023-08-05,653,No Loan,82,Pending,Business,Graduate,Single
+BANK0526,Diya Sharma,28,Female,Kochi,diya.sharma.bank0526@example.com,9423590493,Fixed Deposit,373329.12,2025-05-29,845,Active,48,Pending,Salaried,High School,Married
+BANK0527,Divya Reddy,27,Male,Mumbai,divya.reddy.bank0527@example.com,9956104065,Fixed Deposit,191620.04,2024-10-01,623,No Loan,12,Pending,Salaried,Postgraduate,Married
+BANK0528,Priya Das,59,Female,Mumbai,priya.das.bank0528@example.com,9386783352,Savings,128416.62,2021-02-11,700,Overdue,98,Verified,Self-Employed,Postgraduate,Married
+BANK0529,Rohan Pillai,30,Female,Salem,rohan.pillai.bank0529@example.com,9841180707,Current,157321.64,2026-08-30,310,No Loan,106,Verified,Self-Employed,High School,Single
+BANK0530,Aarav Nair,24,Male,Kochi,aarav.nair.bank0530@example.com,9477437882,Current,362900.08,2017-05-01,557,Active,4,Verified,Salaried,High School,Married
+BANK0531,Pooja Kumar,21,Female,Salem,pooja.kumar.bank0531@example.com,9230771153,Savings,44106.8,2019-11-12,433,Overdue,84,Verified,Salaried,High School,Married
+BANK0532,Diya Thomas,29,Female,Kochi,diya.thomas.bank0532@example.com,9809182681,Savings,319751.47,2020-09-06,583,Overdue,88,Pending,Salaried,Diploma,Single
+BANK0533,Rahul Patel,67,Female,Coimbatore,rahul.patel.bank0533@example.com,9511027302,Fixed Deposit,166994.71,2016-08-29,361,Closed,104,Pending,Salaried,Graduate,Divorced
+BANK0534,Kavya Gupta,22,Male,Trichy,kavya.gupta.bank0534@example.com,9521588025,Current,323096.11,2026-01-11,411,Active,69,Pending,Self-Employed,High School,Single
+BANK0535,Krishna Das,59,Female,Mysuru,krishna.das.bank0535@example.com,9378095116,Savings,18395.59,2017-05-20,372,Closed,99,Pending,Unemployed,High School,Married
+BANK0536,Aarav Mehta,49,Male,Salem,aarav.mehta.bank0536@example.com,9100931617,Savings,332638.31,2018-05-04,572,Active,89,Pending,Self-Employed,Graduate,Married
+BANK0537,Vijay Das,18,Male,Kochi,vijay.das.bank0537@example.com,9613398300,Fixed Deposit,202552.46,2026-07-24,371,Active,0,Pending,Contract,High School,Single
+BANK0538,Divya Kumar,54,Female,Salem,divya.kumar.bank0538@example.com,9425159172,Fixed Deposit,28542.14,2023-01-19,392,Closed,68,Pending,Self-Employed,Postgraduate,Married
+BANK0539,Ananya Verma,47,Male,Hyderabad,ananya.verma.bank0539@example.com,9289642463,Savings,483788.97,2021-07-03,495,Closed,89,Pending,Salaried,Graduate,Married
+BANK0540,Diya Joseph,62,Female,Chennai,diya.joseph.bank0540@example.com,9779454449,Fixed Deposit,367926.77,2023-01-22,443,No Loan,24,Verified,Unemployed,Diploma,Married
+BANK0541,Rohan Singh,49,Male,Madurai,rohan.singh.bank0541@example.com,9790853694,Salary,250342.39,2023-09-20,760,No Loan,4,Pending,Business,Postgraduate,Married
+BANK0542,Aditya Iyer,68,Female,Chennai,aditya.iyer.bank0542@example.com,9327287704,Fixed Deposit,470104.81,2015-12-17,849,Active,94,Verified,Salaried,Graduate,Divorced
+BANK0543,Ananya Sharma,65,Female,Salem,ananya.sharma.bank0543@example.com,9120468746,Fixed Deposit,453682.26,2018-03-05,346,Active,89,Verified,Business,Graduate,Married
+BANK0544,Aarav Patel,58,Female,Chennai,aarav.patel.bank0544@example.com,9589824472,Current,417840.73,2016-02-14,365,No Loan,14,Pending,Self-Employed,Postgraduate,Married
+BANK0545,Pooja Pillai,57,Male,Hyderabad,pooja.pillai.bank0545@example.com,9557641077,Salary,405948.99,2019-12-12,711,Closed,15,Verified,Business,Graduate,Single
+BANK0546,Sanjay Verma,68,Male,Trichy,sanjay.verma.bank0546@example.com,9286237999,Salary,32547.72,2019-10-13,580,Active,96,Pending,Salaried,Graduate,Single
+BANK0547,Kavya Thomas,41,Female,Hyderabad,kavya.thomas.bank0547@example.com,9724902501,Savings,67552.07,2018-09-13,685,Active,2,Pending,Contract,Diploma,Married
+BANK0548,Ananya Sharma,18,Male,Mysuru,ananya.sharma.bank0548@example.com,9799817448,Salary,208694.9,2019-01-09,787,Active,26,Verified,Salaried,Graduate,Single
+BANK0549,Rahul Rao,46,Male,Bengaluru,rahul.rao.bank0549@example.com,9755560172,Savings,298539.71,2024-03-29,811,No Loan,80,Pending,Business,Graduate,Married
+BANK0550,Sneha Nair,18,Male,Chennai,sneha.nair.bank0550@example.com,9669296859,Savings,309841.55,2020-04-14,819,Active,59,Verified,Self-Employed,Graduate,Married
+BANK0551,Rahul Sharma,30,Male,Salem,rahul.sharma.bank0551@example.com,9609396906,Fixed Deposit,88985.58,2017-07-12,344,No Loan,82,Pending,Self-Employed,Graduate,Single
+BANK0552,Riya Singh,45,Female,Trichy,riya.singh.bank0552@example.com,9964527175,Fixed Deposit,22615.42,2020-08-21,353,Active,20,Verified,Salaried,High School,Single
+BANK0553,Divya Rao,25,Male,Mysuru,divya.rao.bank0553@example.com,9577622795,Salary,210114.07,2016-08-03,633,Active,99,Verified,Salaried,Graduate,Married
+BANK0554,Sanjay Singh,24,Male,Delhi,sanjay.singh.bank0554@example.com,9314700940,Fixed Deposit,445791.21,2020-04-26,375,Overdue,74,Pending,Unemployed,Graduate,Single
+BANK0555,Aditya Mehta,45,Male,Trichy,aditya.mehta.bank0555@example.com,9588542730,Current,194277.82,2018-04-02,439,Overdue,92,Verified,Salaried,Postgraduate,Married
+BANK0556,Sneha Reddy,30,Male,Coimbatore,sneha.reddy.bank0556@example.com,9843255395,Savings,141021.47,2022-07-14,413,Overdue,58,Pending,Salaried,Diploma,Married
+BANK0557,Kavya Pillai,39,Female,Trichy,kavya.pillai.bank0557@example.com,9268349963,Current,289482.6,2019-12-07,535,No Loan,52,Pending,Salaried,Postgraduate,Married
+BANK0558,Krishna Das,48,Female,Coimbatore,krishna.das.bank0558@example.com,9883850598,Fixed Deposit,368353.25,2025-05-18,552,Active,41,Pending,Self-Employed,Graduate,Divorced
+BANK0559,Rohan Singh,75,Male,Coimbatore,rohan.singh.bank0559@example.com,9548579110,Savings,20989.28,2018-05-05,781,No Loan,54,Pending,Salaried,Graduate,Divorced
+BANK0560,Divya Pillai,69,Female,Kochi,divya.pillai.bank0560@example.com,9358247252,Savings,279685.0,2017-03-13,312,Overdue,27,Verified,Salaried,Graduate,Divorced
+BANK0561,Sneha Reddy,33,Male,Kochi,sneha.reddy.bank0561@example.com,9818371516,Salary,81739.61,2017-01-13,770,No Loan,58,Pending,Self-Employed,Diploma,Single
+BANK0562,Ishaan Verma,63,Male,Pune,ishaan.verma.bank0562@example.com,9773033141,Fixed Deposit,352247.13,2024-02-03,301,No Loan,49,Pending,Salaried,Diploma,Married
+BANK0563,Karthik Sharma,36,Female,Mysuru,karthik.sharma.bank0563@example.com,9757668199,Current,394058.23,2024-07-20,382,Closed,94,Verified,Self-Employed,Graduate,Single
+BANK0564,Karthik Mehta,61,Male,Chennai,karthik.mehta.bank0564@example.com,9511194794,Salary,233211.08,2023-03-01,341,Closed,46,Verified,Contract,Graduate,Married
+BANK0565,Nisha Thomas,22,Male,Pune,nisha.thomas.bank0565@example.com,9356229918,Savings,324870.16,2019-08-05,514,Active,41,Pending,Business,Graduate,Single
+BANK0566,Rahul Rao,61,Female,Coimbatore,rahul.rao.bank0566@example.com,9168042141,Salary,173268.06,2024-06-26,797,No Loan,60,Pending,Salaried,Postgraduate,Single
+BANK0567,Arjun Das,41,Male,Kochi,arjun.das.bank0567@example.com,9193747059,Savings,195950.57,2016-06-21,483,Closed,9,Verified,Self-Employed,Diploma,Married
+BANK0568,Kavya Reddy,25,Female,Bengaluru,kavya.reddy.bank0568@example.com,9319318381,Savings,147291.55,2018-04-27,435,Overdue,44,Pending,Self-Employed,Graduate,Married
+BANK0569,Arjun Thomas,59,Female,Hyderabad,arjun.thomas.bank0569@example.com,9167591527,Savings,436025.06,2015-06-25,537,Closed,52,Pending,Salaried,Graduate,Single
+BANK0570,Sanjay Gupta,55,Female,Mumbai,sanjay.gupta.bank0570@example.com,9709081834,Current,449242.68,2024-12-26,613,Active,101,Pending,Salaried,Postgraduate,Single
+BANK0571,Meera Gupta,41,Male,Bengaluru,meera.gupta.bank0571@example.com,9479160679,Salary,228507.34,2021-06-18,470,Active,91,Pending,Self-Employed,Diploma,Divorced
+BANK0572,Kavya Patel,71,Male,Hyderabad,kavya.patel.bank0572@example.com,9225539035,Savings,496892.75,2018-06-11,429,Overdue,33,Pending,Unemployed,High School,Single
+BANK0573,Kavya Singh,53,Female,Pune,kavya.singh.bank0573@example.com,9469202923,Current,187084.55,2015-10-12,466,Closed,15,Verified,Salaried,Diploma,Single
+BANK0574,Vijay Mehta,49,Female,Pune,vijay.mehta.bank0574@example.com,9267560926,Savings,485104.93,2018-04-05,819,Closed,82,Pending,Salaried,Graduate,Married
+BANK0575,Divya Mehta,36,Female,Mysuru,divya.mehta.bank0575@example.com,9574707201,Salary,344884.34,2018-04-19,790,No Loan,17,Verified,Salaried,Graduate,Married
+BANK0576,Riya Sharma,43,Female,Pune,riya.sharma.bank0576@example.com,9199300858,Salary,28461.78,2019-12-11,499,Active,100,Pending,Salaried,Graduate,Single
+BANK0577,Krishna Sharma,23,Female,Salem,krishna.sharma.bank0577@example.com,9193820269,Fixed Deposit,98030.57,2024-12-28,625,No Loan,116,Pending,Salaried,Diploma,Married
+BANK0578,Vijay Patel,63,Female,Delhi,vijay.patel.bank0578@example.com,9500324401,Savings,143040.53,2024-08-04,659,Closed,57,Verified,Salaried,Postgraduate,Married
+BANK0579,Krishna Thomas,74,Male,Delhi,krishna.thomas.bank0579@example.com,9962950738,Fixed Deposit,145028.38,2024-12-18,734,Overdue,17,Verified,Salaried,Graduate,Married
+BANK0580,Ishaan Singh,37,Male,Pune,ishaan.singh.bank0580@example.com,9170991275,Fixed Deposit,45135.69,2025-08-24,719,Closed,53,Verified,Business,Graduate,Single
+BANK0581,Nisha Gupta,63,Male,Bengaluru,nisha.gupta.bank0581@example.com,9993657840,Fixed Deposit,145442.12,2018-01-26,802,No Loan,105,Pending,Business,Graduate,Divorced
+BANK0582,Rohan Reddy,49,Male,Coimbatore,rohan.reddy.bank0582@example.com,9949565526,Savings,77857.96,2025-05-24,607,Overdue,15,Pending,Unemployed,Graduate,Married
+BANK0583,Priya Patel,49,Male,Chennai,priya.patel.bank0583@example.com,9921110081,Salary,247032.06,2020-06-27,368,Closed,74,Pending,Salaried,High School,Married
+BANK0584,Rohan Nair,73,Female,Salem,rohan.nair.bank0584@example.com,9611144821,Savings,187227.91,2020-10-13,317,Closed,20,Verified,Salaried,Graduate,Single
+BANK0585,Ishaan Iyer,47,Female,Bengaluru,ishaan.iyer.bank0585@example.com,9156788412,Salary,181220.56,2018-01-14,664,No Loan,37,Pending,Contract,Graduate,Single
+BANK0586,Karthik Joseph,22,Male,Salem,karthik.joseph.bank0586@example.com,9296760502,Savings,299782.48,2026-07-11,471,Closed,111,Pending,Salaried,High School,Single
+BANK0587,Riya Reddy,61,Male,Madurai,riya.reddy.bank0587@example.com,9722820339,Salary,411834.09,2023-02-17,313,Active,66,Pending,Salaried,Postgraduate,Divorced
+BANK0588,Sneha Pillai,49,Female,Bengaluru,sneha.pillai.bank0588@example.com,9209970339,Current,78122.9,2024-03-29,526,Active,101,Verified,Self-Employed,High School,Single
+BANK0589,Priya Gupta,22,Male,Coimbatore,priya.gupta.bank0589@example.com,9614878782,Salary,156475.16,2017-08-12,671,Active,104,Pending,Salaried,Graduate,Married
+BANK0590,Pooja Rao,66,Male,Mysuru,pooja.rao.bank0590@example.com,9427152234,Savings,372485.65,2022-09-03,421,Active,16,Verified,Unemployed,Postgraduate,Married
+BANK0591,Meera Reddy,26,Male,Chennai,meera.reddy.bank0591@example.com,9556130975,Savings,39789.91,2019-09-16,795,Overdue,5,Verified,Salaried,Graduate,Married
+BANK0592,Diya Sharma,68,Male,Coimbatore,diya.sharma.bank0592@example.com,9603673335,Savings,454356.12,2026-07-08,344,No Loan,38,Verified,Self-Employed,Graduate,Married
+BANK0593,Diya Pillai,25,Female,Hyderabad,diya.pillai.bank0593@example.com,9298407974,Salary,15600.3,2019-08-10,449,Closed,74,Pending,Contract,High School,Single
+BANK0594,Sneha Patel,72,Male,Trichy,sneha.patel.bank0594@example.com,9359654955,Savings,50453.74,2026-03-25,314,Active,91,Verified,Self-Employed,High School,Single
+BANK0595,Riya Patel,75,Male,Chennai,riya.patel.bank0595@example.com,9329797269,Fixed Deposit,183865.05,2015-02-05,489,Overdue,86,Verified,Salaried,Graduate,Single
+BANK0596,Kavya Verma,40,Female,Hyderabad,kavya.verma.bank0596@example.com,9652172808,Current,204381.41,2023-07-07,621,No Loan,59,Verified,Salaried,High School,Married
+BANK0597,Karthik Patel,49,Female,Mumbai,karthik.patel.bank0597@example.com,9698216060,Savings,42041.72,2023-02-07,805,No Loan,49,Pending,Salaried,Graduate,Divorced
+BANK0598,Arjun Das,65,Male,Kochi,arjun.das.bank0598@example.com,9342529746,Fixed Deposit,146004.07,2021-12-30,738,Active,109,Verified,Business,Diploma,Married
+BANK0599,Divya Joseph,41,Male,Salem,divya.joseph.bank0599@example.com,9627903421,Savings,198788.51,2019-01-08,835,No Loan,15,Verified,Self-Employed,High School,Married
+BANK0600,Vijay Nair,62,Female,Bengaluru,vijay.nair.bank0600@example.com,9169482279,Salary,487628.54,2017-04-13,646,Active,76,Pending,Salaried,Graduate,Married
+BANK0601,Diya Singh,71,Female,Kochi,diya.singh.bank0601@example.com,9399056778,Salary,378395.17,2024-07-11,709,Closed,60,Pending,Salaried,Diploma,Divorced
+BANK0602,Divya Rao,35,Female,Chennai,divya.rao.bank0602@example.com,9231200576,Salary,245181.35,2018-04-22,536,Active,3,Verified,Business,Postgraduate,Married
+BANK0603,Aditya Verma,22,Male,Coimbatore,aditya.verma.bank0603@example.com,9292302534,Fixed Deposit,302687.38,2026-03-04,634,Active,38,Verified,Salaried,Postgraduate,Married
+BANK0604,Ananya Joseph,66,Female,Kochi,ananya.joseph.bank0604@example.com,9316822569,Salary,331384.52,2026-08-30,802,Closed,69,Pending,Self-Employed,Postgraduate,Divorced
+BANK0605,Nisha Rao,19,Female,Chennai,nisha.rao.bank0605@example.com,9511919441,Fixed Deposit,157965.04,2015-09-16,685,Overdue,58,Verified,Salaried,High School,Married
+BANK0606,Aditya Patel,53,Male,Bengaluru,aditya.patel.bank0606@example.com,9627722211,Fixed Deposit,68109.63,2021-10-18,698,Overdue,97,Verified,Unemployed,Graduate,Single
+BANK0607,Rohan Joseph,49,Female,Madurai,rohan.joseph.bank0607@example.com,9267837613,Savings,196301.02,2025-07-15,806,Overdue,78,Pending,Self-Employed,Diploma,Married
+BANK0608,Riya Iyer,21,Female,Coimbatore,riya.iyer.bank0608@example.com,9237651619,Salary,175089.52,2015-08-19,327,Closed,48,Verified,Self-Employed,Postgraduate,Married
+BANK0609,Priya Iyer,40,Female,Coimbatore,priya.iyer.bank0609@example.com,9810001048,Current,124559.35,2024-03-28,619,No Loan,116,Verified,Unemployed,High School,Married
+BANK0610,Riya Kumar,39,Male,Madurai,riya.kumar.bank0610@example.com,9450165292,Savings,230993.78,2018-10-22,732,Overdue,34,Verified,Self-Employed,High School,Single
+BANK0611,Divya Das,19,Female,Trichy,divya.das.bank0611@example.com,9519082280,Salary,286696.78,2022-02-05,800,No Loan,88,Verified,Self-Employed,High School,Single
+BANK0612,Sanjay Gupta,50,Male,Trichy,sanjay.gupta.bank0612@example.com,9421608113,Salary,484744.45,2022-08-13,506,Overdue,81,Verified,Salaried,High School,Married
+BANK0613,Nisha Singh,36,Male,Mumbai,nisha.singh.bank0613@example.com,9715813155,Fixed Deposit,402496.91,2020-12-12,394,No Loan,75,Pending,Salaried,Diploma,Divorced
+BANK0614,Rahul Kumar,54,Female,Hyderabad,rahul.kumar.bank0614@example.com,9472928235,Savings,326116.87,2025-08-29,609,Closed,55,Pending,Self-Employed,Graduate,Single
+BANK0615,Krishna Nair,43,Male,Madurai,krishna.nair.bank0615@example.com,9586650508,Current,440567.39,2020-08-20,828,Active,73,Pending,Contract,Diploma,Divorced
+BANK0616,Krishna Joseph,70,Female,Salem,krishna.joseph.bank0616@example.com,9672003029,Fixed Deposit,467383.33,2025-06-25,361,Active,46,Pending,Self-Employed,Graduate,Single
+BANK0617,Ishaan Singh,27,Female,Delhi,ishaan.singh.bank0617@example.com,9442151243,Savings,317329.82,2021-09-25,722,Closed,105,Pending,Self-Employed,Diploma,Married
+BANK0618,Kavya Reddy,61,Female,Hyderabad,kavya.reddy.bank0618@example.com,9221932595,Current,96766.09,2020-04-18,551,Closed,59,Pending,Contract,Postgraduate,Single
+BANK0619,Nisha Nair,45,Male,Bengaluru,nisha.nair.bank0619@example.com,9392822240,Current,15541.79,2015-10-31,584,Active,82,Verified,Self-Employed,Graduate,Single
+BANK0620,Divya Pillai,19,Male,Pune,divya.pillai.bank0620@example.com,9745962806,Salary,433718.72,2016-03-29,716,Closed,85,Verified,Salaried,Postgraduate,Single
+BANK0621,Vijay Verma,64,Male,Chennai,vijay.verma.bank0621@example.com,9713077996,Savings,261456.82,2018-02-25,837,Closed,63,Verified,Self-Employed,Diploma,Married
+BANK0622,Meera Das,25,Female,Trichy,meera.das.bank0622@example.com,9891601510,Fixed Deposit,403114.96,2022-01-11,541,Overdue,27,Verified,Salaried,Graduate,Single
+BANK0623,Diya Patel,31,Female,Delhi,diya.patel.bank0623@example.com,9373058902,Savings,245688.93,2021-02-27,683,No Loan,40,Pending,Self-Employed,Postgraduate,Married
+BANK0624,Divya Joseph,33,Male,Pune,divya.joseph.bank0624@example.com,9610265498,Salary,410861.32,2021-03-25,321,No Loan,107,Verified,Salaried,Diploma,Single
+BANK0625,Meera Reddy,53,Female,Salem,meera.reddy.bank0625@example.com,9852281566,Salary,451675.39,2023-08-18,424,Active,109,Pending,Business,Graduate,Married
+BANK0626,Vijay Sharma,43,Female,Chennai,vijay.sharma.bank0626@example.com,9983375690,Current,149414.03,2020-09-24,464,Overdue,80,Pending,Salaried,Diploma,Single
+BANK0627,Priya Pillai,20,Male,Kochi,priya.pillai.bank0627@example.com,9605830413,Fixed Deposit,463322.11,2021-02-22,640,Overdue,112,Verified,Contract,Diploma,Divorced
+BANK0628,Kavya Thomas,34,Male,Pune,kavya.thomas.bank0628@example.com,9551906293,Salary,227177.61,2026-05-10,328,No Loan,82,Verified,Self-Employed,High School,Married
+BANK0629,Arjun Pillai,59,Male,Delhi,arjun.pillai.bank0629@example.com,9314829236,Salary,157547.18,2018-01-19,384,No Loan,20,Verified,Salaried,Graduate,Married
+BANK0630,Karthik Thomas,67,Female,Salem,karthik.thomas.bank0630@example.com,9540573664,Salary,226293.46,2017-12-01,436,Closed,22,Pending,Salaried,Graduate,Single
+BANK0631,Riya Singh,23,Female,Bengaluru,riya.singh.bank0631@example.com,9522511155,Fixed Deposit,472433.82,2024-04-18,529,No Loan,2,Verified,Salaried,Graduate,Single
+BANK0632,Ananya Gupta,30,Male,Bengaluru,ananya.gupta.bank0632@example.com,9153454051,Fixed Deposit,309384.02,2020-11-14,566,Active,11,Pending,Salaried,Postgraduate,Married
+BANK0633,Kavya Das,25,Male,Madurai,kavya.das.bank0633@example.com,9567248132,Fixed Deposit,413801.47,2015-04-26,806,No Loan,28,Verified,Contract,Postgraduate,Married
+BANK0634,Krishna Verma,70,Female,Mysuru,krishna.verma.bank0634@example.com,9630609022,Fixed Deposit,65969.47,2020-12-20,511,Active,105,Pending,Contract,Graduate,Married
+BANK0635,Krishna Nair,29,Male,Coimbatore,krishna.nair.bank0635@example.com,9411592314,Salary,118507.33,2024-02-29,761,Active,47,Pending,Self-Employed,Diploma,Married
+BANK0636,Ananya Sharma,48,Female,Mysuru,ananya.sharma.bank0636@example.com,9526871122,Current,356954.64,2017-12-27,733,Closed,9,Verified,Business,High School,Married
+BANK0637,Nisha Sharma,21,Male,Kochi,nisha.sharma.bank0637@example.com,9480428530,Savings,3675.13,2022-06-19,816,Overdue,38,Pending,Salaried,High School,Married
+BANK0638,Sneha Patel,75,Male,Bengaluru,sneha.patel.bank0638@example.com,9379486036,Current,252369.61,2015-12-03,647,Overdue,16,Verified,Business,High School,Married
+BANK0639,Sanjay Thomas,51,Male,Mumbai,sanjay.thomas.bank0639@example.com,9225458204,Salary,23036.92,2024-09-16,430,Overdue,111,Pending,Self-Employed,Graduate,Married
+BANK0640,Sneha Mehta,45,Female,Trichy,sneha.mehta.bank0640@example.com,9990764598,Salary,258969.37,2021-05-06,746,Active,40,Pending,Salaried,Graduate,Single
+BANK0641,Ishaan Rao,72,Male,Hyderabad,ishaan.rao.bank0641@example.com,9259580383,Savings,115700.41,2024-11-13,336,Overdue,33,Verified,Self-Employed,Postgraduate,Married
+BANK0642,Arjun Nair,25,Male,Kochi,arjun.nair.bank0642@example.com,9482810555,Fixed Deposit,229422.09,2026-02-06,415,Active,15,Pending,Contract,Graduate,Single
+BANK0643,Ananya Singh,73,Male,Bengaluru,ananya.singh.bank0643@example.com,9905238350,Salary,282060.45,2021-05-16,517,No Loan,67,Verified,Salaried,Graduate,Married
+BANK0644,Priya Mehta,22,Female,Salem,priya.mehta.bank0644@example.com,9201259461,Salary,13955.12,2020-07-09,424,Overdue,47,Verified,Business,Postgraduate,Single
+BANK0645,Sanjay Patel,19,Female,Mysuru,sanjay.patel.bank0645@example.com,9808174957,Fixed Deposit,227573.7,2016-10-26,575,No Loan,42,Verified,Salaried,Graduate,Married
+BANK0646,Pooja Gupta,38,Male,Coimbatore,pooja.gupta.bank0646@example.com,9960666308,Salary,162262.25,2017-11-25,356,No Loan,70,Pending,Salaried,High School,Single
+BANK0647,Ananya Nair,34,Male,Delhi,ananya.nair.bank0647@example.com,9195765217,Savings,426320.57,2018-12-29,466,Overdue,99,Pending,Salaried,Graduate,Married
+BANK0648,Riya Joseph,66,Male,Mumbai,riya.joseph.bank0648@example.com,9627040908,Fixed Deposit,368208.75,2018-06-16,617,Active,45,Verified,Unemployed,Graduate,Single
+BANK0649,Sneha Rao,30,Female,Delhi,sneha.rao.bank0649@example.com,9611573219,Salary,281965.48,2025-12-24,733,No Loan,96,Pending,Unemployed,Graduate,Divorced
+BANK0650,Sneha Das,29,Female,Delhi,sneha.das.bank0650@example.com,9199801582,Savings,257157.39,2024-09-26,774,Active,82,Verified,Unemployed,High School,Married
+BANK0651,Divya Rao,58,Male,Mumbai,divya.rao.bank0651@example.com,9602746506,Fixed Deposit,40512.38,2026-10-08,789,Closed,19,Verified,Salaried,Graduate,Divorced
+BANK0652,Riya Verma,33,Female,Mumbai,riya.verma.bank0652@example.com,9710460550,Savings,275946.17,2026-09-25,346,No Loan,65,Pending,Salaried,Postgraduate,Married
+BANK0653,Priya Kumar,47,Female,Mumbai,priya.kumar.bank0653@example.com,9728748729,Savings,384554.74,2020-09-06,316,No Loan,94,Pending,Salaried,High School,Married
+BANK0654,Kavya Pillai,29,Male,Chennai,kavya.pillai.bank0654@example.com,9546946709,Salary,157659.23,2023-10-25,765,Overdue,79,Pending,Salaried,Postgraduate,Married
+BANK0655,Sanjay Mehta,73,Male,Bengaluru,sanjay.mehta.bank0655@example.com,9183988650,Salary,435936.28,2019-03-14,408,Overdue,68,Verified,Self-Employed,Graduate,Single
+BANK0656,Aarav Nair,25,Male,Salem,aarav.nair.bank0656@example.com,9612303560,Fixed Deposit,346211.31,2015-04-19,798,Closed,79,Pending,Salaried,Graduate,Married
+BANK0657,Vijay Pillai,37,Male,Bengaluru,vijay.pillai.bank0657@example.com,9114899158,Current,56844.34,2016-12-18,316,Active,109,Verified,Self-Employed,Graduate,Married
+BANK0658,Krishna Gupta,59,Male,Hyderabad,krishna.gupta.bank0658@example.com,9567924311,Current,43960.68,2018-04-04,774,Active,60,Pending,Salaried,Graduate,Married
+BANK0659,Aarav Kumar,28,Male,Mysuru,aarav.kumar.bank0659@example.com,9578100665,Fixed Deposit,236273.11,2018-06-02,760,Active,25,Pending,Salaried,Graduate,Married
+BANK0660,Rohan Verma,71,Male,Pune,rohan.verma.bank0660@example.com,9108454944,Savings,315574.53,2023-10-15,742,Overdue,108,Pending,Salaried,Graduate,Single
+BANK0661,Rohan Das,64,Male,Kochi,rohan.das.bank0661@example.com,9529153534,Fixed Deposit,257164.51,2021-07-10,799,Active,91,Verified,Contract,Graduate,Married
+BANK0662,Karthik Sharma,45,Female,Chennai,karthik.sharma.bank0662@example.com,9387600528,Fixed Deposit,444681.16,2022-01-31,419,Overdue,79,Pending,Self-Employed,Graduate,Married
+BANK0663,Arjun Thomas,45,Male,Mumbai,arjun.thomas.bank0663@example.com,9879761120,Current,235150.98,2015-06-20,748,Active,64,Verified,Unemployed,Postgraduate,Married
+BANK0664,Rohan Mehta,61,Female,Mysuru,rohan.mehta.bank0664@example.com,9805403426,Fixed Deposit,66448.12,2022-08-10,600,Overdue,53,Pending,Salaried,Graduate,Married
+BANK0665,Divya Pillai,72,Male,Hyderabad,divya.pillai.bank0665@example.com,9403286126,Savings,333861.17,2018-08-20,432,Active,25,Verified,Salaried,Graduate,Married
+BANK0666,Pooja Gupta,24,Female,Mumbai,pooja.gupta.bank0666@example.com,9352027504,Current,278858.42,2024-04-30,318,Closed,112,Pending,Self-Employed,Diploma,Married
+BANK0667,Sneha Joseph,28,Female,Coimbatore,sneha.joseph.bank0667@example.com,9966311592,Savings,169529.64,2018-12-02,416,Active,15,Verified,Unemployed,High School,Single
+BANK0668,Divya Reddy,39,Male,Madurai,divya.reddy.bank0668@example.com,9387216523,Current,426850.67,2022-12-20,827,No Loan,90,Verified,Salaried,High School,Single
+BANK0669,Arjun Pillai,47,Male,Trichy,arjun.pillai.bank0669@example.com,9754612980,Savings,411981.5,2017-06-27,342,No Loan,21,Verified,Unemployed,Graduate,Single
+BANK0670,Krishna Mehta,41,Female,Mumbai,krishna.mehta.bank0670@example.com,9860384622,Fixed Deposit,381220.38,2018-07-10,810,No Loan,19,Pending,Self-Employed,Graduate,Married
+BANK0671,Sanjay Verma,26,Male,Kochi,sanjay.verma.bank0671@example.com,9546407987,Savings,123412.72,2017-10-04,785,Closed,36,Verified,Contract,Graduate,Single
+BANK0672,Ananya Reddy,41,Female,Salem,ananya.reddy.bank0672@example.com,9814033220,Current,76654.0,2024-04-22,842,Overdue,100,Verified,Self-Employed,Graduate,Married
+BANK0673,Ishaan Pillai,45,Female,Kochi,ishaan.pillai.bank0673@example.com,9654217523,Salary,471926.39,2024-04-09,753,Active,98,Verified,Salaried,Postgraduate,Married
+BANK0674,Karthik Kumar,23,Female,Delhi,karthik.kumar.bank0674@example.com,9929328811,Current,217602.07,2022-08-03,702,No Loan,84,Verified,Contract,Diploma,Single
+BANK0675,Rohan Sharma,58,Female,Delhi,rohan.sharma.bank0675@example.com,9531647235,Salary,361053.97,2026-08-29,621,Closed,1,Pending,Salaried,Graduate,Single
+BANK0676,Karthik Das,27,Female,Salem,karthik.das.bank0676@example.com,9320260494,Fixed Deposit,349038.01,2024-01-23,714,Active,112,Pending,Salaried,High School,Single
+BANK0677,Ananya Sharma,52,Female,Mysuru,ananya.sharma.bank0677@example.com,9871892101,Current,260714.38,2022-07-03,590,Active,11,Pending,Salaried,Postgraduate,Married
+BANK0678,Karthik Iyer,66,Male,Coimbatore,karthik.iyer.bank0678@example.com,9955341340,Salary,121428.55,2018-08-03,611,Overdue,64,Verified,Unemployed,Postgraduate,Divorced
+BANK0679,Aditya Verma,41,Male,Madurai,aditya.verma.bank0679@example.com,9480612862,Savings,24818.7,2020-10-28,427,Overdue,38,Verified,Salaried,High School,Married
+BANK0680,Arjun Iyer,33,Female,Mumbai,arjun.iyer.bank0680@example.com,9405517657,Current,357461.14,2020-03-30,832,Active,13,Pending,Contract,High School,Single
+BANK0681,Karthik Das,30,Female,Chennai,karthik.das.bank0681@example.com,9257360353,Fixed Deposit,414390.38,2023-02-07,383,No Loan,7,Pending,Salaried,Graduate,Married
+BANK0682,Ishaan Gupta,31,Male,Pune,ishaan.gupta.bank0682@example.com,9826732562,Fixed Deposit,294531.49,2025-01-02,831,Overdue,111,Pending,Business,High School,Single
+BANK0683,Rohan Gupta,58,Female,Mysuru,rohan.gupta.bank0683@example.com,9625640719,Fixed Deposit,412082.1,2024-06-30,447,Active,62,Pending,Salaried,High School,Married
+BANK0684,Ishaan Thomas,50,Female,Hyderabad,ishaan.thomas.bank0684@example.com,9589016791,Fixed Deposit,17271.09,2017-08-25,460,Closed,117,Verified,Salaried,Graduate,Divorced
+BANK0685,Pooja Verma,44,Male,Pune,pooja.verma.bank0685@example.com,9713927729,Salary,21100.79,2017-06-22,456,No Loan,47,Pending,Business,Graduate,Single
+BANK0686,Sneha Reddy,36,Male,Bengaluru,sneha.reddy.bank0686@example.com,9252621455,Fixed Deposit,25276.87,2025-11-24,612,Closed,27,Verified,Salaried,Diploma,Single
+BANK0687,Divya Sharma,25,Male,Coimbatore,divya.sharma.bank0687@example.com,9548367904,Fixed Deposit,286956.49,2022-10-27,763,Closed,100,Pending,Salaried,Graduate,Married
+BANK0688,Divya Verma,64,Male,Madurai,divya.verma.bank0688@example.com,9783394004,Fixed Deposit,381077.71,2017-12-23,759,Active,110,Pending,Self-Employed,Graduate,Single
+BANK0689,Ananya Pillai,57,Female,Hyderabad,ananya.pillai.bank0689@example.com,9524554436,Salary,270956.23,2024-03-09,753,Closed,82,Verified,Salaried,Graduate,Married
+BANK0690,Kavya Thomas,19,Female,Salem,kavya.thomas.bank0690@example.com,9232909491,Savings,97020.94,2021-12-05,354,Active,96,Pending,Salaried,Graduate,Single
+BANK0691,Karthik Mehta,19,Male,Madurai,karthik.mehta.bank0691@example.com,9292998003,Savings,138206.3,2017-09-12,510,Active,106,Pending,Contract,High School,Single
+BANK0692,Ananya Pillai,52,Female,Trichy,ananya.pillai.bank0692@example.com,9148300820,Fixed Deposit,431125.19,2022-03-09,323,Closed,55,Verified,Contract,Graduate,Single
+BANK0693,Priya Sharma,73,Female,Mumbai,priya.sharma.bank0693@example.com,9197737441,Savings,489913.27,2022-02-12,472,Closed,18,Verified,Salaried,High School,Single
+BANK0694,Rahul Pillai,23,Female,Delhi,rahul.pillai.bank0694@example.com,9828650400,Current,30397.95,2018-06-17,633,Active,3,Verified,Business,Graduate,Married
+BANK0695,Riya Nair,24,Male,Delhi,riya.nair.bank0695@example.com,9448126205,Salary,188381.07,2022-03-06,423,No Loan,25,Verified,Salaried,Diploma,Married
+BANK0696,Pooja Das,33,Male,Madurai,pooja.das.bank0696@example.com,9513442871,Savings,135374.48,2026-01-21,625,Overdue,70,Pending,Business,Postgraduate,Single
+BANK0697,Ananya Gupta,19,Female,Hyderabad,ananya.gupta.bank0697@example.com,9119996117,Salary,277483.56,2024-02-21,403,Active,97,Verified,Salaried,Diploma,Single
+BANK0698,Riya Das,44,Male,Salem,riya.das.bank0698@example.com,9637335173,Current,391657.91,2025-01-01,445,Closed,69,Verified,Self-Employed,Postgraduate,Single
+BANK0699,Meera Rao,45,Male,Coimbatore,meera.rao.bank0699@example.com,9972569546,Fixed Deposit,480596.11,2025-02-17,596,Active,0,Verified,Self-Employed,Diploma,Divorced
+BANK0700,Divya Reddy,56,Female,Delhi,divya.reddy.bank0700@example.com,9477332115,Current,292994.42,2020-08-17,822,Closed,5,Verified,Business,Graduate,Single
+BANK0701,Nisha Das,22,Male,Delhi,nisha.das.bank0701@example.com,9849932764,Savings,415418.56,2021-09-28,586,Overdue,26,Pending,Unemployed,Graduate,Married
+BANK0702,Sanjay Joseph,34,Female,Hyderabad,sanjay.joseph.bank0702@example.com,9811114540,Salary,171473.27,2025-02-25,770,Closed,2,Verified,Contract,Graduate,Married
+BANK0703,Aarav Das,48,Male,Salem,aarav.das.bank0703@example.com,9286332886,Fixed Deposit,278339.54,2015-02-05,800,Overdue,68,Verified,Salaried,High School,Single
+BANK0704,Ananya Rao,19,Female,Chennai,ananya.rao.bank0704@example.com,9479025201,Fixed Deposit,413905.95,2024-12-25,666,Overdue,22,Verified,Business,Diploma,Married
+BANK0705,Diya Gupta,41,Female,Coimbatore,diya.gupta.bank0705@example.com,9337856110,Savings,379452.08,2019-04-30,666,Active,11,Pending,Salaried,Postgraduate,Married
+BANK0706,Meera Singh,49,Male,Mumbai,meera.singh.bank0706@example.com,9629180636,Current,4560.56,2023-02-21,705,No Loan,111,Pending,Salaried,Diploma,Single
+BANK0707,Rohan Rao,49,Male,Hyderabad,rohan.rao.bank0707@example.com,9808496105,Current,33614.95,2018-10-28,431,No Loan,16,Pending,Salaried,Graduate,Single
+BANK0708,Rohan Verma,32,Male,Mumbai,rohan.verma.bank0708@example.com,9305999029,Savings,495983.73,2026-09-25,845,Closed,87,Pending,Salaried,Postgraduate,Married
+BANK0709,Aarav Nair,59,Female,Delhi,aarav.nair.bank0709@example.com,9536879666,Salary,61737.13,2016-02-29,830,Overdue,63,Pending,Unemployed,High School,Single
+BANK0710,Karthik Pillai,20,Male,Mumbai,karthik.pillai.bank0710@example.com,9551038208,Fixed Deposit,158804.74,2020-01-14,701,Active,42,Verified,Self-Employed,Diploma,Married
+BANK0711,Rohan Pillai,19,Male,Delhi,rohan.pillai.bank0711@example.com,9179929734,Current,99241.53,2020-01-23,637,Closed,8,Verified,Contract,Graduate,Married
+BANK0712,Aarav Gupta,45,Male,Salem,aarav.gupta.bank0712@example.com,9458954609,Salary,124329.63,2015-07-16,784,Active,43,Verified,Salaried,Graduate,Married
+BANK0713,Sanjay Rao,68,Male,Trichy,sanjay.rao.bank0713@example.com,9765254520,Fixed Deposit,382285.19,2020-04-23,757,No Loan,10,Verified,Self-Employed,High School,Married
+BANK0714,Aditya Nair,38,Male,Coimbatore,aditya.nair.bank0714@example.com,9961556586,Fixed Deposit,28339.63,2016-06-16,742,No Loan,13,Verified,Self-Employed,Postgraduate,Married
+BANK0715,Nisha Sharma,36,Female,Chennai,nisha.sharma.bank0715@example.com,9762822951,Fixed Deposit,117322.88,2023-07-22,310,Overdue,49,Pending,Salaried,High School,Divorced
+BANK0716,Priya Mehta,57,Female,Salem,priya.mehta.bank0716@example.com,9825609063,Savings,227584.3,2017-04-09,636,Active,13,Verified,Salaried,High School,Single
+BANK0717,Aarav Das,63,Male,Hyderabad,aarav.das.bank0717@example.com,9715481841,Current,319044.5,2016-07-07,562,Closed,53,Pending,Salaried,High School,Divorced
+BANK0718,Pooja Gupta,29,Male,Coimbatore,pooja.gupta.bank0718@example.com,9164951915,Current,156521.76,2020-06-14,746,Closed,39,Verified,Salaried,Postgraduate,Married
+BANK0719,Ishaan Gupta,37,Female,Pune,ishaan.gupta.bank0719@example.com,9108677810,Current,29601.51,2022-09-10,819,No Loan,54,Pending,Self-Employed,High School,Married
+BANK0720,Krishna Singh,58,Male,Pune,krishna.singh.bank0720@example.com,9303318997,Fixed Deposit,347696.01,2019-07-07,778,Closed,109,Pending,Business,Graduate,Single
+BANK0721,Pooja Reddy,44,Male,Chennai,pooja.reddy.bank0721@example.com,9587803152,Savings,248469.41,2022-05-16,303,Active,88,Verified,Salaried,Graduate,Single
+BANK0722,Arjun Das,31,Female,Mysuru,arjun.das.bank0722@example.com,9925007816,Salary,403828.38,2020-05-12,684,Active,51,Verified,Salaried,Diploma,Married
+BANK0723,Aarav Iyer,18,Female,Coimbatore,aarav.iyer.bank0723@example.com,9695595576,Savings,72058.58,2016-08-27,750,Active,80,Pending,Self-Employed,Graduate,Single
+BANK0724,Aditya Sharma,30,Female,Bengaluru,aditya.sharma.bank0724@example.com,9335090446,Salary,359699.5,2019-06-09,647,Active,22,Verified,Contract,Postgraduate,Married
+BANK0725,Aarav Patel,71,Male,Coimbatore,aarav.patel.bank0725@example.com,9992758059,Current,190082.46,2020-11-14,413,Closed,119,Verified,Salaried,High School,Single
+BANK0726,Riya Gupta,33,Female,Salem,riya.gupta.bank0726@example.com,9283996190,Fixed Deposit,439315.53,2023-04-17,366,No Loan,18,Verified,Salaried,Graduate,Married
+BANK0727,Krishna Singh,52,Female,Pune,krishna.singh.bank0727@example.com,9441397938,Fixed Deposit,488513.79,2023-06-26,550,No Loan,97,Verified,Salaried,Graduate,Married
+BANK0728,Nisha Reddy,68,Female,Hyderabad,nisha.reddy.bank0728@example.com,9157186389,Salary,436552.89,2018-05-02,820,Overdue,26,Verified,Contract,High School,Single
+BANK0729,Divya Pillai,60,Male,Madurai,divya.pillai.bank0729@example.com,9516736210,Salary,249795.3,2016-06-15,775,Active,41,Pending,Salaried,Diploma,Married
+BANK0730,Karthik Thomas,48,Female,Mumbai,karthik.thomas.bank0730@example.com,9724044455,Fixed Deposit,319414.69,2026-02-05,337,Active,28,Verified,Salaried,Postgraduate,Married
+BANK0731,Arjun Verma,33,Male,Mumbai,arjun.verma.bank0731@example.com,9556364808,Fixed Deposit,286113.82,2023-11-18,683,Closed,70,Verified,Contract,Diploma,Married
+BANK0732,Ishaan Pillai,23,Female,Madurai,ishaan.pillai.bank0732@example.com,9477500732,Current,292397.15,2021-08-14,776,Closed,54,Pending,Unemployed,Graduate,Married
+BANK0733,Arjun Nair,44,Female,Pune,arjun.nair.bank0733@example.com,9393152423,Fixed Deposit,13334.38,2023-03-30,752,Active,33,Verified,Salaried,Diploma,Single
+BANK0734,Sneha Mehta,23,Male,Madurai,sneha.mehta.bank0734@example.com,9686962999,Savings,393150.77,2021-08-09,533,No Loan,15,Verified,Contract,Diploma,Married
+BANK0735,Sneha Sharma,52,Female,Hyderabad,sneha.sharma.bank0735@example.com,9824890971,Salary,125761.8,2019-06-29,581,Active,90,Verified,Self-Employed,Postgraduate,Single
+BANK0736,Nisha Mehta,34,Female,Mumbai,nisha.mehta.bank0736@example.com,9982947411,Salary,391781.0,2015-03-11,713,Overdue,105,Verified,Salaried,High School,Married
+BANK0737,Divya Joseph,50,Female,Hyderabad,divya.joseph.bank0737@example.com,9343660262,Current,237744.69,2018-05-07,828,Overdue,92,Pending,Salaried,Graduate,Single
+BANK0738,Sanjay Pillai,23,Male,Delhi,sanjay.pillai.bank0738@example.com,9926921933,Fixed Deposit,105582.79,2022-01-08,760,No Loan,47,Verified,Salaried,Diploma,Married
+BANK0739,Rohan Verma,26,Male,Coimbatore,rohan.verma.bank0739@example.com,9636656386,Salary,170571.3,2021-11-08,729,Overdue,87,Pending,Salaried,Postgraduate,Married
+BANK0740,Nisha Reddy,38,Female,Coimbatore,nisha.reddy.bank0740@example.com,9249394788,Current,488644.42,2015-07-10,638,Overdue,48,Verified,Self-Employed,Graduate,Single
+BANK0741,Vijay Kumar,52,Male,Kochi,vijay.kumar.bank0741@example.com,9216649547,Salary,285187.99,2023-09-01,762,Closed,11,Verified,Business,Graduate,Married
+BANK0742,Diya Joseph,53,Male,Mysuru,diya.joseph.bank0742@example.com,9747857066,Fixed Deposit,14392.41,2018-12-26,503,No Loan,116,Pending,Business,Postgraduate,Married
+BANK0743,Riya Singh,32,Female,Madurai,riya.singh.bank0743@example.com,9175139840,Fixed Deposit,29669.14,2021-07-12,830,No Loan,21,Pending,Business,Postgraduate,Single
+BANK0744,Priya Nair,28,Male,Madurai,priya.nair.bank0744@example.com,9549267758,Fixed Deposit,371828.23,2017-06-26,698,Active,16,Verified,Salaried,Diploma,Married
+BANK0745,Riya Nair,70,Male,Trichy,riya.nair.bank0745@example.com,9717499666,Salary,294158.48,2025-08-25,814,Overdue,35,Verified,Salaried,High School,Single
+BANK0746,Aarav Patel,46,Female,Trichy,aarav.patel.bank0746@example.com,9967117209,Current,263402.4,2016-06-08,802,Overdue,59,Verified,Salaried,Postgraduate,Married
+BANK0747,Ananya Reddy,59,Female,Mysuru,ananya.reddy.bank0747@example.com,9864126144,Salary,196154.09,2025-03-27,479,Overdue,31,Verified,Self-Employed,Diploma,Married
+BANK0748,Pooja Thomas,45,Female,Salem,pooja.thomas.bank0748@example.com,9296971836,Savings,197382.11,2025-04-08,344,Active,113,Verified,Contract,Postgraduate,Married
+BANK0749,Rahul Mehta,58,Female,Chennai,rahul.mehta.bank0749@example.com,9849519028,Current,454459.5,2021-07-19,721,No Loan,47,Verified,Business,Graduate,Divorced
+BANK0750,Diya Rao,67,Female,Kochi,diya.rao.bank0750@example.com,9276994644,Salary,104478.68,2022-04-24,345,Overdue,3,Verified,Salaried,Diploma,Married
+BANK0751,Arjun Nair,39,Male,Delhi,arjun.nair.bank0751@example.com,9140560232,Savings,126052.26,2023-12-16,439,Closed,85,Pending,Salaried,High School,Married
+BANK0752,Divya Gupta,22,Male,Salem,divya.gupta.bank0752@example.com,9360160777,Fixed Deposit,70987.62,2016-11-07,585,Active,21,Verified,Unemployed,Postgraduate,Married
+BANK0753,Pooja Kumar,29,Male,Madurai,pooja.kumar.bank0753@example.com,9896122101,Fixed Deposit,85058.23,2021-08-06,311,Closed,19,Pending,Salaried,Diploma,Married
+BANK0754,Sneha Patel,31,Female,Madurai,sneha.patel.bank0754@example.com,9332107009,Fixed Deposit,348674.44,2015-10-10,835,No Loan,49,Pending,Self-Employed,Graduate,Single
+BANK0755,Arjun Sharma,56,Male,Delhi,arjun.sharma.bank0755@example.com,9923682643,Current,464481.46,2015-02-08,683,Active,25,Verified,Business,Graduate,Single
+BANK0756,Aarav Nair,19,Female,Hyderabad,aarav.nair.bank0756@example.com,9830100976,Savings,111063.36,2015-04-30,398,Active,92,Verified,Salaried,Graduate,Divorced
+BANK0757,Aditya Nair,50,Female,Pune,aditya.nair.bank0757@example.com,9703501011,Current,312712.0,2017-06-01,704,Overdue,15,Verified,Unemployed,Diploma,Married
+BANK0758,Krishna Kumar,40,Male,Coimbatore,krishna.kumar.bank0758@example.com,9531793991,Salary,6978.71,2022-04-03,517,Overdue,28,Verified,Contract,Graduate,Single
+BANK0759,Rahul Joseph,57,Male,Chennai,rahul.joseph.bank0759@example.com,9334677931,Fixed Deposit,151465.59,2023-04-11,811,No Loan,91,Verified,Self-Employed,Graduate,Single
+BANK0760,Rahul Kumar,56,Female,Mysuru,rahul.kumar.bank0760@example.com,9517218963,Current,166691.23,2022-04-11,625,Overdue,8,Pending,Salaried,High School,Single
+BANK0761,Aarav Das,55,Female,Madurai,aarav.das.bank0761@example.com,9787830375,Current,252206.6,2025-01-25,313,Active,2,Verified,Self-Employed,Graduate,Married
+BANK0762,Riya Singh,65,Male,Trichy,riya.singh.bank0762@example.com,9185243980,Savings,69640.19,2024-08-11,810,Closed,25,Verified,Self-Employed,Postgraduate,Married
+BANK0763,Vijay Singh,59,Male,Mysuru,vijay.singh.bank0763@example.com,9742178343,Fixed Deposit,369888.56,2015-11-07,636,Active,35,Pending,Unemployed,High School,Single
+BANK0764,Aditya Rao,68,Male,Mumbai,aditya.rao.bank0764@example.com,9905897904,Savings,115276.0,2024-04-21,639,Closed,31,Verified,Salaried,Diploma,Married
+BANK0765,Nisha Sharma,60,Female,Mysuru,nisha.sharma.bank0765@example.com,9872559625,Current,304423.54,2020-07-27,690,Closed,23,Pending,Self-Employed,Graduate,Married
+BANK0766,Aarav Kumar,73,Male,Hyderabad,aarav.kumar.bank0766@example.com,9155949312,Current,469198.99,2026-01-10,428,No Loan,22,Verified,Salaried,Graduate,Married
+BANK0767,Meera Rao,23,Female,Kochi,meera.rao.bank0767@example.com,9434430817,Current,361115.21,2024-07-23,550,Overdue,22,Verified,Self-Employed,Graduate,Married
+BANK0768,Riya Reddy,54,Male,Hyderabad,riya.reddy.bank0768@example.com,9391908293,Fixed Deposit,40927.97,2025-01-20,668,Overdue,48,Verified,Unemployed,Graduate,Single
+BANK0769,Divya Gupta,45,Female,Mysuru,divya.gupta.bank0769@example.com,9565392443,Current,409982.3,2026-05-02,793,No Loan,97,Pending,Salaried,Graduate,Single
+BANK0770,Priya Verma,23,Female,Madurai,priya.verma.bank0770@example.com,9264066364,Current,129388.57,2021-09-25,774,Closed,58,Pending,Salaried,Diploma,Single
+BANK0771,Vijay Rao,56,Male,Pune,vijay.rao.bank0771@example.com,9246733633,Fixed Deposit,98662.16,2025-10-14,494,No Loan,1,Pending,Business,Graduate,Single
+BANK0772,Divya Nair,44,Female,Pune,divya.nair.bank0772@example.com,9512357040,Fixed Deposit,154597.6,2023-11-07,372,Overdue,113,Verified,Salaried,High School,Single
+BANK0773,Diya Nair,54,Male,Delhi,diya.nair.bank0773@example.com,9374081636,Salary,255294.57,2018-08-23,800,Closed,89,Verified,Contract,Postgraduate,Married
+BANK0774,Vijay Mehta,45,Male,Kochi,vijay.mehta.bank0774@example.com,9137052221,Salary,315845.4,2020-07-14,328,Active,33,Pending,Unemployed,Graduate,Married
+BANK0775,Ishaan Reddy,33,Male,Chennai,ishaan.reddy.bank0775@example.com,9927825086,Savings,322554.3,2018-08-15,693,Overdue,90,Verified,Contract,High School,Married
+BANK0776,Karthik Mehta,30,Male,Delhi,karthik.mehta.bank0776@example.com,9371518421,Salary,250822.76,2024-06-26,845,Overdue,75,Pending,Self-Employed,Graduate,Married
+BANK0777,Priya Pillai,74,Male,Salem,priya.pillai.bank0777@example.com,9714837122,Salary,407299.78,2016-12-29,575,Active,119,Pending,Self-Employed,Graduate,Single
+BANK0778,Riya Sharma,28,Male,Chennai,riya.sharma.bank0778@example.com,9174991729,Fixed Deposit,262956.03,2026-01-11,595,Overdue,21,Verified,Salaried,Graduate,Married
+BANK0779,Sneha Patel,63,Male,Kochi,sneha.patel.bank0779@example.com,9295404184,Savings,225879.73,2018-01-05,517,Active,25,Verified,Unemployed,Postgraduate,Married
+BANK0780,Kavya Pillai,66,Female,Delhi,kavya.pillai.bank0780@example.com,9573230717,Savings,434312.63,2019-04-21,470,No Loan,37,Verified,Salaried,Postgraduate,Married
+BANK0781,Vijay Kumar,35,Female,Coimbatore,vijay.kumar.bank0781@example.com,9728833035,Current,239470.66,2016-06-10,403,No Loan,7,Pending,Salaried,Diploma,Single
+BANK0782,Aarav Joseph,55,Male,Hyderabad,aarav.joseph.bank0782@example.com,9660852445,Savings,188457.24,2015-12-09,832,Closed,119,Pending,Contract,Diploma,Single
+BANK0783,Divya Pillai,39,Female,Pune,divya.pillai.bank0783@example.com,9832141597,Salary,499723.12,2024-08-19,545,Closed,85,Pending,Salaried,High School,Married
+BANK0784,Vijay Das,21,Female,Chennai,vijay.das.bank0784@example.com,9103312131,Fixed Deposit,435400.21,2022-12-26,711,Active,3,Verified,Salaried,High School,Married
+BANK0785,Karthik Reddy,62,Female,Kochi,karthik.reddy.bank0785@example.com,9763950073,Fixed Deposit,257942.09,2020-07-29,492,No Loan,81,Pending,Salaried,Diploma,Married
+BANK0786,Aarav Joseph,41,Female,Pune,aarav.joseph.bank0786@example.com,9827921175,Fixed Deposit,117545.77,2016-01-10,796,Overdue,94,Verified,Contract,Diploma,Divorced
+BANK0787,Sneha Nair,48,Female,Delhi,sneha.nair.bank0787@example.com,9415532960,Current,356259.04,2017-04-02,832,No Loan,16,Pending,Salaried,Postgraduate,Single
+BANK0788,Ananya Reddy,71,Male,Kochi,ananya.reddy.bank0788@example.com,9224208992,Fixed Deposit,331658.41,2025-06-21,546,Active,27,Verified,Salaried,Postgraduate,Married
+BANK0789,Ananya Kumar,45,Male,Pune,ananya.kumar.bank0789@example.com,9511769051,Salary,110967.64,2015-08-28,563,Overdue,114,Verified,Unemployed,Graduate,Single
+BANK0790,Ishaan Mehta,52,Male,Mysuru,ishaan.mehta.bank0790@example.com,9457342476,Current,465958.2,2026-01-13,366,Closed,48,Pending,Salaried,Postgraduate,Married
+BANK0791,Nisha Verma,45,Male,Mumbai,nisha.verma.bank0791@example.com,9224221153,Salary,44752.49,2020-03-26,391,Closed,94,Verified,Salaried,Postgraduate,Married
+BANK0792,Diya Das,41,Female,Delhi,diya.das.bank0792@example.com,9719459743,Savings,156088.66,2017-11-09,848,Active,108,Pending,Business,Postgraduate,Single
+BANK0793,Priya Iyer,67,Male,Bengaluru,priya.iyer.bank0793@example.com,9658078796,Current,54186.38,2023-03-10,309,Overdue,40,Verified,Salaried,Graduate,Married
+BANK0794,Riya Verma,32,Female,Kochi,riya.verma.bank0794@example.com,9258296773,Salary,73789.48,2026-03-18,335,Closed,39,Verified,Salaried,Postgraduate,Married
+BANK0795,Rahul Verma,63,Male,Hyderabad,rahul.verma.bank0795@example.com,9631529611,Salary,352366.1,2025-09-23,685,No Loan,103,Pending,Salaried,Graduate,Single
+BANK0796,Ishaan Verma,63,Female,Hyderabad,ishaan.verma.bank0796@example.com,9852056728,Savings,461655.77,2019-09-22,483,Overdue,93,Pending,Salaried,Postgraduate,Single
+BANK0797,Riya Verma,60,Male,Madurai,riya.verma.bank0797@example.com,9521213424,Salary,211796.3,2018-07-28,784,Closed,96,Pending,Salaried,Graduate,Married
+BANK0798,Vijay Kumar,51,Female,Mysuru,vijay.kumar.bank0798@example.com,9309478626,Fixed Deposit,49562.46,2021-05-07,631,No Loan,108,Pending,Self-Employed,Graduate,Single
+BANK0799,Arjun Joseph,28,Female,Mysuru,arjun.joseph.bank0799@example.com,9618017848,Salary,448711.83,2018-01-31,514,Active,102,Verified,Self-Employed,Postgraduate,Single
+BANK0800,Aarav Iyer,64,Female,Bengaluru,aarav.iyer.bank0800@example.com,9504323699,Fixed Deposit,340043.19,2017-04-15,472,No Loan,12,Pending,Contract,High School,Married
+BANK0801,Divya Patel,21,Female,Salem,divya.patel.bank0801@example.com,9463446378,Fixed Deposit,484893.76,2017-08-19,713,Active,4,Verified,Self-Employed,Postgraduate,Married
+BANK0802,Meera Nair,49,Male,Trichy,meera.nair.bank0802@example.com,9285206511,Fixed Deposit,388149.05,2021-10-15,391,Overdue,110,Pending,Salaried,Postgraduate,Married
+BANK0803,Rahul Joseph,59,Female,Coimbatore,rahul.joseph.bank0803@example.com,9228849432,Savings,42235.86,2024-12-25,800,Active,2,Pending,Business,High School,Single
+BANK0804,Rahul Thomas,65,Female,Bengaluru,rahul.thomas.bank0804@example.com,9512273781,Fixed Deposit,499977.14,2017-02-13,744,Closed,73,Verified,Self-Employed,Graduate,Single
+BANK0805,Diya Iyer,22,Female,Mysuru,diya.iyer.bank0805@example.com,9121202520,Fixed Deposit,278474.02,2019-02-23,849,Overdue,8,Verified,Self-Employed,High School,Married
+BANK0806,Krishna Joseph,75,Male,Trichy,krishna.joseph.bank0806@example.com,9846482380,Current,3656.68,2017-08-19,757,Closed,15,Verified,Business,Graduate,Married
+BANK0807,Ishaan Das,31,Male,Madurai,ishaan.das.bank0807@example.com,9375694467,Savings,43220.55,2018-08-13,427,Closed,46,Verified,Salaried,High School,Married
+BANK0808,Priya Joseph,18,Female,Coimbatore,priya.joseph.bank0808@example.com,9657747746,Salary,329919.63,2020-07-27,755,Active,73,Pending,Self-Employed,Postgraduate,Single
+BANK0809,Sanjay Rao,40,Male,Mysuru,sanjay.rao.bank0809@example.com,9206310240,Savings,119313.08,2026-06-14,492,Active,38,Verified,Business,Diploma,Single
+BANK0810,Ishaan Das,53,Female,Pune,ishaan.das.bank0810@example.com,9397851389,Current,364823.1,2019-11-05,732,No Loan,70,Pending,Salaried,Postgraduate,Single
+BANK0811,Rahul Nair,59,Female,Kochi,rahul.nair.bank0811@example.com,9189393380,Salary,338586.31,2018-08-30,446,Active,9,Pending,Salaried,High School,Married
+BANK0812,Krishna Thomas,41,Female,Bengaluru,krishna.thomas.bank0812@example.com,9550634913,Current,158863.81,2026-06-21,744,Overdue,3,Verified,Salaried,Graduate,Married
+BANK0813,Ananya Reddy,25,Male,Madurai,ananya.reddy.bank0813@example.com,9536778058,Savings,165349.4,2017-06-20,391,Closed,116,Pending,Contract,Postgraduate,Married
+BANK0814,Rahul Patel,73,Female,Coimbatore,rahul.patel.bank0814@example.com,9205169636,Fixed Deposit,489763.12,2020-01-24,527,Overdue,13,Verified,Salaried,High School,Married
+BANK0815,Kavya Rao,64,Female,Kochi,kavya.rao.bank0815@example.com,9202585894,Salary,350527.31,2021-11-16,588,Closed,77,Verified,Business,Postgraduate,Single
+BANK0816,Aditya Patel,38,Male,Pune,aditya.patel.bank0816@example.com,9965527175,Fixed Deposit,238954.07,2023-09-27,430,Closed,1,Verified,Salaried,Graduate,Single
+BANK0817,Ishaan Patel,42,Male,Mysuru,ishaan.patel.bank0817@example.com,9786328781,Salary,354043.71,2020-12-30,555,Overdue,90,Pending,Salaried,Graduate,Married
+BANK0818,Kavya Gupta,40,Male,Mumbai,kavya.gupta.bank0818@example.com,9396162658,Fixed Deposit,260776.74,2025-07-06,534,Closed,81,Verified,Salaried,Graduate,Married
+BANK0819,Riya Nair,67,Male,Salem,riya.nair.bank0819@example.com,9185335495,Savings,365246.56,2022-01-05,395,Active,73,Verified,Salaried,Graduate,Married
+BANK0820,Ananya Thomas,36,Male,Delhi,ananya.thomas.bank0820@example.com,9826958713,Current,240348.32,2026-01-20,827,No Loan,51,Verified,Salaried,Diploma,Married
+BANK0821,Pooja Singh,71,Male,Delhi,pooja.singh.bank0821@example.com,9854402110,Salary,122868.9,2015-03-01,840,No Loan,77,Pending,Business,Graduate,Single
+BANK0822,Kavya Joseph,74,Male,Bengaluru,kavya.joseph.bank0822@example.com,9180662039,Salary,419865.06,2026-09-28,826,Closed,6,Pending,Contract,Graduate,Married
+BANK0823,Divya Nair,28,Male,Pune,divya.nair.bank0823@example.com,9829138534,Current,416031.48,2023-05-16,420,Closed,38,Pending,Salaried,Graduate,Married
+BANK0824,Riya Reddy,31,Male,Salem,riya.reddy.bank0824@example.com,9710789387,Fixed Deposit,109514.13,2015-01-19,612,No Loan,119,Pending,Salaried,Graduate,Married
+BANK0825,Pooja Verma,49,Female,Coimbatore,pooja.verma.bank0825@example.com,9760920570,Fixed Deposit,164947.35,2016-04-16,662,No Loan,0,Pending,Business,Graduate,Single
+BANK0826,Kavya Nair,40,Male,Delhi,kavya.nair.bank0826@example.com,9628330503,Current,43287.15,2015-03-14,826,Active,52,Verified,Self-Employed,Diploma,Single
+BANK0827,Divya Sharma,27,Male,Kochi,divya.sharma.bank0827@example.com,9524513309,Salary,150343.19,2020-08-11,738,Active,68,Pending,Contract,Graduate,Single
+BANK0828,Diya Gupta,60,Male,Bengaluru,diya.gupta.bank0828@example.com,9479823041,Fixed Deposit,3899.3,2024-11-08,503,No Loan,24,Pending,Business,Diploma,Married
+BANK0829,Aditya Patel,43,Male,Pune,aditya.patel.bank0829@example.com,9133937268,Current,333436.2,2024-06-11,790,Closed,15,Pending,Unemployed,Diploma,Married
+BANK0830,Divya Rao,49,Female,Delhi,divya.rao.bank0830@example.com,9638866546,Fixed Deposit,66577.42,2017-11-09,410,No Loan,16,Verified,Contract,Graduate,Married
+BANK0831,Sneha Rao,18,Male,Salem,sneha.rao.bank0831@example.com,9991029364,Salary,215402.86,2020-04-21,308,Overdue,61,Pending,Salaried,Postgraduate,Single
+BANK0832,Riya Gupta,23,Male,Trichy,riya.gupta.bank0832@example.com,9263741036,Current,125483.93,2024-08-14,417,Closed,89,Verified,Salaried,Graduate,Married
+BANK0833,Priya Singh,48,Male,Mysuru,priya.singh.bank0833@example.com,9639376963,Current,95145.83,2017-04-24,452,Active,15,Verified,Salaried,Graduate,Single
+BANK0834,Vijay Sharma,35,Male,Delhi,vijay.sharma.bank0834@example.com,9118963722,Current,46376.78,2019-04-24,352,Overdue,52,Pending,Contract,Graduate,Single
+BANK0835,Meera Singh,39,Female,Coimbatore,meera.singh.bank0835@example.com,9647461968,Fixed Deposit,322292.7,2024-07-22,611,No Loan,34,Pending,Business,Graduate,Married
+BANK0836,Rahul Iyer,63,Male,Pune,rahul.iyer.bank0836@example.com,9151063294,Current,21403.68,2024-05-17,353,Closed,27,Pending,Salaried,Graduate,Married
+BANK0837,Divya Reddy,56,Female,Bengaluru,divya.reddy.bank0837@example.com,9370865381,Fixed Deposit,182427.04,2017-04-05,611,No Loan,12,Verified,Salaried,Postgraduate,Single
+BANK0838,Nisha Pillai,73,Female,Pune,nisha.pillai.bank0838@example.com,9895956334,Salary,371723.08,2017-12-03,841,Closed,30,Pending,Contract,Postgraduate,Single
+BANK0839,Krishna Das,42,Male,Bengaluru,krishna.das.bank0839@example.com,9775983431,Savings,21478.43,2016-12-15,495,Active,90,Pending,Salaried,Graduate,Married
+BANK0840,Diya Kumar,52,Female,Mysuru,diya.kumar.bank0840@example.com,9609166776,Current,267245.22,2022-09-10,457,No Loan,16,Verified,Unemployed,Graduate,Single
+BANK0841,Priya Rao,63,Male,Pune,priya.rao.bank0841@example.com,9493002419,Fixed Deposit,315302.45,2020-08-30,420,Overdue,8,Pending,Salaried,Postgraduate,Single
+BANK0842,Priya Rao,50,Male,Trichy,priya.rao.bank0842@example.com,9394364860,Current,145538.52,2015-06-29,362,Active,94,Pending,Unemployed,Graduate,Married
+BANK0843,Divya Joseph,52,Male,Bengaluru,divya.joseph.bank0843@example.com,9570025055,Fixed Deposit,281686.8,2026-07-08,699,Overdue,77,Pending,Salaried,Graduate,Married
+BANK0844,Krishna Patel,18,Male,Hyderabad,krishna.patel.bank0844@example.com,9735776226,Savings,439698.35,2018-08-03,825,Overdue,64,Pending,Salaried,Graduate,Single
+BANK0845,Riya Verma,32,Male,Mumbai,riya.verma.bank0845@example.com,9692867539,Savings,86383.44,2021-08-24,346,Active,37,Verified,Contract,High School,Married
+BANK0846,Ishaan Mehta,35,Female,Coimbatore,ishaan.mehta.bank0846@example.com,9789785833,Current,494778.6,2017-12-25,515,No Loan,0,Pending,Business,Postgraduate,Married
+BANK0847,Pooja Iyer,38,Female,Madurai,pooja.iyer.bank0847@example.com,9383508835,Current,204763.1,2016-11-12,601,Closed,7,Verified,Salaried,Graduate,Married
+BANK0848,Sneha Singh,64,Male,Mumbai,sneha.singh.bank0848@example.com,9116791698,Savings,361578.49,2021-04-10,691,Closed,111,Verified,Salaried,High School,Married
+BANK0849,Arjun Singh,38,Male,Trichy,arjun.singh.bank0849@example.com,9776243304,Fixed Deposit,78665.1,2021-01-10,537,Overdue,47,Verified,Salaried,Postgraduate,Married
+BANK0850,Divya Kumar,49,Female,Bengaluru,divya.kumar.bank0850@example.com,9975741671,Current,95241.1,2019-01-26,802,Active,82,Pending,Salaried,Graduate,Married
+BANK0851,Aarav Reddy,28,Female,Salem,aarav.reddy.bank0851@example.com,9752643989,Current,35657.61,2018-12-26,373,Overdue,31,Pending,Salaried,Graduate,Divorced
+BANK0852,Vijay Kumar,64,Female,Coimbatore,vijay.kumar.bank0852@example.com,9747781482,Savings,189559.69,2018-01-29,321,No Loan,105,Verified,Contract,Postgraduate,Divorced
+BANK0853,Aditya Patel,33,Female,Bengaluru,aditya.patel.bank0853@example.com,9773648841,Savings,396407.82,2016-11-15,309,No Loan,69,Pending,Salaried,Graduate,Single
+BANK0854,Ananya Singh,26,Male,Kochi,ananya.singh.bank0854@example.com,9975598792,Current,154385.11,2025-10-10,790,Active,31,Verified,Self-Employed,Graduate,Single
+BANK0855,Nisha Thomas,35,Male,Coimbatore,nisha.thomas.bank0855@example.com,9210397096,Salary,52180.48,2017-10-05,725,Active,0,Verified,Self-Employed,Postgraduate,Divorced
+BANK0856,Aarav Singh,45,Male,Pune,aarav.singh.bank0856@example.com,9803692376,Salary,113716.31,2023-08-24,693,No Loan,62,Verified,Salaried,High School,Single
+BANK0857,Diya Singh,24,Female,Chennai,diya.singh.bank0857@example.com,9761099368,Salary,60057.13,2021-04-27,386,No Loan,77,Verified,Business,Diploma,Married
+BANK0858,Kavya Nair,51,Female,Bengaluru,kavya.nair.bank0858@example.com,9829535965,Fixed Deposit,75959.8,2022-07-06,608,Closed,44,Verified,Self-Employed,Graduate,Divorced
+BANK0859,Rahul Mehta,49,Female,Mysuru,rahul.mehta.bank0859@example.com,9957579922,Savings,394639.21,2023-04-12,452,Active,40,Verified,Salaried,Postgraduate,Married
+BANK0860,Vijay Gupta,64,Male,Chennai,vijay.gupta.bank0860@example.com,9720454065,Fixed Deposit,479833.07,2025-09-24,585,Active,11,Pending,Salaried,High School,Married
+BANK0861,Ishaan Patel,67,Female,Pune,ishaan.patel.bank0861@example.com,9630650165,Fixed Deposit,241162.99,2023-08-21,723,Closed,17,Verified,Salaried,Diploma,Married
+BANK0862,Vijay Nair,53,Male,Madurai,vijay.nair.bank0862@example.com,9628926733,Current,192929.0,2026-02-24,731,Active,89,Verified,Business,Graduate,Married
+BANK0863,Meera Iyer,18,Male,Pune,meera.iyer.bank0863@example.com,9699550021,Fixed Deposit,478850.27,2019-07-24,412,No Loan,116,Pending,Salaried,Graduate,Single
+BANK0864,Sneha Verma,72,Female,Kochi,sneha.verma.bank0864@example.com,9254769407,Fixed Deposit,122006.21,2018-02-15,529,No Loan,95,Verified,Business,Postgraduate,Married
+BANK0865,Diya Thomas,63,Female,Mysuru,diya.thomas.bank0865@example.com,9128289746,Fixed Deposit,186470.43,2018-03-18,408,No Loan,61,Verified,Self-Employed,Diploma,Single
+BANK0866,Aarav Patel,41,Male,Hyderabad,aarav.patel.bank0866@example.com,9182748233,Savings,285022.39,2018-03-03,726,Active,97,Verified,Business,Graduate,Married
+BANK0867,Divya Thomas,26,Female,Delhi,divya.thomas.bank0867@example.com,9875840127,Salary,222542.84,2021-09-19,313,Closed,14,Verified,Business,High School,Married
+BANK0868,Aditya Mehta,59,Female,Bengaluru,aditya.mehta.bank0868@example.com,9640409345,Current,6422.92,2015-09-21,733,Overdue,70,Pending,Contract,Graduate,Married
+BANK0869,Rohan Rao,37,Female,Bengaluru,rohan.rao.bank0869@example.com,9391872669,Savings,261229.02,2020-02-06,428,Active,51,Verified,Salaried,High School,Married
+BANK0870,Meera Nair,29,Female,Kochi,meera.nair.bank0870@example.com,9612621813,Salary,326697.28,2016-09-24,714,Overdue,21,Verified,Salaried,High School,Married
+BANK0871,Sneha Joseph,45,Female,Chennai,sneha.joseph.bank0871@example.com,9212098712,Savings,181988.11,2019-05-15,643,No Loan,30,Pending,Salaried,Postgraduate,Married
+BANK0872,Kavya Rao,24,Male,Trichy,kavya.rao.bank0872@example.com,9111786474,Salary,94684.16,2016-06-19,506,No Loan,30,Pending,Business,Graduate,Married
+BANK0873,Ananya Das,54,Female,Kochi,ananya.das.bank0873@example.com,9149049185,Savings,157975.57,2016-01-03,616,No Loan,45,Pending,Salaried,Graduate,Married
+BANK0874,Vijay Rao,30,Female,Mysuru,vijay.rao.bank0874@example.com,9482077381,Current,351625.75,2022-01-20,399,Closed,52,Verified,Self-Employed,Diploma,Married
+BANK0875,Karthik Pillai,67,Male,Trichy,karthik.pillai.bank0875@example.com,9954772900,Fixed Deposit,238999.56,2018-05-15,338,Closed,20,Verified,Salaried,High School,Married
+BANK0876,Arjun Kumar,74,Female,Hyderabad,arjun.kumar.bank0876@example.com,9331549411,Current,384644.03,2017-02-03,464,Closed,57,Verified,Salaried,Graduate,Married
+BANK0877,Sanjay Reddy,41,Male,Mysuru,sanjay.reddy.bank0877@example.com,9931264077,Fixed Deposit,120316.2,2024-08-30,376,Active,72,Pending,Unemployed,High School,Married
+BANK0878,Diya Pillai,18,Female,Madurai,diya.pillai.bank0878@example.com,9956183507,Savings,249957.22,2018-03-14,765,Closed,21,Pending,Salaried,Diploma,Single
+BANK0879,Kavya Kumar,35,Female,Chennai,kavya.kumar.bank0879@example.com,9176379467,Current,355616.86,2023-02-24,771,Closed,60,Pending,Business,Postgraduate,Married
+BANK0880,Arjun Joseph,26,Male,Kochi,arjun.joseph.bank0880@example.com,9142512277,Salary,429642.62,2017-10-12,710,Overdue,109,Verified,Business,Postgraduate,Married
+BANK0881,Arjun Iyer,50,Female,Chennai,arjun.iyer.bank0881@example.com,9832507637,Fixed Deposit,253465.27,2022-01-13,569,No Loan,79,Verified,Self-Employed,High School,Single
+BANK0882,Meera Thomas,70,Male,Chennai,meera.thomas.bank0882@example.com,9412094443,Fixed Deposit,79944.7,2015-03-07,708,No Loan,28,Pending,Salaried,Diploma,Married
+BANK0883,Arjun Joseph,23,Female,Kochi,arjun.joseph.bank0883@example.com,9789862456,Fixed Deposit,55450.41,2022-10-29,484,No Loan,117,Pending,Salaried,Postgraduate,Single
+BANK0884,Priya Singh,43,Male,Pune,priya.singh.bank0884@example.com,9467674476,Fixed Deposit,107104.96,2022-05-16,787,No Loan,35,Pending,Salaried,Graduate,Single
+BANK0885,Aditya Rao,27,Male,Salem,aditya.rao.bank0885@example.com,9329211822,Salary,284535.08,2025-07-16,689,No Loan,119,Pending,Salaried,Diploma,Single
+BANK0886,Priya Gupta,31,Male,Coimbatore,priya.gupta.bank0886@example.com,9914558145,Fixed Deposit,135654.21,2016-03-19,480,No Loan,18,Verified,Salaried,Graduate,Single
+BANK0887,Rahul Nair,23,Female,Kochi,rahul.nair.bank0887@example.com,9550672916,Current,335152.56,2021-09-09,565,Active,106,Verified,Salaried,Diploma,Married
+BANK0888,Ananya Mehta,75,Female,Mumbai,ananya.mehta.bank0888@example.com,9276666270,Current,175288.85,2024-08-11,729,Overdue,60,Verified,Self-Employed,High School,Single
+BANK0889,Priya Iyer,62,Male,Madurai,priya.iyer.bank0889@example.com,9940817554,Current,39826.55,2023-09-23,448,Closed,85,Pending,Salaried,Postgraduate,Single
+BANK0890,Aarav Patel,75,Male,Kochi,aarav.patel.bank0890@example.com,9439740334,Savings,396216.39,2025-04-15,716,Closed,66,Verified,Unemployed,Postgraduate,Married
+BANK0891,Arjun Verma,72,Male,Kochi,arjun.verma.bank0891@example.com,9786031253,Savings,19206.5,2017-10-26,492,Overdue,89,Verified,Salaried,Graduate,Single
+BANK0892,Pooja Nair,31,Male,Hyderabad,pooja.nair.bank0892@example.com,9829745265,Savings,185757.95,2022-10-22,672,No Loan,38,Pending,Business,Diploma,Married
+BANK0893,Karthik Verma,73,Male,Kochi,karthik.verma.bank0893@example.com,9796763607,Fixed Deposit,207612.81,2017-10-18,660,Closed,106,Pending,Self-Employed,Graduate,Single
+BANK0894,Karthik Pillai,39,Male,Kochi,karthik.pillai.bank0894@example.com,9559973407,Salary,89270.69,2017-07-17,466,Overdue,48,Pending,Salaried,Graduate,Divorced
+BANK0895,Priya Joseph,36,Male,Chennai,priya.joseph.bank0895@example.com,9196248006,Savings,308513.93,2017-03-23,721,No Loan,63,Verified,Unemployed,Diploma,Married
+BANK0896,Arjun Rao,55,Male,Mumbai,arjun.rao.bank0896@example.com,9551659683,Current,112216.81,2015-09-25,765,Overdue,14,Verified,Salaried,Graduate,Single
+BANK0897,Divya Kumar,40,Female,Salem,divya.kumar.bank0897@example.com,9855737029,Fixed Deposit,4794.96,2025-05-28,683,Active,64,Pending,Salaried,Diploma,Married
+BANK0898,Rahul Mehta,60,Female,Delhi,rahul.mehta.bank0898@example.com,9822951244,Current,3074.62,2020-12-06,724,No Loan,1,Verified,Salaried,Graduate,Single
+BANK0899,Ishaan Pillai,41,Male,Trichy,ishaan.pillai.bank0899@example.com,9440881854,Salary,86034.97,2026-08-22,740,Active,71,Pending,Business,Graduate,Single
+BANK0900,Krishna Das,59,Male,Trichy,krishna.das.bank0900@example.com,9560745246,Current,469756.47,2023-10-28,699,Active,51,Pending,Self-Employed,High School,Single
+BANK0901,Karthik Patel,45,Male,Mysuru,karthik.patel.bank0901@example.com,9960251863,Current,252624.27,2020-03-07,701,Closed,107,Verified,Contract,Graduate,Married
+BANK0902,Sanjay Singh,23,Male,Delhi,sanjay.singh.bank0902@example.com,9112388963,Current,14881.35,2017-02-03,380,Overdue,3,Verified,Salaried,Graduate,Single
+BANK0903,Arjun Joseph,58,Male,Hyderabad,arjun.joseph.bank0903@example.com,9800640935,Current,149164.33,2023-01-12,848,Active,92,Pending,Self-Employed,High School,Married
+BANK0904,Rahul Joseph,21,Male,Bengaluru,rahul.joseph.bank0904@example.com,9773706432,Savings,319554.9,2021-03-02,405,No Loan,58,Verified,Salaried,Postgraduate,Married
+BANK0905,Diya Patel,36,Male,Chennai,diya.patel.bank0905@example.com,9183087679,Fixed Deposit,422467.18,2020-11-16,512,Overdue,12,Pending,Business,Graduate,Married
+BANK0906,Aarav Nair,22,Female,Chennai,aarav.nair.bank0906@example.com,9325803577,Fixed Deposit,188251.93,2025-11-29,621,Overdue,103,Verified,Salaried,High School,Married
+BANK0907,Kavya Reddy,18,Female,Trichy,kavya.reddy.bank0907@example.com,9777760231,Savings,59486.36,2019-01-03,651,Closed,61,Verified,Salaried,High School,Married
+BANK0908,Kavya Rao,65,Male,Hyderabad,kavya.rao.bank0908@example.com,9750806493,Savings,268441.13,2020-09-15,830,Active,27,Pending,Business,Postgraduate,Married
+BANK0909,Diya Mehta,31,Female,Bengaluru,diya.mehta.bank0909@example.com,9335966701,Savings,364144.21,2015-08-30,429,Closed,35,Pending,Salaried,Graduate,Single
+BANK0910,Krishna Kumar,40,Female,Mysuru,krishna.kumar.bank0910@example.com,9968669732,Fixed Deposit,218594.93,2021-08-08,709,Active,32,Verified,Salaried,High School,Married
+BANK0911,Krishna Joseph,72,Female,Chennai,krishna.joseph.bank0911@example.com,9726687538,Salary,83660.9,2021-04-21,510,Overdue,55,Pending,Self-Employed,Graduate,Married
+BANK0912,Priya Das,65,Female,Trichy,priya.das.bank0912@example.com,9215490714,Fixed Deposit,215227.17,2021-02-03,661,Closed,114,Verified,Salaried,High School,Single
+BANK0913,Arjun Patel,74,Male,Mumbai,arjun.patel.bank0913@example.com,9730146055,Fixed Deposit,147443.3,2015-10-04,843,Closed,50,Verified,Salaried,High School,Single
+BANK0914,Diya Patel,69,Female,Bengaluru,diya.patel.bank0914@example.com,9484125249,Current,37247.53,2022-03-28,680,Closed,18,Pending,Self-Employed,Graduate,Married
+BANK0915,Diya Sharma,38,Male,Pune,diya.sharma.bank0915@example.com,9329536397,Fixed Deposit,284167.16,2015-03-31,629,Active,71,Verified,Contract,Graduate,Divorced
+BANK0916,Vijay Reddy,56,Male,Hyderabad,vijay.reddy.bank0916@example.com,9210509713,Salary,358416.55,2019-10-05,376,Overdue,87,Pending,Salaried,Postgraduate,Married
+BANK0917,Sanjay Verma,38,Male,Coimbatore,sanjay.verma.bank0917@example.com,9961919613,Fixed Deposit,249826.83,2019-06-12,581,Overdue,15,Verified,Salaried,Graduate,Married
+BANK0918,Arjun Patel,56,Male,Delhi,arjun.patel.bank0918@example.com,9353856096,Savings,143233.42,2022-05-01,304,Overdue,36,Verified,Business,Diploma,Married
+BANK0919,Vijay Sharma,75,Female,Salem,vijay.sharma.bank0919@example.com,9117472245,Savings,235476.78,2015-11-17,725,Closed,35,Pending,Contract,Graduate,Married
+BANK0920,Sneha Nair,23,Female,Trichy,sneha.nair.bank0920@example.com,9150544007,Fixed Deposit,149923.46,2022-01-09,765,Overdue,108,Verified,Salaried,High School,Single
+BANK0921,Sneha Das,24,Male,Coimbatore,sneha.das.bank0921@example.com,9986327205,Savings,70228.48,2015-08-28,630,Overdue,28,Verified,Self-Employed,Postgraduate,Married
+BANK0922,Ananya Singh,64,Female,Coimbatore,ananya.singh.bank0922@example.com,9838993413,Savings,130584.16,2023-04-10,344,No Loan,6,Pending,Salaried,Diploma,Married
+BANK0923,Ananya Reddy,39,Female,Mysuru,ananya.reddy.bank0923@example.com,9282899711,Current,292143.15,2023-07-07,422,Active,40,Verified,Contract,High School,Married
+BANK0924,Rohan Mehta,72,Female,Kochi,rohan.mehta.bank0924@example.com,9817512141,Savings,261360.09,2024-04-08,546,Overdue,84,Pending,Salaried,Postgraduate,Married
+BANK0925,Rahul Iyer,67,Male,Chennai,rahul.iyer.bank0925@example.com,9383266009,Salary,355979.31,2025-10-29,661,Active,84,Verified,Business,Graduate,Single
+BANK0926,Ananya Kumar,49,Male,Coimbatore,ananya.kumar.bank0926@example.com,9819942770,Current,234607.05,2016-05-08,694,Active,62,Verified,Business,Graduate,Married
+BANK0927,Sanjay Singh,70,Female,Mumbai,sanjay.singh.bank0927@example.com,9860759357,Fixed Deposit,327989.38,2026-07-12,816,No Loan,117,Verified,Salaried,Diploma,Single
+BANK0928,Meera Mehta,41,Female,Trichy,meera.mehta.bank0928@example.com,9651327816,Current,390230.51,2023-08-25,492,No Loan,35,Pending,Salaried,Graduate,Married
+BANK0929,Kavya Joseph,37,Male,Kochi,kavya.joseph.bank0929@example.com,9215076545,Savings,121040.67,2017-04-16,771,Active,34,Verified,Salaried,Diploma,Single
+BANK0930,Divya Joseph,51,Female,Mumbai,divya.joseph.bank0930@example.com,9227051781,Savings,177858.99,2025-02-25,517,Active,50,Pending,Self-Employed,Postgraduate,Married
+BANK0931,Karthik Iyer,21,Female,Pune,karthik.iyer.bank0931@example.com,9205025589,Savings,324662.25,2024-11-24,732,Active,37,Verified,Business,Diploma,Married
+BANK0932,Vijay Patel,56,Female,Trichy,vijay.patel.bank0932@example.com,9630016390,Fixed Deposit,55483.1,2021-03-10,351,Active,14,Verified,Salaried,High School,Single
+BANK0933,Diya Sharma,75,Female,Mumbai,diya.sharma.bank0933@example.com,9356374256,Savings,266533.73,2015-10-20,582,Active,112,Pending,Contract,Graduate,Married
+BANK0934,Vijay Nair,24,Female,Mysuru,vijay.nair.bank0934@example.com,9388049441,Fixed Deposit,103646.98,2019-12-07,508,Closed,81,Pending,Business,High School,Married
+BANK0935,Pooja Reddy,64,Male,Bengaluru,pooja.reddy.bank0935@example.com,9640349998,Fixed Deposit,369806.28,2015-01-26,544,Active,40,Verified,Salaried,Graduate,Married
+BANK0936,Kavya Patel,39,Male,Coimbatore,kavya.patel.bank0936@example.com,9815145748,Fixed Deposit,214533.35,2025-03-18,321,Active,33,Verified,Salaried,Graduate,Married
+BANK0937,Kavya Joseph,66,Male,Pune,kavya.joseph.bank0937@example.com,9608771260,Savings,244665.36,2015-03-21,553,Overdue,14,Verified,Contract,Graduate,Married
+BANK0938,Aarav Das,61,Male,Madurai,aarav.das.bank0938@example.com,9640249409,Current,377741.25,2021-07-09,396,No Loan,38,Pending,Self-Employed,High School,Married
+BANK0939,Arjun Gupta,65,Male,Mumbai,arjun.gupta.bank0939@example.com,9812329472,Fixed Deposit,127514.89,2022-11-13,769,No Loan,105,Pending,Self-Employed,Graduate,Married
+BANK0940,Riya Thomas,39,Male,Trichy,riya.thomas.bank0940@example.com,9620072052,Savings,135698.79,2026-08-13,831,No Loan,18,Pending,Salaried,Graduate,Divorced
+BANK0941,Meera Joseph,27,Female,Coimbatore,meera.joseph.bank0941@example.com,9362387930,Fixed Deposit,180350.54,2023-01-05,391,Active,117,Pending,Self-Employed,Postgraduate,Single
+BANK0942,Diya Reddy,74,Male,Bengaluru,diya.reddy.bank0942@example.com,9384873724,Salary,444109.46,2025-01-28,700,Overdue,120,Pending,Salaried,Postgraduate,Single
+BANK0943,Riya Singh,20,Female,Pune,riya.singh.bank0943@example.com,9995684903,Savings,217296.35,2026-08-31,765,Closed,36,Verified,Salaried,Postgraduate,Single
+BANK0944,Aarav Gupta,61,Female,Salem,aarav.gupta.bank0944@example.com,9261305816,Salary,312273.77,2018-04-20,466,Closed,62,Pending,Salaried,High School,Married
+BANK0945,Ananya Pillai,36,Female,Coimbatore,ananya.pillai.bank0945@example.com,9333351264,Salary,412909.83,2015-05-08,426,No Loan,62,Pending,Self-Employed,Graduate,Married
+BANK0946,Aarav Nair,40,Male,Mumbai,aarav.nair.bank0946@example.com,9247874417,Salary,439482.33,2015-01-06,814,Active,11,Pending,Self-Employed,Graduate,Married
+BANK0947,Ishaan Thomas,30,Female,Chennai,ishaan.thomas.bank0947@example.com,9412246300,Current,17036.21,2024-09-09,663,Active,103,Pending,Self-Employed,Graduate,Single
+BANK0948,Priya Nair,75,Female,Mumbai,priya.nair.bank0948@example.com,9741065526,Salary,87477.68,2017-03-14,746,Closed,102,Verified,Unemployed,Graduate,Married
+BANK0949,Krishna Reddy,26,Female,Hyderabad,krishna.reddy.bank0949@example.com,9423263148,Salary,43713.37,2024-05-03,772,Active,48,Pending,Contract,Graduate,Married
+BANK0950,Diya Patel,51,Male,Pune,diya.patel.bank0950@example.com,9640967416,Salary,234721.06,2024-11-29,737,Overdue,53,Pending,Business,Postgraduate,Married
+BANK0951,Arjun Sharma,53,Female,Chennai,arjun.sharma.bank0951@example.com,9911594694,Current,307989.07,2015-08-05,609,Active,74,Pending,Salaried,Graduate,Married
+BANK0952,Ishaan Das,52,Male,Delhi,ishaan.das.bank0952@example.com,9235222578,Fixed Deposit,335369.54,2021-07-31,773,Overdue,107,Verified,Unemployed,Postgraduate,Married
+BANK0953,Ananya Sharma,35,Female,Trichy,ananya.sharma.bank0953@example.com,9204581440,Salary,283156.26,2017-05-26,639,No Loan,15,Verified,Salaried,Postgraduate,Married
+BANK0954,Krishna Rao,27,Male,Hyderabad,krishna.rao.bank0954@example.com,9825506692,Current,151145.21,2026-02-09,618,No Loan,103,Pending,Self-Employed,Postgraduate,Married
+BANK0955,Pooja Thomas,30,Male,Coimbatore,pooja.thomas.bank0955@example.com,9264306208,Savings,260391.46,2017-07-28,553,Active,13,Pending,Salaried,Graduate,Married
+BANK0956,Aarav Verma,50,Female,Coimbatore,aarav.verma.bank0956@example.com,9230794015,Salary,202874.11,2024-12-14,488,Active,107,Pending,Salaried,Graduate,Married
+BANK0957,Pooja Joseph,46,Female,Bengaluru,pooja.joseph.bank0957@example.com,9783111510,Savings,93219.12,2017-10-06,546,Active,65,Verified,Unemployed,Graduate,Married
+BANK0958,Divya Gupta,36,Male,Chennai,divya.gupta.bank0958@example.com,9732180317,Fixed Deposit,184302.36,2021-06-29,581,Overdue,49,Verified,Unemployed,High School,Married
+BANK0959,Arjun Nair,70,Male,Coimbatore,arjun.nair.bank0959@example.com,9404322294,Fixed Deposit,60943.12,2024-07-12,698,No Loan,74,Pending,Salaried,Diploma,Married
+BANK0960,Aditya Joseph,59,Male,Pune,aditya.joseph.bank0960@example.com,9249576019,Fixed Deposit,441329.67,2024-12-20,769,Closed,1,Verified,Salaried,Postgraduate,Single
+BANK0961,Sneha Rao,72,Male,Pune,sneha.rao.bank0961@example.com,9858302909,Fixed Deposit,257009.53,2026-04-15,478,Active,45,Pending,Salaried,Diploma,Married
+BANK0962,Arjun Thomas,72,Female,Salem,arjun.thomas.bank0962@example.com,9425268486,Fixed Deposit,35036.84,2018-02-21,795,Overdue,60,Verified,Salaried,Postgraduate,Single
+BANK0963,Rohan Thomas,50,Male,Mysuru,rohan.thomas.bank0963@example.com,9447974614,Salary,292662.12,2020-10-24,713,No Loan,5,Verified,Salaried,Graduate,Married
+BANK0964,Kavya Singh,24,Female,Salem,kavya.singh.bank0964@example.com,9611544570,Salary,380194.73,2017-05-20,542,No Loan,115,Verified,Salaried,Diploma,Married
+BANK0965,Vijay Pillai,44,Male,Trichy,vijay.pillai.bank0965@example.com,9368954985,Savings,19671.72,2016-06-11,374,Overdue,97,Pending,Unemployed,Graduate,Married
+BANK0966,Pooja Joseph,71,Male,Pune,pooja.joseph.bank0966@example.com,9215600122,Fixed Deposit,189436.84,2015-08-30,504,Active,32,Pending,Salaried,Postgraduate,Married
+BANK0967,Arjun Joseph,36,Male,Mysuru,arjun.joseph.bank0967@example.com,9274042365,Fixed Deposit,407105.03,2020-01-22,496,No Loan,74,Verified,Unemployed,Graduate,Single
+BANK0968,Diya Singh,20,Male,Pune,diya.singh.bank0968@example.com,9931490287,Fixed Deposit,284579.22,2018-02-25,373,Closed,23,Pending,Salaried,Graduate,Divorced
+BANK0969,Krishna Verma,31,Male,Pune,krishna.verma.bank0969@example.com,9482773059,Current,400996.35,2025-08-16,749,Overdue,80,Pending,Unemployed,Postgraduate,Single
+BANK0970,Ananya Das,23,Female,Mumbai,ananya.das.bank0970@example.com,9208354512,Savings,249857.41,2017-11-07,352,Closed,2,Verified,Unemployed,Postgraduate,Married
+BANK0971,Riya Mehta,71,Female,Mysuru,riya.mehta.bank0971@example.com,9484297783,Savings,436348.83,2020-08-21,461,Closed,9,Verified,Salaried,High School,Married
+BANK0972,Karthik Mehta,57,Female,Delhi,karthik.mehta.bank0972@example.com,9764264926,Savings,273424.87,2026-03-20,413,Overdue,119,Pending,Self-Employed,Graduate,Married
+BANK0973,Aarav Sharma,39,Female,Hyderabad,aarav.sharma.bank0973@example.com,9459210922,Savings,70505.03,2024-06-14,637,No Loan,30,Pending,Unemployed,Graduate,Married
+BANK0974,Ananya Pillai,54,Female,Chennai,ananya.pillai.bank0974@example.com,9546934486,Savings,443871.8,2015-10-17,790,Active,34,Verified,Self-Employed,Graduate,Married
+BANK0975,Diya Sharma,49,Male,Salem,diya.sharma.bank0975@example.com,9476086325,Fixed Deposit,239318.7,2026-05-21,533,No Loan,119,Verified,Self-Employed,Graduate,Single
+BANK0976,Aarav Pillai,68,Male,Trichy,aarav.pillai.bank0976@example.com,9507365179,Savings,276695.48,2019-05-27,353,Overdue,98,Pending,Self-Employed,Graduate,Single
+BANK0977,Ishaan Nair,62,Male,Bengaluru,ishaan.nair.bank0977@example.com,9224106516,Fixed Deposit,59878.29,2024-07-28,676,Closed,24,Pending,Self-Employed,Graduate,Married
+BANK0978,Priya Mehta,21,Male,Chennai,priya.mehta.bank0978@example.com,9732023202,Savings,114335.82,2020-05-05,849,No Loan,102,Verified,Salaried,Graduate,Married
+BANK0979,Meera Verma,21,Male,Bengaluru,meera.verma.bank0979@example.com,9570895797,Current,142015.39,2016-09-19,621,Closed,77,Verified,Salaried,Diploma,Married
+BANK0980,Riya Patel,56,Female,Salem,riya.patel.bank0980@example.com,9231400613,Savings,39112.56,2023-12-03,510,Overdue,90,Pending,Salaried,Graduate,Single
+BANK0981,Meera Gupta,63,Female,Madurai,meera.gupta.bank0981@example.com,9414266418,Current,263895.25,2021-10-15,573,Closed,89,Verified,Self-Employed,High School,Single
+BANK0982,Aditya Iyer,75,Male,Trichy,aditya.iyer.bank0982@example.com,9622061542,Salary,40144.59,2024-03-19,440,Active,39,Verified,Self-Employed,Graduate,Married
+BANK0983,Diya Iyer,64,Male,Hyderabad,diya.iyer.bank0983@example.com,9849838945,Fixed Deposit,325304.14,2018-03-08,764,No Loan,2,Pending,Self-Employed,Graduate,Single
+BANK0984,Aditya Reddy,35,Female,Chennai,aditya.reddy.bank0984@example.com,9164123910,Salary,427432.54,2023-08-14,693,Overdue,2,Pending,Salaried,Graduate,Single
+BANK0985,Vijay Gupta,20,Male,Delhi,vijay.gupta.bank0985@example.com,9298026764,Fixed Deposit,266713.48,2020-01-13,612,No Loan,69,Pending,Business,Graduate,Single
+BANK0986,Aarav Mehta,56,Female,Trichy,aarav.mehta.bank0986@example.com,9332512511,Savings,171131.25,2022-07-17,744,Overdue,100,Verified,Salaried,Graduate,Single
+BANK0987,Diya Rao,42,Female,Kochi,diya.rao.bank0987@example.com,9555089389,Salary,82111.89,2021-06-12,690,Overdue,95,Verified,Salaried,Postgraduate,Divorced
+BANK0988,Ishaan Mehta,18,Female,Mumbai,ishaan.mehta.bank0988@example.com,9191844510,Current,385898.26,2021-04-18,602,Closed,73,Pending,Unemployed,Diploma,Married
+BANK0989,Aditya Das,35,Female,Salem,aditya.das.bank0989@example.com,9368986577,Savings,63028.9,2023-02-11,628,Closed,108,Verified,Unemployed,Graduate,Married
+BANK0990,Arjun Gupta,19,Male,Kochi,arjun.gupta.bank0990@example.com,9139732482,Salary,240623.75,2024-11-12,523,Overdue,7,Verified,Salaried,High School,Married
+BANK0991,Rahul Mehta,57,Male,Kochi,rahul.mehta.bank0991@example.com,9293062983,Salary,383222.44,2022-01-16,582,Closed,111,Pending,Salaried,Graduate,Single
+BANK0992,Ishaan Singh,58,Male,Trichy,ishaan.singh.bank0992@example.com,9804351176,Savings,117103.55,2018-11-30,339,Active,87,Pending,Salaried,High School,Single
+BANK0993,Rohan Iyer,20,Male,Mysuru,rohan.iyer.bank0993@example.com,9378157917,Salary,9042.97,2020-02-11,661,No Loan,76,Verified,Business,Diploma,Married
+BANK0994,Sneha Kumar,22,Female,Chennai,sneha.kumar.bank0994@example.com,9648720210,Savings,119252.38,2026-05-15,633,Closed,106,Pending,Salaried,Postgraduate,Married
+BANK0995,Ananya Joseph,45,Male,Coimbatore,ananya.joseph.bank0995@example.com,9450620232,Salary,168157.91,2021-05-08,717,Closed,60,Pending,Unemployed,Graduate,Single
+BANK0996,Pooja Sharma,28,Male,Mumbai,pooja.sharma.bank0996@example.com,9261129188,Savings,54009.82,2023-04-06,516,Closed,65,Pending,Salaried,High School,Single
+BANK0997,Krishna Nair,71,Male,Mysuru,krishna.nair.bank0997@example.com,9261141467,Fixed Deposit,381543.31,2015-09-25,380,No Loan,119,Verified,Salaried,Graduate,Single
+BANK0998,Rohan Rao,54,Female,Mysuru,rohan.rao.bank0998@example.com,9230183002,Savings,303943.9,2024-05-17,837,Overdue,40,Pending,Salaried,Postgraduate,Divorced
+BANK0999,Krishna Verma,54,Male,Pune,krishna.verma.bank0999@example.com,9360998015,Salary,116214.46,2021-07-28,622,No Loan,88,Verified,Salaried,High School,Married
+BANK1000,Arjun Thomas,74,Female,Chennai,arjun.thomas.bank1000@example.com,9477940598,Savings,457403.12,2024-03-12,795,Active,57,Pending,Salaried,Diploma,Married
+BANK1001,Vikram Malhotra,35,Male,Bengaluru,vikram.m@example.com,9845012345,Savings,150000.0,2026-11-02,780,Approved,12,Verified,Salaried,Graduate,Married
+BANK1002,jenoh,20,Male,chennai,jenoh@gmail.com,32456789,Savings,50000.0,2026-11-02,300,Rejected,12,Verified,Salaried,Graduate,Single
+BANK1003,sam,30,Male,chennai,sam@gmail.com,23456784567,Savings,50000.0,2026-11-02,850,Approved,12,Verified,Salaried,Graduate,Single
